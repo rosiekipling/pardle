@@ -484,8 +484,7 @@ rosiedata.com/pardle`;
 
       <footer>
         <div>
-          Pressed in North Yorkshire <span className="flag-dot"></span> Data via
-          Data Golf
+          Data via Data Golf
         </div>
         <div>Come back tomorrow for a new round</div>
       </footer>
