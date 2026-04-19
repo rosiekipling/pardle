@@ -255,7 +255,7 @@ export default function Game() {
     const text = [
       `Pardle #${puzzleN} · ${emoji} ${scoreLabel}`,
       `${row} · ${hintLabel} · ${guessLabel}`,
-      `pardle.rosiedata.com`,
+      `pardle.caddiedesk.com`,
     ].join("\n");
   
     navigator.clipboard.writeText(text);
