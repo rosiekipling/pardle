@@ -1,16 +1,14 @@
 """
 fetch_datagolf.py
 -----------------
-Pulls raw data from the Data Golf API and saves it as JSON in /data/raw/.
+Pulls raw data from Data Golf:
+  - get-player-list             — every player on a major tour
+  - preds/skill-ratings         — SG breakdowns
+  - preds/approach-skill        — approach buckets
+  - preds/get-dg-rankings       — current world ranking
+  - historical-event-data/events — major championships only, one event at a time
 
-Only hits what we need for the game. Runs nightly via GitHub Actions.
-
-Endpoints used:
-  - /get-player-list              — every player on a major tour since 2018
-  - /preds/skill-ratings          — SG breakdowns per player
-  - /preds/approach-skill         — approach stats by yardage bucket (optional/bonus)
-
-Data Golf rate limit: 45 requests/minute. We only make ~3 requests, so no concern.
+Single-event historical pulls (vs event_id=all) work on the basic plan.
 """
 
 from __future__ import annotations
@@ -22,60 +20,82 @@ import time
 from pathlib import Path
 
 import requests
+import argparse
 from dotenv import load_dotenv
 
 load_dotenv()
 
 API_KEY = os.getenv("DATAGOLF_API_KEY")
 if not API_KEY:
-    sys.exit("ERROR: DATAGOLF_API_KEY not set. Check your .env file or GitHub secrets.")
+    sys.exit("ERROR: DATAGOLF_API_KEY not set.")
 
 BASE_URL = "https://feeds.datagolf.com"
 RAW_DIR = Path(__file__).parent.parent / "data" / "raw"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
+MAJOR_EVENT_IDS = {
+    "masters": 14,
+    "pga_championship": 33,
+    "us_open": 26,
+    "open_championship": 100,
+}
+MAJOR_YEARS = list(range(1995, 2026))
+
+
+
+
+def load_existing_majors() -> dict:
+    """Returns a set of (major_name, year) tuples already in the cache."""
+    path = RAW_DIR / "majors.json"
+    if not path.exists():
+        return set()
+    try:
+        existing = json.loads(path.read_text())
+        return {(e["major"], e["year"]) for e in existing}
+    except (json.JSONDecodeError, KeyError):
+        return set()
 
 def fetch(endpoint: str, params: dict | None = None) -> dict:
-    """Make a GET request to Data Golf and return parsed JSON."""
     params = params or {}
     params["key"] = API_KEY
     params["file_format"] = "json"
-
+    safe = {k: v for k, v in params.items() if k != "key"}
     url = f"{BASE_URL}/{endpoint}"
-    print(f"  → GET {endpoint} {params}")
-
+    print(f"  → GET {endpoint} {safe}")
     resp = requests.get(url, params=params, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
 
-def save(name: str, data: dict) -> None:
-    """Write JSON to data/raw/<name>.json."""
+def save(name: str, data) -> None:
     path = RAW_DIR / f"{name}.json"
-    path.write_text(json.dumps(data, indent=2))
-    print(f"  ✓ Saved {path.relative_to(Path.cwd()) if Path.cwd() in path.parents else path}")
+    path.write_text(json.dumps(data, indent=2, default=str))
+    print(f"  ✓ Saved {path.name}")
 
 
 def main() -> None:
-    print("Fetching Data Golf feeds…")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force-majors", action="store_true",
+                        help="Refetch all majors even if cached")
+    args = parser.parse_args()
 
-    # 1. Full player list (IDs, country, amateur status)
-    players = fetch("get-player-list")
-    save("player_list", players)
+    print("Fetching Data Golf feeds…\n")
+
+    print("Player list:")
+    save("player_list", fetch("get-player-list"))
     time.sleep(1)
 
-    # 2. Skill ratings — SG values + ranks per player
-    #    display=value gives us the actual SG numbers (not just ranks)
-    skill_ratings = fetch("preds/skill-ratings", {"display": "value"})
-    save("skill_ratings", skill_ratings)
+    print("\nSkill ratings:")
+    save("skill_ratings", fetch("preds/skill-ratings", {"display": "value"}))
     time.sleep(1)
 
-    # 3. Approach skill — bonus, for tougher clues later
-    approach = fetch("preds/approach-skill", {"period": "ytd"})
-    save("approach_skill", approach)
+    print("\nApproach skill:")
+    save("approach_skill", fetch("preds/approach-skill", {"period": "ytd"}))
+    time.sleep(1)
 
-    print("Done.")
-
+    print("\nDG Rankings:")
+    save("dg_rankings", fetch("preds/get-dg-rankings"))
+    time.sleep(1)
 
 if __name__ == "__main__":
     main()

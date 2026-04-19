@@ -6,42 +6,79 @@ import "./Game.css";
 
 type Player = (typeof players)[number];
 
-const REVEAL_ORDER = [
+const STAT_ORDER = [
   "SG: Total",
-  "SG: Approach",
-  "SG: Off the Tee",
-  "SG: Putting",
-  "SG: Around Green",
   "Driving Distance",
+  "Driving Accuracy",
+  "SG: Approach",
+  "SG: Around Green",
+  "SG: Putting",
 ];
 
-const STARTING_REVEALED = 3;
+const HINT_ORDER = [
+  "worldRanking",
+  "age",
+  "continent",
+  "country",
+  "initials",
+] as const;
+
+type HintKey = (typeof HINT_ORDER)[number];
+
+const HINT_LABELS: Record<HintKey, string> = {
+  worldRanking: "World Ranking",
+  age: "Age",
+  country: "Country",
+  continent: "Continent",
+  initials: "Initials",
+};
+
+const PAR_GUESSES = 3;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
-type HintKey = "age" | "continent" | "country";
+function getInitials(name: string): string {
+  if (name.includes(",")) {
+    const [surname, firstname] = name.split(",").map((s) => s.trim());
+    return `${firstname[0]}. ${surname[0]}.`;
+  }
+  const parts = name.split(" ");
+  return parts.map((p) => `${p[0]}.`).join(" ");
+}
 
 export default function Game() {
   const [overrideSeed, setOverrideSeed] = useState(0);
+  const [difficultyFilter, setDifficultyFilter] = useState<
+    "easy" | "medium" | "hard" | "all"
+  >("easy");
+
   const target = useMemo<Player>(() => {
-    if (overrideSeed === 0) return getDailyPlayer();
-    return players[Math.floor(Math.random() * players.length)];
-  }, [overrideSeed]);
+    const pool =
+      difficultyFilter === "all"
+        ? players
+        : players.filter((p) => p.difficulty === difficultyFilter);
+    const picks = pool.length ? pool : players;
+
+    if (overrideSeed === 0) {
+      const iso = new Date().toISOString().slice(0, 10);
+      const hash = iso.split("").reduce((h, c) => h + c.charCodeAt(0), 0);
+      return picks[hash % picks.length];
+    }
+    return picks[Math.floor(Math.random() * picks.length)];
+  }, [overrideSeed, difficultyFilter]);
+
   const puzzleN = useMemo(() => puzzleNumber(), []);
   const allNames = useMemo(() => players.map((p) => p.name), []);
 
-  const [revealed, setRevealed] = useState<Set<string>>(
-    () => new Set(REVEAL_ORDER.slice(0, STARTING_REVEALED))
-  );
-  const [lastRevealed, setLastRevealed] = useState<string | null>(null);
-  const [hintsUsed, setHintsUsed] = useState<Set<HintKey>>(new Set());
+  const [revealedHints, setRevealedHints] = useState<Set<HintKey>>(new Set());
+  const [lastRevealed, setLastRevealed] = useState<HintKey | null>(null);
   const [guess, setGuess] = useState("");
   const [solved, setSolved] = useState(false);
   const [gaveUp, setGaveUp] = useState(false);
-  const [feedback, setFeedback] = useState<{ text: string; tone: "correct" | "wrong" | "" }>({
-    text: "",
-    tone: "",
-  });
+  const [feedback, setFeedback] = useState<{
+    text: string;
+    tone: "correct" | "wrong" | "";
+  }>({ text: "", tone: "" });
   const [wrongCount, setWrongCount] = useState(0);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeSuggestion, setActiveSuggestion] = useState(0);
@@ -55,37 +92,66 @@ export default function Game() {
     return allNames.filter((n) => norm(n).includes(q)).slice(0, 6);
   }, [guess, allNames]);
 
-  const hasContinent = Boolean(target.continent);
-  const hasCountry = Boolean(target.country_name);
-  const hasAge = Boolean(target.age);
-
-  const countryLocked = hasContinent && !hintsUsed.has("continent");
-
-  function useHint(key: HintKey) {
-    if (done || hintsUsed.has(key)) return;
-    if (key === "country" && countryLocked) return;
-    setHintsUsed((prev) => new Set(prev).add(key));
+  function getHintValue(key: HintKey): string {
+    switch (key) {
+      case "worldRanking":
+        return target.form?.world_ranking
+          ? `World No. ${target.form.world_ranking}`
+          : "—";
+      case "age":
+        return target.age ? `${target.age}` : "—";
+      case "country":
+        return target.country_name ?? "—";
+      case "continent":
+        return target.continent ?? "—";
+      case "initials":
+        return getInitials(target.name);
+    }
   }
 
-  function revealNext() {
-    const next = REVEAL_ORDER.find((k) => !revealed.has(k));
-    if (!next) return;
-    setRevealed((prev) => new Set(prev).add(next));
-    setLastRevealed(next);
+  const nextHint: HintKey | null = useMemo(() => {
+    return HINT_ORDER.find((h) => !revealedHints.has(h)) ?? null;
+  }, [revealedHints]);
+
+  function revealNextHint() {
+    if (!nextHint || done) return;
+    setRevealedHints((prev) => new Set(prev).add(nextHint));
+    setLastRevealed(nextHint);
     setTimeout(() => setLastRevealed(null), 500);
   }
+
+  const totalCost = revealedHints.size;
+  const scoreLabel = !done
+  ? "Live"
+  : !solved
+  ? "DNF"
+  : totalCost === 0
+  ? "Hole in One"
+  : totalCost === PAR_GUESSES - 2
+  ? "Eagle"
+  : totalCost == PAR_GUESSES - 1 
+  ? "Birdie"
+  : totalCost === PAR_GUESSES
+  ? "Par"
+  : totalCost === PAR_GUESSES + 1 
+  ? "Bogey"
+  : totalCost === PAR_GUESSES + 1 
+  ? "Double Bogey"
+  : "Picked up"; 
 
   function handleSubmit() {
     if (done || !guess.trim()) return;
     if (norm(guess) === norm(target.name)) {
       setSolved(true);
-      const hintSuffix = hintsUsed.size
-        ? ` + ${hintsUsed.size} hint${hintsUsed.size > 1 ? "s" : ""}`
+      const hintLine = revealedHints.size
+        ? ` and ${revealedHints.size} caddie hint${
+            revealedHints.size > 1 ? "s" : ""
+          }`
         : "";
       setFeedback({
-        text: `On the green in regulation. ${revealed.size} ${
-          revealed.size === 1 ? "clue" : "clues"
-        } used${hintSuffix}.`,
+        text: `Got it in ${wrongCount + 1} guess${
+          wrongCount === 0 ? "" : "es"
+        }${hintLine}.`,
         tone: "correct",
       });
     } else {
@@ -94,7 +160,7 @@ export default function Game() {
         text: `Not ${guess.trim()}. Reload the swing — here's another clue.`,
         tone: "wrong",
       });
-      revealNext();
+      revealNextHint();
     }
     setGuess("");
     setShowSuggestions(false);
@@ -107,7 +173,7 @@ export default function Game() {
       text: "No shame. The leaderboard always waits for round two.",
       tone: "wrong",
     });
-    setRevealed(new Set(REVEAL_ORDER));
+    setRevealedHints(new Set(HINT_ORDER));
   }
 
   function handlePickSuggestion(name: string) {
@@ -134,32 +200,41 @@ export default function Game() {
     }
   }
 
-  function handleNewPuzzle() {
-    setRevealed(new Set(REVEAL_ORDER.slice(0, STARTING_REVEALED)));
+  function resetGameState() {
+    setRevealedHints(new Set());
     setLastRevealed(null);
-    setHintsUsed(new Set());
     setGuess("");
     setSolved(false);
     setGaveUp(false);
     setFeedback({ text: "", tone: "" });
     setWrongCount(0);
     setShowSuggestions(false);
+  }
+
+  function handleNewPuzzle() {
+    resetGameState();
+    setOverrideSeed((s) => s + 1);
+  }
+
+  function handleDifficultyChange(newDifficulty: typeof difficultyFilter) {
+    setDifficultyFilter(newDifficulty);
+    resetGameState();
     setOverrideSeed((s) => s + 1);
   }
 
   function handleShare() {
-    const emoji = solved ? "⛳" : "❌";
-    const cluesLine = Array.from({ length: REVEAL_ORDER.length }, (_, i) => {
-      if (i < STARTING_REVEALED) return "🟦";
-      if (i < revealed.size) return solved ? "🟨" : "⬜";
-      return "⬜";
-    }).join("");
-    const hintsLine = hintsUsed.size ? ` · ${"💡".repeat(hintsUsed.size)}` : "";
-    const text = `Pardle #${puzzleN} ${emoji}
-${cluesLine}${hintsLine} ${solved ? `${revealed.size} clues` : "DNF"}
+    const guessLine = "❌".repeat(wrongCount) + (solved ? "✅" : "");
+    const hintsLine = revealedHints.size
+      ? ` ${"💡".repeat(revealedHints.size)}`
+      : "";
+    const text = `Pardle #${puzzleN} — ${scoreLabel}
+${guessLine}${hintsLine}
 rosiedata.com/pardle`;
     navigator.clipboard.writeText(text);
-    setFeedback({ text: "Copied to clipboard — paste it wherever you like.", tone: "correct" });
+    setFeedback({
+      text: "Copied to clipboard — paste it wherever you like.",
+      tone: "correct",
+    });
   }
 
   useEffect(() => {
@@ -175,13 +250,17 @@ rosiedata.com/pardle`;
   return (
     <div className="wrap">
       <div className="masthead">
-        <div className="issue">Vol. I — No. {String(puzzleN).padStart(3, "0")}</div>
+        <div className="issue">
+          Vol. I — No. {String(puzzleN).padStart(3, "0")}
+        </div>
         <div className="date">{today} / The Fairway Desk</div>
       </div>
 
       <div className="title-bar">
         <div className="kicker-above">The Fairway Desk</div>
-        <h1 className="logo">Par<em>dle</em></h1>
+        <h1 className="logo">
+          Par<em>dle</em>
+        </h1>
         <div className="tagline">
           A daily scorecard. Name the Tour pro from their numbers.
         </div>
@@ -202,55 +281,98 @@ rosiedata.com/pardle`;
           </div>
           <div className="score-row">
             <div className="score-label">Hints Used</div>
-            <div className="score-val">{hintsUsed.size}</div>
+            <div className="score-val">{revealedHints.size}</div>
           </div>
           <div className="score-row">
-            <div className="score-label">Status</div>
-            <div className="score-val">{done ? (solved ? "Won" : "DNF") : "Live"}</div>
+            <div className="score-label">Par</div>
+            <div className="score-val">{PAR_GUESSES}</div>
           </div>
 
           <div className="clues-count">
-            <div className="big">{revealed.size}</div>
-            <div className="lbl">Clues Shown</div>
+            <div className="big" style={{ fontSize: 36, lineHeight: 1.1 }}>
+              {scoreLabel}
+            </div>
+            <div className="lbl">Current Score</div>
           </div>
         </aside>
 
-        {/* CENTRE — Primary game flow */}
+        {/* CENTRE */}
         <section className="col">
           <div className="player-num">
             ◆ Mystery Player No. {String(puzzleN).padStart(3, "0")}
-            <span className={`difficulty-badge ${target.difficulty}`}>{target.difficulty}</span>
+            <span className={`difficulty-badge ${target.difficulty}`}>
+              {target.difficulty}
+            </span>
           </div>
           <h2 className="headline">
             Who <em>scored</em> these stats?
           </h2>
           <p className="dek">
-            Stats reveal one at a time. Each wrong guess unlocks another.
-            Stuck? Spend a hint.
+            Six stats, one Tour pro. Read the numbers and make your call. Each
+            wrong guess costs you a stroke and unlocks a caddie hint — or spend
+            one early to skip ahead.
           </p>
 
-          {/* Stats grid */}
+          {/* Stats grid — fully visible */}
           <div className="stats-grid">
-            {REVEAL_ORDER.map((key) => {
-              const shown = revealed.has(key);
-              const isNew = lastRevealed === key;
-              return (
-                <div
-                  key={key}
-                  className={`stat ${shown ? "" : "hidden"} ${isNew ? "revealing" : ""}`}
-                >
-                  <div className="stat-label">{key}</div>
-                  <div className="stat-value">
-                    {shown ? target.stats[key as keyof typeof target.stats] ?? "—" : "— — —"}
-                  </div>
+            {STAT_ORDER.map((key) => (
+              <div key={key} className="stat">
+                <div className="stat-label">{key}</div>
+                <div className="stat-value">
+                  {target.stats[key as keyof typeof target.stats] ?? "—"}
                 </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Caddie Hints — sequential reveal, same visual style */}
+          <div className="kicker" style={{ marginTop: 28 }}>
+            Caddie Hints
+          </div>
+          <div className="stats-grid hints-grid">
+            {HINT_ORDER.map((key) => {
+              const shown = revealedHints.has(key);
+              const isNext = nextHint === key;
+              const isNew = lastRevealed === key;
+              const isLocked = !shown && !isNext;
+
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  className={`stat hint-stat ${shown ? "" : "hidden"} ${
+                    isNew ? "revealing" : ""
+                  } ${isLocked ? "locked" : ""}`}
+                  onClick={() => {
+                    if (isNext && !done) revealNextHint();
+                  }}
+                  disabled={done || (!isNext && !shown)}
+                  title={
+                    isLocked
+                      ? "Reveal earlier hints first"
+                      : isNext
+                      ? "Tap to reveal (costs 1 stroke)"
+                      : ""
+                  }
+                >
+                  <div className="stat-label">
+                    {HINT_LABELS[key]}
+                    {isNext && !shown && (
+                      <span className="hint-tap-prompt"> · tap</span>
+                    )}
+                  </div>
+                  <div className="stat-value">
+                    {shown ? getHintValue(key) : "— — —"}
+                  </div>
+                </button>
               );
             })}
           </div>
 
-
-          {/* Guess input + primary actions */}
-          <div className="kicker" style={{ marginTop: 24 }}>Your Guess</div>
+          {/* Guess input + actions */}
+          <div className="kicker" style={{ marginTop: 28 }}>
+            Your Guess
+          </div>
           <div className="guess-area">
             <div className="search-box">
               <input
@@ -274,7 +396,9 @@ rosiedata.com/pardle`;
                   {suggestions.map((name, i) => (
                     <div
                       key={name}
-                      className={`suggestion-item ${i === activeSuggestion ? "active" : ""}`}
+                      className={`suggestion-item ${
+                        i === activeSuggestion ? "active" : ""
+                      }`}
                       onMouseDown={(e) => e.preventDefault()}
                       onClick={() => handlePickSuggestion(name)}
                     >
@@ -290,11 +414,11 @@ rosiedata.com/pardle`;
                 Submit Guess
               </button>
               <button
-                className="btn secondary"
-                onClick={revealNext}
-                disabled={done || revealed.size >= REVEAL_ORDER.length}
+                className="btn reveal"
+                onClick={revealNextHint}
+                disabled={done || !nextHint}
               >
-                Reveal Clue
+                Reveal Hint
               </button>
               <button className="btn reveal" onClick={handleGiveUp} disabled={done}>
                 Give Up
@@ -303,7 +427,6 @@ rosiedata.com/pardle`;
 
             <div className={`feedback ${feedback.tone}`}>{feedback.text}</div>
           </div>
-
 
           {done && (
             <div className="reveal-card">
@@ -329,80 +452,40 @@ rosiedata.com/pardle`;
           )}
         </section>
 
-        {/* RIGHT — Caddie Hints */}
+        {/* RIGHT — Testing only */}
         <aside className="col">
-          {(hasContinent || hasCountry || hasAge) && (
-            <div className="hints-block">
-              <div className="kicker">Caddie Hints</div>
-
-              {hasAge && (
-                <button
-                  className={`hint-tile ${hintsUsed.has("age") ? "used" : ""}`}
-                  onClick={() => useHint("age")}
-                  disabled={done}
-                >
-                  <div className="hint-label">Age</div>
-                  <div className="hint-value">
-                    {hintsUsed.has("age") ? target.age : "Tap to reveal"}
-                  </div>
-                </button>
-              )}
-
-              {hasContinent && (
-                <button
-                  className={`hint-tile ${hintsUsed.has("continent") ? "used" : ""}`}
-                  onClick={() => useHint("continent")}
-                  disabled={done}
-                >
-                  <div className="hint-label">Continent</div>
-                  <div className="hint-value">
-                    {hintsUsed.has("continent") ? target.continent : "Tap to reveal"}
-                  </div>
-                </button>
-              )}
-
-              {hasCountry && (
-                <button
-                  className={`hint-tile ${
-                    hintsUsed.has("country") ? "used" : ""
-                  } ${countryLocked ? "locked" : ""}`}
-                  onClick={() => useHint("country")}
-                  disabled={done || countryLocked}
-                  title={countryLocked ? "Reveal continent first" : ""}
-                >
-                  <div className="hint-label">
-                    Country{" "}
-                    {countryLocked && <span className="lock">· locked</span>}
-                  </div>
-                  <div className="hint-value">
-                    {hintsUsed.has("country")
-                      ? target.country_name
-                      : countryLocked
-                      ? "Reveal continent first"
-                      : "Tap to reveal"}
-                  </div>
-                </button>
-              )}
-
-              <p className="hint-footnote">
-                Each hint costs a point. Continent unlocks country.
-              </p>
-            </div>
-          )}
-
-          <button
-            className="btn secondary"
-            onClick={handleNewPuzzle}
-            style={{ marginTop: 32, opacity: 0.4, fontSize: 10, width: "100%" }}
-          >
-            🧪 New Random Puzzle (testing)
-          </button>
+          <div className="testing-block" style={{ marginTop: 0 }}>
+            <div className="kicker">Testing</div>
+            <label className="testing-label">Difficulty</label>
+            <select
+              className="testing-select"
+              value={difficultyFilter}
+              onChange={(e) =>
+                handleDifficultyChange(
+                  e.target.value as typeof difficultyFilter
+                )
+              }
+            >
+              <option value="easy">Easy only</option>
+              <option value="medium">Medium only</option>
+              <option value="hard">Hard only</option>
+              <option value="all">All players</option>
+            </select>
+            <button
+              className="btn secondary"
+              onClick={handleNewPuzzle}
+              style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+            >
+              🧪 New Random Puzzle
+            </button>
+          </div>
         </aside>
       </div>
 
       <footer>
         <div>
-          Pressed in North Yorkshire <span className="flag-dot"></span> Data via Data Golf
+          Pressed in North Yorkshire <span className="flag-dot"></span> Data via
+          Data Golf
         </div>
         <div>Come back tomorrow for a new round</div>
       </footer>
