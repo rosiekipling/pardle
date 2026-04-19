@@ -225,13 +225,39 @@ export default function Game() {
   }
 
   function handleShare() {
-    const guessLine = "❌".repeat(wrongCount) + (solved ? "✅" : "");
-    const hintsLine = revealedHints.size
-      ? ` ${"💡".repeat(revealedHints.size)}`
-      : "";
-    const text = `Pardle #${puzzleN} — ${scoreLabel}
-${guessLine}${hintsLine}
-rosiedata.com/pardle`;
+    const scoreEmoji: Record<string, string> = {
+      "Hole in One": "⛳",
+      "Eagle": "🟢",
+      "Birdie": "🟡",
+      "Par": "🟡",
+      "Bogey": "🟠",
+      "Double Bogey": "🔴",
+      "Triple Bogey": "🔴",
+      "Picked up": "⚫",
+      "DNF": "❌",
+    };
+  
+    const emoji = scoreEmoji[scoreLabel] ?? "⛳";
+    const totalSlots = HINT_ORDER.length + 1; // 5 hints + 1 for the correct guess
+  
+    // Build the action row: orange per hint used, green if solved, white for empty slots
+    const actions: string[] = [];
+    for (let i = 0; i < revealedHints.size; i++) actions.push("🟧");
+    if (solved) actions.push("🟩");
+    while (actions.length < totalSlots) actions.push("⬜");
+    const row = actions.slice(0, totalSlots).join("");
+  
+    // Caption
+    const hintLabel = revealedHints.size === 1 ? "1 hint" : `${revealedHints.size} hints`;
+    const guessCount = wrongCount + (solved ? 1 : 0);
+    const guessLabel = guessCount === 1 ? "1 guess" : `${guessCount} guesses`;
+  
+    const text = [
+      `Pardle #${puzzleN} · ${emoji} ${scoreLabel}`,
+      `${row} · ${hintLabel} · ${guessLabel}`,
+      `pardle.rosiedata.com`,
+    ].join("\n");
+  
     navigator.clipboard.writeText(text);
     setFeedback({
       text: "Copied to clipboard — paste it wherever you like.",
