@@ -122,22 +122,24 @@ export default function Game() {
 
   const totalCost = revealedHints.size;
   const scoreLabel = !done
-  ? "Live"
-  : !solved
-  ? "DNF"
-  : totalCost === 0
-  ? "Hole in One"
-  : totalCost === PAR_GUESSES - 2
-  ? "Eagle"
-  : totalCost == PAR_GUESSES - 1 
-  ? "Birdie"
-  : totalCost === PAR_GUESSES
-  ? "Par"
-  : totalCost === PAR_GUESSES + 1 
-  ? "Bogey"
-  : totalCost === PAR_GUESSES + 1 
-  ? "Double Bogey"
-  : "Picked up"; 
+    ? "Live"
+    : !solved
+    ? "DNF"
+    : totalCost === 0
+    ? "Hole in One"
+    : totalCost === PAR_GUESSES - 2
+    ? "Eagle"
+    : totalCost === PAR_GUESSES - 1
+    ? "Birdie"
+    : totalCost === PAR_GUESSES
+    ? "Par"
+    : totalCost === PAR_GUESSES + 1
+    ? "Bogey"
+    : totalCost === PAR_GUESSES + 2
+    ? "Double Bogey"
+    : totalCost === PAR_GUESSES + 3
+    ? "Triple Bogey"
+    : "Picked up";
 
   function handleSubmit() {
     if (done || !guess.trim()) return;
