@@ -226,12 +226,12 @@ export default function Game() {
 
   function handleShare() {
     const scoreEmoji: Record<string, string> = {
-      "Hole in One": "⛳",
-      "Eagle": "🟢",
-      "Birdie": "🟡",
+      "Hole in One": "✨⛳✨",
+      "Eagle": "⛳️",
+      "Birdie": "🟢",
       "Par": "🟡",
       "Bogey": "🟠",
-      "Double Bogey": "🔴",
+      "Double Bogey": "🟠",
       "Triple Bogey": "🔴",
       "Picked up": "⚫",
       "DNF": "❌",
