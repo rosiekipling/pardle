@@ -452,7 +452,7 @@ footer {
   .main .col:nth-child(3) { order: 3; }  /* testing stays at the bottom */
 
   .masthead { display: none; }
-  .kicker-above { display: none; }  /* "The Fairway Desk" above the logo */
+  /* .kicker-above { display: none; }   */
   .player-num { display: none; }    /* "Mystery Player No. 001" + difficulty badge */
 }
 .hints-block {
