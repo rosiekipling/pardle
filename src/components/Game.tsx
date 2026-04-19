@@ -33,7 +33,7 @@ const HINT_LABELS: Record<HintKey, string> = {
   initials: "Initials",
 };
 
-const PAR_GUESSES = 3;
+const PAR_GUESSES = 4;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
