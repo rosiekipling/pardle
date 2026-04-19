@@ -1,7 +1,7 @@
 // src/components/Game.tsx
 import { useState, useMemo, useRef, useEffect } from "react";
 import players from "../data/players.json";
-import { getDailyPlayer, puzzleNumber } from "../lib/dailyPlayer";
+import { puzzleNumber } from "../lib/dailyPlayer";
 import "./Game.css";
 
 type Player = (typeof players)[number];
