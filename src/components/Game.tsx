@@ -281,11 +281,11 @@ export default function Game() {
         <div className="issue">
           Vol. I — No. {String(puzzleN).padStart(3, "0")}
         </div>
-        <div className="date">{today} / The Fairway Desk</div>
+        <div className="date">{today} / The Caddie Desk</div>
       </div>
 
       <div className="title-bar">
-        <div className="kicker-above">The Fairway Desk</div>
+        <div className="kicker-above">The Caddie Desk</div>
         <h1 className="logo">
           Par<em>dle</em>
         </h1>
