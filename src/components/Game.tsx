@@ -51,7 +51,7 @@ function formatValue(value: string) {
   return (
     <>
       {parts.map((p, i) =>
-        p === "+" || p === "-" ? (
+        p === "+" ? (
           <span key={i} className="sign">{p}</span>
         ) : (
           <span key={i} className="num">{p}</span>
@@ -363,10 +363,7 @@ export default function Game() {
             {STAT_ORDER.map((key) => (
               <div key={key} className="stat">
                 <div className="stat-label">{key}</div>
-                {/* <div className="stat-value">
-                  {target.stats[key as keyof typeof target.stats] ?? "—"}
-                </div> */}
-                <div className="stat-value">
+                <div className={`stat-value ${["Driving Distance", "Driving Accuracy"].includes(key) ? "stat-value-long" : ""}`}>
                   {formatValue(target.stats[key as keyof typeof target.stats] ?? "—")}
                 </div>
               </div>

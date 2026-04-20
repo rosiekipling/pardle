@@ -8,7 +8,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "307.5 yds (+8.5)",
+      "Driving Distance": "307.5 y (+8.5 y)",
       "Driving Accuracy": "65.3% (+4.3%)",
       "SG: Off the Tee": "+0.76",
       "SG: Approach": "+1.02",
@@ -38,7 +38,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "319.3 yds (+20.3)",
+      "Driving Distance": "319.3 y (+20.3 y)",
       "Driving Accuracy": "58.9% (-2.1%)",
       "SG: Off the Tee": "+0.93",
       "SG: Approach": "+0.72",
@@ -68,7 +68,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "310.4 yds (+11.4)",
+      "Driving Distance": "310.4 y (+11.4 y)",
       "Driving Accuracy": "61.7% (+0.7%)",
       "SG: Off the Tee": "+0.72",
       "SG: Approach": "+1.00",
@@ -98,7 +98,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "310.8 yds (+11.8)",
+      "Driving Distance": "310.8 y (+11.8 y)",
       "Driving Accuracy": "62.5% (+1.5%)",
       "SG: Off the Tee": "+0.81",
       "SG: Approach": "+0.69",
@@ -128,7 +128,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "311.3 yds (+12.3)",
+      "Driving Distance": "311.3 y (+12.3 y)",
       "Driving Accuracy": "62.3% (+1.3%)",
       "SG: Off the Tee": "+0.75",
       "SG: Approach": "+0.77",
@@ -158,7 +158,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "302.1 yds (+3.1)",
+      "Driving Distance": "302.1 y (+3.1 y)",
       "Driving Accuracy": "66.5% (+5.5%)",
       "SG: Off the Tee": "+0.52",
       "SG: Approach": "+0.80",
@@ -188,7 +188,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "311.1 yds (+12.1)",
+      "Driving Distance": "311.1 y (+12.1 y)",
       "Driving Accuracy": "62.4% (+1.4%)",
       "SG: Off the Tee": "+0.62",
       "SG: Approach": "+0.64",
@@ -218,7 +218,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "300.3 yds (+1.3)",
+      "Driving Distance": "300.3 y (+1.3 y)",
       "Driving Accuracy": "68.3% (+7.3%)",
       "SG: Off the Tee": "+0.56",
       "SG: Approach": "+0.66",
@@ -248,7 +248,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "299.3 yds (+0.3)",
+      "Driving Distance": "299.3 y (+0.3 y)",
       "Driving Accuracy": "69.7% (+8.7%)",
       "SG: Off the Tee": "+0.56",
       "SG: Approach": "+0.92",
@@ -278,7 +278,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "303.1 yds (+4.1)",
+      "Driving Distance": "303.1 y (+4.1 y)",
       "Driving Accuracy": "64.0% (+3.0%)",
       "SG: Off the Tee": "+0.62",
       "SG: Approach": "+0.19",
@@ -308,7 +308,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "290.3 yds (-8.7)",
+      "Driving Distance": "290.3 y (-8.7 y)",
       "Driving Accuracy": "70.9% (+9.9%)",
       "SG: Off the Tee": "+0.28",
       "SG: Approach": "+0.71",
@@ -338,7 +338,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "313.8 yds (+14.8)",
+      "Driving Distance": "313.8 y (+14.8 y)",
       "Driving Accuracy": "59.6% (-1.4%)",
       "SG: Off the Tee": "+0.59",
       "SG: Approach": "+0.29",
@@ -368,7 +368,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "320.4 yds (+21.4)",
+      "Driving Distance": "320.4 y (+21.4 y)",
       "Driving Accuracy": "59.6% (-1.4%)",
       "SG: Off the Tee": "+1.02",
       "SG: Approach": "+0.28",
@@ -398,7 +398,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "296.3 yds (-2.7)",
+      "Driving Distance": "296.3 y (-2.7 y)",
       "Driving Accuracy": "71.1% (+10.1%)",
       "SG: Off the Tee": "+0.63",
       "SG: Approach": "+0.76",
@@ -428,7 +428,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "311.9 yds (+12.9)",
+      "Driving Distance": "311.9 y (+12.9 y)",
       "Driving Accuracy": "60.6% (-0.4%)",
       "SG: Off the Tee": "+0.58",
       "SG: Approach": "+0.25",
@@ -458,7 +458,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "304.7 yds (+5.7)",
+      "Driving Distance": "304.7 y (+5.7 y)",
       "Driving Accuracy": "61.2% (+0.2%)",
       "SG: Off the Tee": "+0.35",
       "SG: Approach": "+0.40",
@@ -488,7 +488,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "299.1 yds (+0.1)",
+      "Driving Distance": "299.1 y (+0.1 y)",
       "Driving Accuracy": "61.9% (+0.9%)",
       "SG: Off the Tee": "+0.07",
       "SG: Approach": "+0.69",
@@ -518,7 +518,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "303.0 yds (+4.0)",
+      "Driving Distance": "303.0 y (+4.0 y)",
       "Driving Accuracy": "61.4% (+0.4%)",
       "SG: Off the Tee": "+0.34",
       "SG: Approach": "+0.64",
@@ -548,7 +548,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "302.4 yds (+3.4)",
+      "Driving Distance": "302.4 y (+3.4 y)",
       "Driving Accuracy": "61.6% (+0.6%)",
       "SG: Off the Tee": "+0.26",
       "SG: Approach": "+0.36",
@@ -578,7 +578,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "308.1 yds (+9.1)",
+      "Driving Distance": "308.1 y (+9.1 y)",
       "Driving Accuracy": "60.0% (-1.0%)",
       "SG: Off the Tee": "+0.33",
       "SG: Approach": "+0.32",
@@ -608,7 +608,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "300.6 yds (+1.6)",
+      "Driving Distance": "300.6 y (+1.6 y)",
       "Driving Accuracy": "64.1% (+3.1%)",
       "SG: Off the Tee": "+0.21",
       "SG: Approach": "+0.78",
@@ -638,7 +638,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "316.1 yds (+17.1)",
+      "Driving Distance": "316.1 y (+17.1 y)",
       "Driving Accuracy": "56.3% (-4.7%)",
       "SG: Off the Tee": "+0.55",
       "SG: Approach": "+0.41",
@@ -668,7 +668,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "300.4 yds (+1.4)",
+      "Driving Distance": "300.4 y (+1.4 y)",
       "Driving Accuracy": "64.8% (+3.8%)",
       "SG: Off the Tee": "+0.40",
       "SG: Approach": "+0.74",
@@ -698,7 +698,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "314.6 yds (+15.6)",
+      "Driving Distance": "314.6 y (+15.6 y)",
       "Driving Accuracy": "57.1% (-3.9%)",
       "SG: Off the Tee": "+0.41",
       "SG: Approach": "+0.57",
@@ -728,7 +728,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "307.9 yds (+8.9)",
+      "Driving Distance": "307.9 y (+8.9 y)",
       "Driving Accuracy": "59.9% (-1.1%)",
       "SG: Off the Tee": "+0.42",
       "SG: Approach": "+0.72",
@@ -758,7 +758,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "300.0 yds (+1.0)",
+      "Driving Distance": "300.0 y (+1.0 y)",
       "Driving Accuracy": "61.5% (+0.5%)",
       "SG: Off the Tee": "+0.06",
       "SG: Approach": "+0.37",
@@ -788,7 +788,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "299.8 yds (+0.8)",
+      "Driving Distance": "299.8 y (+0.8 y)",
       "Driving Accuracy": "61.2% (+0.2%)",
       "SG: Off the Tee": "+0.06",
       "SG: Approach": "+0.62",
@@ -818,7 +818,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "304.9 yds (+5.9)",
+      "Driving Distance": "304.9 y (+5.9 y)",
       "Driving Accuracy": "60.9% (-0.1%)",
       "SG: Off the Tee": "+0.23",
       "SG: Approach": "+0.56",
@@ -848,7 +848,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "305.0 yds (+6.0)",
+      "Driving Distance": "305.0 y (+6.0 y)",
       "Driving Accuracy": "63.5% (+2.5%)",
       "SG: Off the Tee": "+0.54",
       "SG: Approach": "+0.39",
@@ -878,7 +878,7 @@
     "amateur": false,
     "difficulty": "easy",
     "stats": {
-      "Driving Distance": "299.9 yds (+0.9)",
+      "Driving Distance": "299.9 y (+0.9 y)",
       "Driving Accuracy": "64.8% (+3.8%)",
       "SG: Off the Tee": "+0.35",
       "SG: Approach": "+0.69",
@@ -908,7 +908,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "300.0 yds (+1.0)",
+      "Driving Distance": "300.0 y (+1.0 y)",
       "Driving Accuracy": "64.2% (+3.2%)",
       "SG: Off the Tee": "+0.30",
       "SG: Approach": "+0.12",
@@ -938,7 +938,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "301.5 yds (+2.5)",
+      "Driving Distance": "301.5 y (+2.5 y)",
       "Driving Accuracy": "62.2% (+1.2%)",
       "SG: Off the Tee": "+0.23",
       "SG: Approach": "+0.64",
@@ -968,7 +968,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "304.8 yds (+5.8)",
+      "Driving Distance": "304.8 y (+5.8 y)",
       "Driving Accuracy": "60.1% (-0.9%)",
       "SG: Off the Tee": "+0.38",
       "SG: Approach": "+0.58",
@@ -998,7 +998,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "304.1 yds (+5.1)",
+      "Driving Distance": "304.1 y (+5.1 y)",
       "Driving Accuracy": "56.2% (-4.8%)",
       "SG: Off the Tee": "-0.02",
       "SG: Approach": "+0.33",
@@ -1028,7 +1028,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "300.4 yds (+1.4)",
+      "Driving Distance": "300.4 y (+1.4 y)",
       "Driving Accuracy": "64.1% (+3.1%)",
       "SG: Off the Tee": "+0.40",
       "SG: Approach": "+0.51",
@@ -1058,7 +1058,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "292.5 yds (-6.5)",
+      "Driving Distance": "292.5 y (-6.5 y)",
       "Driving Accuracy": "64.8% (+3.8%)",
       "SG: Off the Tee": "-0.02",
       "SG: Approach": "+0.30",
@@ -1088,7 +1088,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "310.2 yds (+11.2)",
+      "Driving Distance": "310.2 y (+11.2 y)",
       "Driving Accuracy": "62.7% (+1.7%)",
       "SG: Off the Tee": "+0.59",
       "SG: Approach": "+0.30",
@@ -1118,7 +1118,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "297.9 yds (-1.1)",
+      "Driving Distance": "297.9 y (-1.1 y)",
       "Driving Accuracy": "62.4% (+1.4%)",
       "SG: Off the Tee": "+0.13",
       "SG: Approach": "+0.08",
@@ -1148,7 +1148,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "302.7 yds (+3.7)",
+      "Driving Distance": "302.7 y (+3.7 y)",
       "Driving Accuracy": "59.6% (-1.4%)",
       "SG: Off the Tee": "+0.11",
       "SG: Approach": "+0.36",
@@ -1178,7 +1178,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "295.1 yds (-3.9)",
+      "Driving Distance": "295.1 y (-3.9 y)",
       "Driving Accuracy": "62.8% (+1.8%)",
       "SG: Off the Tee": "+0.08",
       "SG: Approach": "+0.48",
@@ -1208,7 +1208,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "309.3 yds (+10.3)",
+      "Driving Distance": "309.3 y (+10.3 y)",
       "Driving Accuracy": "59.6% (-1.4%)",
       "SG: Off the Tee": "+0.43",
       "SG: Approach": "+0.62",
@@ -1238,7 +1238,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "300.5 yds (+1.5)",
+      "Driving Distance": "300.5 y (+1.5 y)",
       "Driving Accuracy": "65.6% (+4.6%)",
       "SG: Off the Tee": "+0.38",
       "SG: Approach": "+0.20",
@@ -1268,7 +1268,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "303.8 yds (+4.8)",
+      "Driving Distance": "303.8 y (+4.8 y)",
       "Driving Accuracy": "62.7% (+1.7%)",
       "SG: Off the Tee": "+0.30",
       "SG: Approach": "+0.17",
@@ -1298,7 +1298,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "298.6 yds (-0.4)",
+      "Driving Distance": "298.6 y (-0.4 y)",
       "Driving Accuracy": "58.3% (-2.7%)",
       "SG: Off the Tee": "-0.22",
       "SG: Approach": "+0.15",
@@ -1328,7 +1328,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "307.9 yds (+8.9)",
+      "Driving Distance": "307.9 y (+8.9 y)",
       "Driving Accuracy": "61.7% (+0.7%)",
       "SG: Off the Tee": "+0.53",
       "SG: Approach": "+0.30",
@@ -1358,7 +1358,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "298.9 yds (-0.1)",
+      "Driving Distance": "298.9 y (-0.1 y)",
       "Driving Accuracy": "64.0% (+3.0%)",
       "SG: Off the Tee": "+0.17",
       "SG: Approach": "+0.52",
@@ -1388,7 +1388,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "298.1 yds (-0.9)",
+      "Driving Distance": "298.1 y (-0.9 y)",
       "Driving Accuracy": "63.1% (+2.1%)",
       "SG: Off the Tee": "+0.10",
       "SG: Approach": "+0.68",
@@ -1418,7 +1418,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "306.0 yds (+7.0)",
+      "Driving Distance": "306.0 y (+7.0 y)",
       "Driving Accuracy": "59.3% (-1.7%)",
       "SG: Off the Tee": "+0.24",
       "SG: Approach": "+0.19",
@@ -1448,7 +1448,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "308.3 yds (+9.3)",
+      "Driving Distance": "308.3 y (+9.3 y)",
       "Driving Accuracy": "60.6% (-0.4%)",
       "SG: Off the Tee": "+0.57",
       "SG: Approach": "+0.45",
@@ -1478,7 +1478,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "312.8 yds (+13.8)",
+      "Driving Distance": "312.8 y (+13.8 y)",
       "Driving Accuracy": "59.5% (-1.5%)",
       "SG: Off the Tee": "+0.55",
       "SG: Approach": "+0.27",
@@ -1508,7 +1508,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "302.9 yds (+3.9)",
+      "Driving Distance": "302.9 y (+3.9 y)",
       "Driving Accuracy": "64.4% (+3.4%)",
       "SG: Off the Tee": "+0.45",
       "SG: Approach": "+0.41",
@@ -1538,7 +1538,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "302.4 yds (+3.4)",
+      "Driving Distance": "302.4 y (+3.4 y)",
       "Driving Accuracy": "62.3% (+1.3%)",
       "SG: Off the Tee": "+0.25",
       "SG: Approach": "+0.35",
@@ -1568,7 +1568,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "304.7 yds (+5.7)",
+      "Driving Distance": "304.7 y (+5.7 y)",
       "Driving Accuracy": "63.7% (+2.7%)",
       "SG: Off the Tee": "+0.49",
       "SG: Approach": "+0.43",
@@ -1598,7 +1598,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "292.4 yds (-6.6)",
+      "Driving Distance": "292.4 y (-6.6 y)",
       "Driving Accuracy": "67.5% (+6.5%)",
       "SG: Off the Tee": "+0.21",
       "SG: Approach": "+0.07",
@@ -1628,7 +1628,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "311.6 yds (+12.6)",
+      "Driving Distance": "311.6 y (+12.6 y)",
       "Driving Accuracy": "60.5% (-0.5%)",
       "SG: Off the Tee": "+0.56",
       "SG: Approach": "+0.27",
@@ -1658,7 +1658,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "306.8 yds (+7.8)",
+      "Driving Distance": "306.8 y (+7.8 y)",
       "Driving Accuracy": "58.2% (-2.8%)",
       "SG: Off the Tee": "+0.12",
       "SG: Approach": "+0.40",
@@ -1688,7 +1688,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "306.3 yds (+7.3)",
+      "Driving Distance": "306.3 y (+7.3 y)",
       "Driving Accuracy": "58.6% (-2.4%)",
       "SG: Off the Tee": "+0.34",
       "SG: Approach": "+0.51",
@@ -1718,7 +1718,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "319.7 yds (+20.7)",
+      "Driving Distance": "319.7 y (+20.7 y)",
       "Driving Accuracy": "55.5% (-5.5%)",
       "SG: Off the Tee": "+0.74",
       "SG: Approach": "+0.06",
@@ -1748,7 +1748,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "312.7 yds (+13.7)",
+      "Driving Distance": "312.7 y (+13.7 y)",
       "Driving Accuracy": "59.3% (-1.7%)",
       "SG: Off the Tee": "+0.57",
       "SG: Approach": "+0.27",
@@ -1778,7 +1778,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "314.8 yds (+15.8)",
+      "Driving Distance": "314.8 y (+15.8 y)",
       "Driving Accuracy": "56.5% (-4.5%)",
       "SG: Off the Tee": "+0.53",
       "SG: Approach": "-0.11",
@@ -1808,7 +1808,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "292.9 yds (-6.1)",
+      "Driving Distance": "292.9 y (-6.1 y)",
       "Driving Accuracy": "64.1% (+3.1%)",
       "SG: Off the Tee": "-0.08",
       "SG: Approach": "+0.41",
@@ -1838,7 +1838,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "295.5 yds (-3.5)",
+      "Driving Distance": "295.5 y (-3.5 y)",
       "Driving Accuracy": "64.5% (+3.5%)",
       "SG: Off the Tee": "+0.16",
       "SG: Approach": "+0.13",
@@ -1868,7 +1868,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "296.9 yds (-2.1)",
+      "Driving Distance": "296.9 y (-2.1 y)",
       "Driving Accuracy": "67.9% (+6.9%)",
       "SG: Off the Tee": "+0.21",
       "SG: Approach": "+0.55",
@@ -1898,7 +1898,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "295.0 yds (-4.0)",
+      "Driving Distance": "295.0 y (-4.0 y)",
       "Driving Accuracy": "68.0% (+7.0%)",
       "SG: Off the Tee": "+0.42",
       "SG: Approach": "+0.39",
@@ -1928,7 +1928,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "294.0 yds (-5.0)",
+      "Driving Distance": "294.0 y (-5.0 y)",
       "Driving Accuracy": "65.6% (+4.6%)",
       "SG: Off the Tee": "+0.19",
       "SG: Approach": "+0.21",
@@ -1958,7 +1958,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "299.2 yds (+0.2)",
+      "Driving Distance": "299.2 y (+0.2 y)",
       "Driving Accuracy": "61.9% (+0.9%)",
       "SG: Off the Tee": "+0.07",
       "SG: Approach": "+0.32",
@@ -1988,7 +1988,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "306.0 yds (+7.0)",
+      "Driving Distance": "306.0 y (+7.0 y)",
       "Driving Accuracy": "59.9% (-1.1%)",
       "SG: Off the Tee": "+0.27",
       "SG: Approach": "+0.02",
@@ -2018,7 +2018,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "309.2 yds (+10.2)",
+      "Driving Distance": "309.2 y (+10.2 y)",
       "Driving Accuracy": "60.3% (-0.7%)",
       "SG: Off the Tee": "+0.48",
       "SG: Approach": "+0.17",
@@ -2048,7 +2048,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "300.7 yds (+1.7)",
+      "Driving Distance": "300.7 y (+1.7 y)",
       "Driving Accuracy": "65.9% (+4.9%)",
       "SG: Off the Tee": "+0.37",
       "SG: Approach": "+0.58",
@@ -2078,7 +2078,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "296.9 yds (-2.1)",
+      "Driving Distance": "296.9 y (-2.1 y)",
       "Driving Accuracy": "65.6% (+4.6%)",
       "SG: Off the Tee": "+0.19",
       "SG: Approach": "-0.16",
@@ -2108,7 +2108,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "306.3 yds (+7.3)",
+      "Driving Distance": "306.3 y (+7.3 y)",
       "Driving Accuracy": "61.9% (+0.9%)",
       "SG: Off the Tee": "+0.34",
       "SG: Approach": "+0.15",
@@ -2138,7 +2138,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "308.9 yds (+9.9)",
+      "Driving Distance": "308.9 y (+9.9 y)",
       "Driving Accuracy": "58.8% (-2.2%)",
       "SG: Off the Tee": "+0.48",
       "SG: Approach": "+0.33",
@@ -2168,7 +2168,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "286.7 yds (-12.3)",
+      "Driving Distance": "286.7 y (-12.3 y)",
       "Driving Accuracy": "66.1% (+5.1%)",
       "SG: Off the Tee": "-0.22",
       "SG: Approach": "+0.19",
@@ -2198,7 +2198,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "315.6 yds (+16.6)",
+      "Driving Distance": "315.6 y (+16.6 y)",
       "Driving Accuracy": "55.8% (-5.2%)",
       "SG: Off the Tee": "+0.55",
       "SG: Approach": "-0.03",
@@ -2228,7 +2228,7 @@
     "amateur": false,
     "difficulty": "medium",
     "stats": {
-      "Driving Distance": "316.2 yds (+17.2)",
+      "Driving Distance": "316.2 y (+17.2 y)",
       "Driving Accuracy": "61.4% (+0.4%)",
       "SG: Off the Tee": "+0.86",
       "SG: Approach": "+0.19",
