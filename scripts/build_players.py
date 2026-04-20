@@ -59,10 +59,17 @@ def load_bio() -> dict:
 
 # -- Form stat extractors -----------------------------------------------------
 
-def load_world_rankings() -> dict:
+def load_rankings_data() -> dict:
+    """Returns {dg_id: {owgr_rank, primary_tour}} for each ranked player."""
     raw = json.loads((RAW_DIR / "dg_rankings.json").read_text())
     rankings = raw.get("rankings", raw)
-    return {r["dg_id"]: r.get("owgr_rank") for r in rankings}
+    return {
+        r["dg_id"]: {
+            "owgr_rank": r.get("owgr_rank"),
+            "primary_tour": r.get("primary_tour"),
+        }
+        for r in rankings
+    }
 
 
 # -- Difficulty + formatting --------------------------------------------------
@@ -111,7 +118,7 @@ def build() -> None:
     # majors_df = extract_majors(majors_json)
     # print(f"  {len(majors_df)} major-finish rows from {len(majors_json)} events")
     # best_majors = compute_best_major(majors_df)
-    world_rankings = load_world_rankings()
+    rankings_data = load_rankings_data()
 
     df = skill_df.merge(plist_df[["dg_id", "country", "amateur"]], on="dg_id", how="left")
     required = ["sg_ott", "sg_app", "sg_arg", "sg_putt", "sg_total"]
@@ -134,7 +141,9 @@ def build() -> None:
         player_bio = bio.get(str(dg_id), {})
         age = compute_age(player_bio.get("dob"))
 
-        wr = world_rankings.get(dg_id)
+        rdata = rankings_data.get(dg_id, {})
+        wr = rdata.get("owgr_rank")
+        tour = rdata.get("primary_tour")
 
         out.append({
             "id": dg_id,
@@ -144,10 +153,11 @@ def build() -> None:
             "age": age,
             "amateur": bool(row.get("amateur", 0)),
             "difficulty": row["difficulty"],
+            "tour": tour,                    # ← new field
             "stats": stats,
             "form": {
-                        "world_ranking": int(wr) if wr else None,
-                    },
+                "world_ranking": int(wr) if wr else None,
+            },
             "raw": {col: (float(row[col]) if pd.notna(row.get(col)) else None)
                     for col, _, _ in STAT_COLUMNS},
         })

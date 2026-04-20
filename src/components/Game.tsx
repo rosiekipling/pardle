@@ -46,6 +46,14 @@ function getInitials(name: string): string {
   return parts.map((p) => `${p[0]}.`).join(" ");
 }
 
+function displayName(name: string): string {
+  if (name.includes(",")) {
+    const [surname, firstname] = name.split(",").map((s) => s.trim());
+    return `${firstname} ${surname}`;
+  }
+  return name;
+}
+
 function formatValue(value: string) {
   const [main, compare] = value.split("||");
 
@@ -78,20 +86,28 @@ export default function Game() {
     "easy" | "medium" | "hard" | "all"
   >("easy");
 
-  const target = useMemo<Player>(() => {
-    const pool =
-      difficultyFilter === "all"
-        ? players
-        : players.filter((p) => p.difficulty === difficultyFilter);
-    const picks = pool.length ? pool : players;
+  const [tourFilter, setTourFilter] = useState<
+    "all" | "PGA" | "EURO" | "LIV"
+  >("all");
 
+  const target = useMemo<Player>(() => {
+    let pool = difficultyFilter === "all"
+      ? players
+      : players.filter((p) => p.difficulty === difficultyFilter);
+  
+    if (tourFilter !== "all") {
+      pool = pool.filter((p) => p.tour === tourFilter);
+    }
+  
+    const picks = pool.length ? pool : players;
+  
     if (overrideSeed === 0) {
       const iso = new Date().toISOString().slice(0, 10);
       const hash = iso.split("").reduce((h, c) => h + c.charCodeAt(0), 0);
       return picks[hash % picks.length];
     }
     return picks[Math.floor(Math.random() * picks.length)];
-  }, [overrideSeed, difficultyFilter]);
+  }, [overrideSeed, difficultyFilter, tourFilter]);
 
   const puzzleN = useMemo(() => puzzleNumber(), []);
   const allNames = useMemo(() => players.map((p) => p.name), []);
@@ -187,7 +203,7 @@ export default function Game() {
     } else {
       setWrongCount((c) => c + 1);
       setFeedback({
-        text: `Not ${guess.trim()}. Reload the swing — here's another clue.`,
+        text: `Not ${displayName(guess)}. Reload the swing — here's another clue.`,
         tone: "wrong",
       });
       revealNextHint();
@@ -249,6 +265,12 @@ export default function Game() {
 
   function handleDifficultyChange(newDifficulty: typeof difficultyFilter) {
     setDifficultyFilter(newDifficulty);
+    resetGameState();
+    setOverrideSeed((s) => s + 1);
+  }
+
+  function handleTourChange(newTour: typeof tourFilter) {
+    setTourFilter(newTour);
     resetGameState();
     setOverrideSeed((s) => s + 1);
   }
@@ -508,31 +530,41 @@ export default function Game() {
 
         {/* RIGHT — Testing only */}
         <aside className="col">
-          <div className="testing-block" style={{ marginTop: 0 }}>
-            <div className="kicker">Testing</div>
-            <label className="testing-label">Difficulty</label>
-            <select
-              className="testing-select"
-              value={difficultyFilter}
-              onChange={(e) =>
-                handleDifficultyChange(
-                  e.target.value as typeof difficultyFilter
-                )
-              }
-            >
-              <option value="easy">Easy only</option>
-              <option value="medium">Medium only</option>
-              <option value="hard">Hard only</option>
-              <option value="all">All players</option>
-            </select>
-            <button
-              className="btn secondary"
-              onClick={handleNewPuzzle}
-              style={{ marginTop: 10, fontSize: 10, width: "100%" }}
-            >
-              🧪 New Random Puzzle
-            </button>
-          </div>
+        <div className="testing-block">
+          <div className="kicker">Testing</div>
+
+          <label className="testing-label">Difficulty</label>
+          <select
+            className="testing-select"
+            value={difficultyFilter}
+            onChange={(e) => handleDifficultyChange(e.target.value as typeof difficultyFilter)}
+          >
+            <option value="easy">Easy only</option>
+            <option value="medium">Medium only</option>
+            <option value="hard">Hard only</option>
+            <option value="all">All players</option>
+          </select>
+
+          <label className="testing-label">Tour</label>
+          <select
+            className="testing-select"
+            value={tourFilter}
+            onChange={(e) => handleTourChange(e.target.value as typeof tourFilter)}
+          >
+            <option value="all">All tours</option>
+            <option value="PGA">PGA Tour</option>
+            <option value="EURO">DP World Tour</option>
+            <option value="LIV">LIV Golf</option>
+          </select>
+
+          <button
+            className="btn secondary"
+            onClick={handleNewPuzzle}
+            style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+          >
+            🧪 New Random Puzzle
+          </button>
+        </div>
         </aside>
       </div>
 
