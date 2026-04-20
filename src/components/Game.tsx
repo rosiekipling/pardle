@@ -47,15 +47,26 @@ function getInitials(name: string): string {
 }
 
 function formatValue(value: string) {
-  const parts = value.split(/([+\-])/);
+  const [main, compare] = value.split("||");
+
+  const renderWithSigns = (s: string) => {
+    const parts = s.split(/([+\-])/);
+    return parts.map((p, i) =>
+      p === "+" || p === "-" ? (
+        <span key={i} className="sign">{p}</span>
+      ) : (
+        <span key={i} className="num">{p}</span>
+      )
+    );
+  };
+
   return (
     <>
-      {parts.map((p, i) =>
-        p === "+" ? (
-          <span key={i} className="sign">{p}</span>
-        ) : (
-          <span key={i} className="num">{p}</span>
-        )
+      {renderWithSigns(main)}
+      {compare && (
+        <span className="compare">
+          {renderWithSigns(compare)}
+        </span>
       )}
     </>
   );
@@ -307,10 +318,10 @@ export default function Game() {
         <h1 className="logo">
           Par<em>dle</em>
         </h1>
-        <p className="tagline">
+        <div className="tagline">
           <span>A daily scorecard.</span>{" "}
           <span>Name the Tour pro from their numbers.</span>
-        </p>
+        </div>
       </div>
 
       <div className="main">

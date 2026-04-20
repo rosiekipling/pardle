@@ -287,7 +287,6 @@
   font-variation-settings: "opsz" 144;
   color: var(--ink);
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .stat-value-long {
@@ -299,6 +298,15 @@
   text-shadow: 0 0 12px rgba(54, 51, 52, 0.55);
   filter: blur(15px);
   user-select: none;
+}
+
+.compare {
+  display: inline-block;
+  margin-left: 0.4em;
+  font-size: 0.7em;
+  font-weight: 700;
+  opacity: 0.7;
+  vertical-align: middle;
 }
 
 /* ---------- 7. Sign/number formatting ---------- */
@@ -649,6 +657,13 @@ footer {
 
   .masthead { display: none; }
   .player-num { display: none; }
+
+  .compare {
+    display: block;
+    margin-left: 0;
+    margin-top: 2px;
+    font-size: 0.6em;
+  }
 }
 
 @media (max-width: 600px) {
