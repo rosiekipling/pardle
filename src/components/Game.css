@@ -533,7 +533,7 @@ footer {
   .main { grid-template-columns: 1fr; }
   .col + .col { border-left: none; border-top: 1px solid var(--ink); }
   .logo { font-size: 64px; }
-  .stat-value { font-size: 24px; }
+  .stat-value { font-size: 22px; }
   .stat { min-height: 72px; }
   .tagline { text-align: left; }
 

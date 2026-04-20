@@ -95,6 +95,7 @@ export default function Game() {
     tone: "correct" | "wrong" | "";
   }>({ text: "", tone: "" });
   const [wrongCount, setWrongCount] = useState(0);
+  const [guessCount, setGuessCount] = useState(0);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeSuggestion, setActiveSuggestion] = useState(0);
 
@@ -157,6 +158,7 @@ export default function Game() {
     : "Picked up";
 
   function handleSubmit() {
+    setGuessCount((c) => c + 1);
     if (done || !guess.trim()) return;
     if (norm(guess) === norm(target.name)) {
       setSolved(true);
@@ -166,7 +168,7 @@ export default function Game() {
           }`
         : "";
       setFeedback({
-        text: `Got it in ${wrongCount + 1} guess${
+        text: `Got it in ${guessCount} guess${
           wrongCount === 0 ? "" : "es"
         }${hintLine}.`,
         tone: "correct",
@@ -225,6 +227,7 @@ export default function Game() {
     setGaveUp(false);
     setFeedback({ text: "", tone: "" });
     setWrongCount(0);
+    setGuessCount(0);
     setShowSuggestions(false);
   }
 
@@ -305,7 +308,7 @@ export default function Game() {
           Par<em>dle</em>
         </h1>
         <div className="tagline">
-          A daily scorecard. Name the Tour pro from their numbers.
+          A daily scorecard. Name the tour pro.
         </div>
       </div>
 
@@ -319,8 +322,8 @@ export default function Game() {
             <div className="score-val">#{puzzleN}</div>
           </div>
           <div className="score-row">
-            <div className="score-label">Wrong Guesses</div>
-            <div className="score-val accent">{wrongCount}</div>
+            <div className="score-label">Guesses</div>
+            <div className="score-val accent">{guessCount}</div>
           </div>
           <div className="score-row">
             <div className="score-label">Hints Used</div>
@@ -343,17 +346,16 @@ export default function Game() {
         <section className="col">
           <div className="player-num">
             ◆ Mystery Player No. {String(puzzleN).padStart(3, "0")}
-            <span className={`difficulty-badge ${target.difficulty}`}>
+            {/* <span className={`difficulty-badge ${target.difficulty}`}>
               {target.difficulty}
-            </span>
+            </span> */}
           </div>
           <h2 className="headline">
             Who <em>scored</em> these stats?
           </h2>
           <p className="dek">
-            Six stats, one Tour pro. Read the numbers and make your call. Each
-            wrong guess costs you a stroke and unlocks a caddie hint — or spend
-            one early to skip ahead.
+            Six stats, one Tour pro. Read the clues and make your call. Each
+            additional caddie hint costs you a stroke.
           </p>
 
           {/* Stats grid — fully visible */}
