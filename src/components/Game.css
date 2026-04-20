@@ -282,15 +282,11 @@
   font-weight: 700;
   font-style: italic;
   font-size: 32px;
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: -0.02em;
   font-variation-settings: "opsz" 144;
   color: var(--ink);
   white-space: nowrap;
-}
-
-.stat-value-long {
-  font-size: clamp(16px, 5vw, 26px);
 }
 
 .stat.hidden .stat-value {
@@ -301,13 +297,39 @@
 }
 
 .compare {
-  display: inline-block;
-  margin-left: 0.4em;
-  font-size: 0.7em;
+  display: block;
+  margin-top: 6px;
+  font-family: "Archivo", sans-serif;
   font-weight: 700;
-  opacity: 0.7;
-  vertical-align: middle;
+  font-style: normal;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  overflow: visible;
+  white-space: normal;
 }
+
+.compare .num {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+}
+
+.compare .sign {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  font-variation-settings: normal;
+}
+
+/* .compare .sign {
+  font-weight: 400;
+  font-size: 1em;
+  font-variation-settings: inherit;
+} */
 
 /* ---------- 7. Sign/number formatting ---------- */
 .num {
@@ -319,23 +341,12 @@
 }
 
 .sign {
-  margin-right: 0.05em;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.15em;
-  line-height: 0.85;
-  letter-spacing: inherit;
-  font-variation-settings: inherit;
-  text-shadow:
-    0.5px 0 0 var(--ink),
-    -0.5px 0 0 var(--ink),
-    0 0.5px 0 var(--ink),
-    0 -0.5px 0 var(--ink),
-    0.5px 0.5px 0 var(--ink),
-    -0.5px -0.5px 0 var(--ink),
-    0.5px -0.5px 0 var(--ink),
-    -0.5px 0.5px 0 var(--ink);
-}
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1em;
+    margin-right: 0.1em;
+  }
 
 /* ---------- 8. Caddie hints grid ---------- */
 .hints-grid {
@@ -674,8 +685,5 @@ footer {
     grid-column: auto;
     max-width: none;
     margin: 0;
-  }
-  .stat-value-long {
-    font-size: clamp(14px, 4vw, 20px);
   }
 }

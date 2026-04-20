@@ -320,7 +320,7 @@ export default function Game() {
         </h1>
         <div className="tagline">
           <span>A daily scorecard.</span>{" "}
-          <span>Name the Tour pro from their numbers.</span>
+          <span>Name the Tour pro.</span>
         </div>
       </div>
 
@@ -375,7 +375,7 @@ export default function Game() {
             {STAT_ORDER.map((key) => (
               <div key={key} className="stat">
                 <div className="stat-label">{key}</div>
-                <div className={`stat-value ${["Driving Distance", "Driving Accuracy"].includes(key) ? "stat-value-long" : ""}`}>
+                <div className="stat-value">
                   {formatValue(target.stats[key as keyof typeof target.stats] ?? "—")}
                 </div>
               </div>

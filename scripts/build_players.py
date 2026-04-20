@@ -85,10 +85,10 @@ def format_stat(value, fmt: str) -> str:
         return "—"
     if fmt == "dual_dist":
         absolute = TOUR_AVG_DRIVING_DIST + value
-        return f"{absolute:.1f} yds||({value:+.1f} yds)"
+        return f"{absolute:.1f} yds||tour avg: {TOUR_AVG_DRIVING_DIST:.0f} yds"
     if fmt == "dual_acc":
         absolute = TOUR_AVG_DRIVING_ACC + value
-        return f"{absolute:.1%}||({value:+.1%})"
+        return f"{absolute:.1%}||tour avg: {TOUR_AVG_DRIVING_ACC:.0%}"
     return fmt.format(value)
 
 
