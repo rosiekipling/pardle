@@ -1,17 +1,36 @@
-/* src/components/Game.css */
+/* src/components/Game.css
+ * Migrated to The Caddie Desk palette
+ *
+ * Brand tokens (define these in your index.css if not already):
+ *   --ink: #363334;
+ *   --paper: #fff0f0;
+ *
+ * Derived tokens used throughout this file:
+ *   --paper-shade: deeper blush for hatched/hidden cells
+ *   --ink-mute: 60% ink, for secondary text
+ *   --ink-line: 18% ink, for hairline rules
+ *   --ink-soft: 30% ink, for placeholders + dotted rules
+ */
+
+ :root {
+  --paper-shade: #f3e1e1;
+  --ink-mute: rgba(54, 51, 52, 0.6);
+  --ink-line: rgba(54, 51, 52, 0.18);
+  --ink-soft: rgba(54, 51, 52, 0.3);
+}
 
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 40px 80px;  /* was 32px top */
+  padding: 20px 40px 80px;
   position: relative;
   z-index: 3;
 }
 
 /* Masthead */
 .masthead {
-  border-top: 3px solid var(--ink);
-  border-bottom: 3px solid var(--ink);
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
   padding: 14px 0 10px;
   display: flex;
   align-items: baseline;
@@ -21,46 +40,51 @@
 }
 .masthead .issue,
 .masthead .date {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: var(--ink-mute);
 }
 
 .title-bar {
   border-bottom: 1px solid var(--ink);
-  /* padding: 10px 0 10px; */
   text-align: center;
+  padding: 24px 0 16px;
 }
 .logo {
   font-family: "Fraunces", serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: clamp(72px, 12vw, 140px);
   letter-spacing: -0.04em;
-  line-height: 0.8;
+  line-height: 0.85;
   font-variation-settings: "opsz" 144;
   display: inline-block;
+  color: var(--ink);
 }
 .logo em {
   font-style: italic;
-  color: var(--flag);
-  font-weight: 900;
+  color: var(--ink);
+  font-weight: 700;
 }
 .kicker-above {
   font-family: "Archivo", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 11px;
+  margin-bottom: 6px;
+  color: var(--ink-mute);
+}
+.tagline {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.28em;
   font-size: 11px;
-  margin-bottom: 0;
-  opacity: 0.7;
-}
-.tagline {
-  font-family: "Fraunces", serif;
-  font-style: italic;
-  font-size: 16px;
-  margin-top: 0;
-  opacity: 0.7;
+  margin-top: 12px;
+  color: var(--ink-mute);
   text-align: center;
 }
 
@@ -81,13 +105,14 @@
 /* Section kicker */
 .kicker {
   font-family: "Archivo", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 10px;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   padding-bottom: 4px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 1.5px solid var(--ink);
   margin-bottom: 14px;
+  color: var(--ink-mute);
 }
 
 /* Left column — scorecard */
@@ -96,27 +121,29 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 10px 0;
-  border-bottom: 1px dotted rgba(20, 36, 27, 0.3);
+  border-bottom: 1px dotted var(--ink-soft);
 }
 .score-row:last-child {
   border-bottom: none;
 }
 .score-label {
   font-family: "Archivo", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: var(--ink-mute);
 }
 .score-val {
   font-family: "Fraunces", serif;
-  font-weight: 800;
+  font-weight: 700;
   font-style: italic;
   font-size: 28px;
   font-variation-settings: "opsz" 144;
+  color: var(--ink);
 }
 .score-val.accent {
-  color: var(--flag);
+  color: var(--ink);
 }
 
 .clues-count {
@@ -128,7 +155,7 @@
 }
 .clues-count .big {
   font-family: "Fraunces", serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
   font-size: 64px;
   line-height: 1;
@@ -141,15 +168,17 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-top: 6px;
+  opacity: 0.7;
 }
 
 /* Center column */
 .player-num {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 11px;
-  letter-spacing: 0.2em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--flag);
+  color: var(--ink-mute);
 }
 .headline {
   font-family: "Fraunces", serif;
@@ -159,10 +188,11 @@
   letter-spacing: -0.02em;
   margin: 8px 0 4px;
   font-variation-settings: "opsz" 144;
+  color: var(--ink);
 }
 .headline em {
   font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
 }
 .dek {
   font-family: "Fraunces", serif;
@@ -175,21 +205,38 @@
   margin-bottom: 20px;
 }
 
+/* Difficulty — outlined pills, weight escalates with difficulty */
 .difficulty-badge {
   display: inline-block;
   font-family: "Archivo", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 9px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  padding: 3px 8px;
+  padding: 3px 10px;
   margin-left: 10px;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+.difficulty-badge.easy {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink-mute);
+  font-weight: 600;
+}
+.difficulty-badge.medium {
+  background: transparent;
+  color: var(--ink);
+  border: 1.5px solid var(--ink);
+  font-weight: 700;
+}
+.difficulty-badge.hard {
   background: var(--ink);
   color: var(--paper);
+  border: 1.5px solid var(--ink);
+  font-weight: 800;
 }
-.difficulty-badge.easy { background: var(--fairway); }
-.difficulty-badge.medium { background: var(--sand); color: var(--ink); }
-.difficulty-badge.hard { background: var(--flag); }
 
 .stats-grid {
   display: grid;
@@ -201,19 +248,11 @@
   padding: 14px 14px 12px;
   min-height: 84px;
   background: var(--paper);
-  border-bottom: 1px dotted rgba(20, 36, 27, 0.2);
+  border-bottom: 1px dotted var(--ink-line);
 }
 .stat.hidden {
-  background: repeating-linear-gradient(
-    45deg,
-    var(--paper-dark),
-    var(--paper-dark) 6px,
-    var(--paper) 6px,
-    var(--paper) 12px
-  );
+  background: var(--paper);
 }
-.stat:nth-child(2n) { border-right: none; }
-.stat:nth-last-child(-n+2) { border-bottom: none; }
 
 .stat-label {
   font-family: "Archivo", sans-serif;
@@ -221,30 +260,37 @@
   font-size: 9px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  opacity: 0.6;
+  color: var(--ink-mute);
   margin-bottom: 6px;
 }
 .stat-value {
   font-family: "Fraunces", serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
   font-size: 32px;
   line-height: 1;
   font-variation-settings: "opsz" 144;
   letter-spacing: -0.02em;
+  color: var(--ink);
 }
-.stat.hidden .stat-value,
-.stat.hidden .stat-label {
+.stat.hidden .stat-value {
   color: transparent;
-  text-shadow: 0 0 14px rgba(20, 36, 27, 0.35);
+  text-shadow: 0 0 12px rgba(54, 51, 52, 0.55);
+  filter: blur(15px);
   user-select: none;
 }
+
+.stat.hidden .stat-label {
+  /* labels stay sharp and readable */
+}
+
+/* Reveal animation — invert ink/paper instead of flashing red */
 .stat.revealing {
   animation: stamp 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.3);
 }
 @keyframes stamp {
-  0%   { transform: scale(0.96); background: var(--flag); color: var(--paper); }
-  60%  { transform: scale(1.02); background: var(--flag); color: var(--paper); }
+  0%   { transform: scale(0.96); background: var(--ink); color: var(--paper); }
+  60%  { transform: scale(1.02); background: var(--ink); color: var(--paper); }
   100% { transform: scale(1); }
 }
 
@@ -261,7 +307,9 @@
   font-style: italic;
   font-size: 22px;
   line-height: 1.1;
+  color: var(--ink);
 }
+
 .search-box {
   position: relative;
 }
@@ -269,27 +317,39 @@ input[type="text"] {
   width: 100%;
   background: var(--paper);
   border: none;
-  border-bottom: 3px solid var(--ink);
-  padding: 10px 4px;
+  border-bottom: 2.5px solid var(--ink);
+  padding: 14px 14px;
   font-family: "Fraunces", serif;
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
   outline: none;
   color: var(--ink);
 }
 input[type="text"]::placeholder {
-  color: rgba(20, 36, 27, 0.35);
+
+  /* font-family: "Fraunces", sans-serif;
+  font-size: 22px;
   font-style: italic;
+  text-transform: lowercase; */
+
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
 }
 input[type="text"]:disabled {
   opacity: 0.5;
 }
+
 .suggestions {
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  background: #ffffff;
+  background: var(--paper);
   color: var(--ink);
   z-index: 100;
   max-height: 240px;
@@ -305,12 +365,12 @@ input[type="text"]:disabled {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   cursor: pointer;
-  border-bottom: 1px solid rgba(20, 36, 27, 0.1);  /* was rgba(242, 237, 227, .15) */
+  border-bottom: 1px solid var(--ink-line);
 }
 .suggestion-item:hover,
 .suggestion-item.active {
-  background: var(--flag);
-  color: var(--paper);   /* add this so the text stays readable on red */
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .action-row {
@@ -322,27 +382,28 @@ input[type="text"]:disabled {
   padding: 12px 14px;
   font-size: 11px;
 }
-/* Mobile: buttons stack */
 @media (max-width: 860px) {
   .action-row {
     flex-direction: column;
   }
 }
 
+/* Buttons — three weights, all monochrome */
 .btn {
   font-family: "Archivo", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 12px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   padding: 14px 18px;
   background: var(--ink);
   color: var(--paper);
+  border: 1.5px solid var(--ink);
   transition: all 0.2s ease;
   position: relative;
+  cursor: pointer;
 }
 .btn:hover:not(:disabled) {
-  background: var(--flag);
   transform: translate(-2px, -2px);
   box-shadow: 4px 4px 0 var(--ink);
 }
@@ -350,29 +411,48 @@ input[type="text"]:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+/* Secondary — outlined */
 .btn.secondary {
   background: transparent;
   color: var(--ink);
-  border: 2px solid var(--ink);
+  border: 1.5px solid var(--ink);
 }
 .btn.secondary:hover:not(:disabled) {
   background: var(--ink);
   color: var(--paper);
 }
+
+/* Reveal/Give Up — ghost */
 .btn.reveal {
-  background: var(--fairway);
+  background: transparent;
+  color: var(--ink-mute);
+  border: 1.5px solid var(--ink-soft);
+}
+.btn.reveal:hover:not(:disabled) {
+  color: var(--ink);
+  border-color: var(--ink);
+  background: transparent;
 }
 
+/* Feedback — typographic differentiation only */
 .feedback {
   font-family: "Fraunces", serif;
-  font-style: italic;
   font-size: 17px;
   line-height: 1.4;
   padding: 12px 0;
   min-height: 48px;
+  color: var(--ink);
 }
-.feedback.correct { color: var(--fairway); font-weight: 700; }
-.feedback.wrong { color: var(--flag); }
+.feedback.correct {
+  font-style: normal;
+  font-weight: 700;
+}
+.feedback.wrong {
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.75;
+}
 
 /* Reveal card */
 .reveal-card {
@@ -389,72 +469,83 @@ input[type="text"]:disabled {
 }
 .reveal-card .kicker {
   border-color: var(--paper);
-  color: var(--flag);
+  color: var(--paper);
+  opacity: 0.7;
 }
 .reveal-card .name {
   font-family: "Fraunces", serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
   font-size: 36px;
   line-height: 1;
   margin: 10px 0 6px;
   font-variation-settings: "opsz" 144;
+  color: var(--paper);
 }
 .share-btn {
   margin-top: 16px;
   display: inline-block;
   padding: 10px 16px;
-  background: var(--flag);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   font-family: "Archivo", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.share-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--paper);
 }
 
 /* Footer */
 footer {
   margin-top: 40px;
   padding-top: 16px;
-  border-top: 3px solid var(--ink);
+  border-top: 2px solid var(--ink);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
   font-size: 10px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  opacity: 0.7;
+  color: var(--ink-mute);
 }
 .flag-dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: var(--flag);
+  width: 6px;
+  height: 6px;
+  background: var(--ink);
   border-radius: 50%;
-  margin: 0 6px;
+  margin: 0 8px;
   vertical-align: middle;
 }
 
+/* Mobile */
 @media (max-width: 860px) {
   .wrap { padding: 20px 20px 60px; }
   .main { grid-template-columns: 1fr; }
   .col + .col { border-left: none; border-top: 1px solid var(--ink); }
-  .logo { font-size: 52px; }
+  .logo { font-size: 64px; }
   .stat-value { font-size: 24px; }
   .stat { min-height: 72px; }
   .tagline { text-align: left; }
 
-  /* Reorder columns on mobile: centre → scorecard → testing */
-  .main .col:nth-child(1) { order: 2; }  /* scorecard moves below centre */
-  .main .col:nth-child(2) { order: 1; }  /* centre (stats/guess) comes first */
-  .main .col:nth-child(3) { order: 3; }  /* testing stays at the bottom */
+  .main .col:nth-child(1) { order: 2; }
+  .main .col:nth-child(2) { order: 1; }
+  .main .col:nth-child(3) { order: 3; }
 
   .masthead { display: none; }
-  /* .kicker-above { display: none; }   */
-  .player-num { display: none; }    /* "Mystery Player No. 001" + difficulty badge */
+  .player-num { display: none; }
 }
+
+/* Hints (legacy block) */
 .hints-block {
   margin-top: 20px;
 }
@@ -464,17 +555,17 @@ footer {
   display: block;
   text-align: left;
   background: var(--paper);
-  /* border: 1.5px solid var(--ink); */
   padding: 10px 12px;
   margin-bottom: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
   color: var(--ink);
+  border: none;
 }
 
 .hint-tile:hover:not(:disabled):not(.used):not(.locked) {
-  background: var(--sand);
+  background: var(--paper-shade);
   transform: translate(-2px, -2px);
   box-shadow: 3px 3px 0 var(--ink);
 }
@@ -486,8 +577,8 @@ footer {
 }
 
 .hint-tile.used .hint-label {
-  color: var(--flag);
-  opacity: 1;
+  color: var(--paper);
+  opacity: 0.7;
 }
 
 .hint-tile:disabled {
@@ -497,8 +588,8 @@ footer {
 .hint-tile.locked {
   background: repeating-linear-gradient(
     45deg,
-    var(--paper-dark),
-    var(--paper-dark) 4px,
+    var(--paper-shade),
+    var(--paper-shade) 4px,
     var(--paper) 4px,
     var(--paper) 8px
   );
@@ -516,17 +607,18 @@ footer {
   font-size: 9px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  opacity: 0.65;
+  color: var(--ink-mute);
   margin-bottom: 4px;
 }
 
 .hint-value {
   font-family: "Fraunces", serif;
-  font-weight: 800;
+  font-weight: 700;
   font-style: italic;
   font-size: 20px;
   line-height: 1;
   font-variation-settings: "opsz" 144;
+  color: var(--ink);
 }
 
 .hint-tile:not(.used):not(.locked) .hint-value {
@@ -537,11 +629,11 @@ footer {
 }
 
 .lock {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Archivo", sans-serif;
   font-size: 8px;
-  letter-spacing: 0.1em;
-  color: var(--flag);
-  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: var(--ink-mute);
+  font-weight: 600;
   text-transform: lowercase;
 }
 
@@ -554,10 +646,11 @@ footer {
   line-height: 1.3;
 }
 
+/* Testing block (dev-only) */
 .testing-block {
   margin-top: 32px;
   padding-top: 20px;
-  border-top: 1px dotted rgba(20, 36, 27, 0.3);
+  border-top: 1px dotted var(--ink-soft);
   opacity: 0.65;
 }
 
@@ -572,7 +665,7 @@ footer {
   font-size: 9px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  opacity: 0.7;
+  color: var(--ink-mute);
   margin: 8px 0 4px;
 }
 
@@ -590,52 +683,50 @@ footer {
   cursor: pointer;
 }
 
-/* Append to bottom of src/components/Game.css */
-
-/* The hints grid uses the same .stat styling but each cell is now a button */
+/* Caddie hints grid (current) */
 .hints-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* The 5th tile (Initials) breaks out and centers below */
 .hints-grid .hint-stat:nth-child(5) {
   grid-column: 1 / -1;
-  max-width: calc(50% - 6px);  /* half width minus half the gap */
+  max-width: calc(50% - 6px);
   margin: 0 auto;
 }
 
-/* Override default button styles when used as a stat */
 .hint-stat {
   font-family: inherit;
   text-align: left;
   cursor: pointer;
   width: 100%;
-  border: none;       /* ← add this */
-  outline: none;      /* ← and this */
-  border-bottom: 1px dotted rgba(20, 36, 27, 0.2);
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted var(--ink-line);
   background: var(--paper);
+  color: var(--ink);
 }
 
-
-/* The "next" hint should look invitingly clickable */
 .hint-stat:not(.locked):not(:disabled):hover {
-  background: var(--sand);
+  background: var(--paper-shade);
   transform: translate(-1px, -1px);
 }
 
-/* Locked hints — same hatched paper look as before */
-.hint-stat.locked {
-  cursor: not-allowed;
+.hint-stat.locked .stat-value {
+  color: transparent;
+  text-shadow: 0 0 12px rgba(54, 51, 52, 0.55);
+  user-select: none;
+  filter: blur(15px);
 }
 
-/* The "tap" prompt next to the next-available hint label */
-.hint-tap-prompt {
-  color: var(--flag);
-  font-weight: 800;
-  font-size: 8px;
-  letter-spacing: 0.2em;
+.hint-stat.locked .stat-label {
+  color: var(--ink-mute);
+  /* labels stay readable so users know what's behind the blur */
+}
+
+.hint-stat.locked {
+  cursor: not-allowed;
 }
 
 @media (max-width: 600px) {
@@ -649,5 +740,31 @@ footer {
   }
 }
 
+.num {
+  font-style: italic;
+  font-weight: inherit;
+  font-size: inherit;
+  font-variation-settings: inherit;
+  letter-spacing: inherit;
+}
 
-
+.sign {
+  /* font-family: "Archivo", sans-serif; */
+  font-weight: 900;
+  text-shadow:
+        0.5px 0 0 var(--ink),
+        -0.5px 0 0 var(--ink),
+        0 0.5px 0 var(--ink),
+        0 -0.5px 0 var(--ink),
+        0.5px 0.5px 0 var(--ink),
+        -0.5px -0.5px 0 var(--ink),
+        0.5px -0.5px 0 var(--ink),
+        -0.5px 0.5px 0 var(--ink);
+  font-style: normal;
+  font-size: inherit;
+  font-variation-settings: inherit;
+  letter-spacing: inherit;
+  margin-right: 0.05em;
+  font-size: 1.15em;
+  line-height: 0.85;  /* compensate for the bigger size pushing things down */
+}

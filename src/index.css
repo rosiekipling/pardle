@@ -2,12 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;700&family=Archivo:wght@400;600;800;900&display=swap");
 
 :root {
-  --ink: #14241b;
-  --paper: #f2ede3;
-  --paper-dark: #e8e1d2;
-  --fairway: #2d5a3d;
-  --flag: #c8372d;
-  --sand: #d4b483;
+  --ink: #363334;
+  --paper: #fff0f0;
 }
 
 * {

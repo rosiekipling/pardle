@@ -46,6 +46,21 @@ function getInitials(name: string): string {
   return parts.map((p) => `${p[0]}.`).join(" ");
 }
 
+function formatValue(value: string) {
+  const parts = value.split(/([+\-])/);
+  return (
+    <>
+      {parts.map((p, i) =>
+        p === "+" || p === "-" ? (
+          <span key={i} className="sign">{p}</span>
+        ) : (
+          <span key={i} className="num">{p}</span>
+        )
+      )}
+    </>
+  );
+}
+
 export default function Game() {
   const [overrideSeed, setOverrideSeed] = useState(0);
   const [difficultyFilter, setDifficultyFilter] = useState<
@@ -346,8 +361,11 @@ export default function Game() {
             {STAT_ORDER.map((key) => (
               <div key={key} className="stat">
                 <div className="stat-label">{key}</div>
-                <div className="stat-value">
+                {/* <div className="stat-value">
                   {target.stats[key as keyof typeof target.stats] ?? "—"}
+                </div> */}
+                <div className="stat-value">
+                  {formatValue(target.stats[key as keyof typeof target.stats] ?? "—")}
                 </div>
               </div>
             ))}
@@ -385,12 +403,9 @@ export default function Game() {
                 >
                   <div className="stat-label">
                     {HINT_LABELS[key]}
-                    {isNext && !shown && (
-                      <span className="hint-tap-prompt"> · tap</span>
-                    )}
                   </div>
                   <div className="stat-value">
-                    {shown ? getHintValue(key) : "— — —"}
+                    {getHintValue(key)}
                   </div>
                 </button>
               );
@@ -415,7 +430,7 @@ export default function Game() {
                 onKeyDown={handleKeyDown}
                 onFocus={() => setShowSuggestions(true)}
                 onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-                placeholder={done ? "Puzzle complete" : "Type a name…"}
+                placeholder={done ? "Puzzle complete" : "type a name"}
                 disabled={done}
                 autoComplete="off"
               />
