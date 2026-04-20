@@ -281,7 +281,7 @@
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-style: italic;
-  font-size: clamp(16px, 4vw, 32px);
+  font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   font-variation-settings: "opsz" 144;
@@ -638,6 +638,7 @@ footer {
   .mobile-only { display: inline; }
   .logo { font-size: 64px; }
   .stat { min-height: 72px; }
+  .tagline span { display: block; }
   .tagline { text-align: center; }
   .action-row { flex-direction: column; }
 

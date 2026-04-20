@@ -307,9 +307,10 @@ export default function Game() {
         <h1 className="logo">
           Par<em>dle</em>
         </h1>
-        <div className="tagline">
-          A daily scorecard. Name the tour pro.
-        </div>
+        <p className="tagline">
+          <span>A daily scorecard.</span>{" "}
+          <span>Name the Tour pro from their numbers.</span>
+        </p>
       </div>
 
       <div className="main">
