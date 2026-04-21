@@ -691,9 +691,11 @@ export default function Game() {
                 <button className="share-btn" onClick={handleShare}>
                   Copy Text
                 </button>
-                <button className="share-btn" onClick={handleShareImage}>
-                  Share Image
-                </button>
+                {typeof navigator !== "undefined" && "share" in navigator && (
+                  <button className="share-btn" onClick={handleShareImage}>
+                    Share Image
+                  </button>
+                )}
               </div>
             </div>
           )}
