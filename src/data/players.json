@@ -2,6 +2,8 @@
   {
     "id": 18417,
     "name": "Scheffler, Scottie",
+    "first_name": "Scottie",
+    "last_name": "Scheffler",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -33,6 +35,8 @@
   {
     "id": 10091,
     "name": "McIlroy, Rory",
+    "first_name": "Rory",
+    "last_name": "McIlroy",
     "country_name": "Northern Ireland",
     "continent": "Europe",
     "age": 36,
@@ -64,6 +68,8 @@
   {
     "id": 19895,
     "name": "Schauffele, Xander",
+    "first_name": "Xander",
+    "last_name": "Schauffele",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -95,6 +101,8 @@
   {
     "id": 26651,
     "name": "Young, Cameron",
+    "first_name": "Cameron",
+    "last_name": "Young",
     "country_name": "United States",
     "continent": "North America",
     "age": 28,
@@ -126,6 +134,8 @@
   {
     "id": 19195,
     "name": "Rahm, Jon",
+    "first_name": "Jon",
+    "last_name": "Rahm",
     "country_name": "Spain",
     "continent": "Europe",
     "age": 31,
@@ -157,6 +167,8 @@
   {
     "id": 17646,
     "name": "Fitzpatrick, Matt",
+    "first_name": "Matt",
+    "last_name": "Fitzpatrick",
     "country_name": "England",
     "continent": "Europe",
     "age": 31,
@@ -188,6 +200,8 @@
   {
     "id": 23950,
     "name": "Aberg, Ludvig",
+    "first_name": "Ludvig",
+    "last_name": "Aberg",
     "country_name": "Sweden",
     "continent": "Europe",
     "age": 26,
@@ -219,6 +233,8 @@
   {
     "id": 12294,
     "name": "Fleetwood, Tommy",
+    "first_name": "Tommy",
+    "last_name": "Fleetwood",
     "country_name": "England",
     "continent": "Europe",
     "age": 35,
@@ -250,6 +266,8 @@
   {
     "id": 22085,
     "name": "Morikawa, Collin",
+    "first_name": "Collin",
+    "last_name": "Morikawa",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -281,6 +299,8 @@
   {
     "id": 23323,
     "name": "MacIntyre, Robert",
+    "first_name": "Robert",
+    "last_name": "MacIntyre",
     "country_name": "Scotland",
     "continent": "Europe",
     "age": 29,
@@ -312,6 +332,8 @@
   {
     "id": 14578,
     "name": "Henley, Russell",
+    "first_name": "Russell",
+    "last_name": "Henley",
     "country_name": "United States",
     "continent": "North America",
     "age": 37,
@@ -343,6 +365,8 @@
   {
     "id": 19396,
     "name": "Knapp, Jake",
+    "first_name": "Jake",
+    "last_name": "Knapp",
     "country_name": "United States",
     "continent": "North America",
     "age": 31,
@@ -374,6 +398,8 @@
   {
     "id": 19841,
     "name": "DeChambeau, Bryson",
+    "first_name": "Bryson",
+    "last_name": "DeChambeau",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -405,6 +431,8 @@
   {
     "id": 14609,
     "name": "Kim, Si Woo",
+    "first_name": "Si Woo",
+    "last_name": "Kim",
     "country_name": "Korea - Republic of",
     "continent": "Asia",
     "age": 30,
@@ -436,6 +464,8 @@
   {
     "id": 16841,
     "name": "Lee, Min Woo",
+    "first_name": "Min Woo",
+    "last_name": "Lee",
     "country_name": "Australia",
     "continent": "Oceania",
     "age": 27,
@@ -467,6 +497,8 @@
   {
     "id": 18634,
     "name": "McNealy, Maverick",
+    "first_name": "Maverick",
+    "last_name": "McNealy",
     "country_name": "United States",
     "continent": "North America",
     "age": 30,
@@ -498,6 +530,8 @@
   {
     "id": 13562,
     "name": "Matsuyama, Hideki",
+    "first_name": "Hideki",
+    "last_name": "Matsuyama",
     "country_name": "Japan",
     "continent": "Asia",
     "age": 34,
@@ -529,6 +563,8 @@
   {
     "id": 15466,
     "name": "Cantlay, Patrick",
+    "first_name": "Patrick",
+    "last_name": "Cantlay",
     "country_name": "United States",
     "continent": "North America",
     "age": 34,
@@ -560,6 +596,8 @@
   {
     "id": 29433,
     "name": "Bridgeman, Jacob",
+    "first_name": "Jacob",
+    "last_name": "Bridgeman",
     "country_name": "United States",
     "continent": "North America",
     "age": 26,
@@ -591,6 +629,8 @@
   {
     "id": 19483,
     "name": "Burns, Sam",
+    "first_name": "Sam",
+    "last_name": "Burns",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -622,6 +662,8 @@
   {
     "id": 18841,
     "name": "Hovland, Viktor",
+    "first_name": "Viktor",
+    "last_name": "Hovland",
     "country_name": "Norway",
     "continent": "Europe",
     "age": 28,
@@ -653,6 +695,8 @@
   {
     "id": 27774,
     "name": "Gotterup, Chris",
+    "first_name": "Chris",
+    "last_name": "Gotterup",
     "country_name": "United States",
     "continent": "North America",
     "age": 26,
@@ -684,6 +728,8 @@
   {
     "id": 17536,
     "name": "Spaun, J.J.",
+    "first_name": "J.J.",
+    "last_name": "Spaun",
     "country_name": "United States",
     "continent": "North America",
     "age": 35,
@@ -715,9 +761,11 @@
   {
     "id": 23602,
     "name": "Hojgaard, Nicolai",
+    "first_name": "Nicolai",
+    "last_name": "Hojgaard",
     "country_name": "Denmark",
     "continent": "Europe",
-    "age": null,
+    "age": 25,
     "amateur": false,
     "difficulty": "easy",
     "tour": "PGA",
@@ -746,6 +794,8 @@
   {
     "id": 6430,
     "name": "Scott, Adam",
+    "first_name": "Adam",
+    "last_name": "Scott",
     "country_name": "Australia",
     "continent": "Oceania",
     "age": 45,
@@ -777,6 +827,8 @@
   {
     "id": 24968,
     "name": "Griffin, Ben",
+    "first_name": "Ben",
+    "last_name": "Griffin",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -808,6 +860,8 @@
   {
     "id": 26096,
     "name": "Bhatia, Akshay",
+    "first_name": "Akshay",
+    "last_name": "Bhatia",
     "country_name": "United States",
     "continent": "North America",
     "age": 24,
@@ -839,6 +893,8 @@
   {
     "id": 14636,
     "name": "Spieth, Jordan",
+    "first_name": "Jordan",
+    "last_name": "Spieth",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -870,6 +926,8 @@
   {
     "id": 25569,
     "name": "Stevens, Sam",
+    "first_name": "Sam",
+    "last_name": "Stevens",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -901,6 +959,8 @@
   {
     "id": 29767,
     "name": "Gerard, Ryan",
+    "first_name": "Ryan",
+    "last_name": "Gerard",
     "country_name": "United States",
     "continent": "North America",
     "age": 26,
@@ -932,6 +992,8 @@
   {
     "id": 14577,
     "name": "English, Harris",
+    "first_name": "Harris",
+    "last_name": "English",
     "country_name": "United States",
     "continent": "North America",
     "age": 36,
@@ -963,6 +1025,8 @@
   {
     "id": 6093,
     "name": "Rose, Justin",
+    "first_name": "Justin",
+    "last_name": "Rose",
     "country_name": "England",
     "continent": "Europe",
     "age": 45,
@@ -994,6 +1058,8 @@
   {
     "id": 14796,
     "name": "Hatton, Tyrrell",
+    "first_name": "Tyrrell",
+    "last_name": "Hatton",
     "country_name": "England",
     "continent": "Europe",
     "age": 34,
@@ -1025,6 +1091,8 @@
   {
     "id": 14139,
     "name": "Thomas, Justin",
+    "first_name": "Justin",
+    "last_name": "Thomas",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -1056,6 +1124,8 @@
   {
     "id": 22760,
     "name": "Hisatsune, Ryo",
+    "first_name": "Ryo",
+    "last_name": "Hisatsune",
     "country_name": "Japan",
     "continent": "Asia",
     "age": 23,
@@ -1087,6 +1157,8 @@
   {
     "id": 10419,
     "name": "Noren, Alex",
+    "first_name": "Alex",
+    "last_name": "Noren",
     "country_name": "Sweden",
     "continent": "Europe",
     "age": 43,
@@ -1118,6 +1190,8 @@
   {
     "id": 26649,
     "name": "Thorbjornsen, Michael",
+    "first_name": "Michael",
+    "last_name": "Thorbjornsen",
     "country_name": "United States",
     "continent": "North America",
     "age": 24,
@@ -1149,6 +1223,8 @@
   {
     "id": 9771,
     "name": "Day, Jason",
+    "first_name": "Jason",
+    "last_name": "Day",
     "country_name": "Australia",
     "continent": "Oceania",
     "age": 38,
@@ -1180,6 +1256,8 @@
   {
     "id": 23014,
     "name": "Theegala, Sahith",
+    "first_name": "Sahith",
+    "last_name": "Theegala",
     "country_name": "United States",
     "continent": "North America",
     "age": 28,
@@ -1211,6 +1289,8 @@
   {
     "id": 14838,
     "name": "Reed, Patrick",
+    "first_name": "Patrick",
+    "last_name": "Reed",
     "country_name": "United States",
     "continent": "North America",
     "age": 35,
@@ -1242,6 +1322,8 @@
   {
     "id": 21891,
     "name": "Kitayama, Kurt",
+    "first_name": "Kurt",
+    "last_name": "Kitayama",
     "country_name": "United States",
     "continent": "North America",
     "age": 33,
@@ -1273,6 +1355,8 @@
   {
     "id": 12965,
     "name": "Fowler, Rickie",
+    "first_name": "Rickie",
+    "last_name": "Fowler",
     "country_name": "United States",
     "continent": "North America",
     "age": 37,
@@ -1304,6 +1388,8 @@
   {
     "id": 13872,
     "name": "Bradley, Keegan",
+    "first_name": "Keegan",
+    "last_name": "Bradley",
     "country_name": "United States",
     "continent": "North America",
     "age": 75,
@@ -1335,6 +1421,8 @@
   {
     "id": 27194,
     "name": "Hall, Harry",
+    "first_name": "Harry",
+    "last_name": "Hall",
     "country_name": "England",
     "continent": "Europe",
     "age": 28,
@@ -1366,6 +1454,8 @@
   {
     "id": 21362,
     "name": "Hillier, Daniel",
+    "first_name": "Daniel",
+    "last_name": "Hillier",
     "country_name": "New Zealand",
     "continent": "Oceania",
     "age": 27,
@@ -1397,6 +1487,8 @@
   {
     "id": 17511,
     "name": "Straka, Sepp",
+    "first_name": "Sepp",
+    "last_name": "Straka",
     "country_name": "Austria",
     "continent": "Europe",
     "age": 32,
@@ -1428,6 +1520,8 @@
   {
     "id": 13900,
     "name": "Lowry, Shane",
+    "first_name": "Shane",
+    "last_name": "Lowry",
     "country_name": "Ireland",
     "continent": "Europe",
     "age": 39,
@@ -1459,6 +1553,8 @@
   {
     "id": 14181,
     "name": "Detry, Thomas",
+    "first_name": "Thomas",
+    "last_name": "Detry",
     "country_name": "Belgium",
     "continent": "Europe",
     "age": 33,
@@ -1490,6 +1586,8 @@
   {
     "id": 17365,
     "name": "Mitchell, Keith",
+    "first_name": "Keith",
+    "last_name": "Mitchell",
     "country_name": "United States",
     "continent": "North America",
     "age": 34,
@@ -1521,6 +1619,8 @@
   {
     "id": 18079,
     "name": "Niemann, Joaquin",
+    "first_name": "Joaquin",
+    "last_name": "Niemann",
     "country_name": "Chile",
     "continent": "South America",
     "age": 27,
@@ -1552,6 +1652,8 @@
   {
     "id": 27364,
     "name": "Thompson, Davis",
+    "first_name": "Davis",
+    "last_name": "Thompson",
     "country_name": "United States",
     "continent": "North America",
     "age": 26,
@@ -1583,6 +1685,8 @@
   {
     "id": 18474,
     "name": "Smalley, Alex",
+    "first_name": "Alex",
+    "last_name": "Smalley",
     "country_name": "United States",
     "continent": "North America",
     "age": 29,
@@ -1614,6 +1718,8 @@
   {
     "id": 18586,
     "name": "Smith, Jordan",
+    "first_name": "Jordan",
+    "last_name": "Smith",
     "country_name": "England",
     "continent": "Europe",
     "age": 33,
@@ -1645,6 +1751,8 @@
   {
     "id": 26991,
     "name": "Schaper, Jayden",
+    "first_name": "Jayden",
+    "last_name": "Schaper",
     "country_name": "South Africa",
     "continent": "Africa",
     "age": 25,
@@ -1676,6 +1784,8 @@
   {
     "id": 30445,
     "name": "Ayora, Angel",
+    "first_name": "Angel",
+    "last_name": "Ayora",
     "country_name": "Spain",
     "continent": "Europe",
     "age": 21,
@@ -1707,6 +1817,8 @@
   {
     "id": 23604,
     "name": "Clark, Wyndham",
+    "first_name": "Wyndham",
+    "last_name": "Clark",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -1738,6 +1850,8 @@
   {
     "id": 16243,
     "name": "Koepka, Brooks",
+    "first_name": "Brooks",
+    "last_name": "Koepka",
     "country_name": "United States",
     "continent": "North America",
     "age": 35,
@@ -1769,6 +1883,8 @@
   {
     "id": 22465,
     "name": "Penge, Marco",
+    "first_name": "Marco",
+    "last_name": "Penge",
     "country_name": "England",
     "continent": "Europe",
     "age": 27,
@@ -1800,6 +1916,8 @@
   {
     "id": 28309,
     "name": "Coody, Pierceson",
+    "first_name": "Pierceson",
+    "last_name": "Coody",
     "country_name": "United States",
     "continent": "North America",
     "age": 26,
@@ -1831,6 +1949,8 @@
   {
     "id": 28984,
     "name": "Puig, David",
+    "first_name": "David",
+    "last_name": "Puig",
     "country_name": "Spain",
     "continent": "Europe",
     "age": 24,
@@ -1862,6 +1982,8 @@
   {
     "id": 13126,
     "name": "Taylor, Nick",
+    "first_name": "Nick",
+    "last_name": "Taylor",
     "country_name": "Canada",
     "continent": "North America",
     "age": 38,
@@ -1893,6 +2015,8 @@
   {
     "id": 28635,
     "name": "McCarty, Matt",
+    "first_name": "Matt",
+    "last_name": "McCarty",
     "country_name": "United States",
     "continent": "North America",
     "age": 28,
@@ -1924,6 +2048,8 @@
   {
     "id": 17576,
     "name": "Conners, Corey",
+    "first_name": "Corey",
+    "last_name": "Conners",
     "country_name": "Canada",
     "continent": "North America",
     "age": 34,
@@ -1955,6 +2081,8 @@
   {
     "id": 23505,
     "name": "McGreevy, Max",
+    "first_name": "Max",
+    "last_name": "McGreevy",
     "country_name": "United States",
     "continent": "North America",
     "age": 30,
@@ -1986,6 +2114,8 @@
   {
     "id": 21554,
     "name": "Poston, J.T.",
+    "first_name": "J.T.",
+    "last_name": "Poston",
     "country_name": "United States",
     "continent": "North America",
     "age": 32,
@@ -2017,6 +2147,8 @@
   {
     "id": 20706,
     "name": "Wallace, Matt",
+    "first_name": "Matt",
+    "last_name": "Wallace",
     "country_name": "England",
     "continent": "Europe",
     "age": 36,
@@ -2048,6 +2180,8 @@
   {
     "id": 27819,
     "name": "Castillo, Ricky",
+    "first_name": "Ricky",
+    "last_name": "Castillo",
     "country_name": "United States",
     "continent": "North America",
     "age": 24,
@@ -2079,6 +2213,8 @@
   {
     "id": 17780,
     "name": "Pendrith, Taylor",
+    "first_name": "Taylor",
+    "last_name": "Pendrith",
     "country_name": "Canada",
     "continent": "North America",
     "age": 34,
@@ -2110,6 +2246,8 @@
   {
     "id": 17606,
     "name": "Berger, Daniel",
+    "first_name": "Daniel",
+    "last_name": "Berger",
     "country_name": "United States",
     "continent": "North America",
     "age": 33,
@@ -2141,6 +2279,8 @@
   {
     "id": 17488,
     "name": "Im, Sungjae",
+    "first_name": "Sungjae",
+    "last_name": "Im",
     "country_name": "Korea - Republic of",
     "continent": "Asia",
     "age": 28,
@@ -2172,6 +2312,8 @@
   {
     "id": 29925,
     "name": "Yellamaraju, Sudarshan",
+    "first_name": "Sudarshan",
+    "last_name": "Yellamaraju",
     "country_name": "Canada",
     "continent": "North America",
     "age": 24,
@@ -2203,6 +2345,8 @@
   {
     "id": 19421,
     "name": "Du Plessis, Hennie",
+    "first_name": "Hennie",
+    "last_name": "Du Plessis",
     "country_name": "South Africa",
     "continent": "Africa",
     "age": 29,
@@ -2234,6 +2378,8 @@
   {
     "id": 18103,
     "name": "Bezuidenhout, Christiaan",
+    "first_name": "Christiaan",
+    "last_name": "Bezuidenhout",
     "country_name": "South Africa",
     "continent": "Africa",
     "age": 31,
@@ -2265,6 +2411,8 @@
   {
     "id": 14424,
     "name": "Burmester, Dean",
+    "first_name": "Dean",
+    "last_name": "Burmester",
     "country_name": "South Africa",
     "continent": "Africa",
     "age": 36,
@@ -2296,6 +2444,8 @@
   {
     "id": 29197,
     "name": "Brennan, Michael",
+    "first_name": "Michael",
+    "last_name": "Brennan",
     "country_name": "United States",
     "continent": "North America",
     "age": 24,

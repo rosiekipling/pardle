@@ -508,6 +508,60 @@ input[type="text"]:disabled {
   border-color: var(--ink);
 }
 
+.guess-list {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dotted var(--ink-line);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.guess-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4px 0;
+}
+
+.guess-name {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.guess-sg {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1;
+  font-variation-settings: "opsz" 144;
+  color: var(--ink);
+}
+
+.guess-list-sub {
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ink-mute);
+  margin-bottom: 10px;
+}
+
+.guess-sg-label {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-right: 6px;
+}
+
 /* ---------- 10. Feedback + reveal card ---------- */
 .feedback {
   min-height: 48px;

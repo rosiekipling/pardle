@@ -54,7 +54,8 @@ function displayName(name: string): string {
   return name;
 }
 
-function formatValue(value: string) {
+function formatValue(value: string | undefined | null): React.ReactNode {
+  if (!value) return "—";
   const [main, compare] = value.split("||");
 
   const renderWithSigns = (s: string) => {
@@ -80,12 +81,103 @@ function formatValue(value: string) {
   );
 }
 
+function ShareCard({
+  puzzleN,
+  scoreLabel,
+  finalHintsUsed,
+  guessCount,
+  solved,
+}: {
+  puzzleN: number;
+  scoreLabel: string;
+  finalHintsUsed: number;
+  guessCount: number;
+  solved: boolean;
+}) {
+  const totalSlots = HINT_ORDER.length + 1;
+  const actions: string[] = [];
+  for (let i = 0; i < finalHintsUsed; i++) actions.push("🟧");
+  if (solved) actions.push("🟩");
+  while (actions.length < totalSlots) actions.push("⬜");
+
+  return (
+    <div
+      id="share-card"
+      style={{
+        width: 1080,
+        height: 1080,
+        background: "#fff0f0",
+        color: "#363334",
+        padding: 100,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        fontFamily: "'Fraunces', serif",
+        boxSizing: "border-box",
+      }}
+    >
+      <div style={{
+        fontFamily: "'Archivo', sans-serif",
+        fontWeight: 700,
+        fontSize: 26,
+        letterSpacing: "0.3em",
+        textTransform: "uppercase",
+        color: "rgba(54, 51, 52, 0.6)",
+      }}>
+        The Caddie Desk · Pardle No. {String(puzzleN).padStart(3, "0")}
+      </div>
+
+      <div>
+        <div style={{
+          fontFamily: "'Fraunces', serif",
+          fontWeight: 700,
+          fontStyle: "italic",
+          fontSize: 220,
+          lineHeight: 0.9,
+          letterSpacing: "-0.03em",
+        }}>
+          {scoreLabel}
+        </div>
+        <div style={{
+          fontSize: 120,
+          lineHeight: 1.2,
+          marginTop: 48,
+          letterSpacing: "0.04em",
+        }}>
+          {actions.join("")}
+        </div>
+      </div>
+
+      <div>
+        <div style={{
+          fontFamily: "'Fraunces', serif",
+          fontStyle: "italic",
+          fontSize: 44,
+          color: "rgba(54, 51, 52, 0.7)",
+          marginBottom: 28,
+        }}>
+          {finalHintsUsed} hint{finalHintsUsed !== 1 ? "s" : ""} · {guessCount} guess{guessCount !== 1 ? "es" : ""}
+        </div>
+        <div style={{
+          fontFamily: "'Archivo', sans-serif",
+          fontWeight: 700,
+          fontSize: 30,
+          letterSpacing: "0.2em",
+          textTransform: "uppercase",
+          color: "#363334",
+        }}>
+          pardle.caddiedesk.com
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Game() {
   const [overrideSeed, setOverrideSeed] = useState(0);
   const [difficultyFilter, setDifficultyFilter] = useState<
     "easy" | "medium" | "hard" | "all"
   >("easy");
-
   const [tourFilter, setTourFilter] = useState<
     "all" | "PGA" | "EURO" | "LIV"
   >("all");
@@ -94,13 +186,13 @@ export default function Game() {
     let pool = difficultyFilter === "all"
       ? players
       : players.filter((p) => p.difficulty === difficultyFilter);
-  
+
     if (tourFilter !== "all") {
       pool = pool.filter((p) => p.tour === tourFilter);
     }
-  
+
     const picks = pool.length ? pool : players;
-  
+
     if (overrideSeed === 0) {
       const iso = new Date().toISOString().slice(0, 10);
       const hash = iso.split("").reduce((h, c) => h + c.charCodeAt(0), 0);
@@ -113,16 +205,17 @@ export default function Game() {
   const allNames = useMemo(() => players.map((p) => p.name), []);
 
   const [revealedHints, setRevealedHints] = useState<Set<HintKey>>(new Set());
+  const [finalHintsUsed, setFinalHintsUsed] = useState(0);
   const [lastRevealed, setLastRevealed] = useState<HintKey | null>(null);
   const [guess, setGuess] = useState("");
+  const [guessCount, setGuessCount] = useState(0);
+  const [wrongGuesses, setWrongGuesses] = useState<Player[]>([]);
   const [solved, setSolved] = useState(false);
   const [gaveUp, setGaveUp] = useState(false);
   const [feedback, setFeedback] = useState<{
     text: string;
     tone: "correct" | "wrong" | "";
   }>({ text: "", tone: "" });
-  const [wrongCount, setWrongCount] = useState(0);
-  const [guessCount, setGuessCount] = useState(0);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeSuggestion, setActiveSuggestion] = useState(0);
 
@@ -163,7 +256,7 @@ export default function Game() {
     setTimeout(() => setLastRevealed(null), 500);
   }
 
-  const totalCost = revealedHints.size;
+  const totalCost = done ? finalHintsUsed : revealedHints.size;
   const scoreLabel = !done
     ? "Live"
     : !solved
@@ -185,29 +278,39 @@ export default function Game() {
     : "Picked up";
 
   function handleSubmit() {
-    setGuessCount((c) => c + 1);
     if (done || !guess.trim()) return;
+
+    const newGuessCount = guessCount + 1;
+    setGuessCount(newGuessCount);
+
     if (norm(guess) === norm(target.name)) {
+      const actualHintsUsed = revealedHints.size;
       setSolved(true);
-      const hintLine = revealedHints.size
-        ? ` and ${revealedHints.size} caddie hint${
-            revealedHints.size > 1 ? "s" : ""
-          }`
+      setFinalHintsUsed(actualHintsUsed);
+      setRevealedHints(new Set(HINT_ORDER));
+
+      const hintLine = actualHintsUsed
+        ? ` and ${actualHintsUsed} caddie hint${actualHintsUsed > 1 ? "s" : ""}`
         : "";
       setFeedback({
-        text: `Got it in ${guessCount} guess${
-          wrongCount === 0 ? "" : "es"
-        }${hintLine}.`,
+        text: `Got it in ${newGuessCount} guess${newGuessCount === 1 ? "" : "es"}${hintLine}.`,
         tone: "correct",
       });
     } else {
-      setWrongCount((c) => c + 1);
+      const guessedPlayer = players.find(
+        (p) => norm(p.name) === norm(guess)
+      );
+      if (guessedPlayer) {
+        setWrongGuesses((prev) => [...prev, guessedPlayer]);
+      }
+
       setFeedback({
-        text: `Not ${displayName(guess)}. Reload the swing — here's another clue.`,
+        text: `Not ${displayName(guess.trim())}. Reload the swing — here's another clue.`,
         tone: "wrong",
       });
       revealNextHint();
     }
+
     setGuess("");
     setShowSuggestions(false);
   }
@@ -215,11 +318,12 @@ export default function Game() {
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
+    setFinalHintsUsed(revealedHints.size);
+    setRevealedHints(new Set(HINT_ORDER));
     setFeedback({
       text: "No shame. The leaderboard always waits for round two.",
       tone: "wrong",
     });
-    setRevealedHints(new Set(HINT_ORDER));
   }
 
   function handlePickSuggestion(name: string) {
@@ -248,13 +352,14 @@ export default function Game() {
 
   function resetGameState() {
     setRevealedHints(new Set());
+    setFinalHintsUsed(0);
     setLastRevealed(null);
     setGuess("");
+    setGuessCount(0);
+    setWrongGuesses([]);
     setSolved(false);
     setGaveUp(false);
     setFeedback({ text: "", tone: "" });
-    setWrongCount(0);
-    setGuessCount(0);
     setShowSuggestions(false);
   }
 
@@ -287,33 +392,72 @@ export default function Game() {
       "Picked up": "⚫",
       "DNF": "❌",
     };
-  
+
     const emoji = scoreEmoji[scoreLabel] ?? "⛳";
-    const totalSlots = HINT_ORDER.length + 1; // 5 hints + 1 for the correct guess
-  
-    // Build the action row: orange per hint used, green if solved, white for empty slots
+    const totalSlots = HINT_ORDER.length + 1;
+
     const actions: string[] = [];
-    for (let i = 0; i < revealedHints.size; i++) actions.push("🟧");
+    for (let i = 0; i < finalHintsUsed; i++) actions.push("🟧");
     if (solved) actions.push("🟩");
     while (actions.length < totalSlots) actions.push("⬜");
     const row = actions.slice(0, totalSlots).join("");
-  
-    // Caption
-    const hintLabel = revealedHints.size === 1 ? "1 hint" : `${revealedHints.size} hints`;
-    const guessCount = wrongCount + (solved ? 1 : 0);
+
+    const hintLabel = finalHintsUsed === 1 ? "1 hint" : `${finalHintsUsed} hints`;
     const guessLabel = guessCount === 1 ? "1 guess" : `${guessCount} guesses`;
-  
+
     const text = [
       `Pardle #${puzzleN} · ${emoji} ${scoreLabel}`,
       `${row} · ${hintLabel} · ${guessLabel}`,
       `pardle.caddiedesk.com`,
     ].join("\n");
-  
+
     navigator.clipboard.writeText(text);
     setFeedback({
       text: "Copied to clipboard — paste it wherever you like.",
       tone: "correct",
     });
+  }
+
+  async function handleShareImage() {
+    const node = document.getElementById("share-card");
+    if (!node) return;
+  
+    try {
+      // Wait for fonts to be ready
+      await document.fonts.ready;
+  
+      // Generate PNG from the hidden share card
+      const { toPng } = await import("html-to-image");
+      const dataUrl = await toPng(node, {
+        width: 1080,
+        height: 1080,
+        pixelRatio: 1,
+      });
+  
+      // Convert to Blob so we can share it as a file
+      const blob = await (await fetch(dataUrl)).blob();
+      const file = new File([blob], `pardle-${puzzleN}.png`, { type: "image/png" });
+  
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title: `Pardle #${puzzleN}`,
+          text: `${scoreLabel} · ${finalHintsUsed} hints, ${guessCount} guesses`,
+        });
+        setFeedback({ text: "Shared!", tone: "correct" });
+      } else {
+        setFeedback({
+          text: "Image sharing isn't supported here. Try the Copy button.",
+          tone: "wrong",
+        });
+      }
+    } catch (err) {
+      console.error("Share failed:", err);
+      setFeedback({
+        text: "Couldn't share image — use the Copy button instead.",
+        tone: "wrong",
+      });
+    }
   }
 
   useEffect(() => {
@@ -328,6 +472,21 @@ export default function Game() {
 
   return (
     <div className="wrap">
+      <div style={{
+        position: "absolute",
+        left: -99999,
+        top: 0,
+        pointerEvents: "none",
+        opacity: 0,
+      }}>
+        <ShareCard
+          puzzleN={puzzleN}
+          scoreLabel={scoreLabel}
+          finalHintsUsed={finalHintsUsed}
+          guessCount={guessCount}
+          solved={solved}
+        />
+      </div>
       <div className="masthead">
         <div className="issue">
           Vol. I — No. {String(puzzleN).padStart(3, "0")}
@@ -357,11 +516,11 @@ export default function Game() {
           </div>
           <div className="score-row">
             <div className="score-label">Guesses</div>
-            <div className="score-val accent">{guessCount}</div>
+            <div className="score-val">{guessCount}</div>
           </div>
           <div className="score-row">
             <div className="score-label">Hints Used</div>
-            <div className="score-val">{revealedHints.size}</div>
+            <div className="score-val">{totalCost}</div>
           </div>
           <div className="score-row">
             <div className="score-label">Par</div>
@@ -380,9 +539,6 @@ export default function Game() {
         <section className="col">
           <div className="player-num">
             ◆ Mystery Player No. {String(puzzleN).padStart(3, "0")}
-            {/* <span className={`difficulty-badge ${target.difficulty}`}>
-              {target.difficulty}
-            </span> */}
           </div>
           <h2 className="headline">
             Who <em>scored</em> these stats?
@@ -392,19 +548,17 @@ export default function Game() {
             additional caddie hint costs you a stroke.
           </p>
 
-          {/* Stats grid — fully visible */}
           <div className="stats-grid">
             {STAT_ORDER.map((key) => (
               <div key={key} className="stat">
                 <div className="stat-label">{key}</div>
                 <div className="stat-value">
-                  {formatValue(target.stats[key as keyof typeof target.stats] ?? "—")}
+                  {formatValue(target.stats[key as keyof typeof target.stats])}
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Caddie Hints — sequential reveal, same visual style */}
           <div className="kicker" style={{ marginTop: 28 }}>
             Caddie Hints
           </div>
@@ -434,18 +588,13 @@ export default function Game() {
                       : ""
                   }
                 >
-                  <div className="stat-label">
-                    {HINT_LABELS[key]}
-                  </div>
-                  <div className="stat-value">
-                    {getHintValue(key)}
-                  </div>
+                  <div className="stat-label">{HINT_LABELS[key]}</div>
+                  <div className="stat-value">{getHintValue(key)}</div>
                 </button>
               );
             })}
           </div>
 
-          {/* Guess input + actions */}
           <div className="kicker" style={{ marginTop: 28 }}>
             Your Guess
           </div>
@@ -501,6 +650,24 @@ export default function Game() {
               </button>
             </div>
 
+            {wrongGuesses.length > 0 && (
+              <div className="guess-list">
+                <div className="kicker" style={{ marginBottom: 4 }}>Previous guesses</div>
+                <div className="guess-list-sub">
+                  Values show each player's SG: Total — higher is better.
+                </div>
+                {wrongGuesses.map((p, i) => (
+                  <div key={i} className="guess-row">
+                    <span className="guess-name">{p.name}</span>
+                    <span className="guess-sg">
+                      <span className="guess-sg-label">SG:</span>
+                      {formatValue(p.stats["SG: Total"])}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <div className={`feedback ${feedback.tone}`}>{feedback.text}</div>
           </div>
 
@@ -508,70 +675,74 @@ export default function Game() {
             <div className="reveal-card">
               <div className="kicker">The Answer</div>
               <div className="name">{target.name}</div>
-              <div
-                style={{
-                  fontFamily: "Fraunces, serif",
-                  fontStyle: "italic",
-                  fontSize: 13,
-                  opacity: 0.8,
-                }}
-              >
+              <div style={{
+                fontFamily: "Fraunces, serif",
+                fontStyle: "italic",
+                fontSize: 13,
+                opacity: 0.8,
+              }}>
                 {target.continent && <>{target.continent} · </>}
                 {target.country_name && <>{target.country_name} · </>}
                 {target.age && <>age {target.age} · </>}
                 Difficulty: {target.difficulty}
               </div>
-              <button className="share-btn" onClick={handleShare}>
-                Share Result
-              </button>
+
+              <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 16 }}>
+                <button className="share-btn" onClick={handleShare}>
+                  Copy Text
+                </button>
+                <button className="share-btn" onClick={handleShareImage}>
+                  Share Image
+                </button>
+              </div>
             </div>
           )}
         </section>
 
-        {/* RIGHT — Testing only */}
+        {/* RIGHT — Testing only (hidden in production) */}
         <aside className="col">
-        <div className="testing-block">
-          <div className="kicker">Testing</div>
+          {import.meta.env.DEV && (
+            <div className="testing-block">
+              <div className="kicker">Testing</div>
 
-          <label className="testing-label">Difficulty</label>
-          <select
-            className="testing-select"
-            value={difficultyFilter}
-            onChange={(e) => handleDifficultyChange(e.target.value as typeof difficultyFilter)}
-          >
-            <option value="easy">Easy only</option>
-            <option value="medium">Medium only</option>
-            <option value="hard">Hard only</option>
-            <option value="all">All players</option>
-          </select>
+              <label className="testing-label">Difficulty</label>
+              <select
+                className="testing-select"
+                value={difficultyFilter}
+                onChange={(e) => handleDifficultyChange(e.target.value as typeof difficultyFilter)}
+              >
+                <option value="easy">Easy only</option>
+                <option value="medium">Medium only</option>
+                <option value="hard">Hard only</option>
+                <option value="all">All players</option>
+              </select>
 
-          <label className="testing-label">Tour</label>
-          <select
-            className="testing-select"
-            value={tourFilter}
-            onChange={(e) => handleTourChange(e.target.value as typeof tourFilter)}
-          >
-            <option value="all">All tours</option>
-            <option value="PGA">PGA Tour</option>
-            <option value="EURO">DP World Tour</option>
-            <option value="LIV">LIV Golf</option>
-          </select>
+              <label className="testing-label">Tour</label>
+              <select
+                className="testing-select"
+                value={tourFilter}
+                onChange={(e) => handleTourChange(e.target.value as typeof tourFilter)}
+              >
+                <option value="all">All tours</option>
+                <option value="PGA">PGA Tour</option>
+                <option value="EURO">DP World Tour</option>
+                <option value="LIV">LIV Golf</option>
+              </select>
 
-          <button
-            className="btn secondary"
-            onClick={handleNewPuzzle}
-            style={{ marginTop: 10, fontSize: 10, width: "100%" }}
-          >
-            🧪 New Random Puzzle
-          </button>
-        </div>
+              <button
+                className="btn secondary"
+                onClick={handleNewPuzzle}
+                style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+              >
+                🧪 New Random Puzzle
+              </button>
+            </div>
+          )}
         </aside>
       </div>
 
       <footer>
-        <div>
-          Data via Data Golf
-        </div>
+        <div>Data via Data Golf</div>
         <div>Come back tomorrow for a new round</div>
       </footer>
     </div>

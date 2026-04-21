@@ -50,12 +50,16 @@ def compute_age(dob_str):
     today = date.today()
     return today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
 
+# def split_name(name):
+#     first_name = name.split(",")[1].trim()
+#     last_name = name.split(",")[0].trim()
+#     return first_name, last_name 
+
 
 def load_bio() -> dict:
     if BIO_PATH.exists():
         return json.loads(BIO_PATH.read_text())
     return {}
-
 
 # -- Form stat extractors -----------------------------------------------------
 
@@ -140,6 +144,8 @@ def build() -> None:
 
         player_bio = bio.get(str(dg_id), {})
         age = compute_age(player_bio.get("dob"))
+        first_name = row.get("player_name").split(",")[1].strip()
+        last_name = row.get("player_name").split(",")[0].strip()
 
         rdata = rankings_data.get(dg_id, {})
         wr = rdata.get("owgr_rank")
@@ -148,6 +154,8 @@ def build() -> None:
         out.append({
             "id": dg_id,
             "name": row["player_name"],
+            "first_name": first_name,
+            "last_name": last_name,
             "country_name": country_name,
             "continent": info["continent"],
             "age": age,
@@ -166,18 +174,27 @@ def build() -> None:
     OUT_PATH.write_text(json.dumps(out, indent=2))
     print(f"\nWrote {len(out)} players to {OUT_PATH.relative_to(ROOT)}")
 
-    # Sanity warnings
+    # Filter out players with incomplete data — every hint should have a value
+    before = len(out)
+    out = [
+        p for p in out
+        if p["age"] is not None
+        and p["continent"] is not None
+        and p["form"]["world_ranking"] is not None
+    ]
+    dropped = before - len(out)
+    if dropped:
+        print(f"  Dropped {dropped} players with incomplete data")
+
+    # Sanity warnings (should all be empty after filter)
     missing_continent = sorted(set(p["country_name"] for p in out if p["continent"] is None))
     missing_age = [p["name"] for p in out if p["age"] is None]
-    # missing_major = [p["name"] for p in out if not p["form"]["best_major"]]
     missing_ranking = [p["name"] for p in out if not p["form"]["world_ranking"]]
 
     if missing_continent:
         print(f"  ⚠ countries missing from countries.json: {missing_continent}")
     if missing_age:
         print(f"  ⚠ {len(missing_age)} players missing DOB: {missing_age[:5]}…")
-    # if missing_major:
-    #     print(f"  ⚠ {len(missing_major)} players with no major-history finish")
     if missing_ranking:
         print(f"  ⚠ {len(missing_ranking)} players with no world ranking")
 
