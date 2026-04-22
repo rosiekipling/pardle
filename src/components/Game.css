@@ -605,6 +605,35 @@ input[type="text"]:disabled {
   color: var(--paper);
 }
 
+.streak-display {
+  margin-top: 16px;
+  text-align: center;
+}
+.streak-number {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 72px;
+  line-height: 1;
+  color: var(--paper);
+}
+.streak-label {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--paper);
+  opacity: 0.7;
+  margin-top: 4px;
+}
+.streak-best {
+  margin-top: 8px;
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--paper);
+}
+
 .share-btn {
   display: inline-block;
   margin-top: 16px;

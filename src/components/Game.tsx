@@ -2,6 +2,7 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import players from "../data/players.json";
 import { puzzleNumber } from "../lib/dailyPlayer";
+import { loadStreak, recordResult, type StreakData } from "../lib/streak";
 import "./Game.css";
 
 type Player = (typeof players)[number];
@@ -204,6 +205,7 @@ export default function Game() {
   const puzzleN = useMemo(() => puzzleNumber(), []);
   const allNames = useMemo(() => players.map((p) => p.name), []);
 
+  const [streak, setStreak] = useState<StreakData>(() => loadStreak());
   const [revealedHints, setRevealedHints] = useState<Set<HintKey>>(new Set());
   const [finalHintsUsed, setFinalHintsUsed] = useState(0);
   const [lastRevealed, setLastRevealed] = useState<HintKey | null>(null);
@@ -286,6 +288,7 @@ export default function Game() {
     if (norm(guess) === norm(target.name)) {
       const actualHintsUsed = revealedHints.size;
       setSolved(true);
+      setStreak(recordResult(true, puzzleN));
       setFinalHintsUsed(actualHintsUsed);
       setRevealedHints(new Set(HINT_ORDER));
 
@@ -318,6 +321,7 @@ export default function Game() {
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
+    setStreak(recordResult(false, puzzleN));
     setFinalHintsUsed(revealedHints.size);
     setRevealedHints(new Set(HINT_ORDER));
     setFeedback({
@@ -404,12 +408,15 @@ export default function Game() {
 
     const hintLabel = finalHintsUsed === 1 ? "1 hint" : `${finalHintsUsed} hints`;
     const guessLabel = guessCount === 1 ? "1 guess" : `${guessCount} guesses`;
+    const streakLine = streak.currentStreak >= 2
+      ? `\n🔥 ${streak.currentStreak} day streak`
+      : "";
 
-    const text = [
-      `Pardle #${puzzleN} · ${emoji} ${scoreLabel}`,
-      `${row} · ${hintLabel} · ${guessLabel}`,
-      `pardle.caddiedesk.com`,
-    ].join("\n");
+      const text = [
+        `Pardle #${puzzleN} · ${emoji} ${scoreLabel}`,
+        `${row} · ${hintLabel} · ${guessLabel}`,
+        `pardle.caddiedesk.com${streakLine}`,
+      ].join("\n");
 
     navigator.clipboard.writeText(text);
     setFeedback({
@@ -508,7 +515,7 @@ export default function Game() {
       <div className="main">
         {/* LEFT — Scorecard */}
         <aside className="col">
-          <div className="kicker">The Scorecard</div>
+          <div className="kicker">Today's Scorecard</div>
 
           <div className="score-row">
             <div className="score-label">Puzzle</div>
@@ -533,6 +540,35 @@ export default function Game() {
             </div>
             <div className="lbl">Current Score</div>
           </div>
+
+          {/* NEW — Lifetime record */}
+          <div className="kicker" style={{ marginTop: 28 }}>
+            All-Time Scorecard
+          </div>
+          <div className="score-row">
+            <div className="score-label">Current Streak</div>
+            <div className="score-val">{streak.currentStreak}</div>
+          </div>
+          <div className="score-row">
+            <div className="score-label">Best Streak</div>
+            <div className="score-val">{streak.maxStreak}</div>
+          </div>
+          <div className="score-row">
+            <div className="score-label">Played</div>
+            <div className="score-val">{streak.totalPlayed}</div>
+          </div>
+          {/* <div className="score-row">
+            <div className="score-label">Solved</div>
+            <div className="score-val">{streak.totalSolved}</div>
+          </div> */}
+          <div className="score-row">
+          <div className="score-label">Win Rate</div>
+          <div className="score-val">
+            {streak.totalPlayed > 0
+              ? `${Math.round((streak.totalSolved / streak.totalPlayed) * 100)}%`
+              : "—"}
+          </div>
+        </div>
         </aside>
 
         {/* CENTRE */}
@@ -654,7 +690,7 @@ export default function Game() {
               <div className="guess-list">
                 <div className="kicker" style={{ marginBottom: 4 }}>Previous guesses</div>
                 <div className="guess-list-sub">
-                  Values show each player's SG: Total — higher is better.
+                  Values show each player's SG: Total (Shots Gained vs. Tour Avg.)— higher is better.
                 </div>
                 {wrongGuesses.map((p, i) => (
                   <div key={i} className="guess-row">
@@ -683,9 +719,23 @@ export default function Game() {
               }}>
                 {target.continent && <>{target.continent} · </>}
                 {target.country_name && <>{target.country_name} · </>}
-                {target.age && <>age {target.age} · </>}
-                Difficulty: {target.difficulty}
+                {target.age && <>age {target.age} </>}
               </div>
+
+              {solved && (
+                <div className="streak-display">
+                  <div className="kicker">Current Streak</div>
+                  <div className="streak-number">{streak.currentStreak}</div>
+                  <div className="streak-label">
+                    {streak.currentStreak === 1
+                      ? "First round in the bag"
+                      : `${streak.currentStreak} days in a row`}
+                  </div>
+                  {streak.currentStreak === streak.maxStreak && streak.currentStreak > 1 && (
+                    <div className="streak-best">New personal best 🏆</div>
+                  )}
+                </div>
+              )}
 
               <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 16 }}>
                 <button className="share-btn" onClick={handleShare}>
@@ -699,6 +749,7 @@ export default function Game() {
               </div>
             </div>
           )}
+
         </section>
 
         {/* RIGHT — Testing only (hidden in production) */}
@@ -730,6 +781,24 @@ export default function Game() {
                 <option value="EURO">DP World Tour</option>
                 <option value="LIV">LIV Golf</option>
               </select>
+
+              <button
+                className="btn secondary"
+                onClick={() => {
+                  localStorage.removeItem("pardle_streak");
+                  setStreak({
+                    currentStreak: 0,
+                    maxStreak: 0,
+                    lastPlayedDate: "",
+                    lastPuzzleNumber: 0,
+                    totalPlayed: 0,
+                    totalSolved: 0,
+                  });
+                }}
+                style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+              >
+                🔄 Reset Streak
+              </button>
 
               <button
                 className="btn secondary"
