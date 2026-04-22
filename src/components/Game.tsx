@@ -581,7 +581,7 @@ export default function Game() {
           </h2>
           <p className="dek">
             Six stats, one Tour pro. Read the clues and make your call. Each
-            additional caddie hint costs you a stroke.
+            additional caddie hint costs you a stroke. SG = Shots Gained vs. Tour Avg.
           </p>
 
           <div className="stats-grid">
