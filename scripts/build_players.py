@@ -13,9 +13,6 @@ import json
 from datetime import date
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
-
 ROOT = Path(__file__).parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 OUT_PATH = ROOT / "src" / "data" / "players.json"
@@ -109,7 +106,6 @@ def build() -> None:
     print("Loading raw data…")
     skill = json.loads((RAW_DIR / "skill_ratings.json").read_text())
     plist = json.loads((RAW_DIR / "player_list.json").read_text())
-    majors_json = json.loads((RAW_DIR / "majors.json").read_text())
     countries = json.loads((ROOT / "data" / "countries.json").read_text())
     bio = load_bio()
 
@@ -171,10 +167,8 @@ def build() -> None:
         })
 
     out.sort(key=lambda p: p["raw"]["sg_total"] or -99, reverse=True)
-    OUT_PATH.write_text(json.dumps(out, indent=2))
-    print(f"\nWrote {len(out)} players to {OUT_PATH.relative_to(ROOT)}")
 
-    # Filter out players with incomplete data — every hint should have a value
+    # Filter out players with incomplete data BEFORE writing
     before = len(out)
     out = [
         p for p in out
@@ -185,6 +179,9 @@ def build() -> None:
     dropped = before - len(out)
     if dropped:
         print(f"  Dropped {dropped} players with incomplete data")
+
+    OUT_PATH.write_text(json.dumps(out, indent=2))
+    print(f"\nWrote {len(out)} players to {OUT_PATH.relative_to(ROOT)}")
 
     # Sanity warnings (should all be empty after filter)
     missing_continent = sorted(set(p["country_name"] for p in out if p["continent"] is None))
