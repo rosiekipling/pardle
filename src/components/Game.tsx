@@ -2,7 +2,14 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import players from "../data/players.json";
 import { puzzleNumber } from "../lib/dailyPlayer";
-import { loadStreak, recordResult, type StreakData } from "../lib/streak";
+import {
+  loadStreak,
+  recordResult,
+  loadDailyResult,
+  saveDailyResult,
+  clearDailyResult,
+  type StreakData,
+} from "../lib/streak";
 import "./Game.css";
 
 type Player = (typeof players)[number];
@@ -80,6 +87,19 @@ function formatValue(value: string | undefined | null): React.ReactNode {
       )}
     </>
   );
+}
+
+function computeScoreLabel(cost: number, solved: boolean, gaveUp: boolean): string {
+  if (!solved && !gaveUp) return "Live";
+  if (gaveUp) return "DNF";
+  if (cost === 0) return "Hole in One";
+  if (cost === PAR_GUESSES - 2) return "Eagle";
+  if (cost === PAR_GUESSES - 1) return "Birdie";
+  if (cost === PAR_GUESSES) return "Par";
+  if (cost === PAR_GUESSES + 1) return "Bogey";
+  if (cost === PAR_GUESSES + 2) return "Double Bogey";
+  if (cost === PAR_GUESSES + 3) return "Triple Bogey";
+  return "Picked up";
 }
 
 function ShareCard({
@@ -259,25 +279,7 @@ export default function Game() {
   }
 
   const totalCost = done ? finalHintsUsed : revealedHints.size;
-  const scoreLabel = !done
-    ? "Live"
-    : !solved
-    ? "DNF"
-    : totalCost === 0
-    ? "Hole in One"
-    : totalCost === PAR_GUESSES - 2
-    ? "Eagle"
-    : totalCost === PAR_GUESSES - 1
-    ? "Birdie"
-    : totalCost === PAR_GUESSES
-    ? "Par"
-    : totalCost === PAR_GUESSES + 1
-    ? "Bogey"
-    : totalCost === PAR_GUESSES + 2
-    ? "Double Bogey"
-    : totalCost === PAR_GUESSES + 3
-    ? "Triple Bogey"
-    : "Picked up";
+  const scoreLabel = computeScoreLabel(totalCost, solved, gaveUp);
 
   function handleSubmit() {
     if (done || !guess.trim()) return;
@@ -299,6 +301,18 @@ export default function Game() {
         text: `Got it in ${newGuessCount} guess${newGuessCount === 1 ? "" : "es"}${hintLine}.`,
         tone: "correct",
       });
+      saveDailyResult({
+        puzzleNumber: puzzleN,
+        solved: true,
+        guessCount: newGuessCount,
+        finalHintsUsed: actualHintsUsed,
+        wrongGuesses: wrongGuesses.map((p) => ({
+          name: p.name,
+          sgTotal: p.stats["SG: Total"],
+        })),
+        scoreLabel: computeScoreLabel(actualHintsUsed, true, false),
+        date: new Date().toISOString().slice(0, 10),
+      });
     } else {
       const guessedPlayer = players.find(
         (p) => norm(p.name) === norm(guess)
@@ -318,6 +332,8 @@ export default function Game() {
     setShowSuggestions(false);
   }
 
+
+
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
@@ -327,6 +343,18 @@ export default function Game() {
     setFeedback({
       text: "No shame. The leaderboard always waits for round two.",
       tone: "wrong",
+    });
+    saveDailyResult({
+      puzzleNumber: puzzleN,
+      solved: false,
+      guessCount,
+      finalHintsUsed: revealedHints.size,
+      wrongGuesses: wrongGuesses.map((p) => ({
+        name: p.name,
+        sgTotal: p.stats["SG: Total"],
+      })),
+      scoreLabel: "DNF",
+      date: new Date().toISOString().slice(0, 10),
     });
   }
 
@@ -401,7 +429,7 @@ export default function Game() {
     const totalSlots = HINT_ORDER.length + 1;
 
     const actions: string[] = [];
-    for (let i = 0; i < finalHintsUsed; i++) actions.push("🟧");
+    for (let i = 0; i < finalHintsUsed; i++) actions.push("🟨");
     if (solved) actions.push("🟩");
     while (actions.length < totalSlots) actions.push("⬜");
     const row = actions.slice(0, totalSlots).join("");
@@ -470,6 +498,37 @@ export default function Game() {
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
+
+  useEffect(() => {
+    const saved = loadDailyResult();
+    if (!saved) return;
+  
+    // Only restore if it's for the current puzzle and not in testing mode
+    if (saved.puzzleNumber === puzzleN && overrideSeed === 0) {
+      setSolved(saved.solved);
+      setGaveUp(!saved.solved);
+      setGuessCount(saved.guessCount);
+      setFinalHintsUsed(saved.finalHintsUsed);
+      setRevealedHints(new Set(HINT_ORDER));
+  
+      // Restore wrong guesses (synthetic Player objects with the fields we need)
+      const restored = saved.wrongGuesses.map((g) => ({
+        name: g.name,
+        stats: { "SG: Total": g.sgTotal },
+      })) as unknown as Player[];
+      setWrongGuesses(restored);
+  
+      setFeedback({
+        text: saved.solved
+          ? `You played today — ${saved.scoreLabel}.`
+          : "You played today.",
+        tone: saved.solved ? "correct" : "wrong",
+      });
+    } else if (saved.puzzleNumber !== puzzleN) {
+      // Old day's result — clear it
+      clearDailyResult();
+    }
+  }, [puzzleN, overrideSeed]);
 
   const today = new Date().toLocaleDateString("en-GB", {
     weekday: "long",
@@ -581,7 +640,7 @@ export default function Game() {
           </h2>
           <p className="dek">
             Six stats, one Tour pro. Read the clues and make your call. Each
-            additional caddie hint costs you a stroke. SG = Shots Gained vs. Tour Avg.
+            additional caddie hint costs you a stroke. SG = Strokes Gained vs. Tour Avg.
           </p>
 
           <div className="stats-grid">
@@ -690,7 +749,7 @@ export default function Game() {
               <div className="guess-list">
                 <div className="kicker" style={{ marginBottom: 4 }}>Previous guesses</div>
                 <div className="guess-list-sub">
-                  Values show each player's SG: Total (Shots Gained vs. Tour Avg.)— higher is better.
+                  Values show each player's SG: Total (Strokes Gained vs. Tour Avg.)— higher is better.
                 </div>
                 {wrongGuesses.map((p, i) => (
                   <div key={i} className="guess-row">
@@ -736,6 +795,17 @@ export default function Game() {
                   )}
                 </div>
               )}
+
+              <div style={{
+                marginTop: 16,
+                fontFamily: "Fraunces, serif",
+                fontStyle: "italic",
+                fontSize: 14,
+                opacity: 0.8,
+              }}>
+                Come back tomorrow for a new round.
+              </div>
+
 
               <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 16 }}>
                 <button className="share-btn" onClick={handleShare}>
@@ -806,6 +876,17 @@ export default function Game() {
                 style={{ marginTop: 10, fontSize: 10, width: "100%" }}
               >
                 🧪 New Random Puzzle
+              </button>
+
+              <button
+                className="btn secondary"
+                onClick={() => {
+                  clearDailyResult();
+                  resetGameState();
+                }}
+                style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+              >
+                🔄 Reset Today's Play
               </button>
             </div>
           )}
