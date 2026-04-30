@@ -609,7 +609,7 @@
     "player_name": "Arozena, Juan"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31766,
@@ -736,9 +736,9 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
-    "dg_id": 10063552,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35071,
     "player_name": "Azallion, Daniel"
   },
   {
@@ -1022,7 +1022,7 @@
     "player_name": "Barker, Lachlan"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 33140,
@@ -2241,16 +2241,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -2352,17 +2352,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -3302,6 +3302,13 @@
     "country_code": "CHN",
     "dg_id": 24504,
     "player_name": "Chen, Guxin"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 33939,
+    "player_name": "Chen, Kuangyu"
   },
   {
     "amateur": 0,
@@ -5771,7 +5778,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30042584,
+    "dg_id": 35052,
     "player_name": "Esterline, Lunden"
   },
   {
@@ -7638,9 +7645,9 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
-    "dg_id": 10060210,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35061,
     "player_name": "Graboyes, Michael"
   },
   {
@@ -7994,6 +8001,13 @@
     "player_name": "Gumberg, Jordan"
   },
   {
+    "amateur": 1,
+    "country": "Turkey",
+    "country_code": "TUR",
+    "dg_id": 18430,
+    "player_name": "Guner, Mutlu"
+  },
+  {
     "amateur": 0,
     "country": "Scotland",
     "country_code": "SCO",
@@ -8279,6 +8293,13 @@
     "country_code": "GER",
     "dg_id": 22973,
     "player_name": "Hammer, Marc"
+  },
+  {
+    "amateur": 1,
+    "country": "China",
+    "country_code": "CHN",
+    "dg_id": 35089,
+    "player_name": "Han, Jin"
   },
   {
     "amateur": 0,
@@ -8905,16 +8926,16 @@
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
@@ -10514,6 +10535,13 @@
     "player_name": "Jordan, Matthew"
   },
   {
+    "amateur": 0,
+    "country": "Sweden",
+    "country_code": "SWE",
+    "dg_id": 20404,
+    "player_name": "Jordansson, Felix"
+  },
+  {
     "amateur": 1,
     "country": "Tanzania",
     "country_code": "TAN",
@@ -11943,6 +11971,13 @@
   },
   {
     "amateur": 0,
+    "country": "Germany",
+    "country_code": "GER",
+    "dg_id": 9220,
+    "player_name": "Kramer, Max"
+  },
+  {
+    "amateur": 0,
     "country": "Denmark",
     "country_code": "DEN",
     "dg_id": 18857,
@@ -11977,7 +12012,7 @@
     "player_name": "Krug, Benjamin"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 33105,
@@ -12440,9 +12475,9 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
-    "dg_id": 10067358,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35062,
     "player_name": "Leach, Greyson"
   },
   {
@@ -12608,6 +12643,13 @@
   },
   {
     "amateur": 0,
+    "country": "Chinese Taipei",
+    "country_code": "TPE",
+    "dg_id": 30422,
+    "player_name": "Lee, Jui-Shen"
+  },
+  {
+    "amateur": 0,
     "country": "Korea - Republic of",
     "country_code": "KOR",
     "dg_id": 13498,
@@ -12657,16 +12699,16 @@
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
@@ -12934,6 +12976,13 @@
     "country_code": "CHN",
     "dg_id": 24122,
     "player_name": "Li, Linqiang"
+  },
+  {
+    "amateur": 1,
+    "country": "China",
+    "country_code": "CHN",
+    "dg_id": 32715,
+    "player_name": "Li, Mengyang"
   },
   {
     "amateur": 0,
@@ -15842,9 +15891,9 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
-    "dg_id": 10060564,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35063,
     "player_name": "Ng, Ethan"
   },
   {
@@ -18501,7 +18550,7 @@
     "player_name": "Ruebotham, James"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 32555,
@@ -19754,7 +19803,7 @@
     "player_name": "Sim, Michael"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31189,
@@ -20538,7 +20587,7 @@
     "player_name": "Sterne, Richard"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 27299,
@@ -21519,6 +21568,13 @@
   },
   {
     "amateur": 0,
+    "country": "Malaysia",
+    "country_code": "MAS",
+    "dg_id": 25224,
+    "player_name": "Ting, Malcolm"
+  },
+  {
+    "amateur": 0,
     "country": "Denmark",
     "country_code": "DEN",
     "dg_id": 20256,
@@ -21817,6 +21873,13 @@
     "country_code": "USA",
     "dg_id": 31307,
     "player_name": "Ullestad, Trevor"
+  },
+  {
+    "amateur": 0,
+    "country": "Korea - Republic of",
+    "country_code": "KOR",
+    "dg_id": 30755,
+    "player_name": "Um, Junghyun"
   },
   {
     "amateur": 0,
@@ -22594,6 +22657,13 @@
     "country_code": "CHN",
     "dg_id": 21376,
     "player_name": "Wang, Charles"
+  },
+  {
+    "amateur": 1,
+    "country": "China",
+    "country_code": "CHN",
+    "dg_id": 30125,
+    "player_name": "Wang, Haoyi"
   },
   {
     "amateur": 0,
@@ -23637,6 +23707,13 @@
     "country_code": "TUR",
     "dg_id": 23577,
     "player_name": "Yamac, Taner"
+  },
+  {
+    "amateur": 1,
+    "country": "Bulgaria",
+    "country_code": "BUL",
+    "dg_id": 30036182,
+    "player_name": "Yanakiev, Yordan"
   },
   {
     "amateur": 1,
