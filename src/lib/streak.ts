@@ -80,3 +80,37 @@ export function recordResult(solved: boolean, puzzleNumber: number): StreakData 
   saveStreak(updated);
   return updated;
 }
+
+const RESULT_KEY = "pardle_daily_result";
+
+export type DailyResult = {
+  puzzleNumber: number;
+  solved: boolean;
+  guessCount: number;
+  finalHintsUsed: number;
+  wrongGuesses: { name: string; sgTotal?: string }[];
+  scoreLabel: string;
+  date: string; // ISO
+};
+
+export function saveDailyResult(result: DailyResult): void {
+  try {
+    localStorage.setItem(RESULT_KEY, JSON.stringify(result));
+  } catch {}
+}
+
+export function loadDailyResult(): DailyResult | null {
+  try {
+    const raw = localStorage.getItem(RESULT_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export function clearDailyResult(): void {
+  try {
+    localStorage.removeItem(RESULT_KEY);
+  } catch {}
+}

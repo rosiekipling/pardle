@@ -13,6 +13,8 @@ import json
 from datetime import date
 from pathlib import Path
 
+import pandas as pd
+
 ROOT = Path(__file__).parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 OUT_PATH = ROOT / "src" / "data" / "players.json"
