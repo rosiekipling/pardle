@@ -1293,7 +1293,7 @@
     "last_name": "Straka",
     "country_name": "Austria",
     "continent": "Europe",
-    "age": 32,
+    "age": 33,
     "amateur": false,
     "difficulty": "medium",
     "tour": "PGA",
@@ -1947,39 +1947,6 @@
     }
   },
   {
-    "id": 28159,
-    "name": "Meissner, Mac",
-    "first_name": "Mac",
-    "last_name": "Meissner",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": null,
-    "amateur": false,
-    "difficulty": "medium",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "300.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.12",
-      "SG: Approach": "+0.34",
-      "SG: Around Green": "+0.11",
-      "SG: Putting": "+0.10",
-      "SG: Total": "+0.67"
-    },
-    "form": {
-      "world_ranking": 117
-    },
-    "raw": {
-      "driving_dist": 1.814,
-      "driving_acc": -0.001,
-      "sg_ott": 0.115,
-      "sg_app": 0.339,
-      "sg_arg": 0.114,
-      "sg_putt": 0.103,
-      "sg_total": 0.671
-    }
-  },
-  {
     "id": 29197,
     "name": "Brennan, Michael",
     "first_name": "Michael",
@@ -2340,39 +2307,6 @@
       "sg_arg": 0.061,
       "sg_putt": 0.007,
       "sg_total": 0.588
-    }
-  },
-  {
-    "id": 19421,
-    "name": "Du Plessis, Hennie",
-    "first_name": "Hennie",
-    "last_name": "Du Plessis",
-    "country_name": "South Africa",
-    "continent": "Africa",
-    "age": 29,
-    "amateur": false,
-    "difficulty": "medium",
-    "tour": null,
-    "stats": {
-      "Driving Distance": "308.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.48",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "-0.12",
-      "SG: Putting": "-0.10",
-      "SG: Total": "+0.59"
-    },
-    "form": {
-      "world_ranking": null
-    },
-    "raw": {
-      "driving_dist": 9.884,
-      "driving_acc": -0.022,
-      "sg_ott": 0.479,
-      "sg_app": 0.33,
-      "sg_arg": -0.121,
-      "sg_putt": -0.101,
-      "sg_total": 0.587
     }
   },
   {
