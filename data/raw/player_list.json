@@ -2241,16 +2241,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2352,17 +2352,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -9450,6 +9450,13 @@
     "player_name": "Howie, Craig"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30034683,
+    "player_name": "Hrabak, Cooper"
+  },
+  {
     "amateur": 0,
     "country": "Slovakia",
     "country_code": "SVK",
@@ -10738,7 +10745,7 @@
     "player_name": "Kapur, Shiv"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 28138,
@@ -12796,14 +12803,14 @@
     "player_name": "Lehman, Tom"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 29228,
     "player_name": "Leijrma, John"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 33553,
@@ -13860,7 +13867,7 @@
     "player_name": "Manica, Mafredi"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 34692,
@@ -14859,6 +14866,13 @@
     "country_code": "USA",
     "dg_id": 13367,
     "player_name": "Merritt, Troy"
+  },
+  {
+    "amateur": 1,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 30045598,
+    "player_name": "Mestre Carceller, Vicente"
   },
   {
     "amateur": 0,
@@ -16268,7 +16282,7 @@
     "player_name": "Oda, Koumei"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 33199,
@@ -19430,6 +19444,13 @@
     "country_code": "KOR",
     "dg_id": 20841,
     "player_name": "Seo, Yoseop"
+  },
+  {
+    "amateur": 0,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 29822,
+    "player_name": "Serra Busquet, Josep Maria"
   },
   {
     "amateur": 0,
@@ -23457,6 +23478,13 @@
     "player_name": "Wood, Christopher"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30037199,
+    "player_name": "Wood, Grayson"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -23712,7 +23740,7 @@
     "amateur": 1,
     "country": "Bulgaria",
     "country_code": "BUL",
-    "dg_id": 30036182,
+    "dg_id": 35121,
     "player_name": "Yanakiev, Yordan"
   },
   {
