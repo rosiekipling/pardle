@@ -85,9 +85,15 @@
 
 .main {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   margin-top: 18px;
 }
+
+/* When the testing column IS present (3 children), restore the old layout */
+.main:has(> :nth-child(3)) {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 .col {
   padding: 24px 20px;
 }
@@ -758,6 +764,9 @@ footer {
     margin-top: 2px;
     font-size: 0.6em;
   }
+
+  .testing-block { display: none; }
+  .testing-block.dev-active { display: block; }
 }
 
 @media (max-width: 600px) {

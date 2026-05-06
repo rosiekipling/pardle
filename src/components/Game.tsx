@@ -847,8 +847,8 @@ function handleLogoClick() {
         </section>
 
         {/* RIGHT — Testing only (hidden in production) */}
-        <aside className="col">
-          {showTesting && (
+        {showTesting && (
+          <aside className="col">
             <div className="testing-block">
               <div className="kicker">Testing</div>
 
@@ -913,8 +913,8 @@ function handleLogoClick() {
                 🔄 Reset Today's Play
               </button>
             </div>
-          )}
         </aside>
+        )}
       </div>
 
       <footer>
