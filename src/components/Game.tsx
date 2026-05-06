@@ -45,33 +45,6 @@ const PAR_GUESSES = 3;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
-const [devClicks, setDevClicks] = useState(0);
-const [devMode, setDevMode] = useState(
-  () => localStorage.getItem("pardle_dev_mode") === "true"
-);
-
-const urlDev = typeof window !== "undefined" &&
-  new URLSearchParams(window.location.search).has("dev");
-
-const showTesting = import.meta.env.DEV || devMode || urlDev;
-
-function handleLogoClick() {
-  const n = devClicks + 1;
-  if (n >= 5) {
-    const newMode = !devMode;
-    setDevMode(newMode);
-    localStorage.setItem("pardle_dev_mode", String(newMode));
-    setDevClicks(0);
-    setFeedback({
-      text: newMode ? "Testing mode on." : "Testing mode off.",
-      tone: newMode ? "correct" : "wrong",
-    });
-  } else {
-    setDevClicks(n);
-    setTimeout(() => setDevClicks(0), 2000);
-  }
-}
-
 function getInitials(name: string): string {
   if (name.includes(",")) {
     const [surname, firstname] = name.split(",").map((s) => s.trim());
@@ -359,8 +332,32 @@ export default function Game() {
     setShowSuggestions(false);
   }
 
+  const [devClicks, setDevClicks] = useState(0);
+const [devMode, setDevMode] = useState(
+  () => localStorage.getItem("pardle_dev_mode") === "true"
+);
 
+const urlDev = typeof window !== "undefined" &&
+  new URLSearchParams(window.location.search).has("dev");
 
+const showTesting = import.meta.env.DEV || devMode || urlDev;
+
+function handleLogoClick() {
+  const n = devClicks + 1;
+  if (n >= 5) {
+    const newMode = !devMode;
+    setDevMode(newMode);
+    localStorage.setItem("pardle_dev_mode", String(newMode));
+    setDevClicks(0);
+    setFeedback({
+      text: newMode ? "Testing mode on." : "Testing mode off.",
+      tone: newMode ? "correct" : "wrong",
+    });
+  } else {
+    setDevClicks(n);
+    setTimeout(() => setDevClicks(0), 2000);
+  }
+}
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
