@@ -759,9 +759,6 @@ footer {
     margin-top: 2px;
     font-size: 0.6em;
   }
-
-  .testing-block { display: none; }
-  .testing-block.dev-active { display: block; }
 }
 
 @media (max-width: 600px) {
