@@ -820,9 +820,8 @@ function handleLogoClick() {
         {/* RIGHT — Testing only (hidden in production) */}
         
         <aside className="col">
-          
           {/* NEW — Lifetime record */}
-          <div className="kicker" style={{ marginTop: 28 }}>
+          <div className="kicker" >
             All-Time Scorecard
           </div>
           <div className="score-row">
