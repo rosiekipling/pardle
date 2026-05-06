@@ -623,35 +623,6 @@ function handleLogoClick() {
             </div>
             <div className="lbl">Current Score</div>
           </div>
-
-          {/* NEW — Lifetime record */}
-          <div className="kicker" style={{ marginTop: 28 }}>
-            All-Time Scorecard
-          </div>
-          <div className="score-row">
-            <div className="score-label">Current Streak</div>
-            <div className="score-val">{streak.currentStreak}</div>
-          </div>
-          <div className="score-row">
-            <div className="score-label">Best Streak</div>
-            <div className="score-val">{streak.maxStreak}</div>
-          </div>
-          <div className="score-row">
-            <div className="score-label">Played</div>
-            <div className="score-val">{streak.totalPlayed}</div>
-          </div>
-          {/* <div className="score-row">
-            <div className="score-label">Solved</div>
-            <div className="score-val">{streak.totalSolved}</div>
-          </div> */}
-          <div className="score-row">
-          <div className="score-label">Win Rate</div>
-          <div className="score-val">
-            {streak.totalPlayed > 0
-              ? `${Math.round((streak.totalSolved / streak.totalPlayed) * 100)}%`
-              : "—"}
-          </div>
-        </div>
         </aside>
 
         {/* CENTRE */}
@@ -847,8 +818,35 @@ function handleLogoClick() {
         </section>
 
         {/* RIGHT — Testing only (hidden in production) */}
-        {showTesting && (
-          <aside className="col">
+        
+        <aside className="col">
+          
+          {/* NEW — Lifetime record */}
+          <div className="kicker" style={{ marginTop: 28 }}>
+            All-Time Scorecard
+          </div>
+          <div className="score-row">
+            <div className="score-label">Current Streak</div>
+            <div className="score-val">{streak.currentStreak}</div>
+          </div>
+          <div className="score-row">
+            <div className="score-label">Best Streak</div>
+            <div className="score-val">{streak.maxStreak}</div>
+          </div>
+          <div className="score-row">
+            <div className="score-label">Played</div>
+            <div className="score-val">{streak.totalPlayed}</div>
+          </div>
+          <div className="score-row">
+          <div className="score-label">Win Rate</div>
+          <div className="score-val">
+            {streak.totalPlayed > 0
+              ? `${Math.round((streak.totalSolved / streak.totalPlayed) * 100)}%`
+              : "—"}
+          </div>
+          </div>
+
+          {showTesting && (
             <div className="testing-block">
               <div className="kicker">Testing</div>
 
@@ -924,8 +922,8 @@ function handleLogoClick() {
                 ❌ Exit Dev Mode
               </button>
             </div>
-        </aside>
         )}
+      </aside>  
       </div>
 
       <footer>
