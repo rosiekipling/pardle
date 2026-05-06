@@ -520,7 +520,7 @@ function handleLogoClick() {
   }
 
   useEffect(() => {
-    inputRef.current?.focus();
+    inputRef.current?.focus({ preventScroll: true });
   }, []);
 
   useEffect(() => {
