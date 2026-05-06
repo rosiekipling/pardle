@@ -912,6 +912,17 @@ function handleLogoClick() {
               >
                 🔄 Reset Today's Play
               </button>
+
+              <button
+                className="btn secondary"
+                onClick={() => {
+                  localStorage.removeItem("pardle_dev_mode");
+                  window.location.search = ""; // strip ?dev too
+                }}
+                style={{ marginTop: 10, fontSize: 10, width: "100%" }}
+              >
+                ❌ Exit Dev Mode
+              </button>
             </div>
         </aside>
         )}
