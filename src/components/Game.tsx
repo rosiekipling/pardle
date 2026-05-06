@@ -54,6 +54,15 @@ const PAR_GUESSES = 3;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
+function dailyHash(iso: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < iso.length; i++) {
+    h ^= iso.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return Math.abs(h);
+}
+
 function getInitials(name: string): string {
   if (name.includes(",")) {
     const [surname, firstname] = name.split(",").map((s) => s.trim());
@@ -225,8 +234,7 @@ export default function Game() {
 
     if (overrideSeed === 0) {
       const iso = new Date().toISOString().slice(0, 10);
-      const hash = iso.split("").reduce((h, c) => h + c.charCodeAt(0), 0);
-      return picks[hash % picks.length];
+      return picks[dailyHash(iso) % picks.length];
     }
     return picks[Math.floor(Math.random() * picks.length)];
   }, [overrideSeed, difficultyFilter, tourFilter]);
