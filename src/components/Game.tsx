@@ -1,4 +1,13 @@
 // src/components/Game.tsx
+
+declare global {
+  interface Window {
+    umami?: {
+      track: (event: string, data?: Record<string, string | number | boolean>) => void;
+    };
+  }
+}
+
 import { useState, useMemo, useRef, useEffect } from "react";
 import players from "../data/players.json";
 import { puzzleNumber } from "../lib/dailyPlayer";
@@ -294,6 +303,13 @@ export default function Game() {
       setFinalHintsUsed(actualHintsUsed);
       setRevealedHints(new Set(HINT_ORDER));
 
+      window.umami?.track("puzzle_solved", {
+        guesses: newGuessCount,
+        hints: actualHintsUsed,
+        score: computeScoreLabel(actualHintsUsed, true, false),
+        streak: streak.currentStreak + 1,
+      });
+
       const hintLine = actualHintsUsed
         ? ` and ${actualHintsUsed} caddie hint${actualHintsUsed > 1 ? "s" : ""}`
         : "";
@@ -364,6 +380,12 @@ function handleLogoClick() {
     setStreak(recordResult(false, puzzleN));
     setFinalHintsUsed(revealedHints.size);
     setRevealedHints(new Set(HINT_ORDER));
+
+    window.umami?.track("puzzle_dnf", {
+      guesses: guessCount,
+      hints: revealedHints.size,
+    });
+
     setFeedback({
       text: "No shame. The leaderboard always waits for round two.",
       tone: "wrong",
@@ -471,6 +493,9 @@ function handleLogoClick() {
       ].join("\n");
 
     navigator.clipboard.writeText(text);
+
+    window.umami?.track("share_text");
+
     setFeedback({
       text: "Copied to clipboard — paste it wherever you like.",
       tone: "correct",
@@ -503,6 +528,7 @@ function handleLogoClick() {
           title: `Pardle #${puzzleN}`,
           text: `${scoreLabel} · ${finalHintsUsed} hints, ${guessCount} guesses`,
         });
+        window.umami?.track("share_image");
         setFeedback({ text: "Shared!", tone: "correct" });
       } else {
         setFeedback({
