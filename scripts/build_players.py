@@ -81,12 +81,12 @@ def compute_difficulty(df: pd.DataFrame) -> pd.Series:
     ranked = df["sg_total"].rank(ascending=False, method="first")
     tiers = []
     for r in ranked:
-        if r <= 30:
-            tiers.append("easy")
-        elif r <= 80:
-            tiers.append("medium")
+        if r <= 40:
+            tiers.append("easy")     # top 40 = household names
+        elif r <= 100:
+            tiers.append("medium")   # ranked 41-100 = casually known
         else:
-            tiers.append("hard")
+            tiers.append("hard")     # 101-150 = devotees only
     return pd.Series(tiers, index=df.index)
 
 
@@ -126,7 +126,7 @@ def build() -> None:
     required = ["sg_ott", "sg_app", "sg_arg", "sg_putt", "sg_total"]
     df = df.dropna(subset=["sg_total"])
     df = df[df[required].notna().sum(axis=1) == len(required)].reset_index(drop=True)
-    df = df.nlargest(75, "sg_total").reset_index(drop=True)
+    df = df.nlargest(150, "sg_total").reset_index(drop=True)  # was 75
     print(f"\n  {len(df)} players after filtering")
 
     df["difficulty"] = compute_difficulty(df)

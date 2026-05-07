@@ -63,6 +63,26 @@ function dailyHash(iso: string): number {
   return Math.abs(h);
 }
 
+function dailyPick(picks: Player[], iso: string): Player {
+  let h = 2166136261;
+  for (let i = 0; i < iso.length; i++) {
+    h ^= iso.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  const seed = Math.abs(h);
+  const epochDay = Math.floor(new Date(iso).getTime() / 86400000);
+
+  const shuffled = [...picks];
+  let rng = seed;
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    rng = (rng * 9301 + 49297) % 233280;
+    const j = Math.floor((rng / 233280) * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled[epochDay % shuffled.length];
+}
+
 function getInitials(name: string): string {
   if (name.includes(",")) {
     const [surname, firstname] = name.split(",").map((s) => s.trim());
@@ -234,7 +254,7 @@ export default function Game() {
 
     if (overrideSeed === 0) {
       const iso = new Date().toISOString().slice(0, 10);
-      return picks[dailyHash(iso) % picks.length];
+      return dailyPick(picks, iso);
     }
     return picks[Math.floor(Math.random() * picks.length)];
   }, [overrideSeed, difficultyFilter, tourFilter]);
