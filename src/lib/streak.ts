@@ -39,11 +39,14 @@ export function saveStreak(data: StreakData): void {
   }
 }
 
-export function recordResult(solved: boolean, puzzleNumber: number): StreakData {
+export function recordResult(
+  solved: boolean,
+  puzzleNumber: number,
+  scoreLabel: string
+): StreakData {
   const current = loadStreak();
   const today = new Date().toISOString().slice(0, 10);
 
-  // If they've already recorded a result for this puzzle number, don't double-count
   if (current.lastPuzzleNumber === puzzleNumber) {
     return current;
   }
@@ -77,6 +80,10 @@ export function recordResult(solved: boolean, puzzleNumber: number): StreakData 
     lastPuzzleNumber: puzzleNumber,
     totalPlayed: current.totalPlayed + 1,
     totalSolved: current.totalSolved + (solved ? 1 : 0),
+    scoreHistory: {
+      ...current.scoreHistory,
+      [scoreLabel]: (current.scoreHistory[scoreLabel] ?? 0) + 1,
+    },
   };
 
   saveStreak(updated);
