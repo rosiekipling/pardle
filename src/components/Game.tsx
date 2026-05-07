@@ -54,15 +54,6 @@ const PAR_GUESSES = 3;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
-function dailyHash(iso: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < iso.length; i++) {
-    h ^= iso.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return Math.abs(h);
-}
-
 function dailyPick(picks: Player[], iso: string): Player {
   let h = 2166136261;
   for (let i = 0; i < iso.length; i++) {
