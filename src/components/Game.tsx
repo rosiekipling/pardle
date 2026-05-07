@@ -122,15 +122,13 @@ function formatValue(value: string | undefined | null): React.ReactNode {
 
 function computeScoreLabel(cost: number, solved: boolean, gaveUp: boolean): string {
   if (!solved && !gaveUp) return "Live";
-  if (gaveUp) return "DNF";
+  if (gaveUp || !solved) return "Picked up";
   if (cost === 0) return "Hole in One";
-  if (cost === PAR_GUESSES - 2) return "Eagle";
-  if (cost === PAR_GUESSES - 1) return "Birdie";
-  if (cost === PAR_GUESSES) return "Par";
-  if (cost === PAR_GUESSES + 1) return "Bogey";
-  if (cost === PAR_GUESSES + 2) return "Double Bogey";
-  if (cost === PAR_GUESSES + 3) return "Triple Bogey";
-  return "Picked up";
+  if (cost === 1) return "Eagle";
+  if (cost === 2) return "Birdie";
+  if (cost === 3) return "Par";
+  if (cost === 4) return "Bogey";
+  return "Double Bogey";
 }
 
 function ShareCard({
@@ -398,7 +396,7 @@ function handleLogoClick() {
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
-    setStreak(recordResult(false, puzzleN, "DNF"));
+    setStreak(recordResult(false, puzzleN, "Picked up"));
     setFinalHintsUsed(revealedHints.size);
     setRevealedHints(new Set(HINT_ORDER));
 
@@ -486,10 +484,8 @@ function handleLogoClick() {
       "Birdie": "🟢",
       "Par": "🟡",
       "Bogey": "🟠",
-      "Double Bogey": "🟠",
-      "Triple Bogey": "🔴",
+      "Double Bogey": "🔴",
       "Picked up": "⚫",
-      "DNF": "❌",
     };
 
     const emoji = scoreEmoji[scoreLabel] ?? "⛳";
@@ -903,9 +899,7 @@ function handleLogoClick() {
                   "Par",
                   "Bogey",
                   "Double Bogey",
-                  "Triple Bogey",
                   "Picked up",
-                  "DNF",
                 ].map((label) => {
                   const count = streak.scoreHistory[label] ?? 0;
                   const max = Math.max(...Object.values(streak.scoreHistory), 1);
