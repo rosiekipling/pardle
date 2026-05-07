@@ -56,8 +56,8 @@
     "wiki_title": "John Parry (golfer)"
   },
   "13872": {
-    "dob": "1951-03-24",
-    "wiki_title": "Pat Bradley (golfer)"
+    "dob": "1986-06-07",
+    "wiki_title": "Keegan_Bradley"
   },
   "13900": {
     "dob": "1987-04-02",
@@ -411,6 +411,10 @@
     "dob": "1995-05-03",
     "wiki_title": "Max McGreevy"
   },
+  "23602": {
+    "dob": "2001-03-12",
+    "wiki_title": "Nicolai H\u00f8jgaard"
+  },
   "23604": {
     "dob": "1993-12-09",
     "wiki_title": "Wyndham Clark"
@@ -591,9 +595,5 @@
   "9771": {
     "dob": "1987-11-12",
     "wiki_title": "Jason Day"
-  },
-  "23602": {
-    "dob": "2001-03-12",
-    "wiki_title": "Nicolai Højgaard"
   }
 }

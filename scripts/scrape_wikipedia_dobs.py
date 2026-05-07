@@ -41,6 +41,11 @@ BIRTH_DATE_RE = re.compile(
     r"\s*(\d{4})\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})",
 )
 
+MANUAL_OVERRIDES = {
+    13872: {"dob": "1986-06-07", "wiki_title": "Keegan_Bradley"},
+    # Add more as you find them
+}
+
 
 def deaccent(s: str) -> str:
     """Strip accents so 'Åberg' matches 'Aberg', 'García' matches 'Garcia'."""
@@ -193,7 +198,16 @@ def main() -> None:
 
         print(f"[{i}/{len(to_process)}] {name}")
 
+        # Check manual overrides first
+        if p["id"] in MANUAL_OVERRIDES:
+            override = MANUAL_OVERRIDES[p["id"]]
+            print(f"  ✓ {override['dob']}  (manual override → '{override['wiki_title']}')")
+            bio[dg_id] = override
+            found += 1
+            continue
+
         title, dob = find_player(firstname, surname)
+        
         if title and dob:
             print(f"  ✓ {dob}  (via '{title}')")
             bio[dg_id] = {"dob": dob, "wiki_title": title}
