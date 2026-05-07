@@ -37,6 +37,9 @@ jobs:
         working-directory: scripts
         run: python build_players.py
 
+      - name: Log today's daily pick
+        run: python scripts/log_daily_pick.py
+      
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -48,3 +51,5 @@ jobs:
             git commit -m "chore: refresh player data $(date -u +'%Y-%m-%d')"
             git push
           fi
+
+
