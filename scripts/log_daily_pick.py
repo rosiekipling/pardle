@@ -41,7 +41,7 @@ def daily_pick(picks: list, iso: str) -> dict:
 
 def main():
     players = json.loads(PLAYERS_PATH.read_text())
-    pool = [p for p in players if p["difficulty"] == "easy"]
+    pool = [p for p in players if p["difficulty"] == "top40"]
 
     # Use Europe/London "today" to match the in-app logic
     london_today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()

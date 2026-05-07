@@ -78,15 +78,15 @@ def load_rankings_data() -> dict:
 # -- Difficulty + formatting --------------------------------------------------
 
 def compute_difficulty(df: pd.DataFrame) -> pd.Series:
-    ranked = df["sg_total"].rank(ascending=False, method="first")
+    """Tiers by OWGR rank, not SG."""
     tiers = []
-    for r in ranked:
+    for r in df["owgr_rank"]:
         if r <= 40:
-            tiers.append("easy")     # top 40 = household names
+            tiers.append("top40")
         elif r <= 100:
-            tiers.append("medium")   # ranked 41-100 = casually known
+            tiers.append("top100")
         else:
-            tiers.append("hard")     # 101-150 = devotees only
+            tiers.append("field")
     return pd.Series(tiers, index=df.index)
 
 
@@ -126,7 +126,14 @@ def build() -> None:
     required = ["sg_ott", "sg_app", "sg_arg", "sg_putt", "sg_total"]
     df = df.dropna(subset=["sg_total"])
     df = df[df[required].notna().sum(axis=1) == len(required)].reset_index(drop=True)
-    df = df.nlargest(150, "sg_total").reset_index(drop=True)  # was 75
+    
+    # Merge in OWGR rank, drop unranked players
+    df["owgr_rank"] = df["dg_id"].map(
+        lambda x: rankings_data.get(x, {}).get("owgr_rank")
+    )
+    df = df.dropna(subset=["owgr_rank"])
+    df = df.nsmallest(200, "owgr_rank").reset_index(drop=True)
+
     print(f"\n  {len(df)} players after filtering")
 
     df["difficulty"] = compute_difficulty(df)
@@ -168,7 +175,7 @@ def build() -> None:
                     for col, _, _ in STAT_COLUMNS},
         })
 
-    out.sort(key=lambda p: p["raw"]["sg_total"] or -99, reverse=True)
+    out.sort(key=lambda p: p["form"]["world_ranking"] or 9999)
 
     # Filter out players with incomplete data BEFORE writing
     before = len(out)
@@ -176,7 +183,6 @@ def build() -> None:
         p for p in out
         if p["age"] is not None
         and p["continent"] is not None
-        and p["form"]["world_ranking"] is not None
     ]
     dropped = before - len(out)
     if dropped:

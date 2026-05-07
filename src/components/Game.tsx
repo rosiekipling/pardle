@@ -54,6 +54,7 @@ const PAR_GUESSES = 3;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
+
 function dailyPick(picks: Player[], iso: string): Player {
   let h = 2166136261;
   for (let i = 0; i < iso.length; i++) {
@@ -117,6 +118,7 @@ function formatValue(value: string | undefined | null): React.ReactNode {
     </>
   );
 }
+
 
 function computeScoreLabel(cost: number, solved: boolean, gaveUp: boolean): string {
   if (!solved && !gaveUp) return "Live";
@@ -226,8 +228,8 @@ function ShareCard({
 export default function Game() {
   const [overrideSeed, setOverrideSeed] = useState(0);
   const [difficultyFilter, setDifficultyFilter] = useState<
-    "easy" | "medium" | "hard" | "all"
-  >("easy");
+    "top40" | "top100" | "field" | "all"
+  >("top40");
   const [tourFilter, setTourFilter] = useState<
     "all" | "PGA" | "EURO" | "LIV"
   >("all");
@@ -900,9 +902,9 @@ function handleLogoClick() {
                 value={difficultyFilter}
                 onChange={(e) => handleDifficultyChange(e.target.value as typeof difficultyFilter)}
               >
-                <option value="easy">Easy only</option>
-                <option value="medium">Medium only</option>
-                <option value="hard">Hard only</option>
+                <option value="top40">Top 40 only</option>
+                <option value="top100">Top 100 only</option>
+                <option value="field">Field only</option>
                 <option value="all">All players</option>
               </select>
 
