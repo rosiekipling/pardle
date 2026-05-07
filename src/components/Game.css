@@ -635,6 +635,54 @@ input[type="text"]:disabled {
   color: var(--paper);
 }
 
+.histogram {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.histogram-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 24px;
+  align-items: center;
+  gap: 8px;
+}
+
+.histogram-label {
+  font-family: "Archivo", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.histogram-bar-wrap {
+  height: 10px;
+  background: var(--ink-line);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.histogram-bar {
+  height: 100%;
+  background: var(--ink);
+  transition: width 0.3s ease;
+}
+
+.histogram-count {
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: right;
+  color: var(--ink);
+}
+
 .share-btn {
   display: inline-block;
   margin-top: 16px;

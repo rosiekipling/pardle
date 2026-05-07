@@ -4,10 +4,11 @@ const KEY = "pardle_streak";
 export type StreakData = {
   currentStreak: number;
   maxStreak: number;
-  lastPlayedDate: string;       // "2026-04-22"
+  lastPlayedDate: string;
   lastPuzzleNumber: number;
   totalPlayed: number;
   totalSolved: number;
+  scoreHistory: Record<string, number>;
 };
 
 const defaultData: StreakData = {
@@ -17,6 +18,7 @@ const defaultData: StreakData = {
   lastPuzzleNumber: 0,
   totalPlayed: 0,
   totalSolved: 0,
+  scoreHistory: {},
 };
 
 export function loadStreak(): StreakData {

@@ -320,7 +320,7 @@ export default function Game() {
     if (norm(guess) === norm(target.name)) {
       const actualHintsUsed = revealedHints.size;
       setSolved(true);
-      setStreak(recordResult(true, puzzleN));
+      setStreak(recordResult(true, puzzleN, computeScoreLabel(actualHintsUsed, true, false)));
       setFinalHintsUsed(actualHintsUsed);
       setRevealedHints(new Set(HINT_ORDER));
 
@@ -398,7 +398,7 @@ function handleLogoClick() {
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
-    setStreak(recordResult(false, puzzleN));
+    setStreak(recordResult(false, puzzleN, "DNF"));
     setFinalHintsUsed(revealedHints.size);
     setRevealedHints(new Set(HINT_ORDER));
 
@@ -892,6 +892,41 @@ function handleLogoClick() {
           </div>
           </div>
 
+          {streak.totalPlayed > 0 && (
+            <>
+              <div className="kicker" style={{ marginTop: 20 }}>Score Distribution</div>
+              <div className="histogram">
+                {[
+                  "Hole in One",
+                  "Eagle",
+                  "Birdie",
+                  "Par",
+                  "Bogey",
+                  "Double Bogey",
+                  "Triple Bogey",
+                  "Picked up",
+                  "DNF",
+                ].map((label) => {
+                  const count = streak.scoreHistory[label] ?? 0;
+                  const max = Math.max(...Object.values(streak.scoreHistory), 1);
+                  const widthPct = (count / max) * 100;
+                  return (
+                    <div key={label} className="histogram-row">
+                      <span className="histogram-label">{label}</span>
+                      <div className="histogram-bar-wrap">
+                        <div
+                          className="histogram-bar"
+                          style={{ width: `${widthPct}%` }}
+                        />
+                      </div>
+                      <span className="histogram-count">{count}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          )}
+
           {showTesting && (
             <div className="testing-block">
               <div className="kicker">Testing</div>
@@ -931,6 +966,7 @@ function handleLogoClick() {
                     lastPuzzleNumber: 0,
                     totalPlayed: 0,
                     totalSolved: 0,
+                    scoreHistory: {},
                   });
                 }}
                 style={{ marginTop: 10, fontSize: 10, width: "100%" }}
