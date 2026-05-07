@@ -2241,16 +2241,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -2352,17 +2352,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -5656,7 +5656,7 @@
     "player_name": "English, Harris"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Austria",
     "country_code": "AUT",
     "dg_id": 26457,
@@ -7106,8 +7106,8 @@
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
+    "country": "England",
+    "country_code": "ENG",
     "dg_id": 21886,
     "player_name": "Geddes, Mark"
   },
@@ -8926,16 +8926,16 @@
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
@@ -12706,16 +12706,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
@@ -13888,7 +13888,7 @@
     "player_name": "Manley, Stuart"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Scotland",
     "country_code": "SCO",
     "dg_id": 30455,
@@ -16926,7 +16926,7 @@
     "player_name": "Pavoucek, Dominik"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 32475,
