@@ -136,19 +136,21 @@ function ShareCard({
   scoreLabel,
   finalHintsUsed,
   guessCount,
+  wrongGuessesCount,
   solved,
 }: {
   puzzleN: number;
   scoreLabel: string;
   finalHintsUsed: number;
   guessCount: number;
+  wrongGuessesCount: number;
   solved: boolean;
 }) {
-  const totalSlots = HINT_ORDER.length + 1;
   const actions: string[] = [];
   for (let i = 0; i < finalHintsUsed; i++) actions.push("🟧");
+  for (let i = 0; i < wrongGuessesCount; i++) actions.push("🟨");
   if (solved) actions.push("🟩");
-  while (actions.length < totalSlots) actions.push("⬜");
+  const row = actions.join("");
 
   return (
     <div
@@ -194,7 +196,7 @@ function ShareCard({
           marginTop: 48,
           letterSpacing: "0.04em",
         }}>
-          {actions.join("")}
+          {row}
         </div>
       </div>
 
@@ -349,19 +351,49 @@ export default function Game() {
         date: new Date().toISOString().slice(0, 10),
       });
     } else {
-      const guessedPlayer = players.find(
-        (p) => norm(p.name) === norm(guess)
-      );
-      if (guessedPlayer) {
-        setWrongGuesses((prev) => [...prev, guessedPlayer]);
-      }
+        const guessedPlayer = players.find(
+          (p) => norm(p.name) === norm(guess)
+        );
+        if (guessedPlayer) {
+          setWrongGuesses((prev) => [...prev, guessedPlayer]);
+        }
 
-      setFeedback({
-        text: `Not ${displayName(guess.trim())}. Reload the swing — here's another clue.`,
-        tone: "wrong",
-      });
-      revealNextHint();
-    }
+        // If all hints already revealed, this wrong guess ends the game
+        const allHintsShown = revealedHints.size === HINT_ORDER.length;
+        if (allHintsShown) {
+          setGaveUp(true);
+          setFinalHintsUsed(revealedHints.size);
+          setFeedback({
+            text: `Not ${displayName(guess.trim())}. That's it — picked up.`,
+            tone: "wrong",
+          });
+          setStreak(recordResult(false, puzzleN, "Picked up"));
+          saveDailyResult({
+            puzzleNumber: puzzleN,
+            solved: false,
+            guessCount: newGuessCount,
+            finalHintsUsed: revealedHints.size,
+            wrongGuesses: [
+              ...wrongGuesses.map((p) => ({
+                name: p.name,
+                sgTotal: p.stats["SG: Total"],
+              })),
+              ...(guessedPlayer ? [{
+                name: guessedPlayer.name,
+                sgTotal: guessedPlayer.stats["SG: Total"],
+              }] : []),
+            ],
+            scoreLabel: "Picked up",
+            date: new Date().toISOString().slice(0, 10),
+          });
+        } else {
+          setFeedback({
+            text: `Not ${displayName(guess.trim())}. Reload the swing — here's another clue.`,
+            tone: "wrong",
+          });
+          revealNextHint();
+        }
+        }
 
     setGuess("");
     setShowSuggestions(false);
@@ -617,6 +649,7 @@ function handleLogoClick() {
           scoreLabel={scoreLabel}
           finalHintsUsed={finalHintsUsed}
           guessCount={guessCount}
+          wrongGuessesCount={wrongGuesses.length}
           solved={solved}
         />
       </div>
@@ -731,6 +764,20 @@ function handleLogoClick() {
           <div className="kicker" style={{ marginTop: 28 }}>
             Your Guess
           </div>
+          {revealedHints.size === HINT_ORDER.length && !done && (
+            <div style={{
+              fontSize: 11,
+              fontFamily: "Archivo, sans-serif",
+              fontWeight: 700,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--ink-mute)",
+              marginBottom: 8,
+              textAlign: "center",
+            }}>
+              Last guess — make it count
+            </div>
+          )}
           <div className="guess-area">
             <div className="search-box">
               <input
