@@ -1316,6 +1316,13 @@
     "player_name": "Berberian, Jr., Rich"
   },
   {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 17617,
+    "player_name": "Berg, Derek"
+  },
+  {
     "amateur": 1,
     "country": "Sweden",
     "country_code": "SWE",
@@ -2241,16 +2248,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -5307,16 +5314,16 @@
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -5656,7 +5663,7 @@
     "player_name": "English, Harris"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "Austria",
     "country_code": "AUT",
     "dg_id": 26457,
@@ -6242,6 +6249,13 @@
     "country_code": "RSA",
     "dg_id": 7678,
     "player_name": "Fisher Jr, Trevor"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 10027484,
+    "player_name": "Fisher, Bryce"
   },
   {
     "amateur": 0,
@@ -8001,7 +8015,7 @@
     "player_name": "Gumberg, Jordan"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Turkey",
     "country_code": "TUR",
     "dg_id": 18430,
@@ -9453,7 +9467,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30034683,
+    "dg_id": 35195,
     "player_name": "Hrabak, Cooper"
   },
   {
@@ -13959,6 +13973,13 @@
   },
   {
     "amateur": 0,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 35197,
+    "player_name": "Marchese, Nicholas"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 33704,
@@ -14871,7 +14892,7 @@
     "amateur": 1,
     "country": "Spain",
     "country_code": "ESP",
-    "dg_id": 30045598,
+    "dg_id": 35194,
     "player_name": "Mestre Carceller, Vicente"
   },
   {
@@ -19450,7 +19471,7 @@
     "country": "Spain",
     "country_code": "ESP",
     "dg_id": 29822,
-    "player_name": "Serra Busquet, Josep Maria"
+    "player_name": "Serra, Josep Maria"
   },
   {
     "amateur": 0,
@@ -23481,7 +23502,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30037199,
+    "dg_id": 35196,
     "player_name": "Wood, Grayson"
   },
   {
