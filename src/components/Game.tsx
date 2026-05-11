@@ -272,7 +272,7 @@ export default function Game() {
   const allNames = useMemo(() => players.map((p) => p.name), []);
 
   const [streak, setStreak] = useState<StreakData>(() => loadStreak());
-  const [revealedHints, setRevealedHints] = useState<Map<HintKey, HintRevealType>>(new Map());
+  const [hintReveals, setHintReveals] = useState<Map<HintKey, HintRevealType>>(new Map());
   const [finalHintsUsed, setFinalHintsUsed] = useState(0);
   const [lastRevealed, setLastRevealed] = useState<HintKey | null>(null);
   const [guess, setGuess] = useState("");
@@ -314,17 +314,17 @@ export default function Game() {
   }
 
   const nextHint: HintKey | null = useMemo(() => {
-    return HINT_ORDER.find((h) => !revealedHints.has(h)) ?? null;
-  }, [revealedHints]);
+    return HINT_ORDER.find((h) => !hintReveals.has(h)) ?? null;
+  }, [hintReveals]);
 
   function revealNextHint(via: HintRevealType = "clicked") {
     if (!nextHint || done) return;
-    setRevealedHints((prev) => new Map(prev).set(nextHint, via));
+    setHintReveals((prev) => new Map(prev).set(nextHint, via));
     setLastRevealed(nextHint);
     setTimeout(() => setLastRevealed(null), 500);
   }
 
-  const totalCost = done ? finalHintsUsed : revealedHints.size;
+  const totalCost = done ? finalHintsUsed : hintReveals.size;
   const scoreLabel = computeScoreLabel(totalCost, solved, gaveUp);
 
   function handleSubmit() {
@@ -334,11 +334,11 @@ export default function Game() {
     setGuessCount(newGuessCount);
 
     if (norm(guess) === norm(target.name)) {
-      const actualHintsUsed = revealedHints.size;
+      const actualHintsUsed = hintReveals.size;
       setSolved(true);
       setStreak(recordResult(true, puzzleN, computeScoreLabel(actualHintsUsed, true, false)));
       setFinalHintsUsed(actualHintsUsed);
-      setRevealedHints(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
+      setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
 
       window.umami?.track("puzzle_solved", {
         guesses: newGuessCount,
@@ -375,10 +375,10 @@ export default function Game() {
         }
 
         // If all hints already revealed, this wrong guess ends the game
-        const allHintsShown = revealedHints.size === HINT_ORDER.length;
+        const allHintsShown = hintReveals.size === HINT_ORDER.length;
         if (allHintsShown) {
           setGaveUp(true);
-          setFinalHintsUsed(revealedHints.size);
+          setFinalHintsUsed(hintReveals.size);
           setFeedback({
             text: `Not ${displayName(guess.trim())}. That's it — picked up.`,
             tone: "wrong",
@@ -388,7 +388,7 @@ export default function Game() {
             puzzleNumber: puzzleN,
             solved: false,
             guessCount: newGuessCount,
-            finalHintsUsed: revealedHints.size,
+            finalHintsUsed: hintReveals.size,
             wrongGuesses: [
               ...wrongGuesses.map((p) => ({
                 name: p.name,
@@ -445,12 +445,12 @@ function handleLogoClick() {
     if (done) return;
     setGaveUp(true);
     setStreak(recordResult(false, puzzleN, "Picked up"));
-    setFinalHintsUsed(revealedHints.size);
-    setRevealedHints(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
+    setFinalHintsUsed(hintReveals.size);
+    setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
 
     window.umami?.track("puzzle_dnf", {
       guesses: guessCount,
-      hints: revealedHints.size,
+      hints: hintReveals.size,
     });
 
     setFeedback({
@@ -461,7 +461,7 @@ function handleLogoClick() {
       puzzleNumber: puzzleN,
       solved: false,
       guessCount,
-      finalHintsUsed: revealedHints.size,
+      finalHintsUsed: hintReveals.size,
       wrongGuesses: wrongGuesses.map((p) => ({
         name: p.name,
         sgTotal: p.stats["SG: Total"],
@@ -496,7 +496,7 @@ function handleLogoClick() {
   }
 
   function resetGameState() {
-    setRevealedHints(new Map());
+    setHintReveals(new Map());
     setFinalHintsUsed(0);
     setLastRevealed(null);
     setGuess("");
@@ -526,6 +526,11 @@ function handleLogoClick() {
   }
 
   function handleShare() {
+
+    console.log("DEBUG hintReveals:", Array.from(hintReveals.entries()));
+    console.log("DEBUG wrongGuesses.length:", wrongGuesses.length);
+    console.log("DEBUG solved:", solved);
+
     const scoreEmoji: Record<string, string> = {
       "Hole in One": "✨⛳✨",
       "Eagle": "⛳️",
@@ -634,7 +639,7 @@ function handleLogoClick() {
       setGaveUp(!saved.solved);
       setGuessCount(saved.guessCount);
       setFinalHintsUsed(saved.finalHintsUsed);
-      setRevealedHints(new Map(HINT_ORDER.map(k => [k, "clicked"])));
+      setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked"])));
   
       // Restore wrong guesses (synthetic Player objects with the fields we need)
       const restored = saved.wrongGuesses.map((g) => ({
@@ -676,7 +681,7 @@ function handleLogoClick() {
           finalHintsUsed={finalHintsUsed}
           guessCount={guessCount}
           wrongGuessesCount={wrongGuesses.length}
-          hintReveals={revealedHints}
+          hintReveals={hintReveals}
           solved={solved}
         />
       </div>
@@ -757,7 +762,7 @@ function handleLogoClick() {
           </div>
           <div className="stats-grid hints-grid">
             {HINT_ORDER.map((key) => {
-              const shown = revealedHints.has(key);
+              const shown = hintReveals.has(key);
               const isNext = nextHint === key;
               const isNew = lastRevealed === key;
               const isLocked = !shown && !isNext;
@@ -791,7 +796,7 @@ function handleLogoClick() {
           <div className="kicker" style={{ marginTop: 28 }}>
             Your Guess
           </div>
-          {revealedHints.size === HINT_ORDER.length && !done && (
+          {hintReveals.size === HINT_ORDER.length && !done && (
             <div style={{
               fontSize: 11,
               fontFamily: "Archivo, sans-serif",
