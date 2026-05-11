@@ -100,6 +100,7 @@ export type DailyResult = {
   wrongGuesses: { name: string; sgTotal?: string }[];
   scoreLabel: string;
   date: string; // ISO
+  actionLog: string[];
 };
 
 export function saveDailyResult(result: DailyResult): void {

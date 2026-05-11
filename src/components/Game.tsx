@@ -137,36 +137,16 @@ function ShareCard({
   scoreLabel,
   finalHintsUsed,
   guessCount,
-  wrongGuessesCount,
-  hintReveals,
-  solved,
+  actionLog,
 }: {
   puzzleN: number;
   scoreLabel: string;
   finalHintsUsed: number;
   guessCount: number;
-  wrongGuessesCount: number;
-  hintReveals: Map<HintKey, HintRevealType>;
-  solved: boolean;
+  actionLog: string[];
 }) {
-  const actions: string[] = [];
-
-  // Each hint that was CLICKED (deliberately revealed) → orange
-  for (const hint of HINT_ORDER) {
-    if (hintReveals.get(hint) === "clicked") {
-      actions.push("🟧");
-    }
-  }
-
-  // Each wrong guess → yellow
-  for (let i = 0; i < wrongGuessesCount; i++) {
-    actions.push("🟨");
-  }
-
-  // If solved, the correct guess → green
-  if (solved) actions.push("🟩");
-
-  const row = actions.join("");
+  
+  const row = actionLog.join("");
 
   return (
     <div
@@ -280,6 +260,8 @@ export default function Game() {
   const [wrongGuesses, setWrongGuesses] = useState<Player[]>([]);
   const [solved, setSolved] = useState(false);
   const [gaveUp, setGaveUp] = useState(false);
+
+  const [actionLog, setActionLog] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<{
     text: string;
     tone: "correct" | "wrong" | "";
@@ -322,6 +304,12 @@ export default function Game() {
     setHintReveals((prev) => new Map(prev).set(nextHint, via));
     setLastRevealed(nextHint);
     setTimeout(() => setLastRevealed(null), 500);
+  
+    // Log this action ONLY if it was a deliberate click
+    // (guess-triggered reveals get logged by handleSubmit as part of the wrong guess)
+    if (via === "clicked") {
+      setActionLog((prev) => [...prev, "🟧"]);
+    }
   }
 
   const totalCost = done ? finalHintsUsed : hintReveals.size;
@@ -334,6 +322,7 @@ export default function Game() {
     setGuessCount(newGuessCount);
 
     if (norm(guess) === norm(target.name)) {
+      setActionLog((prev) => [...prev, "🟩"]);
       const actualHintsUsed = hintReveals.size;
       setSolved(true);
       setStreak(recordResult(true, puzzleN, computeScoreLabel(actualHintsUsed, true, false)));
@@ -373,6 +362,7 @@ export default function Game() {
         })),
         scoreLabel: computeScoreLabel(actualHintsUsed, true, false),
         date: new Date().toISOString().slice(0, 10),
+        actionLog: [...actionLog, "🟩"],
       });
     } else {
         const guessedPlayer = players.find(
@@ -387,6 +377,7 @@ export default function Game() {
         if (allHintsShown) {
           setGaveUp(true);
           setFinalHintsUsed(hintReveals.size);
+          setActionLog((prev) => [...prev, "🟨"]);   // ← ADD: log the final wrong guess
           setFeedback({
             text: `Not ${displayName(guess.trim())}. That's it — picked up.`,
             tone: "wrong",
@@ -409,8 +400,10 @@ export default function Game() {
             ],
             scoreLabel: "Picked up",
             date: new Date().toISOString().slice(0, 10),
+            actionLog: [...actionLog, "🟨"],   // ← ADD: include the latest action
           });
         } else {
+          setActionLog((prev) => [...prev, "🟨"]);
           setFeedback({
             text: `Not ${displayName(guess.trim())}. Reload the swing — here's another clue.`,
             tone: "wrong",
@@ -482,8 +475,9 @@ function handleLogoClick() {
         name: p.name,
         sgTotal: p.stats["SG: Total"],
       })),
-      scoreLabel: "DNF",
+      scoreLabel: "Picked Up",
       date: new Date().toISOString().slice(0, 10),
+      actionLog,   // ← ADD
     });
   }
 
@@ -513,6 +507,7 @@ function handleLogoClick() {
 
   function resetGameState() {
     setHintReveals(new Map());
+    setActionLog([]);
     setFinalHintsUsed(0);
     setLastRevealed(null);
     setGuess("");
@@ -558,24 +553,7 @@ function handleLogoClick() {
     };
 
     const emoji = scoreEmoji[scoreLabel] ?? "⛳";
-
-    const actions: string[] = [];
-
-    // Each hint that was CLICKED → orange
-    for (const hint of HINT_ORDER) {
-      if (hintReveals.get(hint) === "clicked") {
-        actions.push("🟧");
-      }
-    }
-
-    // Each wrong guess → yellow
-    for (let i = 0; i < wrongGuesses.length; i++) {
-      actions.push("🟨");
-    }
-
-    if (solved) actions.push("🟩");
-    const row = actions.join("");
-
+    const row = actionLog.join("");
     const hintLabel = finalHintsUsed === 1 ? "1 hint" : `${finalHintsUsed} hints`;
     const guessLabel = guessCount === 1 ? "1 guess" : `${guessCount} guesses`;
     const streakLine = streak.currentStreak >= 2
@@ -656,6 +634,7 @@ function handleLogoClick() {
       setGuessCount(saved.guessCount);
       setFinalHintsUsed(saved.finalHintsUsed);
       setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked"])));
+      setActionLog(saved.actionLog ?? []);
   
       // Restore wrong guesses (synthetic Player objects with the fields we need)
       const restored = saved.wrongGuesses.map((g) => ({
@@ -663,7 +642,7 @@ function handleLogoClick() {
         stats: { "SG: Total": g.sgTotal },
       })) as unknown as Player[];
       setWrongGuesses(restored);
-  
+
       setFeedback({
         text: saved.solved
           ? `You played today — ${saved.scoreLabel}.`
@@ -696,9 +675,7 @@ function handleLogoClick() {
           scoreLabel={scoreLabel}
           finalHintsUsed={finalHintsUsed}
           guessCount={guessCount}
-          wrongGuessesCount={wrongGuesses.length}
-          hintReveals={hintReveals}
-          solved={solved}
+          actionLog={actionLog}
         />
       </div>
       <div className="masthead">
