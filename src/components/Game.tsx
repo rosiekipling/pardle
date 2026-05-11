@@ -338,7 +338,15 @@ export default function Game() {
       setSolved(true);
       setStreak(recordResult(true, puzzleN, computeScoreLabel(actualHintsUsed, true, false)));
       setFinalHintsUsed(actualHintsUsed);
-      setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
+      setHintReveals((prev) => {
+        const next = new Map(prev);
+        for (const k of HINT_ORDER) {
+          if (!next.has(k)) {
+            next.set(k, "guessed");
+          }
+        }
+        return next;
+      });
 
       window.umami?.track("puzzle_solved", {
         guesses: newGuessCount,
@@ -446,7 +454,15 @@ function handleLogoClick() {
     setGaveUp(true);
     setStreak(recordResult(false, puzzleN, "Picked up"));
     setFinalHintsUsed(hintReveals.size);
-    setHintReveals(new Map(HINT_ORDER.map(k => [k, "clicked" as HintRevealType])));
+    setHintReveals((prev) => {
+      const next = new Map(prev);
+      for (const k of HINT_ORDER) {
+        if (!next.has(k)) {
+          next.set(k, "guessed");
+        }
+      }
+      return next;
+    });
 
     window.umami?.track("puzzle_dnf", {
       guesses: guessCount,
