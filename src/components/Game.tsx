@@ -51,7 +51,7 @@ const HINT_LABELS: Record<HintKey, string> = {
   initials: "Initials",
 };
 
-const PAR_GUESSES = 3;
+const PAR_GUESSES = 4;
 
 const norm = (s: string) => s.toLowerCase().replace(/[,.]/g, "").trim();
 
@@ -154,7 +154,7 @@ function ShareCard({
       style={{
         width: 1080,
         height: 1080,
-        background: "#fff0f0",
+        background: "#f9f8f3",
         color: "#363334",
         padding: 100,
         display: "flex",
@@ -682,7 +682,7 @@ function handleLogoClick() {
         <div className="issue">
           Vol. I — No. {String(puzzleN).padStart(3, "0")}
         </div>
-        <div className="date">{today} / The Caddie Desk</div>
+        <div className="date">{`${today} / The Caddie Desk`}</div>
       </div>
 
       <div className="title-bar">
