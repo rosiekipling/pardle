@@ -379,6 +379,13 @@
   },
   {
     "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 34763,
+    "player_name": "Amlung, Clay"
+  },
+  {
+    "amateur": 0,
     "country": "Zimbabwe",
     "country_code": "ZIM",
     "dg_id": 18286,
@@ -5311,6 +5318,13 @@
     "country_code": "USA",
     "dg_id": 28914,
     "player_name": "Duncan, Michael"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30041323,
+    "player_name": "Duncan, Todd"
   },
   {
     "amateur": 0,
