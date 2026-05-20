@@ -938,6 +938,13 @@
     "player_name": "Ban, Shintaro"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30039402,
+    "player_name": "Banerjee, Ronin"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -2255,16 +2262,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2366,17 +2373,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -3997,6 +4004,13 @@
     "player_name": "Cottam, Kyle"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30034240,
+    "player_name": "Cottrell, Landon"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -5335,16 +5349,16 @@
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -7785,6 +7799,13 @@
   },
   {
     "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 6243,
+    "player_name": "Gregory, Greg"
+  },
+  {
+    "amateur": 0,
     "country": "England",
     "country_code": "ENG",
     "dg_id": 22253,
@@ -9525,6 +9546,13 @@
     "country_code": "TPE",
     "dg_id": 25680,
     "player_name": "Hsu, Yu-Cheng"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30041533,
+    "player_name": "Huang, Alex"
   },
   {
     "amateur": 0,
@@ -12411,7 +12439,7 @@
     "player_name": "Larrazabal, Pablo"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31312,
