@@ -11,25 +11,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "308.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.87",
-      "SG: Approach": "+1.12",
+      "Driving Distance": "308.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.85",
+      "SG: Approach": "+1.14",
       "SG: Around Green": "+0.39",
-      "SG: Putting": "+0.47",
-      "SG: Total": "+2.86"
+      "SG: Putting": "+0.52",
+      "SG: Total": "+2.90"
     },
     "form": {
       "world_ranking": 1
     },
     "raw": {
-      "driving_dist": 9.256,
-      "driving_acc": 0.056,
-      "sg_ott": 0.871,
-      "sg_app": 1.121,
-      "sg_arg": 0.394,
-      "sg_putt": 0.47,
-      "sg_total": 2.856
+      "driving_dist": 9.059,
+      "driving_acc": 0.055,
+      "sg_ott": 0.855,
+      "sg_app": 1.138,
+      "sg_arg": 0.386,
+      "sg_putt": 0.524,
+      "sg_total": 2.902
     }
   },
   {
@@ -44,25 +44,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "320.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.91",
-      "SG: Approach": "+0.68",
-      "SG: Around Green": "+0.18",
-      "SG: Putting": "+0.33",
-      "SG: Total": "+2.11"
+      "Driving Distance": "320.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.94",
+      "SG: Approach": "+0.71",
+      "SG: Around Green": "+0.19",
+      "SG: Putting": "+0.34",
+      "SG: Total": "+2.19"
     },
     "form": {
       "world_ranking": 2
     },
     "raw": {
-      "driving_dist": 21.604,
-      "driving_acc": -0.033,
-      "sg_ott": 0.914,
-      "sg_app": 0.683,
-      "sg_arg": 0.184,
-      "sg_putt": 0.33,
-      "sg_total": 2.111
+      "driving_dist": 21.718,
+      "driving_acc": -0.032,
+      "sg_ott": 0.939,
+      "sg_app": 0.713,
+      "sg_arg": 0.193,
+      "sg_putt": 0.345,
+      "sg_total": 2.189
     }
   },
   {
@@ -79,23 +79,23 @@
     "stats": {
       "Driving Distance": "310.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.74",
-      "SG: Approach": "+0.70",
+      "SG: Off the Tee": "+0.73",
+      "SG: Approach": "+0.69",
       "SG: Around Green": "+0.26",
       "SG: Putting": "+0.41",
-      "SG: Total": "+2.11"
+      "SG: Total": "+2.07"
     },
     "form": {
       "world_ranking": 3
     },
     "raw": {
-      "driving_dist": 11.238,
+      "driving_dist": 11.232,
       "driving_acc": 0.011,
-      "sg_ott": 0.74,
-      "sg_app": 0.698,
-      "sg_arg": 0.261,
-      "sg_putt": 0.407,
-      "sg_total": 2.106
+      "sg_ott": 0.726,
+      "sg_app": 0.685,
+      "sg_arg": 0.256,
+      "sg_putt": 0.405,
+      "sg_total": 2.072
     }
   },
   {
@@ -116,19 +116,19 @@
       "SG: Approach": "+0.76",
       "SG: Around Green": "+0.42",
       "SG: Putting": "+0.27",
-      "SG: Total": "+1.80"
+      "SG: Total": "+1.81"
     },
     "form": {
       "world_ranking": 4
     },
     "raw": {
-      "driving_dist": 2.197,
+      "driving_dist": 2.236,
       "driving_acc": 0.048,
-      "sg_ott": 0.362,
-      "sg_app": 0.756,
+      "sg_ott": 0.361,
+      "sg_app": 0.759,
       "sg_arg": 0.419,
-      "sg_putt": 0.266,
-      "sg_total": 1.803
+      "sg_putt": 0.269,
+      "sg_total": 1.808
     }
   },
   {
@@ -143,25 +143,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.5 yds||tour avg: 299 yds",
+      "Driving Distance": "300.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.7%||tour avg: 61%",
       "SG: Off the Tee": "+0.11",
       "SG: Approach": "+0.50",
       "SG: Around Green": "+0.07",
       "SG: Putting": "+0.10",
-      "SG: Total": "+0.77"
+      "SG: Total": "+0.79"
     },
     "form": {
       "world_ranking": 5
     },
     "raw": {
-      "driving_dist": 1.533,
+      "driving_dist": 1.579,
       "driving_acc": 0.007,
-      "sg_ott": 0.108,
-      "sg_app": 0.497,
-      "sg_arg": 0.069,
-      "sg_putt": 0.097,
-      "sg_total": 0.772
+      "sg_ott": 0.111,
+      "sg_app": 0.503,
+      "sg_arg": 0.07,
+      "sg_putt": 0.102,
+      "sg_total": 0.785
     }
   },
   {
@@ -176,25 +176,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.2 yds||tour avg: 299 yds",
+      "Driving Distance": "298.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "68.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.42",
-      "SG: Approach": "+0.80",
+      "SG: Off the Tee": "+0.43",
+      "SG: Approach": "+0.81",
       "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.03",
-      "SG: Total": "+1.39"
+      "SG: Putting": "+0.04",
+      "SG: Total": "+1.42"
     },
     "form": {
       "world_ranking": 6
     },
     "raw": {
-      "driving_dist": -0.787,
+      "driving_dist": -0.732,
       "driving_acc": 0.079,
-      "sg_ott": 0.419,
-      "sg_app": 0.8,
-      "sg_arg": 0.143,
-      "sg_putt": 0.031,
-      "sg_total": 1.392
+      "sg_ott": 0.427,
+      "sg_app": 0.81,
+      "sg_arg": 0.144,
+      "sg_putt": 0.036,
+      "sg_total": 1.417
     }
   },
   {
@@ -211,23 +211,23 @@
     "stats": {
       "Driving Distance": "300.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "68.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.54",
-      "SG: Approach": "+0.54",
-      "SG: Around Green": "+0.22",
-      "SG: Putting": "+0.26",
-      "SG: Total": "+1.56"
+      "SG: Off the Tee": "+0.56",
+      "SG: Approach": "+0.56",
+      "SG: Around Green": "+0.23",
+      "SG: Putting": "+0.27",
+      "SG: Total": "+1.61"
     },
     "form": {
       "world_ranking": 7
     },
     "raw": {
-      "driving_dist": 0.958,
+      "driving_dist": 1.035,
       "driving_acc": 0.077,
-      "sg_ott": 0.541,
-      "sg_app": 0.543,
-      "sg_arg": 0.224,
-      "sg_putt": 0.255,
-      "sg_total": 1.563
+      "sg_ott": 0.555,
+      "sg_app": 0.562,
+      "sg_arg": 0.228,
+      "sg_putt": 0.267,
+      "sg_total": 1.612
     }
   },
   {
@@ -242,25 +242,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "311.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.74",
-      "SG: Approach": "+0.75",
-      "SG: Around Green": "+0.09",
-      "SG: Putting": "+0.30",
-      "SG: Total": "+1.88"
+      "Driving Distance": "311.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.76",
+      "SG: Approach": "+0.78",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "+0.31",
+      "SG: Total": "+1.94"
     },
     "form": {
       "world_ranking": 8
     },
     "raw": {
-      "driving_dist": 12.477,
-      "driving_acc": -0.0,
-      "sg_ott": 0.74,
-      "sg_app": 0.753,
-      "sg_arg": 0.091,
-      "sg_putt": 0.298,
-      "sg_total": 1.882
+      "driving_dist": 12.557,
+      "driving_acc": 0.001,
+      "sg_ott": 0.758,
+      "sg_app": 0.776,
+      "sg_arg": 0.096,
+      "sg_putt": 0.308,
+      "sg_total": 1.937
     }
   },
   {
@@ -275,25 +275,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.0 yds||tour avg: 299 yds",
+      "Driving Distance": "300.1 yds||tour avg: 299 yds",
       "Driving Accuracy": "66.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.50",
+      "SG: Off the Tee": "+0.49",
       "SG: Approach": "+0.83",
       "SG: Around Green": "+0.10",
       "SG: Putting": "-0.16",
-      "SG: Total": "+1.27"
+      "SG: Total": "+1.26"
     },
     "form": {
       "world_ranking": 9
     },
     "raw": {
-      "driving_dist": 1.047,
+      "driving_dist": 1.055,
       "driving_acc": 0.056,
-      "sg_ott": 0.497,
-      "sg_app": 0.833,
-      "sg_arg": 0.102,
-      "sg_putt": -0.157,
-      "sg_total": 1.275
+      "sg_ott": 0.491,
+      "sg_app": 0.829,
+      "sg_arg": 0.1,
+      "sg_putt": -0.156,
+      "sg_total": 1.264
     }
   },
   {
@@ -309,24 +309,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "316.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.58",
-      "SG: Approach": "+0.39",
+      "Driving Accuracy": "56.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.60",
+      "SG: Approach": "+0.41",
       "SG: Around Green": "+0.08",
-      "SG: Putting": "+0.34",
-      "SG: Total": "+1.39"
+      "SG: Putting": "+0.35",
+      "SG: Total": "+1.45"
     },
     "form": {
       "world_ranking": 10
     },
     "raw": {
-      "driving_dist": 17.469,
-      "driving_acc": -0.051,
-      "sg_ott": 0.584,
-      "sg_app": 0.389,
-      "sg_arg": 0.079,
-      "sg_putt": 0.337,
-      "sg_total": 1.388
+      "driving_dist": 17.549,
+      "driving_acc": -0.05,
+      "sg_ott": 0.603,
+      "sg_app": 0.414,
+      "sg_arg": 0.084,
+      "sg_putt": 0.349,
+      "sg_total": 1.45
     }
   },
   {
@@ -341,25 +341,25 @@
     "difficulty": "top40",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "313.3 yds||tour avg: 299 yds",
+      "Driving Distance": "313.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.6%||tour avg: 61%",
       "SG: Off the Tee": "+0.85",
-      "SG: Approach": "+0.89",
+      "SG: Approach": "+0.90",
       "SG: Around Green": "+0.34",
       "SG: Putting": "+0.24",
-      "SG: Total": "+2.32"
+      "SG: Total": "+2.33"
     },
     "form": {
       "world_ranking": 11
     },
     "raw": {
-      "driving_dist": 14.342,
+      "driving_dist": 14.359,
       "driving_acc": 0.016,
-      "sg_ott": 0.852,
-      "sg_app": 0.893,
-      "sg_arg": 0.336,
-      "sg_putt": 0.236,
-      "sg_total": 2.317
+      "sg_ott": 0.855,
+      "sg_app": 0.896,
+      "sg_arg": 0.344,
+      "sg_putt": 0.238,
+      "sg_total": 2.333
     }
   },
   {
@@ -377,22 +377,22 @@
       "Driving Distance": "289.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "71.8%||tour avg: 61%",
       "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.53",
-      "SG: Around Green": "+0.34",
-      "SG: Putting": "+0.22",
+      "SG: Approach": "+0.52",
+      "SG: Around Green": "+0.33",
+      "SG: Putting": "+0.23",
       "SG: Total": "+1.36"
     },
     "form": {
       "world_ranking": 12
     },
     "raw": {
-      "driving_dist": -9.646,
+      "driving_dist": -9.619,
       "driving_acc": 0.108,
-      "sg_ott": 0.279,
-      "sg_app": 0.525,
-      "sg_arg": 0.335,
-      "sg_putt": 0.224,
-      "sg_total": 1.363
+      "sg_ott": 0.276,
+      "sg_app": 0.524,
+      "sg_arg": 0.333,
+      "sg_putt": 0.226,
+      "sg_total": 1.36
     }
   },
   {
@@ -409,23 +409,23 @@
     "stats": {
       "Driving Distance": "312.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.69",
-      "SG: Approach": "+0.86",
-      "SG: Around Green": "+0.21",
-      "SG: Putting": "+0.27",
-      "SG: Total": "+2.04"
+      "SG: Off the Tee": "+0.71",
+      "SG: Approach": "+0.88",
+      "SG: Around Green": "+0.22",
+      "SG: Putting": "+0.28",
+      "SG: Total": "+2.08"
     },
     "form": {
       "world_ranking": 13
     },
     "raw": {
-      "driving_dist": 13.568,
+      "driving_dist": 13.643,
       "driving_acc": 0.015,
-      "sg_ott": 0.695,
-      "sg_app": 0.859,
-      "sg_arg": 0.214,
-      "sg_putt": 0.268,
-      "sg_total": 2.037
+      "sg_ott": 0.708,
+      "sg_app": 0.875,
+      "sg_arg": 0.218,
+      "sg_putt": 0.277,
+      "sg_total": 2.078
     }
   },
   {
@@ -440,25 +440,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "288.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "72.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.25",
-      "SG: Approach": "+0.63",
-      "SG: Around Green": "+0.15",
-      "SG: Putting": "-0.03",
-      "SG: Total": "+1.00"
+      "Driving Distance": "288.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "72.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.23",
+      "SG: Approach": "+0.60",
+      "SG: Around Green": "+0.14",
+      "SG: Putting": "-0.04",
+      "SG: Total": "+0.93"
     },
     "form": {
       "world_ranking": 14
     },
     "raw": {
-      "driving_dist": -10.606,
-      "driving_acc": 0.113,
-      "sg_ott": 0.254,
-      "sg_app": 0.632,
-      "sg_arg": 0.148,
-      "sg_putt": -0.032,
-      "sg_total": 1.003
+      "driving_dist": -10.656,
+      "driving_acc": 0.111,
+      "sg_ott": 0.225,
+      "sg_app": 0.603,
+      "sg_arg": 0.141,
+      "sg_putt": -0.042,
+      "sg_total": 0.926
     }
   },
   {
@@ -473,25 +473,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.4 yds||tour avg: 299 yds",
+      "Driving Distance": "302.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "63.7%||tour avg: 61%",
       "SG: Off the Tee": "+0.54",
-      "SG: Approach": "+0.05",
+      "SG: Approach": "+0.06",
       "SG: Around Green": "+0.17",
       "SG: Putting": "+0.49",
-      "SG: Total": "+1.25"
+      "SG: Total": "+1.26"
     },
     "form": {
       "world_ranking": 15
     },
     "raw": {
-      "driving_dist": 3.424,
+      "driving_dist": 3.466,
       "driving_acc": 0.027,
-      "sg_ott": 0.537,
-      "sg_app": 0.053,
-      "sg_arg": 0.173,
-      "sg_putt": 0.49,
-      "sg_total": 1.254
+      "sg_ott": 0.538,
+      "sg_app": 0.057,
+      "sg_arg": 0.174,
+      "sg_putt": 0.495,
+      "sg_total": 1.264
     }
   },
   {
@@ -509,22 +509,22 @@
       "Driving Distance": "305.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "58.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.20",
-      "SG: Approach": "+0.45",
+      "SG: Approach": "+0.44",
       "SG: Around Green": "+0.33",
       "SG: Putting": "+0.27",
-      "SG: Total": "+1.25"
+      "SG: Total": "+1.23"
     },
     "form": {
       "world_ranking": 16
     },
     "raw": {
-      "driving_dist": 6.304,
+      "driving_dist": 6.31,
       "driving_acc": -0.027,
-      "sg_ott": 0.205,
-      "sg_app": 0.447,
-      "sg_arg": 0.328,
-      "sg_putt": 0.274,
-      "sg_total": 1.254
+      "sg_ott": 0.196,
+      "sg_app": 0.439,
+      "sg_arg": 0.325,
+      "sg_putt": 0.271,
+      "sg_total": 1.231
     }
   },
   {
@@ -539,25 +539,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.2 yds||tour avg: 299 yds",
+      "Driving Distance": "299.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.14",
-      "SG: Approach": "+0.16",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "+0.19",
       "SG: Around Green": "+0.32",
-      "SG: Putting": "+0.56",
-      "SG: Total": "+1.17"
+      "SG: Putting": "+0.57",
+      "SG: Total": "+1.25"
     },
     "form": {
       "world_ranking": 17
     },
     "raw": {
-      "driving_dist": 0.21,
+      "driving_dist": 0.311,
       "driving_acc": 0.015,
-      "sg_ott": 0.14,
-      "sg_app": 0.156,
-      "sg_arg": 0.317,
-      "sg_putt": 0.559,
-      "sg_total": 1.173
+      "sg_ott": 0.163,
+      "sg_app": 0.187,
+      "sg_arg": 0.324,
+      "sg_putt": 0.573,
+      "sg_total": 1.247
     }
   },
   {
@@ -575,22 +575,22 @@
       "Driving Distance": "297.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "63.5%||tour avg: 61%",
       "SG: Off the Tee": "+0.07",
-      "SG: Approach": "+0.61",
+      "SG: Approach": "+0.62",
       "SG: Around Green": "+0.02",
-      "SG: Putting": "+0.09",
+      "SG: Putting": "+0.10",
       "SG: Total": "+0.80"
     },
     "form": {
       "world_ranking": 18
     },
     "raw": {
-      "driving_dist": -1.124,
+      "driving_dist": -1.089,
       "driving_acc": 0.025,
       "sg_ott": 0.072,
-      "sg_app": 0.615,
-      "sg_arg": 0.018,
-      "sg_putt": 0.091,
-      "sg_total": 0.796
+      "sg_app": 0.617,
+      "sg_arg": 0.017,
+      "sg_putt": 0.096,
+      "sg_total": 0.801
     }
   },
   {
@@ -605,25 +605,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "70.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.60",
-      "SG: Approach": "+0.69",
-      "SG: Around Green": "+0.26",
-      "SG: Putting": "-0.04",
-      "SG: Total": "+1.51"
+      "Driving Distance": "296.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "71.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.62",
+      "SG: Approach": "+0.66",
+      "SG: Around Green": "+0.30",
+      "SG: Putting": "+0.12",
+      "SG: Total": "+1.69"
     },
     "form": {
       "world_ranking": 19
     },
     "raw": {
-      "driving_dist": -2.821,
-      "driving_acc": 0.098,
-      "sg_ott": 0.602,
-      "sg_app": 0.689,
-      "sg_arg": 0.258,
-      "sg_putt": -0.038,
-      "sg_total": 1.51
+      "driving_dist": -2.726,
+      "driving_acc": 0.102,
+      "sg_ott": 0.624,
+      "sg_app": 0.656,
+      "sg_arg": 0.299,
+      "sg_putt": 0.115,
+      "sg_total": 1.694
     }
   },
   {
@@ -640,23 +640,23 @@
     "stats": {
       "Driving Distance": "298.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.5%||tour avg: 61%",
-      "SG: Off the Tee": "-0.10",
-      "SG: Approach": "+0.55",
-      "SG: Around Green": "+0.36",
+      "SG: Off the Tee": "-0.11",
+      "SG: Approach": "+0.54",
+      "SG: Around Green": "+0.35",
       "SG: Putting": "+0.19",
-      "SG: Total": "+1.00"
+      "SG: Total": "+0.96"
     },
     "form": {
       "world_ranking": 20
     },
     "raw": {
-      "driving_dist": -1.01,
+      "driving_dist": -1.019,
       "driving_acc": -0.005,
-      "sg_ott": -0.1,
-      "sg_app": 0.551,
-      "sg_arg": 0.356,
-      "sg_putt": 0.19,
-      "sg_total": 0.996
+      "sg_ott": -0.114,
+      "sg_app": 0.539,
+      "sg_arg": 0.352,
+      "sg_putt": 0.188,
+      "sg_total": 0.964
     }
   },
   {
@@ -673,23 +673,23 @@
     "stats": {
       "Driving Distance": "291.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "65.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.03",
+      "SG: Off the Tee": "+0.02",
       "SG: Approach": "+0.38",
       "SG: Around Green": "+0.13",
-      "SG: Putting": "+0.42",
+      "SG: Putting": "+0.43",
       "SG: Total": "+0.96"
     },
     "form": {
       "world_ranking": 21
     },
     "raw": {
-      "driving_dist": -7.823,
+      "driving_dist": -7.798,
       "driving_acc": 0.049,
-      "sg_ott": 0.027,
-      "sg_app": 0.382,
-      "sg_arg": 0.127,
-      "sg_putt": 0.425,
-      "sg_total": 0.961
+      "sg_ott": 0.023,
+      "sg_app": 0.38,
+      "sg_arg": 0.126,
+      "sg_putt": 0.428,
+      "sg_total": 0.957
     }
   },
   {
@@ -704,25 +704,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.8 yds||tour avg: 299 yds",
+      "Driving Distance": "299.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.2%||tour avg: 61%",
       "SG: Off the Tee": "+0.30",
       "SG: Approach": "+0.16",
       "SG: Around Green": "+0.17",
-      "SG: Putting": "+0.44",
-      "SG: Total": "+1.06"
+      "SG: Putting": "+0.45",
+      "SG: Total": "+1.07"
     },
     "form": {
       "world_ranking": 22
     },
     "raw": {
-      "driving_dist": 0.844,
+      "driving_dist": 0.871,
       "driving_acc": 0.032,
       "sg_ott": 0.3,
-      "sg_app": 0.157,
+      "sg_app": 0.16,
       "sg_arg": 0.165,
-      "sg_putt": 0.442,
-      "sg_total": 1.065
+      "sg_putt": 0.445,
+      "sg_total": 1.069
     }
   },
   {
@@ -740,22 +740,22 @@
       "Driving Distance": "295.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.09",
-      "SG: Approach": "+0.59",
+      "SG: Approach": "+0.60",
       "SG: Around Green": "+0.23",
-      "SG: Putting": "+0.18",
-      "SG: Total": "+1.08"
+      "SG: Putting": "+0.19",
+      "SG: Total": "+1.12"
     },
     "form": {
       "world_ranking": 23
     },
     "raw": {
-      "driving_dist": -3.137,
+      "driving_dist": -3.058,
       "driving_acc": 0.013,
-      "sg_ott": 0.086,
-      "sg_app": 0.588,
-      "sg_arg": 0.226,
-      "sg_putt": 0.185,
-      "sg_total": 1.085
+      "sg_ott": 0.094,
+      "sg_app": 0.599,
+      "sg_arg": 0.23,
+      "sg_putt": 0.193,
+      "sg_total": 1.116
     }
   },
   {
@@ -770,25 +770,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "301.4 yds||tour avg: 299 yds",
+      "Driving Distance": "301.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.12",
-      "SG: Approach": "+0.25",
+      "SG: Off the Tee": "+0.13",
+      "SG: Approach": "+0.26",
       "SG: Around Green": "+0.10",
       "SG: Putting": "+0.41",
-      "SG: Total": "+0.88"
+      "SG: Total": "+0.89"
     },
     "form": {
       "world_ranking": 24
     },
     "raw": {
-      "driving_dist": 2.412,
+      "driving_dist": 2.454,
       "driving_acc": -0.0,
-      "sg_ott": 0.122,
-      "sg_app": 0.248,
-      "sg_arg": 0.098,
-      "sg_putt": 0.406,
-      "sg_total": 0.875
+      "sg_ott": 0.127,
+      "sg_app": 0.257,
+      "sg_arg": 0.099,
+      "sg_putt": 0.411,
+      "sg_total": 0.894
     }
   },
   {
@@ -805,23 +805,23 @@
     "stats": {
       "Driving Distance": "309.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.58",
-      "SG: Approach": "+0.17",
+      "SG: Off the Tee": "+0.59",
+      "SG: Approach": "+0.19",
       "SG: Around Green": "-0.01",
       "SG: Putting": "+0.23",
-      "SG: Total": "+0.97"
+      "SG: Total": "+1.00"
     },
     "form": {
       "world_ranking": 25
     },
     "raw": {
-      "driving_dist": 9.958,
+      "driving_dist": 10.036,
       "driving_acc": -0.0,
-      "sg_ott": 0.583,
-      "sg_app": 0.173,
-      "sg_arg": -0.015,
-      "sg_putt": 0.226,
-      "sg_total": 0.967
+      "sg_ott": 0.593,
+      "sg_app": 0.188,
+      "sg_arg": -0.01,
+      "sg_putt": 0.235,
+      "sg_total": 1.005
     }
   },
   {
@@ -836,25 +836,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.3 yds||tour avg: 299 yds",
+      "Driving Distance": "298.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.9%||tour avg: 61%",
-      "SG: Off the Tee": "-0.16",
-      "SG: Approach": "+0.37",
+      "SG: Off the Tee": "-0.15",
+      "SG: Approach": "+0.38",
       "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.47",
-      "SG: Total": "+0.82"
+      "SG: Putting": "+0.48",
+      "SG: Total": "+0.84"
     },
     "form": {
       "world_ranking": 26
     },
     "raw": {
-      "driving_dist": -0.698,
+      "driving_dist": -0.647,
       "driving_acc": -0.011,
-      "sg_ott": -0.157,
-      "sg_app": 0.372,
-      "sg_arg": 0.136,
-      "sg_putt": 0.471,
-      "sg_total": 0.822
+      "sg_ott": -0.151,
+      "sg_app": 0.382,
+      "sg_arg": 0.137,
+      "sg_putt": 0.477,
+      "sg_total": 0.845
     }
   },
   {
@@ -873,21 +873,21 @@
       "Driving Accuracy": "59.8%||tour avg: 61%",
       "SG: Off the Tee": "+0.26",
       "SG: Approach": "+0.54",
-      "SG: Around Green": "+0.12",
+      "SG: Around Green": "+0.13",
       "SG: Putting": "-0.06",
-      "SG: Total": "+0.86"
+      "SG: Total": "+0.87"
     },
     "form": {
       "world_ranking": 27
     },
     "raw": {
-      "driving_dist": 4.884,
+      "driving_dist": 4.902,
       "driving_acc": -0.012,
-      "sg_ott": 0.261,
-      "sg_app": 0.536,
-      "sg_arg": 0.12,
-      "sg_putt": -0.059,
-      "sg_total": 0.859
+      "sg_ott": 0.262,
+      "sg_app": 0.537,
+      "sg_arg": 0.128,
+      "sg_putt": -0.057,
+      "sg_total": 0.869
     }
   },
   {
@@ -902,25 +902,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "316.1 yds||tour avg: 299 yds",
+      "Driving Distance": "316.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "56.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.53",
-      "SG: Approach": "+0.58",
+      "SG: Off the Tee": "+0.55",
+      "SG: Approach": "+0.60",
       "SG: Around Green": "+0.04",
-      "SG: Putting": "+0.12",
-      "SG: Total": "+1.27"
+      "SG: Putting": "+0.13",
+      "SG: Total": "+1.31"
     },
     "form": {
       "world_ranking": 28
     },
     "raw": {
-      "driving_dist": 17.135,
+      "driving_dist": 17.207,
       "driving_acc": -0.045,
-      "sg_ott": 0.534,
-      "sg_app": 0.578,
-      "sg_arg": 0.036,
-      "sg_putt": 0.123,
-      "sg_total": 1.27
+      "sg_ott": 0.546,
+      "sg_app": 0.596,
+      "sg_arg": 0.04,
+      "sg_putt": 0.132,
+      "sg_total": 1.314
     }
   },
   {
@@ -935,25 +935,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "310.8 yds||tour avg: 299 yds",
+      "Driving Distance": "310.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.2%||tour avg: 61%",
       "SG: Off the Tee": "+0.60",
       "SG: Approach": "+0.72",
       "SG: Around Green": "-0.05",
       "SG: Putting": "+0.02",
-      "SG: Total": "+1.30"
+      "SG: Total": "+1.29"
     },
     "form": {
       "world_ranking": 29
     },
     "raw": {
-      "driving_dist": 11.839,
+      "driving_dist": 11.855,
       "driving_acc": 0.002,
-      "sg_ott": 0.604,
+      "sg_ott": 0.601,
       "sg_app": 0.72,
-      "sg_arg": -0.046,
-      "sg_putt": 0.018,
-      "sg_total": 1.296
+      "sg_arg": -0.047,
+      "sg_putt": 0.02,
+      "sg_total": 1.293
     }
   },
   {
@@ -971,7 +971,7 @@
       "Driving Distance": "313.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.5%||tour avg: 61%",
       "SG: Off the Tee": "+0.66",
-      "SG: Approach": "+0.35",
+      "SG: Approach": "+0.34",
       "SG: Around Green": "+0.29",
       "SG: Putting": "+0.28",
       "SG: Total": "+1.58"
@@ -980,13 +980,13 @@
       "world_ranking": 30
     },
     "raw": {
-      "driving_dist": 14.575,
+      "driving_dist": 14.595,
       "driving_acc": -0.005,
-      "sg_ott": 0.66,
-      "sg_app": 0.348,
-      "sg_arg": 0.293,
-      "sg_putt": 0.284,
-      "sg_total": 1.584
+      "sg_ott": 0.655,
+      "sg_app": 0.345,
+      "sg_arg": 0.291,
+      "sg_putt": 0.285,
+      "sg_total": 1.576
     }
   },
   {
@@ -1001,25 +1001,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.27",
+      "Driving Distance": "299.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.26",
       "SG: Approach": "+0.63",
       "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.10",
-      "SG: Total": "+1.15"
+      "SG: Putting": "+0.11",
+      "SG: Total": "+1.13"
     },
     "form": {
       "world_ranking": 31
     },
     "raw": {
-      "driving_dist": 0.643,
-      "driving_acc": 0.044,
-      "sg_ott": 0.272,
-      "sg_app": 0.633,
-      "sg_arg": 0.14,
-      "sg_putt": 0.105,
-      "sg_total": 1.151
+      "driving_dist": 0.657,
+      "driving_acc": 0.043,
+      "sg_ott": 0.263,
+      "sg_app": 0.626,
+      "sg_arg": 0.138,
+      "sg_putt": 0.106,
+      "sg_total": 1.133
     }
   },
   {
@@ -1036,23 +1036,23 @@
     "stats": {
       "Driving Distance": "319.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.90",
-      "SG: Approach": "+0.32",
+      "SG: Off the Tee": "+0.89",
+      "SG: Approach": "+0.31",
       "SG: Around Green": "-0.06",
       "SG: Putting": "+0.10",
-      "SG: Total": "+1.26"
+      "SG: Total": "+1.25"
     },
     "form": {
       "world_ranking": 32
     },
     "raw": {
-      "driving_dist": 20.614,
+      "driving_dist": 20.591,
       "driving_acc": -0.014,
-      "sg_ott": 0.897,
-      "sg_app": 0.32,
-      "sg_arg": -0.06,
-      "sg_putt": 0.105,
-      "sg_total": 1.263
+      "sg_ott": 0.89,
+      "sg_app": 0.31,
+      "sg_arg": -0.055,
+      "sg_putt": 0.102,
+      "sg_total": 1.246
     }
   },
   {
@@ -1067,25 +1067,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.8 yds||tour avg: 299 yds",
+      "Driving Distance": "302.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.39",
-      "SG: Approach": "+0.68",
-      "SG: Around Green": "+0.28",
+      "SG: Off the Tee": "+0.40",
+      "SG: Approach": "+0.70",
+      "SG: Around Green": "+0.29",
       "SG: Putting": "+0.14",
-      "SG: Total": "+1.49"
+      "SG: Total": "+1.53"
     },
     "form": {
       "world_ranking": 33
     },
     "raw": {
-      "driving_dist": 3.848,
+      "driving_dist": 3.912,
       "driving_acc": 0.009,
-      "sg_ott": 0.388,
-      "sg_app": 0.681,
-      "sg_arg": 0.284,
-      "sg_putt": 0.136,
-      "sg_total": 1.489
+      "sg_ott": 0.4,
+      "sg_app": 0.697,
+      "sg_arg": 0.286,
+      "sg_putt": 0.143,
+      "sg_total": 1.527
     }
   },
   {
@@ -1101,24 +1101,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "304.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.21",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "+0.27",
-      "SG: Putting": "+0.49",
-      "SG: Total": "+1.20"
+      "Driving Accuracy": "59.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.22",
+      "SG: Approach": "+0.24",
+      "SG: Around Green": "+0.28",
+      "SG: Putting": "+0.50",
+      "SG: Total": "+1.24"
     },
     "form": {
       "world_ranking": 34
     },
     "raw": {
-      "driving_dist": 5.562,
-      "driving_acc": -0.02,
-      "sg_ott": 0.209,
-      "sg_app": 0.224,
-      "sg_arg": 0.273,
-      "sg_putt": 0.492,
-      "sg_total": 1.198
+      "driving_dist": 5.631,
+      "driving_acc": -0.019,
+      "sg_ott": 0.221,
+      "sg_app": 0.241,
+      "sg_arg": 0.277,
+      "sg_putt": 0.501,
+      "sg_total": 1.239
     }
   },
   {
@@ -1135,23 +1135,23 @@
     "stats": {
       "Driving Distance": "303.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.25",
-      "SG: Approach": "+0.21",
-      "SG: Around Green": "+0.24",
-      "SG: Putting": "+0.15",
-      "SG: Total": "+0.86"
+      "SG: Off the Tee": "+0.26",
+      "SG: Approach": "+0.23",
+      "SG: Around Green": "+0.25",
+      "SG: Putting": "+0.16",
+      "SG: Total": "+0.89"
     },
     "form": {
       "world_ranking": 35
     },
     "raw": {
-      "driving_dist": 4.556,
+      "driving_dist": 4.617,
       "driving_acc": 0.013,
-      "sg_ott": 0.254,
-      "sg_app": 0.213,
-      "sg_arg": 0.245,
-      "sg_putt": 0.148,
-      "sg_total": 0.86
+      "sg_ott": 0.264,
+      "sg_app": 0.226,
+      "sg_arg": 0.247,
+      "sg_putt": 0.156,
+      "sg_total": 0.893
     }
   },
   {
@@ -1166,25 +1166,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "307.7 yds||tour avg: 299 yds",
+      "Driving Distance": "307.8 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.24",
-      "SG: Approach": "+0.23",
+      "SG: Off the Tee": "+0.26",
+      "SG: Approach": "+0.25",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "+0.65",
-      "SG: Total": "+1.15"
+      "SG: Putting": "+0.66",
+      "SG: Total": "+1.20"
     },
     "form": {
       "world_ranking": 36
     },
     "raw": {
-      "driving_dist": 8.731,
+      "driving_dist": 8.799,
       "driving_acc": -0.02,
-      "sg_ott": 0.245,
-      "sg_app": 0.229,
-      "sg_arg": 0.03,
-      "sg_putt": 0.647,
-      "sg_total": 1.151
+      "sg_ott": 0.259,
+      "sg_app": 0.248,
+      "sg_arg": 0.033,
+      "sg_putt": 0.656,
+      "sg_total": 1.197
     }
   },
   {
@@ -1202,22 +1202,22 @@
       "Driving Distance": "299.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.5%||tour avg: 61%",
       "SG: Off the Tee": "+0.34",
-      "SG: Approach": "+0.56",
+      "SG: Approach": "+0.57",
       "SG: Around Green": "-0.07",
-      "SG: Putting": "-0.07",
-      "SG: Total": "+0.77"
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.78"
     },
     "form": {
       "world_ranking": 37
     },
     "raw": {
-      "driving_dist": 0.493,
+      "driving_dist": 0.531,
       "driving_acc": 0.035,
-      "sg_ott": 0.339,
-      "sg_app": 0.564,
+      "sg_ott": 0.34,
+      "sg_app": 0.568,
       "sg_arg": -0.07,
-      "sg_putt": -0.067,
-      "sg_total": 0.765
+      "sg_putt": -0.063,
+      "sg_total": 0.775
     }
   },
   {
@@ -1234,23 +1234,23 @@
     "stats": {
       "Driving Distance": "299.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "65.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.33",
-      "SG: Approach": "+0.41",
+      "SG: Off the Tee": "+0.34",
+      "SG: Approach": "+0.43",
       "SG: Around Green": "+0.07",
-      "SG: Putting": "+0.28",
-      "SG: Total": "+1.09"
+      "SG: Putting": "+0.29",
+      "SG: Total": "+1.13"
     },
     "form": {
       "world_ranking": 38
     },
     "raw": {
-      "driving_dist": 0.554,
+      "driving_dist": 0.616,
       "driving_acc": 0.041,
-      "sg_ott": 0.325,
-      "sg_app": 0.414,
-      "sg_arg": 0.068,
-      "sg_putt": 0.283,
-      "sg_total": 1.091
+      "sg_ott": 0.336,
+      "sg_app": 0.43,
+      "sg_arg": 0.071,
+      "sg_putt": 0.292,
+      "sg_total": 1.128
     }
   },
   {
@@ -1267,23 +1267,23 @@
     "stats": {
       "Driving Distance": "313.7 yds||tour avg: 299 yds",
       "Driving Accuracy": "58.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.51",
+      "SG: Off the Tee": "+0.52",
       "SG: Approach": "+0.35",
       "SG: Around Green": "+0.03",
       "SG: Putting": "+0.38",
-      "SG: Total": "+1.27"
+      "SG: Total": "+1.28"
     },
     "form": {
       "world_ranking": 39
     },
     "raw": {
-      "driving_dist": 14.699,
+      "driving_dist": 14.731,
       "driving_acc": -0.021,
-      "sg_ott": 0.513,
-      "sg_app": 0.348,
-      "sg_arg": 0.025,
-      "sg_putt": 0.38,
-      "sg_total": 1.266
+      "sg_ott": 0.515,
+      "sg_app": 0.354,
+      "sg_arg": 0.026,
+      "sg_putt": 0.384,
+      "sg_total": 1.278
     }
   },
   {
@@ -1298,25 +1298,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.4 yds||tour avg: 299 yds",
+      "Driving Distance": "297.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.22",
       "SG: Approach": "+0.54",
       "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.14",
-      "SG: Total": "+0.91"
+      "SG: Putting": "+0.15",
+      "SG: Total": "+0.92"
     },
     "form": {
       "world_ranking": 40
     },
     "raw": {
-      "driving_dist": -1.551,
+      "driving_dist": -1.513,
       "driving_acc": 0.031,
-      "sg_ott": 0.22,
-      "sg_app": 0.54,
+      "sg_ott": 0.219,
+      "sg_app": 0.543,
       "sg_arg": 0.011,
-      "sg_putt": 0.142,
-      "sg_total": 0.913
+      "sg_putt": 0.146,
+      "sg_total": 0.919
     }
   },
   {
@@ -1331,25 +1331,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.1 yds||tour avg: 299 yds",
+      "Driving Distance": "302.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "63.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.33",
-      "SG: Approach": "+0.48",
-      "SG: Around Green": "+0.10",
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "+0.47",
+      "SG: Around Green": "+0.09",
       "SG: Putting": "+0.26",
-      "SG: Total": "+1.17"
+      "SG: Total": "+1.14"
     },
     "form": {
       "world_ranking": 41
     },
     "raw": {
-      "driving_dist": 3.054,
+      "driving_dist": 3.033,
       "driving_acc": 0.024,
-      "sg_ott": 0.327,
-      "sg_app": 0.482,
-      "sg_arg": 0.095,
-      "sg_putt": 0.263,
-      "sg_total": 1.167
+      "sg_ott": 0.316,
+      "sg_app": 0.473,
+      "sg_arg": 0.092,
+      "sg_putt": 0.26,
+      "sg_total": 1.141
     }
   },
   {
@@ -1364,25 +1364,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "-0.09",
+      "Driving Distance": "298.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.05",
+      "SG: Approach": "-0.07",
       "SG: Around Green": "+0.36",
-      "SG: Putting": "+0.30",
-      "SG: Total": "+0.51"
+      "SG: Putting": "+0.31",
+      "SG: Total": "+0.55"
     },
     "form": {
       "world_ranking": 42
     },
     "raw": {
-      "driving_dist": -0.899,
-      "driving_acc": 0.0,
-      "sg_ott": -0.06,
-      "sg_app": -0.09,
-      "sg_arg": 0.36,
-      "sg_putt": 0.297,
-      "sg_total": 0.508
+      "driving_dist": -0.831,
+      "driving_acc": 0.001,
+      "sg_ott": -0.047,
+      "sg_app": -0.073,
+      "sg_arg": 0.363,
+      "sg_putt": 0.306,
+      "sg_total": 0.549
     }
   },
   {
@@ -1399,23 +1399,23 @@
     "stats": {
       "Driving Distance": "300.8 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.24",
+      "SG: Off the Tee": "+0.25",
       "SG: Approach": "+0.45",
       "SG: Around Green": "-0.11",
       "SG: Putting": "+0.01",
-      "SG: Total": "+0.58"
+      "SG: Total": "+0.60"
     },
     "form": {
       "world_ranking": 43
     },
     "raw": {
-      "driving_dist": 1.773,
+      "driving_dist": 1.82,
       "driving_acc": 0.037,
-      "sg_ott": 0.243,
-      "sg_app": 0.445,
-      "sg_arg": -0.114,
-      "sg_putt": 0.005,
-      "sg_total": 0.58
+      "sg_ott": 0.247,
+      "sg_app": 0.453,
+      "sg_arg": -0.113,
+      "sg_putt": 0.011,
+      "sg_total": 0.597
     }
   },
   {
@@ -1430,25 +1430,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.01",
-      "SG: Approach": "+0.27",
-      "SG: Around Green": "+0.25",
-      "SG: Putting": "+0.09",
-      "SG: Total": "+0.61"
+      "Driving Distance": "306.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "+0.33",
+      "SG: Around Green": "+0.23",
+      "SG: Putting": "+0.28",
+      "SG: Total": "+0.94"
     },
     "form": {
       "world_ranking": 44
     },
     "raw": {
-      "driving_dist": 6.808,
-      "driving_acc": -0.033,
-      "sg_ott": 0.006,
-      "sg_app": 0.266,
-      "sg_arg": 0.25,
-      "sg_putt": 0.09,
-      "sg_total": 0.612
+      "driving_dist": 7.118,
+      "driving_acc": -0.028,
+      "sg_ott": 0.1,
+      "sg_app": 0.326,
+      "sg_arg": 0.227,
+      "sg_putt": 0.285,
+      "sg_total": 0.938
     }
   },
   {
@@ -1463,25 +1463,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "318.6 yds||tour avg: 299 yds",
+      "Driving Distance": "318.7 yds||tour avg: 299 yds",
       "Driving Accuracy": "54.5%||tour avg: 61%",
       "SG: Off the Tee": "+0.50",
-      "SG: Approach": "-0.04",
-      "SG: Around Green": "-0.18",
-      "SG: Putting": "-0.08",
-      "SG: Total": "+0.21"
+      "SG: Approach": "-0.03",
+      "SG: Around Green": "-0.17",
+      "SG: Putting": "-0.07",
+      "SG: Total": "+0.23"
     },
     "form": {
       "world_ranking": 45
     },
     "raw": {
-      "driving_dist": 19.615,
+      "driving_dist": 19.672,
       "driving_acc": -0.065,
-      "sg_ott": 0.501,
-      "sg_app": -0.036,
-      "sg_arg": -0.177,
-      "sg_putt": -0.079,
-      "sg_total": 0.209
+      "sg_ott": 0.504,
+      "sg_app": -0.028,
+      "sg_arg": -0.175,
+      "sg_putt": -0.074,
+      "sg_total": 0.228
     }
   },
   {
@@ -1497,24 +1497,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "306.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.40",
-      "SG: Approach": "+0.38",
+      "Driving Accuracy": "61.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.39",
+      "SG: Approach": "+0.39",
       "SG: Around Green": "+0.18",
-      "SG: Putting": "+0.15",
-      "SG: Total": "+1.10"
+      "SG: Putting": "+0.19",
+      "SG: Total": "+1.15"
     },
     "form": {
       "world_ranking": 46
     },
     "raw": {
-      "driving_dist": 7.155,
-      "driving_acc": 0.007,
-      "sg_ott": 0.396,
-      "sg_app": 0.378,
-      "sg_arg": 0.18,
-      "sg_putt": 0.148,
-      "sg_total": 1.102
+      "driving_dist": 7.153,
+      "driving_acc": 0.003,
+      "sg_ott": 0.387,
+      "sg_app": 0.39,
+      "sg_arg": 0.177,
+      "sg_putt": 0.194,
+      "sg_total": 1.149
     }
   },
   {
@@ -1531,23 +1531,23 @@
     "stats": {
       "Driving Distance": "312.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.53",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "-0.27",
-      "SG: Putting": "+0.03",
-      "SG: Total": "+0.62"
+      "SG: Off the Tee": "+0.55",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "-0.26",
+      "SG: Putting": "+0.04",
+      "SG: Total": "+0.67"
     },
     "form": {
       "world_ranking": 47
     },
     "raw": {
-      "driving_dist": 12.951,
+      "driving_dist": 13.011,
       "driving_acc": -0.008,
-      "sg_ott": 0.533,
-      "sg_app": 0.326,
-      "sg_arg": -0.267,
-      "sg_putt": 0.032,
-      "sg_total": 0.624
+      "sg_ott": 0.547,
+      "sg_app": 0.346,
+      "sg_arg": -0.263,
+      "sg_putt": 0.041,
+      "sg_total": 0.67
     }
   },
   {
@@ -1562,25 +1562,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.5 yds||tour avg: 299 yds",
+      "Driving Distance": "296.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "58.3%||tour avg: 61%",
       "SG: Off the Tee": "-0.35",
-      "SG: Approach": "+0.13",
+      "SG: Approach": "+0.14",
       "SG: Around Green": "+0.13",
       "SG: Putting": "+0.42",
-      "SG: Total": "+0.32"
+      "SG: Total": "+0.34"
     },
     "form": {
       "world_ranking": 48
     },
     "raw": {
-      "driving_dist": -2.497,
+      "driving_dist": -2.446,
       "driving_acc": -0.027,
-      "sg_ott": -0.355,
-      "sg_app": 0.131,
-      "sg_arg": 0.129,
-      "sg_putt": 0.418,
-      "sg_total": 0.323
+      "sg_ott": -0.35,
+      "sg_app": 0.14,
+      "sg_arg": 0.13,
+      "sg_putt": 0.425,
+      "sg_total": 0.345
     }
   },
   {
@@ -1595,25 +1595,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.9 yds||tour avg: 299 yds",
+      "Driving Distance": "295.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.10",
-      "SG: Approach": "+0.31",
-      "SG: Around Green": "+0.03",
+      "SG: Approach": "+0.32",
+      "SG: Around Green": "+0.04",
       "SG: Putting": "+0.24",
-      "SG: Total": "+0.68"
+      "SG: Total": "+0.70"
     },
     "form": {
       "world_ranking": 49
     },
     "raw": {
-      "driving_dist": -4.078,
+      "driving_dist": -4.03,
       "driving_acc": 0.031,
-      "sg_ott": 0.095,
-      "sg_app": 0.312,
-      "sg_arg": 0.034,
-      "sg_putt": 0.237,
-      "sg_total": 0.679
+      "sg_ott": 0.102,
+      "sg_app": 0.323,
+      "sg_arg": 0.036,
+      "sg_putt": 0.243,
+      "sg_total": 0.705
     }
   },
   {
@@ -1640,13 +1640,13 @@
       "world_ranking": 50
     },
     "raw": {
-      "driving_dist": 8.886,
+      "driving_dist": 8.916,
       "driving_acc": -0.013,
-      "sg_ott": 0.421,
-      "sg_app": 0.709,
-      "sg_arg": 0.101,
-      "sg_putt": -0.139,
-      "sg_total": 1.092
+      "sg_ott": 0.419,
+      "sg_app": 0.711,
+      "sg_arg": 0.1,
+      "sg_putt": -0.135,
+      "sg_total": 1.094
     }
   },
   {
@@ -1661,25 +1661,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "292.5 yds||tour avg: 299 yds",
+      "Driving Distance": "292.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "62.8%||tour avg: 61%",
-      "SG: Off the Tee": "-0.20",
-      "SG: Approach": "-0.06",
+      "SG: Off the Tee": "-0.19",
+      "SG: Approach": "-0.05",
       "SG: Around Green": "-0.12",
       "SG: Putting": "+0.15",
-      "SG: Total": "-0.23"
+      "SG: Total": "-0.21"
     },
     "form": {
       "world_ranking": 51
     },
     "raw": {
-      "driving_dist": -6.478,
+      "driving_dist": -6.435,
       "driving_acc": 0.018,
-      "sg_ott": -0.196,
-      "sg_app": -0.06,
-      "sg_arg": -0.119,
-      "sg_putt": 0.146,
-      "sg_total": -0.229
+      "sg_ott": -0.19,
+      "sg_app": -0.05,
+      "sg_arg": -0.118,
+      "sg_putt": 0.152,
+      "sg_total": -0.206
     }
   },
   {
@@ -1694,25 +1694,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.1 yds||tour avg: 299 yds",
+      "Driving Distance": "305.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.34",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "+0.07",
-      "SG: Putting": "-0.01",
-      "SG: Total": "+0.66"
+      "SG: Off the Tee": "+0.36",
+      "SG: Approach": "+0.28",
+      "SG: Around Green": "+0.08",
+      "SG: Putting": "-0.00",
+      "SG: Total": "+0.71"
     },
     "form": {
       "world_ranking": 52
     },
     "raw": {
-      "driving_dist": 6.083,
+      "driving_dist": 6.162,
       "driving_acc": 0.009,
-      "sg_ott": 0.34,
-      "sg_app": 0.258,
-      "sg_arg": 0.073,
-      "sg_putt": -0.014,
-      "sg_total": 0.658
+      "sg_ott": 0.356,
+      "sg_app": 0.279,
+      "sg_arg": 0.077,
+      "sg_putt": -0.004,
+      "sg_total": 0.708
     }
   },
   {
@@ -1727,25 +1727,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.2 yds||tour avg: 299 yds",
+      "Driving Distance": "296.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "68.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.24",
-      "SG: Approach": "+0.50",
+      "SG: Off the Tee": "+0.25",
+      "SG: Approach": "+0.52",
       "SG: Around Green": "+0.02",
-      "SG: Putting": "-0.05",
-      "SG: Total": "+0.71"
+      "SG: Putting": "-0.04",
+      "SG: Total": "+0.76"
     },
     "form": {
       "world_ranking": 53
     },
     "raw": {
-      "driving_dist": -2.753,
+      "driving_dist": -2.672,
       "driving_acc": 0.074,
-      "sg_ott": 0.238,
-      "sg_app": 0.5,
-      "sg_arg": 0.018,
-      "sg_putt": -0.049,
-      "sg_total": 0.707
+      "sg_ott": 0.254,
+      "sg_app": 0.521,
+      "sg_arg": 0.021,
+      "sg_putt": -0.038,
+      "sg_total": 0.758
     }
   },
   {
@@ -1762,23 +1762,23 @@
     "stats": {
       "Driving Distance": "300.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.15",
-      "SG: Approach": "+0.43",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "+0.44",
       "SG: Around Green": "+0.17",
-      "SG: Putting": "-0.12",
-      "SG: Total": "+0.63"
+      "SG: Putting": "-0.11",
+      "SG: Total": "+0.65"
     },
     "form": {
       "world_ranking": 54
     },
     "raw": {
-      "driving_dist": 0.998,
+      "driving_dist": 1.044,
       "driving_acc": -0.001,
-      "sg_ott": 0.152,
-      "sg_app": 0.43,
-      "sg_arg": 0.17,
-      "sg_putt": -0.118,
-      "sg_total": 0.633
+      "sg_ott": 0.156,
+      "sg_app": 0.438,
+      "sg_arg": 0.171,
+      "sg_putt": -0.114,
+      "sg_total": 0.652
     }
   },
   {
@@ -1793,25 +1793,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "292.4 yds||tour avg: 299 yds",
+      "Driving Distance": "292.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.1%||tour avg: 61%",
-      "SG: Off the Tee": "-0.13",
-      "SG: Approach": "+0.25",
+      "SG: Off the Tee": "-0.12",
+      "SG: Approach": "+0.26",
       "SG: Around Green": "+0.19",
-      "SG: Putting": "+0.16",
-      "SG: Total": "+0.48"
+      "SG: Putting": "+0.17",
+      "SG: Total": "+0.50"
     },
     "form": {
       "world_ranking": 55
     },
     "raw": {
-      "driving_dist": -6.58,
+      "driving_dist": -6.535,
       "driving_acc": 0.031,
-      "sg_ott": -0.126,
-      "sg_app": 0.253,
-      "sg_arg": 0.192,
-      "sg_putt": 0.158,
-      "sg_total": 0.476
+      "sg_ott": -0.121,
+      "sg_app": 0.262,
+      "sg_arg": 0.193,
+      "sg_putt": 0.165,
+      "sg_total": 0.499
     }
   },
   {
@@ -1826,25 +1826,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "311.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.54",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "-0.14",
-      "SG: Putting": "+0.07",
-      "SG: Total": "+0.72"
+      "Driving Distance": "311.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.58",
+      "SG: Approach": "+0.17",
+      "SG: Around Green": "-0.18",
+      "SG: Putting": "+0.19",
+      "SG: Total": "+0.75"
     },
     "form": {
       "world_ranking": 56
     },
     "raw": {
-      "driving_dist": 12.47,
-      "driving_acc": -0.016,
-      "sg_ott": 0.539,
-      "sg_app": 0.257,
-      "sg_arg": -0.144,
-      "sg_putt": 0.072,
-      "sg_total": 0.724
+      "driving_dist": 12.273,
+      "driving_acc": -0.01,
+      "sg_ott": 0.576,
+      "sg_app": 0.166,
+      "sg_arg": -0.182,
+      "sg_putt": 0.191,
+      "sg_total": 0.75
     }
   },
   {
@@ -1859,7 +1859,7 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "307.5 yds||tour avg: 299 yds",
+      "Driving Distance": "307.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "56.5%||tour avg: 61%",
       "SG: Off the Tee": "+0.31",
       "SG: Approach": "+0.24",
@@ -1871,13 +1871,13 @@
       "world_ranking": 57
     },
     "raw": {
-      "driving_dist": 8.539,
+      "driving_dist": 8.562,
       "driving_acc": -0.045,
-      "sg_ott": 0.311,
-      "sg_app": 0.239,
+      "sg_ott": 0.309,
+      "sg_app": 0.24,
       "sg_arg": 0.052,
-      "sg_putt": -0.08,
-      "sg_total": 0.523
+      "sg_putt": -0.076,
+      "sg_total": 0.524
     }
   },
   {
@@ -1896,21 +1896,21 @@
       "Driving Accuracy": "55.7%||tour avg: 61%",
       "SG: Off the Tee": "+0.54",
       "SG: Approach": "-0.03",
-      "SG: Around Green": "-0.03",
+      "SG: Around Green": "-0.02",
       "SG: Putting": "+0.49",
-      "SG: Total": "+0.96"
+      "SG: Total": "+0.98"
     },
     "form": {
       "world_ranking": 58
     },
     "raw": {
-      "driving_dist": 17.55,
+      "driving_dist": 17.564,
       "driving_acc": -0.053,
-      "sg_ott": 0.535,
-      "sg_app": -0.031,
-      "sg_arg": -0.028,
-      "sg_putt": 0.489,
-      "sg_total": 0.965
+      "sg_ott": 0.537,
+      "sg_app": -0.029,
+      "sg_arg": -0.019,
+      "sg_putt": 0.492,
+      "sg_total": 0.98
     }
   },
   {
@@ -1926,24 +1926,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "299.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.35",
-      "SG: Approach": "+0.38",
-      "SG: Around Green": "+0.08",
-      "SG: Putting": "+0.03",
-      "SG: Total": "+0.83"
+      "Driving Accuracy": "65.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.42",
+      "SG: Approach": "+0.41",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "+0.02",
+      "SG: Total": "+0.90"
     },
     "form": {
       "world_ranking": 59
     },
     "raw": {
-      "driving_dist": 0.924,
-      "driving_acc": 0.035,
-      "sg_ott": 0.346,
-      "sg_app": 0.375,
-      "sg_arg": 0.076,
-      "sg_putt": 0.032,
-      "sg_total": 0.829
+      "driving_dist": 0.937,
+      "driving_acc": 0.043,
+      "sg_ott": 0.422,
+      "sg_app": 0.414,
+      "sg_arg": 0.048,
+      "sg_putt": 0.019,
+      "sg_total": 0.903
     }
   },
   {
@@ -1958,25 +1958,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "317.4 yds||tour avg: 299 yds",
+      "Driving Distance": "317.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.86",
-      "SG: Approach": "+0.08",
-      "SG: Around Green": "-0.24",
+      "SG: Off the Tee": "+0.85",
+      "SG: Approach": "+0.05",
+      "SG: Around Green": "-0.23",
       "SG: Putting": "-0.25",
-      "SG: Total": "+0.44"
+      "SG: Total": "+0.41"
     },
     "form": {
       "world_ranking": 60
     },
     "raw": {
-      "driving_dist": 18.409,
-      "driving_acc": 0.0,
-      "sg_ott": 0.856,
-      "sg_app": 0.081,
-      "sg_arg": -0.244,
-      "sg_putt": -0.254,
-      "sg_total": 0.439
+      "driving_dist": 18.538,
+      "driving_acc": -0.0,
+      "sg_ott": 0.851,
+      "sg_app": 0.047,
+      "sg_arg": -0.231,
+      "sg_putt": -0.252,
+      "sg_total": 0.415
     }
   },
   {
@@ -1991,25 +1991,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "292.4 yds||tour avg: 299 yds",
+      "Driving Distance": "292.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "65.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.02",
-      "SG: Approach": "+0.42",
+      "SG: Off the Tee": "-0.01",
+      "SG: Approach": "+0.43",
       "SG: Around Green": "+0.28",
       "SG: Putting": "+0.14",
-      "SG: Total": "+0.81"
+      "SG: Total": "+0.84"
     },
     "form": {
       "world_ranking": 61
     },
     "raw": {
-      "driving_dist": -6.559,
+      "driving_dist": -6.504,
       "driving_acc": 0.043,
-      "sg_ott": -0.021,
-      "sg_app": 0.424,
-      "sg_arg": 0.276,
-      "sg_putt": 0.137,
-      "sg_total": 0.815
+      "sg_ott": -0.015,
+      "sg_app": 0.434,
+      "sg_arg": 0.278,
+      "sg_putt": 0.144,
+      "sg_total": 0.841
     }
   },
   {
@@ -2024,25 +2024,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "306.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.09",
-      "SG: Approach": "+0.07",
-      "SG: Around Green": "+0.17",
-      "SG: Putting": "+0.23",
-      "SG: Total": "+0.39"
+      "Driving Distance": "306.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.01",
+      "SG: Approach": "+0.30",
+      "SG: Around Green": "+0.12",
+      "SG: Putting": "+0.16",
+      "SG: Total": "+0.60"
     },
     "form": {
       "world_ranking": 62
     },
     "raw": {
-      "driving_dist": 7.194,
-      "driving_acc": -0.058,
-      "sg_ott": -0.087,
-      "sg_app": 0.074,
-      "sg_arg": 0.169,
-      "sg_putt": 0.232,
-      "sg_total": 0.389
+      "driving_dist": 7.932,
+      "driving_acc": -0.053,
+      "sg_ott": 0.015,
+      "sg_app": 0.302,
+      "sg_arg": 0.121,
+      "sg_putt": 0.157,
+      "sg_total": 0.596
     }
   },
   {
@@ -2060,22 +2060,22 @@
       "Driving Distance": "298.7 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.4%||tour avg: 61%",
       "SG: Off the Tee": "-0.13",
-      "SG: Approach": "+0.24",
+      "SG: Approach": "+0.25",
       "SG: Around Green": "+0.32",
-      "SG: Putting": "+0.46",
-      "SG: Total": "+0.90"
+      "SG: Putting": "+0.47",
+      "SG: Total": "+0.92"
     },
     "form": {
       "world_ranking": 63
     },
     "raw": {
-      "driving_dist": -0.335,
+      "driving_dist": -0.29,
       "driving_acc": -0.016,
-      "sg_ott": -0.132,
-      "sg_app": 0.244,
-      "sg_arg": 0.322,
-      "sg_putt": 0.462,
-      "sg_total": 0.897
+      "sg_ott": -0.127,
+      "sg_app": 0.253,
+      "sg_arg": 0.323,
+      "sg_putt": 0.468,
+      "sg_total": 0.918
     }
   },
   {
@@ -2093,22 +2093,22 @@
       "Driving Distance": "294.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "63.7%||tour avg: 61%",
       "SG: Off the Tee": "-0.12",
-      "SG: Approach": "+0.13",
+      "SG: Approach": "+0.12",
       "SG: Around Green": "-0.13",
       "SG: Putting": "+0.21",
-      "SG: Total": "+0.09"
+      "SG: Total": "+0.08"
     },
     "form": {
       "world_ranking": 64
     },
     "raw": {
-      "driving_dist": -4.737,
+      "driving_dist": -4.729,
       "driving_acc": 0.027,
-      "sg_ott": -0.119,
-      "sg_app": 0.126,
-      "sg_arg": -0.127,
+      "sg_ott": -0.122,
+      "sg_app": 0.123,
+      "sg_arg": -0.128,
       "sg_putt": 0.211,
-      "sg_total": 0.091
+      "sg_total": 0.083
     }
   },
   {
@@ -2123,25 +2123,25 @@
     "difficulty": "top100",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "305.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.25",
-      "SG: Approach": "+0.34",
+      "Driving Distance": "306.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.28",
+      "SG: Approach": "+0.32",
       "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.31",
-      "SG: Total": "+0.90"
+      "SG: Putting": "+0.21",
+      "SG: Total": "+0.82"
     },
     "form": {
       "world_ranking": 65
     },
     "raw": {
-      "driving_dist": 6.924,
-      "driving_acc": -0.009,
-      "sg_ott": 0.254,
-      "sg_app": 0.335,
-      "sg_arg": 0.006,
-      "sg_putt": 0.308,
-      "sg_total": 0.903
+      "driving_dist": 7.041,
+      "driving_acc": -0.007,
+      "sg_ott": 0.281,
+      "sg_app": 0.324,
+      "sg_arg": 0.009,
+      "sg_putt": 0.206,
+      "sg_total": 0.819
     }
   },
   {
@@ -2156,25 +2156,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "306.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.05",
-      "SG: Approach": "-0.07",
-      "SG: Around Green": "-0.01",
-      "SG: Putting": "+0.27",
-      "SG: Total": "+0.25"
+      "Driving Distance": "307.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.11",
+      "SG: Approach": "-0.01",
+      "SG: Around Green": "-0.04",
+      "SG: Putting": "+0.19",
+      "SG: Total": "+0.24"
     },
     "form": {
       "world_ranking": 66
     },
     "raw": {
-      "driving_dist": 7.889,
-      "driving_acc": -0.047,
-      "sg_ott": 0.053,
-      "sg_app": -0.069,
-      "sg_arg": -0.011,
-      "sg_putt": 0.274,
-      "sg_total": 0.246
+      "driving_dist": 7.982,
+      "driving_acc": -0.043,
+      "sg_ott": 0.111,
+      "sg_app": -0.015,
+      "sg_arg": -0.045,
+      "sg_putt": 0.193,
+      "sg_total": 0.244
     }
   },
   {
@@ -2189,25 +2189,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.3 yds||tour avg: 299 yds",
+      "Driving Distance": "298.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "63.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.22",
-      "SG: Approach": "+0.46",
+      "SG: Off the Tee": "+0.23",
+      "SG: Approach": "+0.47",
       "SG: Around Green": "+0.15",
-      "SG: Putting": "-0.07",
-      "SG: Total": "+0.75"
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.79"
     },
     "form": {
       "world_ranking": 67
     },
     "raw": {
-      "driving_dist": -0.677,
+      "driving_dist": -0.611,
       "driving_acc": 0.029,
-      "sg_ott": 0.218,
-      "sg_app": 0.458,
-      "sg_arg": 0.147,
-      "sg_putt": -0.073,
-      "sg_total": 0.75
+      "sg_ott": 0.23,
+      "sg_app": 0.475,
+      "sg_arg": 0.15,
+      "sg_putt": -0.064,
+      "sg_total": 0.791
     }
   },
   {
@@ -2222,25 +2222,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
-      "SG: Approach": "-0.15",
-      "SG: Around Green": "+0.37",
-      "SG: Putting": "+0.16",
-      "SG: Total": "+0.55"
+      "Driving Distance": "298.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.14",
+      "SG: Approach": "-0.16",
+      "SG: Around Green": "+0.40",
+      "SG: Putting": "+0.24",
+      "SG: Total": "+0.62"
     },
     "form": {
       "world_ranking": 68
     },
     "raw": {
-      "driving_dist": -0.737,
-      "driving_acc": 0.027,
-      "sg_ott": 0.17,
-      "sg_app": -0.151,
-      "sg_arg": 0.374,
-      "sg_putt": 0.157,
-      "sg_total": 0.55
+      "driving_dist": -0.441,
+      "driving_acc": 0.025,
+      "sg_ott": 0.139,
+      "sg_app": -0.157,
+      "sg_arg": 0.403,
+      "sg_putt": 0.239,
+      "sg_total": 0.624
     }
   },
   {
@@ -2255,25 +2255,25 @@
     "difficulty": "top100",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "292.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "68.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.24",
-      "SG: Approach": "+0.09",
-      "SG: Around Green": "+0.08",
-      "SG: Putting": "+0.15",
-      "SG: Total": "+0.55"
+      "Driving Distance": "292.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "67.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "+0.20",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "+0.06",
+      "SG: Total": "+0.56"
     },
     "form": {
       "world_ranking": 69
     },
     "raw": {
-      "driving_dist": -7.043,
-      "driving_acc": 0.07,
-      "sg_ott": 0.238,
-      "sg_app": 0.085,
-      "sg_arg": 0.082,
-      "sg_putt": 0.147,
-      "sg_total": 0.552
+      "driving_dist": -6.459,
+      "driving_acc": 0.065,
+      "sg_ott": 0.205,
+      "sg_app": 0.2,
+      "sg_arg": 0.09,
+      "sg_putt": 0.061,
+      "sg_total": 0.556
     }
   },
   {
@@ -2291,22 +2291,22 @@
       "Driving Distance": "298.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.3%||tour avg: 61%",
       "SG: Off the Tee": "-0.01",
-      "SG: Approach": "+0.24",
+      "SG: Approach": "+0.25",
       "SG: Around Green": "+0.18",
       "SG: Putting": "+0.07",
-      "SG: Total": "+0.46"
+      "SG: Total": "+0.50"
     },
     "form": {
       "world_ranking": 71
     },
     "raw": {
-      "driving_dist": -0.719,
+      "driving_dist": -0.667,
       "driving_acc": 0.003,
-      "sg_ott": -0.014,
-      "sg_app": 0.236,
-      "sg_arg": 0.176,
-      "sg_putt": 0.067,
-      "sg_total": 0.464
+      "sg_ott": -0.006,
+      "sg_app": 0.249,
+      "sg_arg": 0.179,
+      "sg_putt": 0.073,
+      "sg_total": 0.496
     }
   },
   {
@@ -2321,25 +2321,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "304.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.50",
-      "SG: Approach": "+0.37",
-      "SG: Around Green": "-0.09",
-      "SG: Putting": "-0.23",
-      "SG: Total": "+0.56"
+      "Driving Distance": "303.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "-0.13",
+      "SG: Putting": "-0.25",
+      "SG: Total": "+0.39"
     },
     "form": {
       "world_ranking": 72
     },
     "raw": {
-      "driving_dist": 5.652,
-      "driving_acc": 0.034,
-      "sg_ott": 0.503,
-      "sg_app": 0.374,
-      "sg_arg": -0.09,
-      "sg_putt": -0.232,
-      "sg_total": 0.555
+      "driving_dist": 4.714,
+      "driving_acc": 0.031,
+      "sg_ott": 0.415,
+      "sg_app": 0.352,
+      "sg_arg": -0.126,
+      "sg_putt": -0.247,
+      "sg_total": 0.392
     }
   },
   {
@@ -2354,25 +2354,25 @@
     "difficulty": "top100",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "294.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.21",
-      "SG: Approach": "+0.28",
-      "SG: Around Green": "-0.24",
-      "SG: Putting": "+0.08",
-      "SG: Total": "+0.33"
+      "Driving Distance": "295.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.27",
+      "SG: Approach": "+0.34",
+      "SG: Around Green": "-0.27",
+      "SG: Putting": "+0.04",
+      "SG: Total": "+0.39"
     },
     "form": {
       "world_ranking": 73
     },
     "raw": {
-      "driving_dist": -4.2,
-      "driving_acc": 0.04,
-      "sg_ott": 0.209,
-      "sg_app": 0.285,
-      "sg_arg": -0.239,
-      "sg_putt": 0.079,
-      "sg_total": 0.334
+      "driving_dist": -3.535,
+      "driving_acc": 0.044,
+      "sg_ott": 0.272,
+      "sg_app": 0.34,
+      "sg_arg": -0.265,
+      "sg_putt": 0.045,
+      "sg_total": 0.392
     }
   },
   {
@@ -2387,25 +2387,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "310.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.6%||tour avg: 61%",
+      "Driving Distance": "310.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.39",
-      "SG: Approach": "+0.08",
-      "SG: Around Green": "-0.24",
-      "SG: Putting": "-0.26",
-      "SG: Total": "-0.02"
+      "SG: Approach": "+0.18",
+      "SG: Around Green": "-0.27",
+      "SG: Putting": "-0.20",
+      "SG: Total": "+0.09"
     },
     "form": {
       "world_ranking": 74
     },
     "raw": {
-      "driving_dist": 11.34,
-      "driving_acc": -0.024,
+      "driving_dist": 11.811,
+      "driving_acc": -0.027,
       "sg_ott": 0.387,
-      "sg_app": 0.083,
-      "sg_arg": -0.24,
-      "sg_putt": -0.255,
-      "sg_total": -0.024
+      "sg_app": 0.178,
+      "sg_arg": -0.274,
+      "sg_putt": -0.205,
+      "sg_total": 0.085
     }
   },
   {
@@ -2420,25 +2420,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "310.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.50",
-      "SG: Approach": "+0.20",
+      "Driving Distance": "310.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.56",
+      "SG: Approach": "+0.17",
       "SG: Around Green": "+0.07",
-      "SG: Putting": "-0.06",
+      "SG: Putting": "-0.09",
       "SG: Total": "+0.70"
     },
     "form": {
       "world_ranking": 75
     },
     "raw": {
-      "driving_dist": 11.228,
-      "driving_acc": 0.004,
-      "sg_ott": 0.501,
-      "sg_app": 0.2,
-      "sg_arg": 0.068,
-      "sg_putt": -0.064,
-      "sg_total": 0.705
+      "driving_dist": 11.306,
+      "driving_acc": 0.008,
+      "sg_ott": 0.556,
+      "sg_app": 0.166,
+      "sg_arg": 0.066,
+      "sg_putt": -0.085,
+      "sg_total": 0.703
     }
   },
   {
@@ -2453,25 +2453,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "304.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.02",
-      "SG: Approach": "-0.04",
+      "Driving Distance": "304.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.02",
+      "SG: Approach": "+0.01",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "+0.19",
-      "SG: Total": "+0.16"
+      "SG: Putting": "+0.14",
+      "SG: Total": "+0.20"
     },
     "form": {
       "world_ranking": 77
     },
     "raw": {
-      "driving_dist": 5.728,
-      "driving_acc": -0.04,
-      "sg_ott": -0.018,
-      "sg_app": -0.041,
-      "sg_arg": 0.029,
-      "sg_putt": 0.194,
-      "sg_total": 0.164
+      "driving_dist": 5.775,
+      "driving_acc": -0.038,
+      "sg_ott": 0.021,
+      "sg_app": 0.008,
+      "sg_arg": 0.031,
+      "sg_putt": 0.136,
+      "sg_total": 0.197
     }
   },
   {
@@ -2486,25 +2486,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.6%||tour avg: 61%",
+      "Driving Distance": "302.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.4%||tour avg: 61%",
       "SG: Off the Tee": "+0.41",
-      "SG: Approach": "+0.10",
+      "SG: Approach": "+0.14",
       "SG: Around Green": "-0.11",
-      "SG: Putting": "-0.13",
-      "SG: Total": "+0.27"
+      "SG: Putting": "-0.08",
+      "SG: Total": "+0.36"
     },
     "form": {
       "world_ranking": 78
     },
     "raw": {
-      "driving_dist": 3.147,
-      "driving_acc": 0.026,
-      "sg_ott": 0.405,
-      "sg_app": 0.102,
-      "sg_arg": -0.11,
-      "sg_putt": -0.128,
-      "sg_total": 0.268
+      "driving_dist": 3.505,
+      "driving_acc": 0.024,
+      "sg_ott": 0.415,
+      "sg_app": 0.135,
+      "sg_arg": -0.108,
+      "sg_putt": -0.076,
+      "sg_total": 0.365
     }
   },
   {
@@ -2519,25 +2519,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.00",
-      "SG: Approach": "+0.23",
+      "Driving Distance": "302.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.02",
+      "SG: Approach": "+0.25",
       "SG: Around Green": "+0.24",
-      "SG: Putting": "+0.10",
-      "SG: Total": "+0.57"
+      "SG: Putting": "+0.11",
+      "SG: Total": "+0.62"
     },
     "form": {
       "world_ranking": 79
     },
     "raw": {
-      "driving_dist": 3.329,
-      "driving_acc": -0.026,
-      "sg_ott": 0.003,
-      "sg_app": 0.227,
-      "sg_arg": 0.239,
-      "sg_putt": 0.102,
-      "sg_total": 0.572
+      "driving_dist": 3.401,
+      "driving_acc": -0.025,
+      "sg_ott": 0.018,
+      "sg_app": 0.248,
+      "sg_arg": 0.243,
+      "sg_putt": 0.111,
+      "sg_total": 0.62
     }
   },
   {
@@ -2553,24 +2553,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "305.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.34",
-      "SG: Approach": "+0.24",
-      "SG: Around Green": "-0.17",
-      "SG: Putting": "-0.08",
-      "SG: Total": "+0.34"
+      "Driving Accuracy": "60.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.31",
+      "SG: Approach": "+0.27",
+      "SG: Around Green": "-0.16",
+      "SG: Putting": "-0.10",
+      "SG: Total": "+0.32"
     },
     "form": {
       "world_ranking": 80
     },
     "raw": {
-      "driving_dist": 6.828,
-      "driving_acc": -0.007,
-      "sg_ott": 0.342,
-      "sg_app": 0.242,
-      "sg_arg": -0.165,
-      "sg_putt": -0.076,
-      "sg_total": 0.343
+      "driving_dist": 6.835,
+      "driving_acc": -0.01,
+      "sg_ott": 0.309,
+      "sg_app": 0.268,
+      "sg_arg": -0.16,
+      "sg_putt": -0.097,
+      "sg_total": 0.319
     }
   },
   {
@@ -2587,23 +2587,23 @@
     "stats": {
       "Driving Distance": "277.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "72.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.35",
-      "SG: Approach": "+0.27",
+      "SG: Off the Tee": "-0.34",
+      "SG: Approach": "+0.28",
       "SG: Around Green": "+0.34",
       "SG: Putting": "+0.26",
-      "SG: Total": "+0.51"
+      "SG: Total": "+0.54"
     },
     "form": {
       "world_ranking": 81
     },
     "raw": {
-      "driving_dist": -21.624,
+      "driving_dist": -21.584,
       "driving_acc": 0.113,
-      "sg_ott": -0.353,
-      "sg_app": 0.271,
-      "sg_arg": 0.335,
-      "sg_putt": 0.256,
-      "sg_total": 0.509
+      "sg_ott": -0.344,
+      "sg_app": 0.285,
+      "sg_arg": 0.338,
+      "sg_putt": 0.262,
+      "sg_total": 0.542
     }
   },
   {
@@ -2618,25 +2618,25 @@
     "difficulty": "top100",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "297.7 yds||tour avg: 299 yds",
+      "Driving Distance": "297.8 yds||tour avg: 299 yds",
       "Driving Accuracy": "66.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.38",
-      "SG: Approach": "+0.36",
+      "SG: Off the Tee": "+0.37",
+      "SG: Approach": "+0.35",
       "SG: Around Green": "+0.08",
       "SG: Putting": "+0.02",
-      "SG: Total": "+0.85"
+      "SG: Total": "+0.82"
     },
     "form": {
       "world_ranking": 82
     },
     "raw": {
-      "driving_dist": -1.257,
+      "driving_dist": -1.236,
       "driving_acc": 0.054,
-      "sg_ott": 0.378,
-      "sg_app": 0.364,
-      "sg_arg": 0.081,
+      "sg_ott": 0.367,
+      "sg_app": 0.353,
+      "sg_arg": 0.08,
       "sg_putt": 0.024,
-      "sg_total": 0.848
+      "sg_total": 0.824
     }
   },
   {
@@ -2651,25 +2651,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.48",
-      "SG: Approach": "+0.32",
-      "SG: Around Green": "-0.12",
-      "SG: Putting": "-0.26",
-      "SG: Total": "+0.43"
+      "Driving Distance": "304.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.50",
+      "SG: Approach": "+0.19",
+      "SG: Around Green": "-0.06",
+      "SG: Putting": "-0.16",
+      "SG: Total": "+0.47"
     },
     "form": {
       "world_ranking": 83
     },
     "raw": {
-      "driving_dist": 6.134,
-      "driving_acc": 0.022,
-      "sg_ott": 0.484,
-      "sg_app": 0.323,
-      "sg_arg": -0.115,
-      "sg_putt": -0.258,
-      "sg_total": 0.433
+      "driving_dist": 5.872,
+      "driving_acc": 0.029,
+      "sg_ott": 0.503,
+      "sg_app": 0.193,
+      "sg_arg": -0.063,
+      "sg_putt": -0.158,
+      "sg_total": 0.474
     }
   },
   {
@@ -2684,25 +2684,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "53.4%||tour avg: 61%",
-      "SG: Off the Tee": "-0.29",
-      "SG: Approach": "-0.08",
-      "SG: Around Green": "+0.28",
-      "SG: Putting": "+0.24",
-      "SG: Total": "+0.15"
+      "Driving Distance": "306.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "53.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.24",
+      "SG: Approach": "+0.08",
+      "SG: Around Green": "+0.29",
+      "SG: Putting": "+0.26",
+      "SG: Total": "+0.39"
     },
     "form": {
       "world_ranking": 84
     },
     "raw": {
-      "driving_dist": 6.886,
-      "driving_acc": -0.076,
-      "sg_ott": -0.288,
-      "sg_app": -0.077,
-      "sg_arg": 0.275,
-      "sg_putt": 0.244,
-      "sg_total": 0.155
+      "driving_dist": 7.522,
+      "driving_acc": -0.08,
+      "sg_ott": -0.242,
+      "sg_app": 0.081,
+      "sg_arg": 0.291,
+      "sg_putt": 0.258,
+      "sg_total": 0.388
     }
   },
   {
@@ -2720,22 +2720,22 @@
       "Driving Distance": "294.7 yds||tour avg: 299 yds",
       "Driving Accuracy": "67.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.31",
-      "SG: Approach": "+0.29",
+      "SG: Approach": "+0.30",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "+0.02",
-      "SG: Total": "+0.65"
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.66"
     },
     "form": {
       "world_ranking": 85
     },
     "raw": {
-      "driving_dist": -4.346,
+      "driving_dist": -4.31,
       "driving_acc": 0.061,
-      "sg_ott": 0.307,
-      "sg_app": 0.293,
-      "sg_arg": 0.026,
-      "sg_putt": 0.022,
-      "sg_total": 0.648
+      "sg_ott": 0.309,
+      "sg_app": 0.298,
+      "sg_arg": 0.027,
+      "sg_putt": 0.026,
+      "sg_total": 0.66
     }
   },
   {
@@ -2750,25 +2750,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "293.6 yds||tour avg: 299 yds",
+      "Driving Distance": "293.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.02",
-      "SG: Approach": "+0.30",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "-0.09",
-      "SG: Total": "+0.28"
+      "SG: Off the Tee": "-0.02",
+      "SG: Approach": "+0.29",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "-0.10",
+      "SG: Total": "+0.26"
     },
     "form": {
       "world_ranking": 86
     },
     "raw": {
-      "driving_dist": -5.373,
+      "driving_dist": -5.755,
       "driving_acc": 0.034,
-      "sg_ott": 0.023,
-      "sg_app": 0.298,
-      "sg_arg": 0.046,
-      "sg_putt": -0.086,
-      "sg_total": 0.281
+      "sg_ott": -0.017,
+      "sg_app": 0.289,
+      "sg_arg": 0.086,
+      "sg_putt": -0.097,
+      "sg_total": 0.26
     }
   },
   {
@@ -2783,25 +2783,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "308.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.48",
-      "SG: Approach": "+0.24",
+      "Driving Distance": "308.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.29",
       "SG: Around Green": "-0.04",
-      "SG: Putting": "-0.14",
+      "SG: Putting": "-0.12",
       "SG: Total": "+0.55"
     },
     "form": {
       "world_ranking": 87
     },
     "raw": {
-      "driving_dist": 9.738,
-      "driving_acc": -0.006,
-      "sg_ott": 0.482,
-      "sg_app": 0.245,
-      "sg_arg": -0.035,
-      "sg_putt": -0.14,
-      "sg_total": 0.552
+      "driving_dist": 9.359,
+      "driving_acc": -0.014,
+      "sg_ott": 0.411,
+      "sg_app": 0.293,
+      "sg_arg": -0.036,
+      "sg_putt": -0.115,
+      "sg_total": 0.553
     }
   },
   {
@@ -2816,25 +2816,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.3 yds||tour avg: 299 yds",
+      "Driving Distance": "294.1 yds||tour avg: 299 yds",
       "Driving Accuracy": "67.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.27",
-      "SG: Approach": "+0.25",
+      "SG: Approach": "+0.27",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "-0.20",
-      "SG: Total": "+0.35"
+      "SG: Putting": "-0.22",
+      "SG: Total": "+0.34"
     },
     "form": {
       "world_ranking": 88
     },
     "raw": {
-      "driving_dist": -4.742,
+      "driving_dist": -4.924,
       "driving_acc": 0.063,
-      "sg_ott": 0.274,
-      "sg_app": 0.246,
-      "sg_arg": 0.029,
-      "sg_putt": -0.203,
-      "sg_total": 0.346
+      "sg_ott": 0.271,
+      "sg_app": 0.265,
+      "sg_arg": 0.032,
+      "sg_putt": -0.223,
+      "sg_total": 0.345
     }
   },
   {
@@ -2849,7 +2849,7 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.9 yds||tour avg: 299 yds",
+      "Driving Distance": "298.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "67.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.37",
       "SG: Approach": "+0.28",
@@ -2861,13 +2861,13 @@
       "world_ranking": 89
     },
     "raw": {
-      "driving_dist": -1.067,
+      "driving_dist": -1.047,
       "driving_acc": 0.061,
-      "sg_ott": 0.369,
-      "sg_app": 0.276,
-      "sg_arg": -0.251,
-      "sg_putt": -0.185,
-      "sg_total": 0.21
+      "sg_ott": 0.367,
+      "sg_app": 0.275,
+      "sg_arg": -0.252,
+      "sg_putt": -0.184,
+      "sg_total": 0.207
     }
   },
   {
@@ -2882,25 +2882,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "286.7 yds||tour avg: 299 yds",
+      "Driving Distance": "286.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.41",
-      "SG: Approach": "+0.20",
-      "SG: Around Green": "+0.26",
-      "SG: Putting": "+0.44",
-      "SG: Total": "+0.49"
+      "SG: Off the Tee": "-0.43",
+      "SG: Approach": "+0.18",
+      "SG: Around Green": "+0.25",
+      "SG: Putting": "+0.46",
+      "SG: Total": "+0.46"
     },
     "form": {
       "world_ranking": 91
     },
     "raw": {
-      "driving_dist": -12.338,
+      "driving_dist": -12.582,
       "driving_acc": 0.033,
-      "sg_ott": -0.406,
-      "sg_app": 0.2,
-      "sg_arg": 0.257,
-      "sg_putt": 0.442,
-      "sg_total": 0.493
+      "sg_ott": -0.431,
+      "sg_app": 0.179,
+      "sg_arg": 0.254,
+      "sg_putt": 0.458,
+      "sg_total": 0.46
     }
   },
   {
@@ -2919,7 +2919,7 @@
       "Driving Accuracy": "58.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.30",
       "SG: Approach": "+0.11",
-      "SG: Around Green": "+0.06",
+      "SG: Around Green": "+0.07",
       "SG: Putting": "+0.04",
       "SG: Total": "+0.51"
     },
@@ -2927,13 +2927,13 @@
       "world_ranking": 92
     },
     "raw": {
-      "driving_dist": 6.907,
+      "driving_dist": 6.893,
       "driving_acc": -0.029,
-      "sg_ott": 0.298,
-      "sg_app": 0.114,
-      "sg_arg": 0.06,
-      "sg_putt": 0.039,
-      "sg_total": 0.511
+      "sg_ott": 0.297,
+      "sg_app": 0.109,
+      "sg_arg": 0.066,
+      "sg_putt": 0.038,
+      "sg_total": 0.51
     }
   },
   {
@@ -2950,23 +2950,23 @@
     "stats": {
       "Driving Distance": "304.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
-      "SG: Approach": "-0.04",
-      "SG: Around Green": "+0.10",
-      "SG: Putting": "+0.13",
-      "SG: Total": "+0.35"
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "-0.02",
+      "SG: Around Green": "+0.11",
+      "SG: Putting": "+0.14",
+      "SG: Total": "+0.41"
     },
     "form": {
       "world_ranking": 93
     },
     "raw": {
-      "driving_dist": 5.272,
+      "driving_dist": 5.33,
       "driving_acc": -0.007,
-      "sg_ott": 0.166,
-      "sg_app": -0.044,
-      "sg_arg": 0.105,
-      "sg_putt": 0.127,
-      "sg_total": 0.354
+      "sg_ott": 0.182,
+      "sg_app": -0.021,
+      "sg_arg": 0.11,
+      "sg_putt": 0.136,
+      "sg_total": 0.407
     }
   },
   {
@@ -2981,25 +2981,25 @@
     "difficulty": "top100",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "307.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.47",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "-0.32",
-      "SG: Putting": "+0.29",
-      "SG: Total": "+0.69"
+      "Driving Distance": "306.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "+0.21",
+      "SG: Around Green": "-0.33",
+      "SG: Putting": "+0.23",
+      "SG: Total": "+0.44"
     },
     "form": {
       "world_ranking": 94
     },
     "raw": {
-      "driving_dist": 8.021,
-      "driving_acc": 0.006,
-      "sg_ott": 0.468,
-      "sg_app": 0.261,
-      "sg_arg": -0.322,
-      "sg_putt": 0.286,
-      "sg_total": 0.692
+      "driving_dist": 7.554,
+      "driving_acc": -0.004,
+      "sg_ott": 0.322,
+      "sg_app": 0.214,
+      "sg_arg": -0.327,
+      "sg_putt": 0.232,
+      "sg_total": 0.441
     }
   },
   {
@@ -3014,25 +3014,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "308.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.51",
-      "SG: Approach": "+0.27",
-      "SG: Around Green": "-0.06",
-      "SG: Putting": "-0.09",
-      "SG: Total": "+0.63"
+      "Driving Distance": "309.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.62",
+      "SG: Approach": "+0.33",
+      "SG: Around Green": "-0.01",
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.88"
     },
     "form": {
       "world_ranking": 95
     },
     "raw": {
-      "driving_dist": 9.228,
-      "driving_acc": -0.012,
-      "sg_ott": 0.506,
-      "sg_app": 0.269,
-      "sg_arg": -0.062,
-      "sg_putt": -0.086,
-      "sg_total": 0.627
+      "driving_dist": 10.219,
+      "driving_acc": -0.006,
+      "sg_ott": 0.624,
+      "sg_app": 0.334,
+      "sg_arg": -0.013,
+      "sg_putt": -0.062,
+      "sg_total": 0.882
     }
   },
   {
@@ -3048,24 +3048,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "297.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.07",
-      "SG: Approach": "+0.32",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "-0.26",
-      "SG: Total": "+0.18"
+      "Driving Accuracy": "62.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "+0.34",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "-0.27",
+      "SG: Total": "+0.28"
     },
     "form": {
       "world_ranking": 96
     },
     "raw": {
-      "driving_dist": -1.141,
-      "driving_acc": 0.014,
-      "sg_ott": 0.069,
-      "sg_app": 0.324,
-      "sg_arg": 0.047,
-      "sg_putt": -0.258,
-      "sg_total": 0.183
+      "driving_dist": -1.064,
+      "driving_acc": 0.017,
+      "sg_ott": 0.095,
+      "sg_app": 0.343,
+      "sg_arg": 0.104,
+      "sg_putt": -0.267,
+      "sg_total": 0.276
     }
   },
   {
@@ -3082,23 +3082,23 @@
     "stats": {
       "Driving Distance": "291.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.43",
-      "SG: Approach": "+0.04",
+      "SG: Off the Tee": "-0.42",
+      "SG: Approach": "+0.05",
       "SG: Around Green": "+0.16",
       "SG: Putting": "+0.53",
-      "SG: Total": "+0.30"
+      "SG: Total": "+0.33"
     },
     "form": {
       "world_ranking": 99
     },
     "raw": {
-      "driving_dist": -7.843,
+      "driving_dist": -7.789,
       "driving_acc": -0.004,
-      "sg_ott": -0.429,
-      "sg_app": 0.037,
-      "sg_arg": 0.161,
-      "sg_putt": 0.527,
-      "sg_total": 0.296
+      "sg_ott": -0.421,
+      "sg_app": 0.05,
+      "sg_arg": 0.163,
+      "sg_putt": 0.534,
+      "sg_total": 0.325
     }
   },
   {
@@ -3113,25 +3113,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.4%||tour avg: 61%",
-      "SG: Off the Tee": "-0.31",
-      "SG: Approach": "+0.02",
-      "SG: Around Green": "+0.30",
-      "SG: Putting": "+0.02",
-      "SG: Total": "+0.04"
+      "Driving Distance": "304.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.11",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "+0.31",
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.38"
     },
     "form": {
       "world_ranking": 103
     },
     "raw": {
-      "driving_dist": 3.859,
-      "driving_acc": -0.056,
-      "sg_ott": -0.306,
-      "sg_app": 0.023,
-      "sg_arg": 0.3,
-      "sg_putt": 0.018,
-      "sg_total": 0.035
+      "driving_dist": 5.343,
+      "driving_acc": -0.049,
+      "sg_ott": -0.114,
+      "sg_app": 0.152,
+      "sg_arg": 0.314,
+      "sg_putt": 0.026,
+      "sg_total": 0.378
     }
   },
   {
@@ -3146,25 +3146,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "306.3 yds||tour avg: 299 yds",
+      "Driving Distance": "306.7 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.39",
-      "SG: Approach": "+0.44",
-      "SG: Around Green": "+0.02",
-      "SG: Putting": "-0.17",
-      "SG: Total": "+0.68"
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.45",
+      "SG: Around Green": "+0.04",
+      "SG: Putting": "-0.13",
+      "SG: Total": "+0.76"
     },
     "form": {
       "world_ranking": 105
     },
     "raw": {
-      "driving_dist": 7.254,
+      "driving_dist": 7.675,
       "driving_acc": -0.013,
-      "sg_ott": 0.393,
-      "sg_app": 0.439,
-      "sg_arg": 0.016,
-      "sg_putt": -0.167,
-      "sg_total": 0.681
+      "sg_ott": 0.409,
+      "sg_app": 0.451,
+      "sg_arg": 0.035,
+      "sg_putt": -0.13,
+      "sg_total": 0.764
     }
   },
   {
@@ -3179,25 +3179,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "-0.13",
+      "Driving Distance": "297.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.15",
+      "SG: Approach": "-0.08",
       "SG: Around Green": "-0.08",
-      "SG: Putting": "-0.12",
-      "SG: Total": "-0.21"
+      "SG: Putting": "-0.11",
+      "SG: Total": "-0.12"
     },
     "form": {
       "world_ranking": 106
     },
     "raw": {
-      "driving_dist": -1.941,
-      "driving_acc": 0.037,
-      "sg_ott": 0.127,
-      "sg_app": -0.133,
-      "sg_arg": -0.084,
-      "sg_putt": -0.121,
-      "sg_total": -0.211
+      "driving_dist": -1.214,
+      "driving_acc": 0.032,
+      "sg_ott": 0.149,
+      "sg_app": -0.084,
+      "sg_arg": -0.079,
+      "sg_putt": -0.108,
+      "sg_total": -0.121
     }
   },
   {
@@ -3213,24 +3213,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "306.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.38",
+      "Driving Accuracy": "61.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.37",
       "SG: Approach": "+0.15",
       "SG: Around Green": "-0.08",
       "SG: Putting": "+0.03",
-      "SG: Total": "+0.48"
+      "SG: Total": "+0.47"
     },
     "form": {
       "world_ranking": 107
     },
     "raw": {
-      "driving_dist": 7.617,
-      "driving_acc": 0.008,
-      "sg_ott": 0.378,
-      "sg_app": 0.148,
-      "sg_arg": -0.078,
+      "driving_dist": 7.633,
+      "driving_acc": 0.007,
+      "sg_ott": 0.374,
+      "sg_app": 0.147,
+      "sg_arg": -0.08,
       "sg_putt": 0.033,
-      "sg_total": 0.481
+      "sg_total": 0.474
     }
   },
   {
@@ -3245,25 +3245,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "287.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.4%||tour avg: 61%",
+      "Driving Distance": "288.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.5%||tour avg: 61%",
       "SG: Off the Tee": "-0.26",
       "SG: Approach": "-0.15",
-      "SG: Around Green": "-0.04",
-      "SG: Putting": "-0.01",
-      "SG: Total": "-0.47"
+      "SG: Around Green": "-0.06",
+      "SG: Putting": "+0.03",
+      "SG: Total": "-0.45"
     },
     "form": {
       "world_ranking": 112
     },
     "raw": {
-      "driving_dist": -11.526,
-      "driving_acc": 0.034,
-      "sg_ott": -0.258,
-      "sg_app": -0.152,
-      "sg_arg": -0.042,
-      "sg_putt": -0.014,
-      "sg_total": -0.466
+      "driving_dist": -10.453,
+      "driving_acc": 0.025,
+      "sg_ott": -0.261,
+      "sg_app": -0.153,
+      "sg_arg": -0.056,
+      "sg_putt": 0.025,
+      "sg_total": -0.445
     }
   },
   {
@@ -3280,9 +3280,9 @@
     "stats": {
       "Driving Distance": "310.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "59.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.52",
+      "SG: Off the Tee": "+0.51",
       "SG: Approach": "+0.13",
-      "SG: Around Green": "-0.04",
+      "SG: Around Green": "-0.03",
       "SG: Putting": "-0.09",
       "SG: Total": "+0.52"
     },
@@ -3290,12 +3290,12 @@
       "world_ranking": 116
     },
     "raw": {
-      "driving_dist": 11.591,
+      "driving_dist": 11.639,
       "driving_acc": -0.014,
-      "sg_ott": 0.515,
-      "sg_app": 0.131,
-      "sg_arg": -0.035,
-      "sg_putt": -0.09,
+      "sg_ott": 0.511,
+      "sg_app": 0.128,
+      "sg_arg": -0.032,
+      "sg_putt": -0.086,
       "sg_total": 0.521
     }
   },
@@ -3311,25 +3311,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "295.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.54",
-      "SG: Approach": "+0.23",
-      "SG: Around Green": "+0.31",
+      "Driving Distance": "295.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.5%||tour avg: 61%",
+      "SG: Off the Tee": "-0.56",
+      "SG: Approach": "+0.28",
+      "SG: Around Green": "+0.30",
       "SG: Putting": "+0.42",
-      "SG: Total": "+0.42"
+      "SG: Total": "+0.45"
     },
     "form": {
       "world_ranking": 117
     },
     "raw": {
-      "driving_dist": -3.585,
-      "driving_acc": -0.05,
-      "sg_ott": -0.537,
-      "sg_app": 0.226,
-      "sg_arg": 0.311,
-      "sg_putt": 0.417,
-      "sg_total": 0.418
+      "driving_dist": -3.718,
+      "driving_acc": -0.055,
+      "sg_ott": -0.557,
+      "sg_app": 0.278,
+      "sg_arg": 0.302,
+      "sg_putt": 0.422,
+      "sg_total": 0.445
     }
   },
   {
@@ -3344,25 +3344,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "317.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.81",
-      "SG: Approach": "+0.04",
-      "SG: Around Green": "-0.21",
-      "SG: Putting": "+0.13",
-      "SG: Total": "+0.77"
+      "Driving Distance": "316.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.75",
+      "SG: Approach": "+0.01",
+      "SG: Around Green": "-0.22",
+      "SG: Putting": "+0.09",
+      "SG: Total": "+0.64"
     },
     "form": {
       "world_ranking": 119
     },
     "raw": {
-      "driving_dist": 18.215,
-      "driving_acc": -0.044,
-      "sg_ott": 0.806,
-      "sg_app": 0.043,
-      "sg_arg": -0.211,
-      "sg_putt": 0.134,
-      "sg_total": 0.773
+      "driving_dist": 17.584,
+      "driving_acc": -0.046,
+      "sg_ott": 0.752,
+      "sg_app": 0.014,
+      "sg_arg": -0.219,
+      "sg_putt": 0.094,
+      "sg_total": 0.641
     }
   },
   {
@@ -3377,25 +3377,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "301.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.1%||tour avg: 61%",
+      "Driving Distance": "300.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.0%||tour avg: 61%",
       "SG: Off the Tee": "+0.19",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "+0.00",
-      "SG: Total": "+0.50"
+      "SG: Approach": "+0.16",
+      "SG: Around Green": "+0.07",
+      "SG: Putting": "+0.02",
+      "SG: Total": "+0.44"
     },
     "form": {
       "world_ranking": 121
     },
     "raw": {
-      "driving_dist": 1.992,
-      "driving_acc": 0.001,
+      "driving_dist": 1.9,
+      "driving_acc": -0.0,
       "sg_ott": 0.191,
-      "sg_app": 0.257,
-      "sg_arg": 0.048,
-      "sg_putt": 0.003,
-      "sg_total": 0.499
+      "sg_app": 0.156,
+      "sg_arg": 0.068,
+      "sg_putt": 0.022,
+      "sg_total": 0.437
     }
   },
   {
@@ -3410,25 +3410,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
-      "SG: Approach": "-0.02",
-      "SG: Around Green": "+0.02",
+      "Driving Distance": "305.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "-0.03",
+      "SG: Around Green": "+0.01",
       "SG: Putting": "-0.09",
-      "SG: Total": "+0.08"
+      "SG: Total": "+0.06"
     },
     "form": {
       "world_ranking": 122
     },
     "raw": {
-      "driving_dist": 6.371,
-      "driving_acc": -0.006,
-      "sg_ott": 0.175,
-      "sg_app": -0.016,
-      "sg_arg": 0.016,
-      "sg_putt": -0.093,
-      "sg_total": 0.081
+      "driving_dist": 6.53,
+      "driving_acc": -0.009,
+      "sg_ott": 0.18,
+      "sg_app": -0.032,
+      "sg_arg": 0.005,
+      "sg_putt": -0.088,
+      "sg_total": 0.064
     }
   },
   {
@@ -3443,25 +3443,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.06",
-      "SG: Approach": "-0.10",
-      "SG: Around Green": "-0.00",
-      "SG: Putting": "+0.18",
-      "SG: Total": "+0.14"
+      "Driving Distance": "302.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.07",
+      "SG: Approach": "-0.08",
+      "SG: Around Green": "+0.00",
+      "SG: Putting": "+0.19",
+      "SG: Total": "+0.18"
     },
     "form": {
       "world_ranking": 123
     },
     "raw": {
-      "driving_dist": 3.817,
-      "driving_acc": -0.017,
-      "sg_ott": 0.059,
-      "sg_app": -0.102,
-      "sg_arg": -0.002,
-      "sg_putt": 0.181,
-      "sg_total": 0.137
+      "driving_dist": 3.881,
+      "driving_acc": -0.016,
+      "sg_ott": 0.074,
+      "sg_app": -0.082,
+      "sg_arg": 0.002,
+      "sg_putt": 0.19,
+      "sg_total": 0.184
     }
   },
   {
@@ -3476,25 +3476,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "303.5 yds||tour avg: 299 yds",
+      "Driving Distance": "303.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "66.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.60",
+      "SG: Off the Tee": "+0.61",
       "SG: Approach": "+0.07",
-      "SG: Around Green": "+0.03",
+      "SG: Around Green": "+0.04",
       "SG: Putting": "-0.15",
-      "SG: Total": "+0.54"
+      "SG: Total": "+0.56"
     },
     "form": {
       "world_ranking": 124
     },
     "raw": {
-      "driving_dist": 4.549,
+      "driving_dist": 4.568,
       "driving_acc": 0.05,
-      "sg_ott": 0.605,
-      "sg_app": 0.067,
-      "sg_arg": 0.025,
-      "sg_putt": -0.155,
-      "sg_total": 0.542
+      "sg_ott": 0.609,
+      "sg_app": 0.073,
+      "sg_arg": 0.035,
+      "sg_putt": -0.152,
+      "sg_total": 0.565
     }
   },
   {
@@ -3509,25 +3509,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "-0.21",
-      "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.25",
-      "SG: Total": "+0.28"
+      "Driving Distance": "300.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.00",
+      "SG: Approach": "-0.27",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "+0.22",
+      "SG: Total": "+0.05"
     },
     "form": {
       "world_ranking": 125
     },
     "raw": {
-      "driving_dist": 1.391,
-      "driving_acc": 0.017,
-      "sg_ott": 0.131,
-      "sg_app": -0.213,
-      "sg_arg": 0.115,
-      "sg_putt": 0.251,
-      "sg_total": 0.283
+      "driving_dist": 0.99,
+      "driving_acc": 0.007,
+      "sg_ott": 0.002,
+      "sg_app": -0.274,
+      "sg_arg": 0.099,
+      "sg_putt": 0.22,
+      "sg_total": 0.048
     }
   },
   {
@@ -3542,25 +3542,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "305.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.31",
-      "SG: Approach": "+0.05",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.03",
-      "SG: Total": "+0.40"
+      "Driving Distance": "306.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.30",
+      "SG: Approach": "+0.04",
+      "SG: Around Green": "-0.00",
+      "SG: Putting": "+0.09",
+      "SG: Total": "+0.42"
     },
     "form": {
       "world_ranking": 129
     },
     "raw": {
-      "driving_dist": 6.288,
-      "driving_acc": -0.009,
-      "sg_ott": 0.31,
-      "sg_app": 0.049,
-      "sg_arg": 0.012,
-      "sg_putt": 0.029,
-      "sg_total": 0.401
+      "driving_dist": 7.445,
+      "driving_acc": -0.017,
+      "sg_ott": 0.301,
+      "sg_app": 0.035,
+      "sg_arg": -0.001,
+      "sg_putt": 0.088,
+      "sg_total": 0.422
     }
   },
   {
@@ -3575,25 +3575,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.10",
+      "Driving Distance": "305.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.16",
       "SG: Approach": "-0.06",
       "SG: Around Green": "+0.04",
-      "SG: Putting": "+0.05",
-      "SG: Total": "+0.12"
+      "SG: Putting": "+0.10",
+      "SG: Total": "+0.23"
     },
     "form": {
       "world_ranking": 132
     },
     "raw": {
-      "driving_dist": 5.965,
-      "driving_acc": -0.011,
-      "sg_ott": 0.098,
-      "sg_app": -0.061,
-      "sg_arg": 0.035,
-      "sg_putt": 0.052,
-      "sg_total": 0.124
+      "driving_dist": 6.464,
+      "driving_acc": -0.006,
+      "sg_ott": 0.156,
+      "sg_app": -0.063,
+      "sg_arg": 0.04,
+      "sg_putt": 0.101,
+      "sg_total": 0.234
     }
   },
   {
@@ -3608,25 +3608,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "304.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.22",
-      "SG: Approach": "+0.05",
-      "SG: Around Green": "-0.07",
-      "SG: Putting": "+0.01",
-      "SG: Total": "+0.21"
+      "Driving Distance": "304.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.24",
+      "SG: Approach": "+0.03",
+      "SG: Around Green": "-0.10",
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.12"
     },
     "form": {
       "world_ranking": 136
     },
     "raw": {
-      "driving_dist": 5.062,
-      "driving_acc": 0.003,
-      "sg_ott": 0.218,
-      "sg_app": 0.049,
-      "sg_arg": -0.07,
-      "sg_putt": 0.009,
-      "sg_total": 0.206
+      "driving_dist": 5.324,
+      "driving_acc": 0.006,
+      "sg_ott": 0.242,
+      "sg_app": 0.033,
+      "sg_arg": -0.096,
+      "sg_putt": -0.056,
+      "sg_total": 0.124
     }
   },
   {
@@ -3641,25 +3641,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.40",
-      "SG: Approach": "+0.43",
-      "SG: Around Green": "+0.07",
-      "SG: Putting": "-0.06",
-      "SG: Total": "+0.84"
+      "Driving Distance": "302.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.36",
+      "SG: Approach": "+0.38",
+      "SG: Around Green": "+0.06",
+      "SG: Putting": "-0.10",
+      "SG: Total": "+0.71"
     },
     "form": {
       "world_ranking": 137
     },
     "raw": {
-      "driving_dist": 3.521,
-      "driving_acc": 0.032,
-      "sg_ott": 0.404,
-      "sg_app": 0.426,
-      "sg_arg": 0.071,
-      "sg_putt": -0.059,
-      "sg_total": 0.841
+      "driving_dist": 3.608,
+      "driving_acc": 0.029,
+      "sg_ott": 0.362,
+      "sg_app": 0.381,
+      "sg_arg": 0.063,
+      "sg_putt": -0.097,
+      "sg_total": 0.709
     }
   },
   {
@@ -3674,25 +3674,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "306.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.11",
-      "SG: Approach": "-0.20",
-      "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.15",
-      "SG: Total": "+0.21"
+      "Driving Distance": "307.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "-0.14",
+      "SG: Around Green": "+0.16",
+      "SG: Putting": "+0.21",
+      "SG: Total": "+0.39"
     },
     "form": {
       "world_ranking": 140
     },
     "raw": {
-      "driving_dist": 7.242,
-      "driving_acc": -0.043,
-      "sg_ott": 0.114,
-      "sg_app": -0.196,
-      "sg_arg": 0.144,
-      "sg_putt": 0.147,
-      "sg_total": 0.209
+      "driving_dist": 8.032,
+      "driving_acc": -0.044,
+      "sg_ott": 0.157,
+      "sg_app": -0.136,
+      "sg_arg": 0.156,
+      "sg_putt": 0.211,
+      "sg_total": 0.389
     }
   },
   {
@@ -3707,25 +3707,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.10",
-      "SG: Approach": "-0.30",
-      "SG: Around Green": "+0.07",
+      "Driving Distance": "299.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.13",
+      "SG: Approach": "-0.26",
+      "SG: Around Green": "+0.08",
       "SG: Putting": "+0.29",
-      "SG: Total": "+0.15"
+      "SG: Total": "+0.24"
     },
     "form": {
       "world_ranking": 143
     },
     "raw": {
-      "driving_dist": 0.516,
-      "driving_acc": 0.01,
-      "sg_ott": 0.098,
-      "sg_app": -0.302,
-      "sg_arg": 0.072,
-      "sg_putt": 0.286,
-      "sg_total": 0.154
+      "driving_dist": 0.64,
+      "driving_acc": 0.012,
+      "sg_ott": 0.132,
+      "sg_app": -0.263,
+      "sg_arg": 0.08,
+      "sg_putt": 0.295,
+      "sg_total": 0.244
     }
   },
   {
@@ -3740,25 +3740,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.2 yds||tour avg: 299 yds",
+      "Driving Distance": "296.4 yds||tour avg: 299 yds",
       "Driving Accuracy": "64.0%||tour avg: 61%",
       "SG: Off the Tee": "-0.04",
-      "SG: Approach": "+0.31",
-      "SG: Around Green": "+0.17",
-      "SG: Putting": "+0.05",
-      "SG: Total": "+0.50"
+      "SG: Approach": "+0.39",
+      "SG: Around Green": "+0.18",
+      "SG: Putting": "-0.05",
+      "SG: Total": "+0.48"
     },
     "form": {
       "world_ranking": 144
     },
     "raw": {
-      "driving_dist": -2.804,
+      "driving_dist": -2.597,
       "driving_acc": 0.03,
-      "sg_ott": -0.039,
-      "sg_app": 0.308,
-      "sg_arg": 0.175,
-      "sg_putt": 0.052,
-      "sg_total": 0.496
+      "sg_ott": -0.035,
+      "sg_app": 0.389,
+      "sg_arg": 0.176,
+      "sg_putt": -0.054,
+      "sg_total": 0.476
     }
   },
   {
@@ -3773,25 +3773,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "294.6 yds||tour avg: 299 yds",
+      "Driving Distance": "294.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "53.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.73",
-      "SG: Approach": "-0.16",
+      "SG: Off the Tee": "-0.74",
+      "SG: Approach": "-0.17",
       "SG: Around Green": "+0.47",
-      "SG: Putting": "+0.51",
-      "SG: Total": "+0.08"
+      "SG: Putting": "+0.50",
+      "SG: Total": "+0.07"
     },
     "form": {
       "world_ranking": 148
     },
     "raw": {
-      "driving_dist": -4.427,
+      "driving_dist": -4.452,
       "driving_acc": -0.078,
-      "sg_ott": -0.731,
-      "sg_app": -0.16,
-      "sg_arg": 0.467,
-      "sg_putt": 0.505,
-      "sg_total": 0.081
+      "sg_ott": -0.738,
+      "sg_app": -0.169,
+      "sg_arg": 0.471,
+      "sg_putt": 0.502,
+      "sg_total": 0.065
     }
   },
   {
@@ -3808,23 +3808,23 @@
     "stats": {
       "Driving Distance": "312.6 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.75",
-      "SG: Approach": "+0.39",
-      "SG: Around Green": "+0.12",
+      "SG: Off the Tee": "+0.76",
+      "SG: Approach": "+0.40",
+      "SG: Around Green": "+0.13",
       "SG: Putting": "-0.14",
-      "SG: Total": "+1.12"
+      "SG: Total": "+1.15"
     },
     "form": {
       "world_ranking": 149
     },
     "raw": {
-      "driving_dist": 13.563,
+      "driving_dist": 13.591,
       "driving_acc": 0.004,
-      "sg_ott": 0.753,
-      "sg_app": 0.394,
-      "sg_arg": 0.116,
-      "sg_putt": -0.14,
-      "sg_total": 1.123
+      "sg_ott": 0.761,
+      "sg_app": 0.401,
+      "sg_arg": 0.126,
+      "sg_putt": -0.137,
+      "sg_total": 1.151
     }
   },
   {
@@ -3839,25 +3839,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.0%||tour avg: 61%",
+      "Driving Distance": "297.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.9%||tour avg: 61%",
       "SG: Off the Tee": "-0.17",
-      "SG: Approach": "-0.22",
-      "SG: Around Green": "+0.27",
-      "SG: Putting": "+0.35",
-      "SG: Total": "+0.23"
+      "SG: Approach": "-0.25",
+      "SG: Around Green": "+0.24",
+      "SG: Putting": "+0.36",
+      "SG: Total": "+0.18"
     },
     "form": {
       "world_ranking": 151
     },
     "raw": {
-      "driving_dist": -1.013,
-      "driving_acc": -0.02,
-      "sg_ott": -0.167,
-      "sg_app": -0.221,
-      "sg_arg": 0.273,
-      "sg_putt": 0.348,
-      "sg_total": 0.232
+      "driving_dist": -1.085,
+      "driving_acc": -0.021,
+      "sg_ott": -0.168,
+      "sg_app": -0.251,
+      "sg_arg": 0.236,
+      "sg_putt": 0.365,
+      "sg_total": 0.182
     }
   },
   {
@@ -3872,25 +3872,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.9%||tour avg: 61%",
-      "SG: Off the Tee": "-0.33",
-      "SG: Approach": "-0.14",
-      "SG: Around Green": "+0.25",
-      "SG: Putting": "+0.26",
-      "SG: Total": "+0.05"
+      "Driving Distance": "300.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.2%||tour avg: 61%",
+      "SG: Off the Tee": "-0.47",
+      "SG: Approach": "-0.20",
+      "SG: Around Green": "+0.28",
+      "SG: Putting": "+0.25",
+      "SG: Total": "-0.14"
     },
     "form": {
       "world_ranking": 152
     },
     "raw": {
-      "driving_dist": 1.352,
-      "driving_acc": -0.051,
-      "sg_ott": -0.325,
-      "sg_app": -0.138,
-      "sg_arg": 0.251,
-      "sg_putt": 0.26,
-      "sg_total": 0.047
+      "driving_dist": 1.044,
+      "driving_acc": -0.058,
+      "sg_ott": -0.465,
+      "sg_app": -0.205,
+      "sg_arg": 0.28,
+      "sg_putt": 0.252,
+      "sg_total": -0.138
     }
   },
   {
@@ -3905,25 +3905,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "295.4 yds||tour avg: 299 yds",
+      "Driving Distance": "295.0 yds||tour avg: 299 yds",
       "Driving Accuracy": "66.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
+      "SG: Off the Tee": "+0.13",
       "SG: Approach": "+0.20",
-      "SG: Around Green": "-0.12",
+      "SG: Around Green": "-0.11",
       "SG: Putting": "-0.18",
-      "SG: Total": "+0.07"
+      "SG: Total": "+0.03"
     },
     "form": {
       "world_ranking": 153
     },
     "raw": {
-      "driving_dist": -3.612,
+      "driving_dist": -4.038,
       "driving_acc": 0.053,
-      "sg_ott": 0.17,
-      "sg_app": 0.203,
-      "sg_arg": -0.119,
-      "sg_putt": -0.184,
-      "sg_total": 0.07
+      "sg_ott": 0.126,
+      "sg_app": 0.202,
+      "sg_arg": -0.112,
+      "sg_putt": -0.182,
+      "sg_total": 0.034
     }
   },
   {
@@ -3938,25 +3938,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "296.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.27",
-      "SG: Approach": "+0.08",
-      "SG: Around Green": "+0.08",
-      "SG: Putting": "-0.17",
-      "SG: Total": "-0.28"
+      "Driving Distance": "296.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.7%||tour avg: 61%",
+      "SG: Off the Tee": "-0.29",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "-0.09",
+      "SG: Total": "-0.13"
     },
     "form": {
       "world_ranking": 156
     },
     "raw": {
-      "driving_dist": -3.03,
-      "driving_acc": -0.008,
-      "sg_ott": -0.272,
-      "sg_app": 0.084,
-      "sg_arg": 0.083,
-      "sg_putt": -0.172,
-      "sg_total": -0.277
+      "driving_dist": -2.212,
+      "driving_acc": -0.013,
+      "sg_ott": -0.288,
+      "sg_app": 0.151,
+      "sg_arg": 0.092,
+      "sg_putt": -0.085,
+      "sg_total": -0.131
     }
   },
   {
@@ -3971,25 +3971,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.8%||tour avg: 61%",
-      "SG: Off the Tee": "-0.14",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "+0.04",
-      "SG: Putting": "+0.02",
-      "SG: Total": "+0.08"
+      "Driving Distance": "297.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.8%||tour avg: 61%",
+      "SG: Off the Tee": "-0.02",
+      "SG: Approach": "+0.21",
+      "SG: Around Green": "+0.07",
+      "SG: Putting": "+0.06",
+      "SG: Total": "+0.32"
     },
     "form": {
       "world_ranking": 159
     },
     "raw": {
-      "driving_dist": -2.423,
-      "driving_acc": -0.012,
-      "sg_ott": -0.136,
-      "sg_app": 0.158,
-      "sg_arg": 0.045,
-      "sg_putt": 0.016,
-      "sg_total": 0.084
+      "driving_dist": -1.984,
+      "driving_acc": -0.002,
+      "sg_ott": -0.022,
+      "sg_app": 0.209,
+      "sg_arg": 0.075,
+      "sg_putt": 0.057,
+      "sg_total": 0.318
     }
   },
   {
@@ -4004,25 +4004,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "+0.05",
-      "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.16",
-      "SG: Total": "+0.29"
+      "Driving Distance": "305.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.14",
+      "SG: Approach": "+0.00",
+      "SG: Around Green": "+0.16",
+      "SG: Putting": "+0.17",
+      "SG: Total": "+0.18"
     },
     "form": {
       "world_ranking": 161
     },
     "raw": {
-      "driving_dist": 6.475,
-      "driving_acc": -0.043,
-      "sg_ott": -0.06,
-      "sg_app": 0.051,
-      "sg_arg": 0.135,
-      "sg_putt": 0.163,
-      "sg_total": 0.289
+      "driving_dist": 6.156,
+      "driving_acc": -0.049,
+      "sg_ott": -0.145,
+      "sg_app": 0.0,
+      "sg_arg": 0.156,
+      "sg_putt": 0.175,
+      "sg_total": 0.185
     }
   },
   {
@@ -4037,25 +4037,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "294.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.1%||tour avg: 61%",
-      "SG: Off the Tee": "-0.22",
-      "SG: Approach": "+0.50",
-      "SG: Around Green": "+0.00",
-      "SG: Putting": "+0.07",
-      "SG: Total": "+0.35"
+      "Driving Distance": "295.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.23",
+      "SG: Approach": "+0.45",
+      "SG: Around Green": "+0.04",
+      "SG: Putting": "+0.06",
+      "SG: Total": "+0.32"
     },
     "form": {
       "world_ranking": 162
     },
     "raw": {
-      "driving_dist": -4.096,
-      "driving_acc": 0.001,
-      "sg_ott": -0.221,
-      "sg_app": 0.501,
-      "sg_arg": 0.003,
-      "sg_putt": 0.07,
-      "sg_total": 0.353
+      "driving_dist": -4.002,
+      "driving_acc": 0.0,
+      "sg_ott": -0.232,
+      "sg_app": 0.454,
+      "sg_arg": 0.038,
+      "sg_putt": 0.055,
+      "sg_total": 0.315
     }
   },
   {
@@ -4071,24 +4071,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "296.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.9%||tour avg: 61%",
-      "SG: Off the Tee": "-0.02",
-      "SG: Approach": "-0.22",
-      "SG: Around Green": "-0.02",
-      "SG: Putting": "+0.28",
-      "SG: Total": "+0.02"
+      "Driving Accuracy": "61.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.07",
+      "SG: Approach": "-0.15",
+      "SG: Around Green": "-0.01",
+      "SG: Putting": "+0.22",
+      "SG: Total": "-0.00"
     },
     "form": {
       "world_ranking": 163
     },
     "raw": {
-      "driving_dist": -2.097,
-      "driving_acc": 0.009,
-      "sg_ott": -0.019,
-      "sg_app": -0.223,
-      "sg_arg": -0.018,
-      "sg_putt": 0.283,
-      "sg_total": 0.023
+      "driving_dist": -2.08,
+      "driving_acc": 0.0,
+      "sg_ott": -0.066,
+      "sg_app": -0.148,
+      "sg_arg": -0.007,
+      "sg_putt": 0.221,
+      "sg_total": -0.001
     }
   },
   {
@@ -4104,10 +4104,10 @@
     "tour": "LIV",
     "stats": {
       "Driving Distance": "306.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "54.4%||tour avg: 61%",
+      "Driving Accuracy": "54.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.18",
       "SG: Approach": "+0.02",
-      "SG: Around Green": "+0.10",
+      "SG: Around Green": "+0.11",
       "SG: Putting": "-0.28",
       "SG: Total": "+0.03"
     },
@@ -4116,12 +4116,12 @@
     },
     "raw": {
       "driving_dist": 6.998,
-      "driving_acc": -0.066,
-      "sg_ott": 0.185,
-      "sg_app": 0.021,
-      "sg_arg": 0.101,
-      "sg_putt": -0.276,
-      "sg_total": 0.031
+      "driving_acc": -0.067,
+      "sg_ott": 0.184,
+      "sg_app": 0.016,
+      "sg_arg": 0.108,
+      "sg_putt": -0.277,
+      "sg_total": 0.032
     }
   },
   {
@@ -4138,9 +4138,9 @@
     "stats": {
       "Driving Distance": "315.9 yds||tour avg: 299 yds",
       "Driving Accuracy": "55.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.58",
+      "SG: Off the Tee": "+0.57",
       "SG: Approach": "+0.16",
-      "SG: Around Green": "+0.04",
+      "SG: Around Green": "+0.05",
       "SG: Putting": "+0.03",
       "SG: Total": "+0.81"
     },
@@ -4148,13 +4148,13 @@
       "world_ranking": 170
     },
     "raw": {
-      "driving_dist": 16.908,
+      "driving_dist": 16.901,
       "driving_acc": -0.054,
-      "sg_ott": 0.577,
-      "sg_app": 0.162,
-      "sg_arg": 0.04,
-      "sg_putt": 0.03,
-      "sg_total": 0.809
+      "sg_ott": 0.575,
+      "sg_app": 0.158,
+      "sg_arg": 0.047,
+      "sg_putt": 0.029,
+      "sg_total": 0.808
     }
   },
   {
@@ -4169,25 +4169,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.16",
-      "SG: Approach": "+0.35",
-      "SG: Around Green": "-0.15",
-      "SG: Putting": "-0.03",
-      "SG: Total": "+0.33"
+      "Driving Distance": "298.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "+0.26",
+      "SG: Around Green": "-0.14",
+      "SG: Putting": "+0.02",
+      "SG: Total": "+0.24"
     },
     "form": {
       "world_ranking": 171
     },
     "raw": {
-      "driving_dist": 0.088,
-      "driving_acc": 0.021,
-      "sg_ott": 0.156,
-      "sg_app": 0.347,
-      "sg_arg": -0.15,
-      "sg_putt": -0.028,
-      "sg_total": 0.325
+      "driving_dist": -0.204,
+      "driving_acc": 0.017,
+      "sg_ott": 0.096,
+      "sg_app": 0.26,
+      "sg_arg": -0.137,
+      "sg_putt": 0.022,
+      "sg_total": 0.241
     }
   },
   {
@@ -4202,25 +4202,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "293.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "68.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.23",
-      "SG: Approach": "+0.19",
-      "SG: Around Green": "-0.21",
-      "SG: Putting": "+0.04",
-      "SG: Total": "+0.25"
+      "Driving Distance": "294.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "68.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.24",
+      "SG: Approach": "+0.09",
+      "SG: Around Green": "-0.24",
+      "SG: Putting": "+0.07",
+      "SG: Total": "+0.17"
     },
     "form": {
       "world_ranking": 179
     },
     "raw": {
-      "driving_dist": -5.061,
-      "driving_acc": 0.074,
-      "sg_ott": 0.233,
-      "sg_app": 0.188,
-      "sg_arg": -0.215,
-      "sg_putt": 0.041,
-      "sg_total": 0.247
+      "driving_dist": -4.917,
+      "driving_acc": 0.075,
+      "sg_ott": 0.238,
+      "sg_app": 0.093,
+      "sg_arg": -0.236,
+      "sg_putt": 0.075,
+      "sg_total": 0.17
     }
   },
   {
@@ -4247,13 +4247,13 @@
       "world_ranking": 180
     },
     "raw": {
-      "driving_dist": 4.571,
+      "driving_dist": 4.555,
       "driving_acc": -0.022,
-      "sg_ott": 0.094,
-      "sg_app": 0.205,
-      "sg_arg": 0.147,
-      "sg_putt": -0.149,
-      "sg_total": 0.297
+      "sg_ott": 0.093,
+      "sg_app": 0.202,
+      "sg_arg": 0.154,
+      "sg_putt": -0.15,
+      "sg_total": 0.298
     }
   },
   {
@@ -4268,25 +4268,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "308.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.39",
-      "SG: Approach": "+0.18",
-      "SG: Around Green": "-0.12",
-      "SG: Putting": "-0.18",
-      "SG: Total": "+0.28"
+      "Driving Distance": "308.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.38",
+      "SG: Approach": "+0.12",
+      "SG: Around Green": "-0.18",
+      "SG: Putting": "-0.20",
+      "SG: Total": "+0.12"
     },
     "form": {
       "world_ranking": 183
     },
     "raw": {
-      "driving_dist": 9.536,
-      "driving_acc": -0.023,
-      "sg_ott": 0.393,
-      "sg_app": 0.181,
-      "sg_arg": -0.12,
-      "sg_putt": -0.18,
-      "sg_total": 0.275
+      "driving_dist": 9.194,
+      "driving_acc": -0.022,
+      "sg_ott": 0.378,
+      "sg_app": 0.117,
+      "sg_arg": -0.176,
+      "sg_putt": -0.198,
+      "sg_total": 0.121
     }
   },
   {
@@ -4301,25 +4301,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.02",
-      "SG: Approach": "-0.13",
-      "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.02",
+      "Driving Distance": "294.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.9%||tour avg: 61%",
+      "SG: Off the Tee": "-0.08",
+      "SG: Approach": "-0.22",
+      "SG: Around Green": "+0.13",
+      "SG: Putting": "+0.17",
       "SG: Total": "-0.00"
     },
     "form": {
       "world_ranking": 184
     },
     "raw": {
-      "driving_dist": -4.284,
-      "driving_acc": 0.023,
-      "sg_ott": -0.021,
-      "sg_app": -0.127,
-      "sg_arg": 0.124,
-      "sg_putt": 0.023,
-      "sg_total": -0.0
+      "driving_dist": -4.205,
+      "driving_acc": 0.019,
+      "sg_ott": -0.076,
+      "sg_app": -0.222,
+      "sg_arg": 0.127,
+      "sg_putt": 0.167,
+      "sg_total": -0.004
     }
   },
   {
@@ -4334,25 +4334,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.34",
-      "SG: Approach": "+0.24",
-      "SG: Around Green": "+0.08",
-      "SG: Putting": "-0.24",
-      "SG: Total": "+0.42"
+      "Driving Distance": "300.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.38",
+      "SG: Approach": "+0.29",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "-0.27",
+      "SG: Total": "+0.50"
     },
     "form": {
       "world_ranking": 185
     },
     "raw": {
-      "driving_dist": 1.139,
-      "driving_acc": 0.034,
-      "sg_ott": 0.343,
-      "sg_app": 0.241,
-      "sg_arg": 0.076,
-      "sg_putt": -0.237,
-      "sg_total": 0.423
+      "driving_dist": 1.495,
+      "driving_acc": 0.036,
+      "sg_ott": 0.38,
+      "sg_app": 0.292,
+      "sg_arg": 0.095,
+      "sg_putt": -0.266,
+      "sg_total": 0.501
     }
   },
   {
@@ -4371,7 +4371,7 @@
       "Driving Accuracy": "65.7%||tour avg: 61%",
       "SG: Off the Tee": "+0.21",
       "SG: Approach": "+0.01",
-      "SG: Around Green": "+0.08",
+      "SG: Around Green": "+0.09",
       "SG: Putting": "-0.13",
       "SG: Total": "+0.18"
     },
@@ -4379,13 +4379,13 @@
       "world_ranking": 190
     },
     "raw": {
-      "driving_dist": -3.417,
+      "driving_dist": -3.418,
       "driving_acc": 0.047,
-      "sg_ott": 0.212,
-      "sg_app": 0.014,
-      "sg_arg": 0.082,
+      "sg_ott": 0.21,
+      "sg_app": 0.01,
+      "sg_arg": 0.089,
       "sg_putt": -0.127,
-      "sg_total": 0.181
+      "sg_total": 0.182
     }
   },
   {
@@ -4400,25 +4400,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "299.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "+0.11",
-      "SG: Around Green": "-0.11",
-      "SG: Putting": "+0.12",
-      "SG: Total": "+0.25"
+      "Driving Distance": "300.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.31",
+      "SG: Approach": "+0.20",
+      "SG: Around Green": "-0.10",
+      "SG: Putting": "+0.07",
+      "SG: Total": "+0.48"
     },
     "form": {
       "world_ranking": 198
     },
     "raw": {
-      "driving_dist": 0.401,
-      "driving_acc": 0.018,
-      "sg_ott": 0.128,
-      "sg_app": 0.109,
-      "sg_arg": -0.109,
-      "sg_putt": 0.119,
-      "sg_total": 0.248
+      "driving_dist": 1.528,
+      "driving_acc": 0.027,
+      "sg_ott": 0.314,
+      "sg_app": 0.199,
+      "sg_arg": -0.1,
+      "sg_putt": 0.068,
+      "sg_total": 0.482
     }
   },
   {
@@ -4433,25 +4433,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "290.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "68.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "+0.06",
-      "SG: Around Green": "-0.22",
-      "SG: Putting": "-0.34",
-      "SG: Total": "-0.37"
+      "Driving Distance": "290.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "68.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.08",
+      "SG: Approach": "+0.02",
+      "SG: Around Green": "-0.25",
+      "SG: Putting": "-0.35",
+      "SG: Total": "-0.50"
     },
     "form": {
       "world_ranking": 202
     },
     "raw": {
-      "driving_dist": -8.438,
-      "driving_acc": 0.078,
-      "sg_ott": 0.134,
-      "sg_app": 0.061,
-      "sg_arg": -0.22,
-      "sg_putt": -0.345,
-      "sg_total": -0.37
+      "driving_dist": -8.823,
+      "driving_acc": 0.076,
+      "sg_ott": 0.078,
+      "sg_app": 0.021,
+      "sg_arg": -0.246,
+      "sg_putt": -0.351,
+      "sg_total": -0.499
     }
   }
 ]
