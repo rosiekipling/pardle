@@ -9,6 +9,7 @@ export type StreakData = {
   totalPlayed: number;
   totalSolved: number;
   scoreHistory: Record<string, number>;
+  hintsHistory: Record<number, number>;  // ← new: count of games by hints used (0-5)
 };
 
 const defaultData: StreakData = {
@@ -19,6 +20,7 @@ const defaultData: StreakData = {
   totalPlayed: 0,
   totalSolved: 0,
   scoreHistory: {},
+  hintsHistory: {},  // ← new
 };
 
 export function loadStreak(): StreakData {
@@ -34,15 +36,14 @@ export function loadStreak(): StreakData {
 export function saveStreak(data: StreakData): void {
   try {
     localStorage.setItem(KEY, JSON.stringify(data));
-  } catch {
-    // localStorage blocked — fail silently
-  }
+  } catch {}
 }
 
 export function recordResult(
   solved: boolean,
   puzzleNumber: number,
-  scoreLabel: string
+  scoreLabel: string,
+  hintsUsed: number   // ← new parameter
 ): StreakData {
   const current = loadStreak();
   const today = new Date().toISOString().slice(0, 10);
@@ -59,17 +60,13 @@ export function recordResult(
 
   if (solved) {
     if (current.lastPlayedDate === yesterdayISO) {
-      // Continued the streak
       newStreak = current.currentStreak + 1;
     } else if (current.lastPlayedDate === today) {
-      // Already played today — shouldn't happen because of the puzzleNumber check above
       newStreak = current.currentStreak;
     } else {
-      // Gap or first play
       newStreak = 1;
     }
   } else {
-    // DNF — streak breaks
     newStreak = 0;
   }
 
@@ -83,6 +80,10 @@ export function recordResult(
     scoreHistory: {
       ...current.scoreHistory,
       [scoreLabel]: (current.scoreHistory[scoreLabel] ?? 0) + 1,
+    },
+    hintsHistory: {
+      ...current.hintsHistory,
+      [hintsUsed]: (current.hintsHistory[hintsUsed] ?? 0) + 1,
     },
   };
 
@@ -99,7 +100,7 @@ export type DailyResult = {
   finalHintsUsed: number;
   wrongGuesses: { name: string; sgTotal?: string }[];
   scoreLabel: string;
-  date: string; // ISO
+  date: string;
   actionLog: string[];
 };
 

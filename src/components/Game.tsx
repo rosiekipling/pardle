@@ -121,14 +121,14 @@ function formatValue(value: string | undefined | null): React.ReactNode {
 }
 
 
-function computeScoreLabel(cost: number, solved: boolean, gaveUp: boolean): string {
+function computeScoreLabel(guesses: number, solved: boolean, gaveUp: boolean): string {
   if (!solved && !gaveUp) return "Live";
   if (gaveUp || !solved) return "Picked up";
-  if (cost === 0) return "Hole in One";
-  if (cost === 1) return "Eagle";
-  if (cost === 2) return "Birdie";
-  if (cost === 3) return "Par";
-  if (cost === 4) return "Bogey";
+  if (guesses === 1) return "Hole in One";
+  if (guesses === 2) return "Eagle";
+  if (guesses === 3) return "Birdie";
+  if (guesses === 4) return "Par";
+  if (guesses === 5) return "Bogey";
   return "Double Bogey";
 }
 
@@ -311,9 +311,9 @@ export default function Game() {
       setActionLog((prev) => [...prev, "🟧"]);
     }
   }
-
-  const totalCost = done ? finalHintsUsed : hintReveals.size;
-  const scoreLabel = computeScoreLabel(totalCost, solved, gaveUp);
+  
+  const hintsUsed = done ? finalHintsUsed : hintReveals.size;
+  const scoreLabel = computeScoreLabel(guessCount, solved, gaveUp);
 
   function handleSubmit() {
     if (done || !guess.trim()) return;
@@ -323,10 +323,9 @@ export default function Game() {
 
     if (norm(guess) === norm(target.name)) {
       setActionLog((prev) => [...prev, "🟩"]);
-      const actualHintsUsed = hintReveals.size;
       setSolved(true);
-      setStreak(recordResult(true, puzzleN, computeScoreLabel(actualHintsUsed, true, false)));
-      setFinalHintsUsed(actualHintsUsed);
+      setStreak(recordResult(true, puzzleN, computeScoreLabel(newGuessCount, true, false), hintReveals.size));
+      setFinalHintsUsed(hintReveals.size);
       setHintReveals((prev) => {
         const next = new Map(prev);
         for (const k of HINT_ORDER) {
@@ -339,13 +338,13 @@ export default function Game() {
 
       window.umami?.track("puzzle_solved", {
         guesses: newGuessCount,
-        hints: actualHintsUsed,
-        score: computeScoreLabel(actualHintsUsed, true, false),
+        hints: hintsUsed,
+        score: computeScoreLabel(newGuessCount, true, false),
         streak: streak.currentStreak + 1,
       });
 
-      const hintLine = actualHintsUsed
-        ? ` and ${actualHintsUsed} caddie hint${actualHintsUsed > 1 ? "s" : ""}`
+      const hintLine = hintsUsed
+        ? ` and ${hintsUsed} caddie hint${hintsUsed > 1 ? "s" : ""}`
         : "";
       setFeedback({
         text: `Got it in ${newGuessCount} guess${newGuessCount === 1 ? "" : "es"}${hintLine}.`,
@@ -355,12 +354,12 @@ export default function Game() {
         puzzleNumber: puzzleN,
         solved: true,
         guessCount: newGuessCount,
-        finalHintsUsed: actualHintsUsed,
+        finalHintsUsed: hintsUsed,
         wrongGuesses: wrongGuesses.map((p) => ({
           name: p.name,
           sgTotal: p.stats["SG: Total"],
         })),
-        scoreLabel: computeScoreLabel(actualHintsUsed, true, false),
+        scoreLabel: computeScoreLabel(newGuessCount, true, false),
         date: new Date().toISOString().slice(0, 10),
         actionLog: [...actionLog, "🟩"],
       });
@@ -382,7 +381,7 @@ export default function Game() {
             text: `Not ${displayName(guess.trim())}. That's it — picked up.`,
             tone: "wrong",
           });
-          setStreak(recordResult(false, puzzleN, "Picked up"));
+          setStreak(recordResult(false, puzzleN, "Picked up", hintReveals.size));
           saveDailyResult({
             puzzleNumber: puzzleN,
             solved: false,
@@ -445,7 +444,7 @@ function handleLogoClick() {
   function handleGiveUp() {
     if (done) return;
     setGaveUp(true);
-    setStreak(recordResult(false, puzzleN, "Picked up"));
+    setStreak(recordResult(false, puzzleN, "Picked up", hintReveals.size));
     setFinalHintsUsed(hintReveals.size);
     setHintReveals((prev) => {
       const next = new Map(prev);
@@ -475,7 +474,7 @@ function handleLogoClick() {
         name: p.name,
         sgTotal: p.stats["SG: Total"],
       })),
-      scoreLabel: "Picked Up",
+      scoreLabel: "Picked up",
       date: new Date().toISOString().slice(0, 10),
       actionLog,   // ← ADD
     });
@@ -711,8 +710,8 @@ function handleLogoClick() {
           </div>
           <div className="score-row">
             <div className="score-label">Hints Used</div>
-            <div className="score-val">{totalCost}</div>
-          </div>
+            <div className="score-val">{hintsUsed}</div>
+            </div>
           <div className="score-row">
             <div className="score-label">Par</div>
             <div className="score-val">{PAR_GUESSES}</div>
@@ -735,8 +734,7 @@ function handleLogoClick() {
             Who <em>scored</em> these stats?
           </h2>
           <p className="dek">
-            Six stats, one Tour pro. Read the clues and make your call. Each
-            additional caddie hint costs you a stroke. SG = Strokes Gained vs. Tour Avg.
+            Six stats, one Tour pro. Read the clues and make your call. Each guess is a stroke — take a caddie hint if you need help narrowing it down. SG = Strokes Gained vs. Tour Avg.
           </p>
 
           <div className="stats-grid">
@@ -775,7 +773,7 @@ function handleLogoClick() {
                     isLocked
                       ? "Reveal earlier hints first"
                       : isNext
-                      ? "Tap to reveal (costs 1 stroke)"
+                      ? "Tap to reveal a hint"
                       : ""
                   }
                 >
@@ -993,6 +991,28 @@ function handleLogoClick() {
             </>
           )}
 
+          {streak.totalPlayed > 0 && (
+            <>
+              <div className="kicker" style={{ marginTop: 20 }}>Hints Distribution</div>
+              <div className="histogram">
+                {[0, 1, 2, 3, 4, 5].map((n) => {
+                  const count = streak.hintsHistory[n] ?? 0;
+                  const max = Math.max(...Object.values(streak.hintsHistory), 1);
+                  const widthPct = (count / max) * 100;
+                  return (
+                    <div key={n} className="histogram-row">
+                      <span className="histogram-label">{n} hint{n !== 1 ? "s" : ""}</span>
+                      <div className="histogram-bar-wrap">
+                        <div className="histogram-bar" style={{ width: `${widthPct}%` }} />
+                      </div>
+                      <span className="histogram-count">{count}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          )}
+
           {showTesting && (
             <div className="testing-block">
               <div className="kicker">Testing</div>
@@ -1033,6 +1053,7 @@ function handleLogoClick() {
                     totalPlayed: 0,
                     totalSolved: 0,
                     scoreHistory: {},
+                    hintsHistory: {},   // ← ADD
                   });
                 }}
                 style={{ marginTop: 10, fontSize: 10, width: "100%" }}
