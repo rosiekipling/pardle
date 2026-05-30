@@ -314,6 +314,7 @@ export default function Game() {
   
   const hintsUsed = done ? finalHintsUsed : hintReveals.size;
   const scoreLabel = computeScoreLabel(guessCount, solved, gaveUp);
+  console.log("ScoreLabel computed from:", { guessCount, solved, gaveUp, result: scoreLabel });
 
   function handleSubmit() {
     if (done || !guess.trim()) return;
@@ -1094,6 +1095,8 @@ function handleLogoClick() {
         )}
       </aside>  
       </div>
+
+      
 
       <footer>
         <div>Data via Data Golf</div>
