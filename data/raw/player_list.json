@@ -2262,16 +2262,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2373,17 +2373,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -4004,7 +4004,7 @@
     "player_name": "Cottam, Kyle"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35314,
@@ -4599,10 +4599,17 @@
     "player_name": "De Decker, Andre"
   },
   {
+    "amateur": 0,
+    "country": "Netherlands",
+    "country_code": "NED",
+    "dg_id": 17541,
+    "player_name": "De Haas, Floris"
+  },
+  {
     "amateur": 1,
     "country": "France",
     "country_code": "FRA",
-    "dg_id": 30039140,
+    "dg_id": 35337,
     "player_name": "De Herrypon, Tom"
   },
   {
@@ -5356,16 +5363,16 @@
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -8660,8 +8667,8 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
+    "country": "United States",
+    "country_code": "USA",
     "dg_id": 35304,
     "player_name": "Headley, Adam"
   },
@@ -8718,7 +8725,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30032111,
+    "dg_id": 35386,
     "player_name": "Heffner, Alex"
   },
   {
@@ -12488,7 +12495,7 @@
     "player_name": "Larrazabal, Pablo"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31312,
@@ -12832,16 +12839,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
@@ -15925,7 +15932,7 @@
     "player_name": "Napier, Tanner"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Ecuador",
     "country_code": "ECU",
     "dg_id": 25024,
@@ -16623,6 +16630,13 @@
     "country_code": "USA",
     "dg_id": 16137,
     "player_name": "Ormand, Robby"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30039403,
+    "player_name": "Ormond, Jackson"
   },
   {
     "amateur": 0,
@@ -19901,7 +19915,7 @@
     "player_name": "Shuman, Jake"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35308,
@@ -22092,10 +22106,10 @@
     "player_name": "Vaillant, Tom"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30011563,
+    "dg_id": 33125,
     "player_name": "Valadez, Levi"
   },
   {
@@ -23147,6 +23161,13 @@
     "country_code": "USA",
     "dg_id": 19364,
     "player_name": "Werenski, Richy"
+  },
+  {
+    "amateur": 1,
+    "country": "Netherlands",
+    "country_code": "NED",
+    "dg_id": 30042691,
+    "player_name": "Werner, Pieter"
   },
   {
     "amateur": 1,
