@@ -17,6 +17,13 @@
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
+    "dg_id": 22451,
+    "player_name": "Abella, Joseph"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
     "dg_id": 24952,
     "player_name": "Abercrombie, Blake"
   },
@@ -889,7 +896,7 @@
     "player_name": "Baker, Chris"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 28137,
@@ -2401,17 +2408,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -7523,6 +7530,13 @@
     "country_code": "USA",
     "dg_id": 19742,
     "player_name": "Godsey, Conner"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 33944,
+    "player_name": "Goecke, Tyler"
   },
   {
     "amateur": 0,
@@ -12930,16 +12944,16 @@
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
@@ -14168,7 +14182,7 @@
     "player_name": "Mapwanya, Visitor"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Belgium",
     "country_code": "BEL",
     "dg_id": 29758,
@@ -15573,6 +15587,13 @@
     "country_code": "AUS",
     "dg_id": 22738,
     "player_name": "Morgan, Jediah"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 33948,
+    "player_name": "Morgan, Luke"
   },
   {
     "amateur": 0,
