@@ -896,7 +896,7 @@
     "player_name": "Baker, Chris"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 28137,
@@ -2408,17 +2408,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -6368,6 +6368,13 @@
     "country_code": "USA",
     "dg_id": 32649,
     "player_name": "Fisher, Danny"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 23709,
+    "player_name": "Fisher, Darin"
   },
   {
     "amateur": 0,
@@ -10815,7 +10822,7 @@
     "player_name": "Jung, Hanmil"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 25906,
@@ -12080,6 +12087,13 @@
     "country_code": "GER",
     "dg_id": 12360,
     "player_name": "Kolbing, Jonas"
+  },
+  {
+    "amateur": 1,
+    "country": "Germany",
+    "country_code": "GER",
+    "dg_id": 30242,
+    "player_name": "Kolle, Finn"
   },
   {
     "amateur": 0,
@@ -14182,7 +14196,7 @@
     "player_name": "Mapwanya, Visitor"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "Belgium",
     "country_code": "BEL",
     "dg_id": 29758,
@@ -18546,7 +18560,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30043979,
+    "dg_id": 35536,
     "player_name": "Ringkamp, Luke"
   },
   {
@@ -19516,6 +19530,13 @@
     "player_name": "Schmidt, Connor"
   },
   {
+    "amateur": 1,
+    "country": "Germany",
+    "country_code": "GER",
+    "dg_id": 31390,
+    "player_name": "Schmidt, Thomas"
+  },
+  {
     "amateur": 0,
     "country": "Germany",
     "country_code": "GER",
@@ -19579,7 +19600,7 @@
     "player_name": "Schniederjans, Ollie"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35474,
