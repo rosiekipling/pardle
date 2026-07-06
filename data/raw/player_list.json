@@ -91,6 +91,13 @@
     "player_name": "Adams, Matthew"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35576,
+    "player_name": "Adler, Patrick"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -2408,17 +2415,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -5412,16 +5419,16 @@
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -9136,16 +9143,16 @@
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
@@ -9380,7 +9387,7 @@
     "player_name": "Holekamp, Parker"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 17392,
@@ -12306,6 +12313,13 @@
     "player_name": "Kuest, Peter"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30039706,
+    "player_name": "Kuhl, Miles"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -12803,7 +12817,7 @@
     "player_name": "Lee, Brayden"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 33756,
@@ -15400,7 +15414,7 @@
     "player_name": "Mizuno, Shinichi"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Norway",
     "country_code": "NOR",
     "dg_id": 27717,
@@ -17717,7 +17731,7 @@
     "player_name": "Polland, Ben"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 33763,
@@ -19642,7 +19656,7 @@
     "player_name": "Schultes, Georg"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31250,
@@ -20279,7 +20293,7 @@
     "player_name": "Simpson, Alex"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 33760,
@@ -21637,7 +21651,7 @@
     "player_name": "Tanihara, Hideto"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 28271,
@@ -22239,7 +22253,7 @@
     "player_name": "Triplett, Sam"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 28971,
@@ -22972,6 +22986,13 @@
     "country_code": "USA",
     "dg_id": 25324,
     "player_name": "Vontz, Nate"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35545,
+    "player_name": "Voois, Ryan"
   },
   {
     "amateur": 0,
