@@ -91,7 +91,7 @@
     "player_name": "Adams, Matthew"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35576,
@@ -1653,6 +1653,13 @@
   },
   {
     "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35065,
+    "player_name": "Biwer, Justin"
+  },
+  {
+    "amateur": 0,
     "country": "Denmark",
     "country_code": "DEN",
     "dg_id": 11619,
@@ -2304,16 +2311,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -2415,17 +2422,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -4390,13 +4397,6 @@
   },
   {
     "amateur": 0,
-    "country": "Portugal",
-    "country_code": "POR",
-    "dg_id": 27149,
-    "player_name": "Da Costa Rodrigues, Daniel"
-  },
-  {
-    "amateur": 0,
     "country": "Brazil",
     "country_code": "BRA",
     "dg_id": 5239,
@@ -4639,6 +4639,13 @@
     "country_code": "GER",
     "dg_id": 23112,
     "player_name": "De Bruyn, Jannik"
+  },
+  {
+    "amateur": 1,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 29810,
+    "player_name": "De Castro Piera, Alejandro"
   },
   {
     "amateur": 0,
@@ -5419,16 +5426,16 @@
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -7105,6 +7112,13 @@
     "player_name": "Garcia, Andres"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30037664,
+    "player_name": "Garcia, Anthony"
+  },
+  {
     "amateur": 0,
     "country": "Venezuela",
     "country_code": "VEN",
@@ -7915,6 +7929,13 @@
     "country_code": "ENG",
     "dg_id": 22253,
     "player_name": "Gregory, Scott"
+  },
+  {
+    "amateur": 1,
+    "country": "Ireland",
+    "country_code": "IRL",
+    "dg_id": 22633,
+    "player_name": "Grehan, Stuart"
   },
   {
     "amateur": 0,
@@ -9076,7 +9097,7 @@
     "country": "Spain",
     "country_code": "ESP",
     "dg_id": 24127,
-    "player_name": "Hidalgo Portillo, Angel"
+    "player_name": "Hidalgo, Angel"
   },
   {
     "amateur": 0,
@@ -9630,6 +9651,13 @@
     "country_code": "USA",
     "dg_id": 15462,
     "player_name": "Howard, Cole"
+  },
+  {
+    "amateur": 1,
+    "country": "Ireland",
+    "country_code": "IRL",
+    "dg_id": 33657,
+    "player_name": "Howard, David"
   },
   {
     "amateur": 0,
@@ -10192,6 +10220,13 @@
     "player_name": "Iwata, Hiroshi"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30039431,
+    "player_name": "Iyer, Avinash"
+  },
+  {
     "amateur": 0,
     "country": "Japan",
     "country_code": "JPN",
@@ -10603,6 +10638,13 @@
     "country_code": "USA",
     "dg_id": 15120,
     "player_name": "Johnson, Michael"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35623,
+    "player_name": "Johnson, Rhett"
   },
   {
     "amateur": 0,
@@ -12316,7 +12358,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30039706,
+    "dg_id": 35605,
     "player_name": "Kuhl, Miles"
   },
   {
@@ -13070,6 +13112,13 @@
   },
   {
     "amateur": 0,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 34159,
+    "player_name": "Leigh, George"
+  },
+  {
+    "amateur": 0,
     "country": "Kenya",
     "country_code": "KEN",
     "dg_id": 29228,
@@ -13466,6 +13515,13 @@
     "country_code": "CHN",
     "dg_id": 29543,
     "player_name": "Liu, Kaiwen"
+  },
+  {
+    "amateur": 0,
+    "country": "China",
+    "country_code": "CHN",
+    "dg_id": 28644,
+    "player_name": "Liu, Siyan"
   },
   {
     "amateur": 0,
@@ -17934,6 +17990,13 @@
     "player_name": "Premlall, Yurav"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35616,
+    "player_name": "Preston, Jansen"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -18484,7 +18547,7 @@
     "country": "Spain",
     "country_code": "ESP",
     "dg_id": 31235,
-    "player_name": "Repetto Taylor, Rocco Paolo"
+    "player_name": "Repetto Taylor, Rocco"
   },
   {
     "amateur": 0,
@@ -18723,6 +18786,13 @@
     "country_code": "USA",
     "dg_id": 16283,
     "player_name": "Rodgers, Patrick"
+  },
+  {
+    "amateur": 0,
+    "country": "Portugal",
+    "country_code": "POR",
+    "dg_id": 27149,
+    "player_name": "Rodrigues, Daniel"
   },
   {
     "amateur": 0,
@@ -20711,6 +20781,13 @@
     "country_code": "QAT",
     "dg_id": 31827,
     "player_name": "Sokolov, Daniil"
+  },
+  {
+    "amateur": 0,
+    "country": "Norway",
+    "country_code": "NOR",
+    "dg_id": 33995,
+    "player_name": "Solhaug, Gregory"
   },
   {
     "amateur": 0,
@@ -22789,7 +22866,7 @@
     "country": "Norway",
     "country_code": "NOR",
     "dg_id": 15651,
-    "player_name": "Ventura, Kris"
+    "player_name": "Ventura, Kristoffer"
   },
   {
     "amateur": 0,
