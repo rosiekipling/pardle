@@ -5162,6 +5162,13 @@
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
+    "dg_id": 33994,
+    "player_name": "Donohue, Muzzy"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
     "dg_id": 18629,
     "player_name": "Dorn, Andrew"
   },
@@ -5426,16 +5433,16 @@
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -5752,6 +5759,13 @@
     "country_code": "USA",
     "dg_id": 25228,
     "player_name": "Emory, Bryce"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35542,
+    "player_name": "Endicott, Garrett"
   },
   {
     "amateur": 0,
@@ -7112,13 +7126,6 @@
     "player_name": "Garcia, Andres"
   },
   {
-    "amateur": 1,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 30037664,
-    "player_name": "Garcia, Anthony"
-  },
-  {
     "amateur": 0,
     "country": "Venezuela",
     "country_code": "VEN",
@@ -7131,6 +7138,13 @@
     "country_code": "ESP",
     "dg_id": 5689,
     "player_name": "Garcia, Sergio"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35624,
+    "player_name": "Garcia, Tony"
   },
   {
     "amateur": 0,
@@ -8145,7 +8159,7 @@
     "country": "Dominican Republic",
     "country_code": "DOM",
     "dg_id": 18421,
-    "player_name": "Guerra, Juan Jose"
+    "player_name": "Guerra, JJ"
   },
   {
     "amateur": 0,
@@ -10223,7 +10237,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30039431,
+    "dg_id": 35625,
     "player_name": "Iyer, Avinash"
   },
   {
@@ -13014,16 +13028,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
@@ -13499,6 +13513,13 @@
     "amateur": 0,
     "country": "China",
     "country_code": "CHN",
+    "dg_id": 28644,
+    "player_name": "Liu, David"
+  },
+  {
+    "amateur": 0,
+    "country": "China",
+    "country_code": "CHN",
     "dg_id": 24781,
     "player_name": "Liu, Enhua"
   },
@@ -13515,13 +13536,6 @@
     "country_code": "CHN",
     "dg_id": 29543,
     "player_name": "Liu, Kaiwen"
-  },
-  {
-    "amateur": 0,
-    "country": "China",
-    "country_code": "CHN",
-    "dg_id": 28644,
-    "player_name": "Liu, Siyan"
   },
   {
     "amateur": 0,
@@ -17465,6 +17479,13 @@
     "player_name": "Perera, Mithun"
   },
   {
+    "amateur": 1,
+    "country": "Mexico",
+    "country_code": "MEX",
+    "dg_id": 30045668,
+    "player_name": "Perez, Francisco"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -17990,7 +18011,7 @@
     "player_name": "Premlall, Yurav"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35616,
@@ -19374,6 +19395,13 @@
     "country_code": "KEN",
     "dg_id": 28133,
     "player_name": "Sandhu, Jaydeep Singh"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30039591,
+    "player_name": "Sandhu, Sihan"
   },
   {
     "amateur": 0,
