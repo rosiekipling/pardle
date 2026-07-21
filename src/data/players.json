@@ -11,25 +11,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "306.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.76",
-      "SG: Approach": "+1.03",
+      "Driving Distance": "306.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "67.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.81",
+      "SG: Approach": "+1.11",
       "SG: Around Green": "+0.38",
-      "SG: Putting": "+0.52",
-      "SG: Total": "+2.68"
+      "SG: Putting": "+0.47",
+      "SG: Total": "+2.78"
     },
     "form": {
       "world_ranking": 1
     },
     "raw": {
-      "driving_dist": 7.063,
-      "driving_acc": 0.055,
-      "sg_ott": 0.758,
-      "sg_app": 1.028,
-      "sg_arg": 0.376,
-      "sg_putt": 0.522,
-      "sg_total": 2.683
+      "driving_dist": 7.425,
+      "driving_acc": 0.06,
+      "sg_ott": 0.814,
+      "sg_app": 1.11,
+      "sg_arg": 0.384,
+      "sg_putt": 0.474,
+      "sg_total": 2.781
     }
   },
   {
@@ -44,58 +44,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "320.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.97",
+      "Driving Distance": "320.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.7%||tour avg: 61%",
+      "SG: Off the Tee": "+1.14",
       "SG: Approach": "+0.57",
-      "SG: Around Green": "+0.19",
-      "SG: Putting": "+0.40",
-      "SG: Total": "+2.14"
+      "SG: Around Green": "+0.14",
+      "SG: Putting": "+0.31",
+      "SG: Total": "+2.16"
     },
     "form": {
       "world_ranking": 2
     },
     "raw": {
-      "driving_dist": 21.035,
-      "driving_acc": -0.02,
-      "sg_ott": 0.974,
-      "sg_app": 0.575,
-      "sg_arg": 0.194,
-      "sg_putt": 0.399,
-      "sg_total": 2.142
-    }
-  },
-  {
-    "id": 17646,
-    "name": "Fitzpatrick, Matt",
-    "first_name": "Matt",
-    "last_name": "Fitzpatrick",
-    "country_name": "England",
-    "continent": "Europe",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "298.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.91",
-      "SG: Around Green": "+0.46",
-      "SG: Putting": "+0.29",
-      "SG: Total": "+1.95"
-    },
-    "form": {
-      "world_ranking": 3
-    },
-    "raw": {
-      "driving_dist": -0.079,
-      "driving_acc": 0.052,
-      "sg_ott": 0.283,
-      "sg_app": 0.913,
-      "sg_arg": 0.461,
-      "sg_putt": 0.288,
-      "sg_total": 1.945
+      "driving_dist": 21.106,
+      "driving_acc": -0.013,
+      "sg_ott": 1.139,
+      "sg_app": 0.566,
+      "sg_arg": 0.14,
+      "sg_putt": 0.311,
+      "sg_total": 2.157
     }
   },
   {
@@ -110,25 +77,58 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "309.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.62",
-      "SG: Approach": "+0.65",
-      "SG: Around Green": "+0.21",
-      "SG: Putting": "+0.18",
-      "SG: Total": "+1.67"
+      "Driving Distance": "310.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.75",
+      "SG: Approach": "+0.79",
+      "SG: Around Green": "+0.22",
+      "SG: Putting": "+0.20",
+      "SG: Total": "+1.96"
+    },
+    "form": {
+      "world_ranking": 3
+    },
+    "raw": {
+      "driving_dist": 11.56,
+      "driving_acc": 0.006,
+      "sg_ott": 0.748,
+      "sg_app": 0.788,
+      "sg_arg": 0.222,
+      "sg_putt": 0.204,
+      "sg_total": 1.961
+    }
+  },
+  {
+    "id": 17646,
+    "name": "Fitzpatrick, Matt",
+    "first_name": "Matt",
+    "last_name": "Fitzpatrick",
+    "country_name": "England",
+    "continent": "Europe",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "299.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.30",
+      "SG: Approach": "+0.84",
+      "SG: Around Green": "+0.41",
+      "SG: Putting": "+0.27",
+      "SG: Total": "+1.82"
     },
     "form": {
       "world_ranking": 4
     },
     "raw": {
-      "driving_dist": 10.371,
-      "driving_acc": 0.003,
-      "sg_ott": 0.623,
-      "sg_app": 0.652,
-      "sg_arg": 0.207,
-      "sg_putt": 0.185,
-      "sg_total": 1.667
+      "driving_dist": 0.404,
+      "driving_acc": 0.051,
+      "sg_ott": 0.304,
+      "sg_app": 0.837,
+      "sg_arg": 0.41,
+      "sg_putt": 0.271,
+      "sg_total": 1.822
     }
   },
   {
@@ -143,124 +143,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "289.8 yds||tour avg: 299 yds",
+      "Driving Distance": "289.3 yds||tour avg: 299 yds",
       "Driving Accuracy": "72.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.39",
-      "SG: Approach": "+0.52",
-      "SG: Around Green": "+0.13",
-      "SG: Putting": "+0.25",
-      "SG: Total": "+1.28"
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "+0.50",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "+0.30",
+      "SG: Total": "+1.29"
     },
     "form": {
       "world_ranking": 5
     },
     "raw": {
-      "driving_dist": -9.187,
+      "driving_dist": -9.685,
       "driving_acc": 0.119,
-      "sg_ott": 0.386,
-      "sg_app": 0.518,
-      "sg_arg": 0.134,
-      "sg_putt": 0.246,
-      "sg_total": 1.284
-    }
-  },
-  {
-    "id": 27774,
-    "name": "Gotterup, Chris",
-    "first_name": "Chris",
-    "last_name": "Gotterup",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "315.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.64",
-      "SG: Approach": "+0.51",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "+0.41",
-      "SG: Total": "+1.62"
-    },
-    "form": {
-      "world_ranking": 6
-    },
-    "raw": {
-      "driving_dist": 16.558,
-      "driving_acc": -0.043,
-      "sg_ott": 0.643,
-      "sg_app": 0.513,
-      "sg_arg": 0.053,
-      "sg_putt": 0.414,
-      "sg_total": 1.624
-    }
-  },
-  {
-    "id": 22085,
-    "name": "Morikawa, Collin",
-    "first_name": "Collin",
-    "last_name": "Morikawa",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 29,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "298.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "69.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.55",
-      "SG: Approach": "+0.81",
-      "SG: Around Green": "+0.06",
-      "SG: Putting": "+0.19",
-      "SG: Total": "+1.61"
-    },
-    "form": {
-      "world_ranking": 7
-    },
-    "raw": {
-      "driving_dist": -0.441,
-      "driving_acc": 0.087,
-      "sg_ott": 0.545,
-      "sg_app": 0.81,
-      "sg_arg": 0.064,
-      "sg_putt": 0.194,
-      "sg_total": 1.613
-    }
-  },
-  {
-    "id": 23604,
-    "name": "Clark, Wyndham",
-    "first_name": "Wyndham",
-    "last_name": "Clark",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 32,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "305.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.09",
-      "SG: Approach": "+0.44",
-      "SG: Around Green": "+0.38",
-      "SG: Putting": "+0.58",
-      "SG: Total": "+1.49"
-    },
-    "form": {
-      "world_ranking": 8
-    },
-    "raw": {
-      "driving_dist": 6.467,
-      "driving_acc": -0.031,
-      "sg_ott": 0.086,
-      "sg_app": 0.444,
-      "sg_arg": 0.381,
-      "sg_putt": 0.58,
-      "sg_total": 1.491
+      "sg_ott": 0.316,
+      "sg_app": 0.503,
+      "sg_arg": 0.175,
+      "sg_putt": 0.299,
+      "sg_total": 1.293
     }
   },
   {
@@ -275,25 +176,124 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "69.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.56",
-      "SG: Approach": "+0.64",
-      "SG: Around Green": "+0.31",
-      "SG: Putting": "+0.33",
-      "SG: Total": "+1.85"
+      "Driving Distance": "297.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "69.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.52",
+      "SG: Approach": "+0.63",
+      "SG: Around Green": "+0.33",
+      "SG: Putting": "+0.40",
+      "SG: Total": "+1.88"
+    },
+    "form": {
+      "world_ranking": 6
+    },
+    "raw": {
+      "driving_dist": -1.722,
+      "driving_acc": 0.088,
+      "sg_ott": 0.516,
+      "sg_app": 0.633,
+      "sg_arg": 0.332,
+      "sg_putt": 0.397,
+      "sg_total": 1.877
+    }
+  },
+  {
+    "id": 27774,
+    "name": "Gotterup, Chris",
+    "first_name": "Chris",
+    "last_name": "Gotterup",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "315.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.70",
+      "SG: Approach": "+0.56",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "+0.34",
+      "SG: Total": "+1.64"
+    },
+    "form": {
+      "world_ranking": 7
+    },
+    "raw": {
+      "driving_dist": 16.876,
+      "driving_acc": -0.04,
+      "sg_ott": 0.698,
+      "sg_app": 0.564,
+      "sg_arg": 0.032,
+      "sg_putt": 0.342,
+      "sg_total": 1.637
+    }
+  },
+  {
+    "id": 22085,
+    "name": "Morikawa, Collin",
+    "first_name": "Collin",
+    "last_name": "Morikawa",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 29,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "296.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "70.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.50",
+      "SG: Approach": "+0.81",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "+0.23",
+      "SG: Total": "+1.57"
+    },
+    "form": {
+      "world_ranking": 8
+    },
+    "raw": {
+      "driving_dist": -2.081,
+      "driving_acc": 0.096,
+      "sg_ott": 0.497,
+      "sg_app": 0.813,
+      "sg_arg": 0.03,
+      "sg_putt": 0.225,
+      "sg_total": 1.566
+    }
+  },
+  {
+    "id": 23604,
+    "name": "Clark, Wyndham",
+    "first_name": "Wyndham",
+    "last_name": "Clark",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 32,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "306.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "+0.39",
+      "SG: Around Green": "+0.36",
+      "SG: Putting": "+0.54",
+      "SG: Total": "+1.39"
     },
     "form": {
       "world_ranking": 9
     },
     "raw": {
-      "driving_dist": -0.832,
-      "driving_acc": 0.085,
-      "sg_ott": 0.559,
-      "sg_app": 0.642,
-      "sg_arg": 0.314,
-      "sg_putt": 0.33,
-      "sg_total": 1.846
+      "driving_dist": 6.989,
+      "driving_acc": -0.035,
+      "sg_ott": 0.103,
+      "sg_app": 0.389,
+      "sg_arg": 0.363,
+      "sg_putt": 0.539,
+      "sg_total": 1.393
     }
   },
   {
@@ -309,255 +309,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "301.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.3%||tour avg: 61%",
+      "Driving Accuracy": "62.1%||tour avg: 61%",
       "SG: Off the Tee": "+0.23",
-      "SG: Approach": "+0.57",
-      "SG: Around Green": "+0.11",
-      "SG: Putting": "+0.08",
-      "SG: Total": "+0.98"
+      "SG: Approach": "+0.53",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "+0.09",
+      "SG: Total": "+0.91"
     },
     "form": {
       "world_ranking": 10
     },
     "raw": {
-      "driving_dist": 2.663,
-      "driving_acc": 0.013,
-      "sg_ott": 0.235,
-      "sg_app": 0.567,
-      "sg_arg": 0.106,
-      "sg_putt": 0.077,
-      "sg_total": 0.985
-    }
-  },
-  {
-    "id": 19195,
-    "name": "Rahm, Jon",
-    "first_name": "Jon",
-    "last_name": "Rahm",
-    "country_name": "Spain",
-    "continent": "Europe",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "312.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.80",
-      "SG: Approach": "+0.65",
-      "SG: Around Green": "+0.27",
-      "SG: Putting": "+0.21",
-      "SG: Total": "+1.94"
-    },
-    "form": {
-      "world_ranking": 11
-    },
-    "raw": {
-      "driving_dist": 13.136,
+      "driving_dist": 2.705,
       "driving_acc": 0.011,
-      "sg_ott": 0.798,
-      "sg_app": 0.651,
-      "sg_arg": 0.27,
-      "sg_putt": 0.215,
-      "sg_total": 1.935
-    }
-  },
-  {
-    "id": 18841,
-    "name": "Hovland, Viktor",
-    "first_name": "Viktor",
-    "last_name": "Hovland",
-    "country_name": "Norway",
-    "continent": "Europe",
-    "age": 28,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "301.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.46",
-      "SG: Approach": "+0.80",
-      "SG: Around Green": "+0.18",
-      "SG: Putting": "+0.20",
-      "SG: Total": "+1.65"
-    },
-    "form": {
-      "world_ranking": 12
-    },
-    "raw": {
-      "driving_dist": 2.238,
-      "driving_acc": 0.054,
-      "sg_ott": 0.463,
-      "sg_app": 0.804,
-      "sg_arg": 0.183,
-      "sg_putt": 0.198,
-      "sg_total": 1.647
-    }
-  },
-  {
-    "id": 17536,
-    "name": "Spaun, J.J.",
-    "first_name": "J.J.",
-    "last_name": "Spaun",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 35,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "299.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.36",
-      "SG: Approach": "+0.81",
-      "SG: Around Green": "+0.12",
-      "SG: Putting": "-0.01",
-      "SG: Total": "+1.28"
-    },
-    "form": {
-      "world_ranking": 13
-    },
-    "raw": {
-      "driving_dist": 0.098,
-      "driving_acc": 0.048,
-      "sg_ott": 0.363,
-      "sg_app": 0.808,
-      "sg_arg": 0.12,
-      "sg_putt": -0.014,
-      "sg_total": 1.277
-    }
-  },
-  {
-    "id": 19895,
-    "name": "Schauffele, Xander",
-    "first_name": "Xander",
-    "last_name": "Schauffele",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 32,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "311.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.68",
-      "SG: Approach": "+0.61",
-      "SG: Around Green": "+0.15",
-      "SG: Putting": "+0.18",
-      "SG: Total": "+1.63"
-    },
-    "form": {
-      "world_ranking": 14
-    },
-    "raw": {
-      "driving_dist": 12.463,
-      "driving_acc": 0.001,
-      "sg_ott": 0.683,
-      "sg_app": 0.609,
-      "sg_arg": 0.155,
-      "sg_putt": 0.185,
-      "sg_total": 1.632
-    }
-  },
-  {
-    "id": 23323,
-    "name": "MacIntyre, Robert",
-    "first_name": "Robert",
-    "last_name": "MacIntyre",
-    "country_name": "Scotland",
-    "continent": "Europe",
-    "age": 29,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "301.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.35",
-      "SG: Approach": "+0.36",
-      "SG: Around Green": "+0.16",
-      "SG: Putting": "+0.47",
-      "SG: Total": "+1.33"
-    },
-    "form": {
-      "world_ranking": 15
-    },
-    "raw": {
-      "driving_dist": 2.248,
-      "driving_acc": 0.014,
-      "sg_ott": 0.35,
-      "sg_app": 0.356,
-      "sg_arg": 0.162,
-      "sg_putt": 0.467,
-      "sg_total": 1.334
-    }
-  },
-  {
-    "id": 24968,
-    "name": "Griffin, Ben",
-    "first_name": "Ben",
-    "last_name": "Griffin",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "300.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.15",
-      "SG: Approach": "+0.38",
-      "SG: Around Green": "+0.37",
-      "SG: Putting": "+0.54",
-      "SG: Total": "+1.44"
-    },
-    "form": {
-      "world_ranking": 16
-    },
-    "raw": {
-      "driving_dist": 1.289,
-      "driving_acc": 0.006,
-      "sg_ott": 0.151,
-      "sg_app": 0.384,
-      "sg_arg": 0.37,
-      "sg_putt": 0.535,
-      "sg_total": 1.44
-    }
-  },
-  {
-    "id": 18554,
-    "name": "Rai, Aaron",
-    "first_name": "Aaron",
-    "last_name": "Rai",
-    "country_name": "England",
-    "continent": "Europe",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "288.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "72.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.34",
-      "SG: Approach": "+0.61",
-      "SG: Around Green": "+0.18",
-      "SG: Putting": "-0.07",
-      "SG: Total": "+1.07"
-    },
-    "form": {
-      "world_ranking": 17
-    },
-    "raw": {
-      "driving_dist": -10.539,
-      "driving_acc": 0.119,
-      "sg_ott": 0.345,
-      "sg_app": 0.612,
-      "sg_arg": 0.183,
-      "sg_putt": -0.067,
-      "sg_total": 1.073
+      "sg_ott": 0.234,
+      "sg_app": 0.526,
+      "sg_arg": 0.054,
+      "sg_putt": 0.09,
+      "sg_total": 0.905
     }
   },
   {
@@ -572,58 +341,157 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "307.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.36",
-      "SG: Approach": "+0.58",
+      "Driving Distance": "308.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.64",
       "SG: Around Green": "+0.07",
-      "SG: Putting": "+0.62",
-      "SG: Total": "+1.64"
+      "SG: Putting": "+0.61",
+      "SG: Total": "+1.73"
     },
     "form": {
-      "world_ranking": 18
+      "world_ranking": 11
     },
     "raw": {
-      "driving_dist": 8.287,
-      "driving_acc": -0.007,
-      "sg_ott": 0.361,
-      "sg_app": 0.582,
-      "sg_arg": 0.075,
-      "sg_putt": 0.623,
-      "sg_total": 1.641
+      "driving_dist": 9.109,
+      "driving_acc": -0.003,
+      "sg_ott": 0.41,
+      "sg_app": 0.64,
+      "sg_arg": 0.068,
+      "sg_putt": 0.609,
+      "sg_total": 1.727
     }
   },
   {
-    "id": 14139,
-    "name": "Thomas, Justin",
-    "first_name": "Justin",
-    "last_name": "Thomas",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 33,
+    "id": 19195,
+    "name": "Rahm, Jon",
+    "first_name": "Jon",
+    "last_name": "Rahm",
+    "country_name": "Spain",
+    "continent": "Europe",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "312.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.79",
+      "SG: Approach": "+0.76",
+      "SG: Around Green": "+0.25",
+      "SG: Putting": "+0.17",
+      "SG: Total": "+1.96"
+    },
+    "form": {
+      "world_ranking": 12
+    },
+    "raw": {
+      "driving_dist": 12.999,
+      "driving_acc": 0.013,
+      "sg_ott": 0.785,
+      "sg_app": 0.758,
+      "sg_arg": 0.247,
+      "sg_putt": 0.165,
+      "sg_total": 1.955
+    }
+  },
+  {
+    "id": 18841,
+    "name": "Hovland, Viktor",
+    "first_name": "Viktor",
+    "last_name": "Hovland",
+    "country_name": "Norway",
+    "continent": "Europe",
+    "age": 28,
     "amateur": false,
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "303.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.38",
-      "SG: Around Green": "+0.46",
-      "SG: Putting": "+0.34",
-      "SG: Total": "+1.46"
+      "Driving Distance": "301.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.80",
+      "SG: Around Green": "+0.16",
+      "SG: Putting": "+0.17",
+      "SG: Total": "+1.55"
     },
     "form": {
-      "world_ranking": 19
+      "world_ranking": 13
     },
     "raw": {
-      "driving_dist": 3.983,
-      "driving_acc": 0.001,
-      "sg_ott": 0.275,
-      "sg_app": 0.383,
-      "sg_arg": 0.46,
-      "sg_putt": 0.337,
-      "sg_total": 1.455
+      "driving_dist": 1.969,
+      "driving_acc": 0.048,
+      "sg_ott": 0.408,
+      "sg_app": 0.804,
+      "sg_arg": 0.163,
+      "sg_putt": 0.172,
+      "sg_total": 1.547
+    }
+  },
+  {
+    "id": 17536,
+    "name": "Spaun, J.J.",
+    "first_name": "J.J.",
+    "last_name": "Spaun",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 35,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "298.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.31",
+      "SG: Approach": "+0.77",
+      "SG: Around Green": "+0.13",
+      "SG: Putting": "-0.01",
+      "SG: Total": "+1.21"
+    },
+    "form": {
+      "world_ranking": 14
+    },
+    "raw": {
+      "driving_dist": -0.365,
+      "driving_acc": 0.047,
+      "sg_ott": 0.31,
+      "sg_app": 0.77,
+      "sg_arg": 0.131,
+      "sg_putt": -0.005,
+      "sg_total": 1.206
+    }
+  },
+  {
+    "id": 19895,
+    "name": "Schauffele, Xander",
+    "first_name": "Xander",
+    "last_name": "Schauffele",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 32,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "312.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.71",
+      "SG: Approach": "+0.63",
+      "SG: Around Green": "+0.16",
+      "SG: Putting": "+0.17",
+      "SG: Total": "+1.67"
+    },
+    "form": {
+      "world_ranking": 15
+    },
+    "raw": {
+      "driving_dist": 13.096,
+      "driving_acc": 0.002,
+      "sg_ott": 0.709,
+      "sg_app": 0.629,
+      "sg_arg": 0.162,
+      "sg_putt": 0.167,
+      "sg_total": 1.668
     }
   },
   {
@@ -638,25 +506,58 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "310.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.60",
-      "SG: Approach": "+0.74",
-      "SG: Around Green": "+0.12",
+      "Driving Distance": "311.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.64",
+      "SG: Approach": "+0.79",
+      "SG: Around Green": "+0.13",
       "SG: Putting": "+0.22",
-      "SG: Total": "+1.68"
+      "SG: Total": "+1.78"
     },
     "form": {
-      "world_ranking": 20
+      "world_ranking": 16
     },
     "raw": {
-      "driving_dist": 11.781,
-      "driving_acc": 0.015,
-      "sg_ott": 0.597,
-      "sg_app": 0.743,
-      "sg_arg": 0.122,
-      "sg_putt": 0.222,
-      "sg_total": 1.683
+      "driving_dist": 12.171,
+      "driving_acc": 0.012,
+      "sg_ott": 0.644,
+      "sg_app": 0.792,
+      "sg_arg": 0.128,
+      "sg_putt": 0.22,
+      "sg_total": 1.784
+    }
+  },
+  {
+    "id": 23323,
+    "name": "MacIntyre, Robert",
+    "first_name": "Robert",
+    "last_name": "MacIntyre",
+    "country_name": "Scotland",
+    "continent": "Europe",
+    "age": 29,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "301.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.40",
+      "SG: Approach": "+0.32",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "+0.47",
+      "SG: Total": "+1.36"
+    },
+    "form": {
+      "world_ranking": 17
+    },
+    "raw": {
+      "driving_dist": 2.276,
+      "driving_acc": 0.02,
+      "sg_ott": 0.401,
+      "sg_app": 0.321,
+      "sg_arg": 0.168,
+      "sg_putt": 0.469,
+      "sg_total": 1.359
     }
   },
   {
@@ -671,25 +572,157 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "295.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "70.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.53",
-      "SG: Approach": "+0.75",
-      "SG: Around Green": "+0.23",
-      "SG: Putting": "+0.12",
-      "SG: Total": "+1.64"
+      "Driving Distance": "294.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "70.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.46",
+      "SG: Approach": "+0.74",
+      "SG: Around Green": "+0.28",
+      "SG: Putting": "+0.18",
+      "SG: Total": "+1.66"
+    },
+    "form": {
+      "world_ranking": 18
+    },
+    "raw": {
+      "driving_dist": -4.066,
+      "driving_acc": 0.09,
+      "sg_ott": 0.458,
+      "sg_app": 0.739,
+      "sg_arg": 0.277,
+      "sg_putt": 0.183,
+      "sg_total": 1.657
+    }
+  },
+  {
+    "id": 24968,
+    "name": "Griffin, Ben",
+    "first_name": "Ben",
+    "last_name": "Griffin",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 30,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "300.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "+0.43",
+      "SG: Around Green": "+0.33",
+      "SG: Putting": "+0.44",
+      "SG: Total": "+1.38"
+    },
+    "form": {
+      "world_ranking": 19
+    },
+    "raw": {
+      "driving_dist": 1.563,
+      "driving_acc": 0.006,
+      "sg_ott": 0.178,
+      "sg_app": 0.426,
+      "sg_arg": 0.329,
+      "sg_putt": 0.442,
+      "sg_total": 1.375
+    }
+  },
+  {
+    "id": 18554,
+    "name": "Rai, Aaron",
+    "first_name": "Aaron",
+    "last_name": "Rai",
+    "country_name": "England",
+    "continent": "Europe",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "288.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "72.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.35",
+      "SG: Approach": "+0.58",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "-0.07",
+      "SG: Total": "+1.04"
+    },
+    "form": {
+      "world_ranking": 20
+    },
+    "raw": {
+      "driving_dist": -10.144,
+      "driving_acc": 0.118,
+      "sg_ott": 0.348,
+      "sg_app": 0.585,
+      "sg_arg": 0.173,
+      "sg_putt": -0.068,
+      "sg_total": 1.039
+    }
+  },
+  {
+    "id": 14139,
+    "name": "Thomas, Justin",
+    "first_name": "Justin",
+    "last_name": "Thomas",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "302.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.22",
+      "SG: Approach": "+0.40",
+      "SG: Around Green": "+0.44",
+      "SG: Putting": "+0.30",
+      "SG: Total": "+1.36"
     },
     "form": {
       "world_ranking": 21
     },
     "raw": {
-      "driving_dist": -3.353,
-      "driving_acc": 0.096,
-      "sg_ott": 0.527,
-      "sg_app": 0.753,
-      "sg_arg": 0.235,
-      "sg_putt": 0.121,
-      "sg_total": 1.635
+      "driving_dist": 2.978,
+      "driving_acc": 0.006,
+      "sg_ott": 0.218,
+      "sg_app": 0.402,
+      "sg_arg": 0.44,
+      "sg_putt": 0.296,
+      "sg_total": 1.357
+    }
+  },
+  {
+    "id": 11889,
+    "name": "Fox, Ryan",
+    "first_name": "Ryan",
+    "last_name": "Fox",
+    "country_name": "New Zealand",
+    "continent": "Oceania",
+    "age": 39,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "305.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "+0.31",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "+0.21",
+      "SG: Total": "+0.72"
+    },
+    "form": {
+      "world_ranking": 22
+    },
+    "raw": {
+      "driving_dist": 6.869,
+      "driving_acc": -0.042,
+      "sg_ott": 0.176,
+      "sg_app": 0.31,
+      "sg_arg": 0.026,
+      "sg_putt": 0.212,
+      "sg_total": 0.724
     }
   },
   {
@@ -704,190 +737,25 @@
     "difficulty": "top40",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "303.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.19",
-      "SG: Approach": "+0.43",
-      "SG: Around Green": "+0.20",
-      "SG: Putting": "+0.28",
-      "SG: Total": "+1.10"
-    },
-    "form": {
-      "world_ranking": 22
-    },
-    "raw": {
-      "driving_dist": 3.98,
-      "driving_acc": -0.019,
-      "sg_ott": 0.186,
-      "sg_app": 0.435,
-      "sg_arg": 0.2,
-      "sg_putt": 0.283,
-      "sg_total": 1.105
-    }
-  },
-  {
-    "id": 17511,
-    "name": "Straka, Sepp",
-    "first_name": "Sepp",
-    "last_name": "Straka",
-    "country_name": "Austria",
-    "continent": "Europe",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "297.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.12",
-      "SG: Approach": "+0.31",
-      "SG: Around Green": "-0.11",
-      "SG: Putting": "-0.02",
-      "SG: Total": "+0.30"
+      "Driving Distance": "303.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.22",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "+0.19",
+      "SG: Putting": "+0.25",
+      "SG: Total": "+1.02"
     },
     "form": {
       "world_ranking": 23
     },
     "raw": {
-      "driving_dist": -1.214,
-      "driving_acc": 0.03,
-      "sg_ott": 0.117,
-      "sg_app": 0.313,
-      "sg_arg": -0.111,
-      "sg_putt": -0.022,
-      "sg_total": 0.298
-    }
-  },
-  {
-    "id": 16841,
-    "name": "Lee, Min Woo",
-    "first_name": "Min Woo",
-    "last_name": "Lee",
-    "country_name": "Australia",
-    "continent": "Oceania",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "313.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.64",
-      "SG: Approach": "+0.47",
-      "SG: Around Green": "+0.26",
-      "SG: Putting": "+0.17",
-      "SG: Total": "+1.53"
-    },
-    "form": {
-      "world_ranking": 24
-    },
-    "raw": {
-      "driving_dist": 14.012,
-      "driving_acc": 0.001,
-      "sg_ott": 0.637,
-      "sg_app": 0.468,
-      "sg_arg": 0.256,
-      "sg_putt": 0.175,
-      "sg_total": 1.535
-    }
-  },
-  {
-    "id": 10419,
-    "name": "Noren, Alex",
-    "first_name": "Alex",
-    "last_name": "Noren",
-    "country_name": "Sweden",
-    "continent": "Europe",
-    "age": 44,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "289.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.8%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "-0.02",
-      "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.45",
-      "SG: Total": "+0.50"
-    },
-    "form": {
-      "world_ranking": 25
-    },
-    "raw": {
-      "driving_dist": -9.129,
-      "driving_acc": 0.048,
-      "sg_ott": -0.058,
-      "sg_app": -0.017,
-      "sg_arg": 0.124,
-      "sg_putt": 0.453,
-      "sg_total": 0.502
-    }
-  },
-  {
-    "id": 14838,
-    "name": "Reed, Patrick",
-    "first_name": "Patrick",
-    "last_name": "Reed",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 35,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "EURO",
-    "stats": {
-      "Driving Distance": "294.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.12",
-      "SG: Approach": "+0.49",
-      "SG: Around Green": "+0.27",
-      "SG: Putting": "+0.16",
-      "SG: Total": "+0.79"
-    },
-    "form": {
-      "world_ranking": 26
-    },
-    "raw": {
-      "driving_dist": -4.071,
-      "driving_acc": -0.003,
-      "sg_ott": -0.115,
-      "sg_app": 0.487,
-      "sg_arg": 0.265,
-      "sg_putt": 0.157,
-      "sg_total": 0.794
-    }
-  },
-  {
-    "id": 21407,
-    "name": "Reitan, Kristoffer",
-    "first_name": "Kristoffer",
-    "last_name": "Reitan",
-    "country_name": "Norway",
-    "continent": "Europe",
-    "age": 28,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "307.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.56",
-      "SG: Approach": "+0.21",
-      "SG: Around Green": "-0.06",
-      "SG: Putting": "+0.20",
-      "SG: Total": "+0.91"
-    },
-    "form": {
-      "world_ranking": 27
-    },
-    "raw": {
-      "driving_dist": 8.609,
-      "driving_acc": 0.007,
-      "sg_ott": 0.562,
-      "sg_app": 0.207,
-      "sg_arg": -0.061,
-      "sg_putt": 0.203,
-      "sg_total": 0.911
+      "driving_dist": 4.34,
+      "driving_acc": -0.022,
+      "sg_ott": 0.222,
+      "sg_app": 0.349,
+      "sg_arg": 0.194,
+      "sg_putt": 0.251,
+      "sg_total": 1.016
     }
   },
   {
@@ -902,58 +770,223 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.37",
-      "SG: Approach": "+0.46",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.28",
-      "SG: Total": "+1.12"
+      "Driving Distance": "301.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.43",
+      "SG: Approach": "+0.49",
+      "SG: Around Green": "+0.06",
+      "SG: Putting": "+0.29",
+      "SG: Total": "+1.27"
+    },
+    "form": {
+      "world_ranking": 24
+    },
+    "raw": {
+      "driving_dist": 2.466,
+      "driving_acc": 0.043,
+      "sg_ott": 0.432,
+      "sg_app": 0.494,
+      "sg_arg": 0.059,
+      "sg_putt": 0.286,
+      "sg_total": 1.271
+    }
+  },
+  {
+    "id": 17511,
+    "name": "Straka, Sepp",
+    "first_name": "Sepp",
+    "last_name": "Straka",
+    "country_name": "Austria",
+    "continent": "Europe",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "297.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.07",
+      "SG: Approach": "+0.26",
+      "SG: Around Green": "-0.09",
+      "SG: Putting": "-0.00",
+      "SG: Total": "+0.24"
+    },
+    "form": {
+      "world_ranking": 25
+    },
+    "raw": {
+      "driving_dist": -1.602,
+      "driving_acc": 0.027,
+      "sg_ott": 0.073,
+      "sg_app": 0.26,
+      "sg_arg": -0.091,
+      "sg_putt": -0.004,
+      "sg_total": 0.238
+    }
+  },
+  {
+    "id": 10419,
+    "name": "Noren, Alex",
+    "first_name": "Alex",
+    "last_name": "Noren",
+    "country_name": "Sweden",
+    "continent": "Europe",
+    "age": 44,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "290.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.03",
+      "SG: Approach": "+0.13",
+      "SG: Around Green": "+0.12",
+      "SG: Putting": "+0.38",
+      "SG: Total": "+0.66"
+    },
+    "form": {
+      "world_ranking": 26
+    },
+    "raw": {
+      "driving_dist": -8.523,
+      "driving_acc": 0.052,
+      "sg_ott": 0.028,
+      "sg_app": 0.13,
+      "sg_arg": 0.123,
+      "sg_putt": 0.38,
+      "sg_total": 0.662
+    }
+  },
+  {
+    "id": 21407,
+    "name": "Reitan, Kristoffer",
+    "first_name": "Kristoffer",
+    "last_name": "Reitan",
+    "country_name": "Norway",
+    "continent": "Europe",
+    "age": 28,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "308.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.61",
+      "SG: Approach": "+0.24",
+      "SG: Around Green": "-0.11",
+      "SG: Putting": "+0.23",
+      "SG: Total": "+0.97"
+    },
+    "form": {
+      "world_ranking": 27
+    },
+    "raw": {
+      "driving_dist": 9.086,
+      "driving_acc": 0.004,
+      "sg_ott": 0.609,
+      "sg_app": 0.245,
+      "sg_arg": -0.114,
+      "sg_putt": 0.234,
+      "sg_total": 0.973
+    }
+  },
+  {
+    "id": 16841,
+    "name": "Lee, Min Woo",
+    "first_name": "Min Woo",
+    "last_name": "Lee",
+    "country_name": "Australia",
+    "continent": "Oceania",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "313.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.63",
+      "SG: Approach": "+0.41",
+      "SG: Around Green": "+0.22",
+      "SG: Putting": "+0.20",
+      "SG: Total": "+1.46"
     },
     "form": {
       "world_ranking": 28
     },
     "raw": {
-      "driving_dist": 1.549,
-      "driving_acc": 0.041,
-      "sg_ott": 0.368,
-      "sg_app": 0.459,
-      "sg_arg": 0.015,
-      "sg_putt": 0.281,
-      "sg_total": 1.124
+      "driving_dist": 14.273,
+      "driving_acc": -0.004,
+      "sg_ott": 0.626,
+      "sg_app": 0.411,
+      "sg_arg": 0.223,
+      "sg_putt": 0.202,
+      "sg_total": 1.46
     }
   },
   {
-    "id": 26096,
-    "name": "Bhatia, Akshay",
-    "first_name": "Akshay",
-    "last_name": "Bhatia",
+    "id": 14838,
+    "name": "Reed, Patrick",
+    "first_name": "Patrick",
+    "last_name": "Reed",
     "country_name": "United States",
     "continent": "North America",
-    "age": 24,
+    "age": 35,
     "amateur": false,
     "difficulty": "top40",
-    "tour": "PGA",
+    "tour": "EURO",
     "stats": {
-      "Driving Distance": "299.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.00",
-      "SG: Approach": "+0.44",
-      "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.53",
-      "SG: Total": "+1.10"
+      "Driving Distance": "294.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.4%||tour avg: 61%",
+      "SG: Off the Tee": "-0.08",
+      "SG: Approach": "+0.56",
+      "SG: Around Green": "+0.23",
+      "SG: Putting": "+0.11",
+      "SG: Total": "+0.81"
     },
     "form": {
       "world_ranking": 29
     },
     "raw": {
-      "driving_dist": 0.513,
-      "driving_acc": -0.008,
-      "sg_ott": -0.004,
-      "sg_app": 0.44,
-      "sg_arg": 0.14,
-      "sg_putt": 0.528,
-      "sg_total": 1.103
+      "driving_dist": -4.18,
+      "driving_acc": 0.004,
+      "sg_ott": -0.076,
+      "sg_app": 0.555,
+      "sg_arg": 0.229,
+      "sg_putt": 0.107,
+      "sg_total": 0.815
+    }
+  },
+  {
+    "id": 13562,
+    "name": "Matsuyama, Hideki",
+    "first_name": "Hideki",
+    "last_name": "Matsuyama",
+    "country_name": "Japan",
+    "continent": "Asia",
+    "age": 34,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "298.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.03",
+      "SG: Approach": "+0.52",
+      "SG: Around Green": "+0.34",
+      "SG: Putting": "+0.17",
+      "SG: Total": "+1.06"
+    },
+    "form": {
+      "world_ranking": 30
+    },
+    "raw": {
+      "driving_dist": -0.916,
+      "driving_acc": 0.005,
+      "sg_ott": 0.028,
+      "sg_app": 0.516,
+      "sg_arg": 0.341,
+      "sg_putt": 0.172,
+      "sg_total": 1.057
     }
   },
   {
@@ -969,57 +1002,57 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "299.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.8%||tour avg: 61%",
+      "Driving Accuracy": "62.9%||tour avg: 61%",
       "SG: Off the Tee": "+0.19",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "+0.03",
-      "SG: Putting": "+0.37",
-      "SG: Total": "+0.92"
-    },
-    "form": {
-      "world_ranking": 30
-    },
-    "raw": {
-      "driving_dist": 0.747,
-      "driving_acc": 0.018,
-      "sg_ott": 0.192,
-      "sg_app": 0.325,
-      "sg_arg": 0.03,
-      "sg_putt": 0.369,
-      "sg_total": 0.916
-    }
-  },
-  {
-    "id": 13562,
-    "name": "Matsuyama, Hideki",
-    "first_name": "Hideki",
-    "last_name": "Matsuyama",
-    "country_name": "Japan",
-    "continent": "Asia",
-    "age": 34,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "298.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.02",
-      "SG: Approach": "+0.48",
-      "SG: Around Green": "+0.33",
-      "SG: Putting": "+0.13",
-      "SG: Total": "+0.92"
+      "SG: Approach": "+0.32",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "+0.38",
+      "SG: Total": "+0.93"
     },
     "form": {
       "world_ranking": 31
     },
     "raw": {
-      "driving_dist": -0.688,
-      "driving_acc": -0.004,
-      "sg_ott": -0.022,
-      "sg_app": 0.476,
-      "sg_arg": 0.33,
-      "sg_putt": 0.134,
-      "sg_total": 0.918
+      "driving_dist": 0.656,
+      "driving_acc": 0.019,
+      "sg_ott": 0.186,
+      "sg_app": 0.315,
+      "sg_arg": 0.049,
+      "sg_putt": 0.376,
+      "sg_total": 0.927
+    }
+  },
+  {
+    "id": 26096,
+    "name": "Bhatia, Akshay",
+    "first_name": "Akshay",
+    "last_name": "Bhatia",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 24,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "299.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.02",
+      "SG: Approach": "+0.36",
+      "SG: Around Green": "+0.15",
+      "SG: Putting": "+0.50",
+      "SG: Total": "+0.99"
+    },
+    "form": {
+      "world_ranking": 32
+    },
+    "raw": {
+      "driving_dist": 0.386,
+      "driving_acc": -0.009,
+      "sg_ott": -0.024,
+      "sg_app": 0.362,
+      "sg_arg": 0.15,
+      "sg_putt": 0.5,
+      "sg_total": 0.989
     }
   },
   {
@@ -1034,25 +1067,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "+0.19",
-      "SG: Putting": "+0.45",
-      "SG: Total": "+1.08"
+      "Driving Distance": "300.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.31",
+      "SG: Approach": "+0.17",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "+0.40",
+      "SG: Total": "+1.05"
     },
     "form": {
-      "world_ranking": 32
+      "world_ranking": 33
     },
     "raw": {
-      "driving_dist": 1.257,
-      "driving_acc": 0.029,
-      "sg_ott": 0.276,
-      "sg_app": 0.161,
-      "sg_arg": 0.193,
-      "sg_putt": 0.449,
-      "sg_total": 1.079
+      "driving_dist": 1.426,
+      "driving_acc": 0.035,
+      "sg_ott": 0.306,
+      "sg_app": 0.169,
+      "sg_arg": 0.173,
+      "sg_putt": 0.403,
+      "sg_total": 1.052
     }
   },
   {
@@ -1067,25 +1100,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.12",
-      "SG: Approach": "+0.67",
-      "SG: Around Green": "+0.19",
-      "SG: Putting": "+0.14",
-      "SG: Total": "+1.11"
+      "Driving Distance": "296.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.04",
+      "SG: Approach": "+0.69",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "+0.10",
+      "SG: Total": "+1.00"
     },
     "form": {
-      "world_ranking": 33
+      "world_ranking": 34
     },
     "raw": {
-      "driving_dist": -2.355,
-      "driving_acc": 0.035,
-      "sg_ott": 0.116,
-      "sg_app": 0.667,
-      "sg_arg": 0.193,
-      "sg_putt": 0.135,
-      "sg_total": 1.111
+      "driving_dist": -2.203,
+      "driving_acc": 0.03,
+      "sg_ott": 0.039,
+      "sg_app": 0.687,
+      "sg_arg": 0.172,
+      "sg_putt": 0.099,
+      "sg_total": 0.997
     }
   },
   {
@@ -1100,91 +1133,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.27",
-      "SG: Approach": "+0.23",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.23",
-      "SG: Total": "+0.72"
-    },
-    "form": {
-      "world_ranking": 34
-    },
-    "raw": {
-      "driving_dist": -4.265,
-      "driving_acc": 0.051,
-      "sg_ott": 0.267,
-      "sg_app": 0.226,
-      "sg_arg": 0.005,
-      "sg_putt": 0.227,
-      "sg_total": 0.725
-    }
-  },
-  {
-    "id": 23602,
-    "name": "Hojgaard, Nicolai",
-    "first_name": "Nicolai",
-    "last_name": "Hojgaard",
-    "country_name": "Denmark",
-    "continent": "Europe",
-    "age": 25,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "316.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.33",
-      "SG: Approach": "+0.52",
-      "SG: Around Green": "+0.10",
-      "SG: Putting": "+0.09",
-      "SG: Total": "+1.03"
+      "Driving Distance": "293.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.19",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "-0.01",
+      "SG: Putting": "+0.26",
+      "SG: Total": "+0.60"
     },
     "form": {
       "world_ranking": 35
     },
     "raw": {
-      "driving_dist": 17.008,
-      "driving_acc": -0.057,
-      "sg_ott": 0.325,
-      "sg_app": 0.517,
-      "sg_arg": 0.099,
-      "sg_putt": 0.093,
-      "sg_total": 1.033
-    }
-  },
-  {
-    "id": 21891,
-    "name": "Kitayama, Kurt",
-    "first_name": "Kurt",
-    "last_name": "Kitayama",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "309.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.47",
-      "SG: Approach": "+0.60",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.01",
-      "SG: Total": "+1.09"
-    },
-    "form": {
-      "world_ranking": 36
-    },
-    "raw": {
-      "driving_dist": 10.163,
-      "driving_acc": -0.002,
-      "sg_ott": 0.475,
-      "sg_app": 0.599,
-      "sg_arg": 0.006,
-      "sg_putt": 0.013,
-      "sg_total": 1.092
+      "driving_dist": -5.177,
+      "driving_acc": 0.048,
+      "sg_ott": 0.193,
+      "sg_app": 0.153,
+      "sg_arg": -0.006,
+      "sg_putt": 0.26,
+      "sg_total": 0.601
     }
   },
   {
@@ -1199,25 +1166,91 @@
     "difficulty": "top40",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "318.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.87",
-      "SG: Approach": "+0.25",
-      "SG: Around Green": "-0.05",
-      "SG: Putting": "+0.16",
-      "SG: Total": "+1.24"
+      "Driving Distance": "318.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.85",
+      "SG: Approach": "+0.27",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "+0.23",
+      "SG: Total": "+1.37"
+    },
+    "form": {
+      "world_ranking": 36
+    },
+    "raw": {
+      "driving_dist": 19.41,
+      "driving_acc": -0.025,
+      "sg_ott": 0.849,
+      "sg_app": 0.268,
+      "sg_arg": 0.027,
+      "sg_putt": 0.227,
+      "sg_total": 1.371
+    }
+  },
+  {
+    "id": 21891,
+    "name": "Kitayama, Kurt",
+    "first_name": "Kurt",
+    "last_name": "Kitayama",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "308.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.44",
+      "SG: Approach": "+0.62",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "-0.01",
+      "SG: Total": "+1.10"
     },
     "form": {
       "world_ranking": 37
     },
     "raw": {
-      "driving_dist": 19.305,
-      "driving_acc": -0.017,
-      "sg_ott": 0.869,
-      "sg_app": 0.253,
-      "sg_arg": -0.047,
-      "sg_putt": 0.162,
-      "sg_total": 1.237
+      "driving_dist": 9.474,
+      "driving_acc": -0.002,
+      "sg_ott": 0.436,
+      "sg_app": 0.625,
+      "sg_arg": 0.051,
+      "sg_putt": -0.007,
+      "sg_total": 1.105
+    }
+  },
+  {
+    "id": 23602,
+    "name": "Hojgaard, Nicolai",
+    "first_name": "Nicolai",
+    "last_name": "Hojgaard",
+    "country_name": "Denmark",
+    "continent": "Europe",
+    "age": 25,
+    "amateur": false,
+    "difficulty": "top40",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "316.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.35",
+      "SG: Approach": "+0.49",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "+0.07",
+      "SG: Total": "+1.00"
+    },
+    "form": {
+      "world_ranking": 38
+    },
+    "raw": {
+      "driving_dist": 17.339,
+      "driving_acc": -0.056,
+      "sg_ott": 0.348,
+      "sg_app": 0.491,
+      "sg_arg": 0.089,
+      "sg_putt": 0.071,
+      "sg_total": 0.998
     }
   },
   {
@@ -1232,58 +1265,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.36",
-      "SG: Approach": "+0.71",
+      "Driving Distance": "302.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.37",
+      "SG: Approach": "+0.67",
       "SG: Around Green": "+0.23",
-      "SG: Putting": "+0.14",
-      "SG: Total": "+1.45"
-    },
-    "form": {
-      "world_ranking": 38
-    },
-    "raw": {
-      "driving_dist": 3.696,
-      "driving_acc": 0.014,
-      "sg_ott": 0.36,
-      "sg_app": 0.708,
-      "sg_arg": 0.234,
-      "sg_putt": 0.145,
-      "sg_total": 1.447
-    }
-  },
-  {
-    "id": 18634,
-    "name": "McNealy, Maverick",
-    "first_name": "Maverick",
-    "last_name": "McNealy",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "top40",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "305.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.16",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "+0.35",
-      "SG: Putting": "+0.52",
-      "SG: Total": "+1.29"
+      "SG: Putting": "+0.18",
+      "SG: Total": "+1.44"
     },
     "form": {
       "world_ranking": 39
     },
     "raw": {
-      "driving_dist": 6.042,
-      "driving_acc": -0.025,
-      "sg_ott": 0.163,
-      "sg_app": 0.255,
-      "sg_arg": 0.352,
-      "sg_putt": 0.516,
-      "sg_total": 1.286
+      "driving_dist": 3.905,
+      "driving_acc": 0.012,
+      "sg_ott": 0.369,
+      "sg_app": 0.665,
+      "sg_arg": 0.225,
+      "sg_putt": 0.178,
+      "sg_total": 1.436
     }
   },
   {
@@ -1298,58 +1298,25 @@
     "difficulty": "top40",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.30",
-      "SG: Approach": "+0.51",
-      "SG: Around Green": "+0.21",
-      "SG: Putting": "-0.09",
-      "SG: Total": "+0.93"
+      "Driving Distance": "300.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "+0.45",
+      "SG: Around Green": "+0.22",
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.87"
     },
     "form": {
       "world_ranking": 40
     },
     "raw": {
-      "driving_dist": 0.461,
-      "driving_acc": 0.024,
-      "sg_ott": 0.305,
-      "sg_app": 0.508,
-      "sg_arg": 0.209,
-      "sg_putt": -0.092,
-      "sg_total": 0.93
-    }
-  },
-  {
-    "id": 13872,
-    "name": "Bradley, Keegan",
-    "first_name": "Keegan",
-    "last_name": "Bradley",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 40,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "305.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.23",
-      "SG: Approach": "+0.41",
-      "SG: Around Green": "+0.30",
-      "SG: Putting": "+0.12",
-      "SG: Total": "+1.06"
-    },
-    "form": {
-      "world_ranking": 41
-    },
-    "raw": {
-      "driving_dist": 6.133,
-      "driving_acc": -0.004,
-      "sg_ott": 0.226,
-      "sg_app": 0.412,
-      "sg_arg": 0.3,
-      "sg_putt": 0.122,
-      "sg_total": 1.06
+      "driving_dist": 1.107,
+      "driving_acc": 0.012,
+      "sg_ott": 0.178,
+      "sg_app": 0.446,
+      "sg_arg": 0.221,
+      "sg_putt": 0.025,
+      "sg_total": 0.87
     }
   },
   {
@@ -1364,25 +1331,91 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.23",
-      "SG: Around Green": "+0.07",
-      "SG: Putting": "+0.15",
-      "SG: Total": "+0.74"
+      "Driving Distance": "299.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.35",
+      "SG: Approach": "+0.24",
+      "SG: Around Green": "+0.02",
+      "SG: Putting": "+0.19",
+      "SG: Total": "+0.79"
+    },
+    "form": {
+      "world_ranking": 41
+    },
+    "raw": {
+      "driving_dist": 0.128,
+      "driving_acc": 0.042,
+      "sg_ott": 0.35,
+      "sg_app": 0.237,
+      "sg_arg": 0.02,
+      "sg_putt": 0.187,
+      "sg_total": 0.794
+    }
+  },
+  {
+    "id": 18634,
+    "name": "McNealy, Maverick",
+    "first_name": "Maverick",
+    "last_name": "McNealy",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 30,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "304.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.18",
+      "SG: Approach": "+0.19",
+      "SG: Around Green": "+0.32",
+      "SG: Putting": "+0.52",
+      "SG: Total": "+1.21"
     },
     "form": {
       "world_ranking": 42
     },
     "raw": {
-      "driving_dist": 0.323,
-      "driving_acc": 0.035,
-      "sg_ott": 0.284,
-      "sg_app": 0.234,
-      "sg_arg": 0.072,
-      "sg_putt": 0.155,
-      "sg_total": 0.744
+      "driving_dist": 5.925,
+      "driving_acc": -0.022,
+      "sg_ott": 0.18,
+      "sg_app": 0.194,
+      "sg_arg": 0.318,
+      "sg_putt": 0.518,
+      "sg_total": 1.21
+    }
+  },
+  {
+    "id": 13872,
+    "name": "Bradley, Keegan",
+    "first_name": "Keegan",
+    "last_name": "Bradley",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 40,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "305.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "+0.43",
+      "SG: Around Green": "+0.24",
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.89"
+    },
+    "form": {
+      "world_ranking": 43
+    },
+    "raw": {
+      "driving_dist": 6.422,
+      "driving_acc": -0.01,
+      "sg_ott": 0.199,
+      "sg_app": 0.426,
+      "sg_arg": 0.236,
+      "sg_putt": 0.032,
+      "sg_total": 0.893
     }
   },
   {
@@ -1397,25 +1430,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "309.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.58",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "-0.23",
-      "SG: Putting": "+0.00",
-      "SG: Total": "+0.61"
+      "Driving Distance": "309.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.49",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "-0.28",
+      "SG: Putting": "-0.01",
+      "SG: Total": "+0.35"
     },
     "form": {
-      "world_ranking": 43
+      "world_ranking": 44
     },
     "raw": {
-      "driving_dist": 10.803,
-      "driving_acc": 0.002,
-      "sg_ott": 0.58,
-      "sg_app": 0.258,
-      "sg_arg": -0.228,
-      "sg_putt": 0.004,
-      "sg_total": 0.614
+      "driving_dist": 10.736,
+      "driving_acc": -0.003,
+      "sg_ott": 0.494,
+      "sg_app": 0.155,
+      "sg_arg": -0.281,
+      "sg_putt": -0.013,
+      "sg_total": 0.355
     }
   },
   {
@@ -1430,25 +1463,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "301.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.23",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "+0.00",
-      "SG: Putting": "+0.23",
-      "SG: Total": "+0.80"
+      "Driving Distance": "300.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.19",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "-0.03",
+      "SG: Putting": "+0.27",
+      "SG: Total": "+0.78"
     },
     "form": {
-      "world_ranking": 44
+      "world_ranking": 45
     },
     "raw": {
-      "driving_dist": 2.264,
-      "driving_acc": 0.019,
-      "sg_ott": 0.23,
-      "sg_app": 0.334,
-      "sg_arg": 0.003,
-      "sg_putt": 0.232,
-      "sg_total": 0.799
+      "driving_dist": 1.787,
+      "driving_acc": 0.027,
+      "sg_ott": 0.187,
+      "sg_app": 0.355,
+      "sg_arg": -0.025,
+      "sg_putt": 0.266,
+      "sg_total": 0.784
     }
   },
   {
@@ -1463,25 +1496,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "312.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.2%||tour avg: 61%",
+      "Driving Distance": "311.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "-0.07",
-      "SG: Putting": "+0.29",
-      "SG: Total": "+0.71"
+      "SG: Approach": "+0.24",
+      "SG: Around Green": "-0.04",
+      "SG: Putting": "+0.25",
+      "SG: Total": "+0.73"
     },
     "form": {
-      "world_ranking": 45
+      "world_ranking": 46
     },
     "raw": {
-      "driving_dist": 13.087,
-      "driving_acc": -0.038,
-      "sg_ott": 0.278,
-      "sg_app": 0.216,
-      "sg_arg": -0.066,
-      "sg_putt": 0.287,
-      "sg_total": 0.715
+      "driving_dist": 12.592,
+      "driving_acc": -0.037,
+      "sg_ott": 0.28,
+      "sg_app": 0.238,
+      "sg_arg": -0.044,
+      "sg_putt": 0.253,
+      "sg_total": 0.727
     }
   },
   {
@@ -1496,223 +1529,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.9 yds||tour avg: 299 yds",
+      "Driving Distance": "298.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "65.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.30",
-      "SG: Approach": "+0.74",
-      "SG: Around Green": "-0.00",
+      "SG: Off the Tee": "+0.34",
+      "SG: Approach": "+0.72",
+      "SG: Around Green": "+0.01",
       "SG: Putting": "-0.03",
-      "SG: Total": "+1.00"
-    },
-    "form": {
-      "world_ranking": 46
-    },
-    "raw": {
-      "driving_dist": -1.121,
-      "driving_acc": 0.04,
-      "sg_ott": 0.299,
-      "sg_app": 0.737,
-      "sg_arg": -0.004,
-      "sg_putt": -0.031,
-      "sg_total": 1.001
-    }
-  },
-  {
-    "id": 25569,
-    "name": "Stevens, Sam",
-    "first_name": "Sam",
-    "last_name": "Stevens",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "305.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.48",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "+0.02",
-      "SG: Putting": "-0.15",
-      "SG: Total": "+0.67"
+      "SG: Total": "+1.04"
     },
     "form": {
       "world_ranking": 47
     },
     "raw": {
-      "driving_dist": 6.887,
-      "driving_acc": 0.011,
-      "sg_ott": 0.481,
-      "sg_app": 0.325,
-      "sg_arg": 0.019,
-      "sg_putt": -0.152,
-      "sg_total": 0.673
-    }
-  },
-  {
-    "id": 18079,
-    "name": "Niemann, Joaquin",
-    "first_name": "Joaquin",
-    "last_name": "Niemann",
-    "country_name": "Chile",
-    "continent": "South America",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "311.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.65",
-      "SG: Approach": "+0.75",
-      "SG: Around Green": "-0.01",
-      "SG: Putting": "+0.05",
-      "SG: Total": "+1.43"
-    },
-    "form": {
-      "world_ranking": 48
-    },
-    "raw": {
-      "driving_dist": 12.867,
-      "driving_acc": -0.009,
-      "sg_ott": 0.65,
-      "sg_app": 0.749,
-      "sg_arg": -0.012,
-      "sg_putt": 0.046,
-      "sg_total": 1.433
-    }
-  },
-  {
-    "id": 17606,
-    "name": "Berger, Daniel",
-    "first_name": "Daniel",
-    "last_name": "Berger",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "300.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.22",
-      "SG: Approach": "+0.43",
-      "SG: Around Green": "-0.11",
-      "SG: Putting": "-0.16",
-      "SG: Total": "+0.39"
-    },
-    "form": {
-      "world_ranking": 49
-    },
-    "raw": {
-      "driving_dist": 1.368,
-      "driving_acc": 0.031,
-      "sg_ott": 0.222,
-      "sg_app": 0.434,
-      "sg_arg": -0.11,
-      "sg_putt": -0.159,
-      "sg_total": 0.386
-    }
-  },
-  {
-    "id": 22465,
-    "name": "Penge, Marco",
-    "first_name": "Marco",
-    "last_name": "Penge",
-    "country_name": "England",
-    "continent": "Europe",
-    "age": 28,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "318.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "54.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.51",
-      "SG: Approach": "-0.07",
-      "SG: Around Green": "-0.16",
-      "SG: Putting": "+0.00",
-      "SG: Total": "+0.28"
-    },
-    "form": {
-      "world_ranking": 50
-    },
-    "raw": {
-      "driving_dist": 19.009,
-      "driving_acc": -0.061,
-      "sg_ott": 0.514,
-      "sg_app": -0.07,
-      "sg_arg": -0.161,
-      "sg_putt": 0.001,
-      "sg_total": 0.284
-    }
-  },
-  {
-    "id": 14636,
-    "name": "Spieth, Jordan",
-    "first_name": "Jordan",
-    "last_name": "Spieth",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 32,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "304.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.22",
-      "SG: Approach": "+0.28",
-      "SG: Around Green": "+0.09",
-      "SG: Putting": "+0.11",
-      "SG: Total": "+0.70"
-    },
-    "form": {
-      "world_ranking": 51
-    },
-    "raw": {
-      "driving_dist": 5.835,
-      "driving_acc": -0.01,
-      "sg_ott": 0.216,
-      "sg_app": 0.279,
-      "sg_arg": 0.092,
-      "sg_putt": 0.112,
-      "sg_total": 0.699
-    }
-  },
-  {
-    "id": 22833,
-    "name": "Echavarria, Nico",
-    "first_name": "Nico",
-    "last_name": "Echavarria",
-    "country_name": "Colombia",
-    "continent": "South America",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "294.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.5%||tour avg: 61%",
-      "SG: Off the Tee": "-0.03",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "-0.06",
-      "SG: Putting": "+0.20",
-      "SG: Total": "+0.28"
-    },
-    "form": {
-      "world_ranking": 52
-    },
-    "raw": {
-      "driving_dist": -4.778,
-      "driving_acc": 0.025,
-      "sg_ott": -0.03,
-      "sg_app": 0.157,
-      "sg_arg": -0.056,
-      "sg_putt": 0.205,
-      "sg_total": 0.276
+      "driving_dist": -0.506,
+      "driving_acc": 0.04,
+      "sg_ott": 0.336,
+      "sg_app": 0.719,
+      "sg_arg": 0.013,
+      "sg_putt": -0.03,
+      "sg_total": 1.038
     }
   },
   {
@@ -1727,124 +1562,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.22",
-      "SG: Approach": "+0.48",
-      "SG: Around Green": "+0.04",
-      "SG: Putting": "-0.09",
-      "SG: Total": "+0.64"
+      "Driving Distance": "297.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "+0.57",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "-0.04",
+      "SG: Total": "+0.72"
     },
     "form": {
-      "world_ranking": 53
+      "world_ranking": 48
     },
     "raw": {
-      "driving_dist": -2.04,
-      "driving_acc": 0.055,
-      "sg_ott": 0.216,
-      "sg_app": 0.481,
-      "sg_arg": 0.041,
-      "sg_putt": -0.094,
-      "sg_total": 0.644
-    }
-  },
-  {
-    "id": 9771,
-    "name": "Day, Jason",
-    "first_name": "Jason",
-    "last_name": "Day",
-    "country_name": "Australia",
-    "continent": "Oceania",
-    "age": 38,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "297.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "-0.14",
-      "SG: Around Green": "+0.39",
-      "SG: Putting": "+0.25",
-      "SG: Total": "+0.44"
-    },
-    "form": {
-      "world_ranking": 54
-    },
-    "raw": {
-      "driving_dist": -1.156,
-      "driving_acc": 0.006,
-      "sg_ott": -0.061,
-      "sg_app": -0.141,
-      "sg_arg": 0.391,
-      "sg_putt": 0.251,
-      "sg_total": 0.441
-    }
-  },
-  {
-    "id": 17543,
-    "name": "Kim, Michael",
-    "first_name": "Michael",
-    "last_name": "Kim",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "297.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.4%||tour avg: 61%",
-      "SG: Off the Tee": "-0.10",
-      "SG: Approach": "+0.29",
-      "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.29",
-      "SG: Total": "+0.60"
-    },
-    "form": {
-      "world_ranking": 55
-    },
-    "raw": {
-      "driving_dist": -1.714,
-      "driving_acc": -0.026,
-      "sg_ott": -0.104,
-      "sg_app": 0.289,
-      "sg_arg": 0.124,
-      "sg_putt": 0.291,
-      "sg_total": 0.6
-    }
-  },
-  {
-    "id": 11889,
-    "name": "Fox, Ryan",
-    "first_name": "Ryan",
-    "last_name": "Fox",
-    "country_name": "New Zealand",
-    "continent": "Oceania",
-    "age": 39,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "306.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.09",
-      "SG: Approach": "+0.29",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "+0.07",
-      "SG: Total": "+0.51"
-    },
-    "form": {
-      "world_ranking": 56
-    },
-    "raw": {
-      "driving_dist": 7.005,
-      "driving_acc": -0.053,
-      "sg_ott": 0.088,
-      "sg_app": 0.29,
-      "sg_arg": 0.054,
-      "sg_putt": 0.073,
-      "sg_total": 0.505
+      "driving_dist": -1.425,
+      "driving_acc": 0.046,
+      "sg_ott": 0.159,
+      "sg_app": 0.572,
+      "sg_arg": 0.025,
+      "sg_putt": -0.039,
+      "sg_total": 0.717
     }
   },
   {
@@ -1859,124 +1595,289 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.26",
-      "SG: Approach": "+0.51",
+      "Driving Distance": "306.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.33",
+      "SG: Approach": "+0.55",
+      "SG: Around Green": "-0.00",
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.81"
+    },
+    "form": {
+      "world_ranking": 49
+    },
+    "raw": {
+      "driving_dist": 7.589,
+      "driving_acc": -0.014,
+      "sg_ott": 0.33,
+      "sg_app": 0.547,
+      "sg_arg": -0.0,
+      "sg_putt": -0.064,
+      "sg_total": 0.813
+    }
+  },
+  {
+    "id": 22465,
+    "name": "Penge, Marco",
+    "first_name": "Marco",
+    "last_name": "Penge",
+    "country_name": "England",
+    "continent": "Europe",
+    "age": 28,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "318.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.55",
+      "SG: Approach": "+0.05",
+      "SG: Around Green": "-0.16",
+      "SG: Putting": "+0.02",
+      "SG: Total": "+0.47"
+    },
+    "form": {
+      "world_ranking": 50
+    },
+    "raw": {
+      "driving_dist": 19.086,
+      "driving_acc": -0.06,
+      "sg_ott": 0.554,
+      "sg_app": 0.054,
+      "sg_arg": -0.157,
+      "sg_putt": 0.02,
+      "sg_total": 0.472
+    }
+  },
+  {
+    "id": 18079,
+    "name": "Niemann, Joaquin",
+    "first_name": "Joaquin",
+    "last_name": "Niemann",
+    "country_name": "Chile",
+    "continent": "South America",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "311.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.65",
+      "SG: Approach": "+0.67",
+      "SG: Around Green": "+0.01",
+      "SG: Putting": "-0.01",
+      "SG: Total": "+1.32"
+    },
+    "form": {
+      "world_ranking": 51
+    },
+    "raw": {
+      "driving_dist": 12.835,
+      "driving_acc": -0.011,
+      "sg_ott": 0.649,
+      "sg_app": 0.671,
+      "sg_arg": 0.005,
+      "sg_putt": -0.009,
+      "sg_total": 1.316
+    }
+  },
+  {
+    "id": 25569,
+    "name": "Stevens, Sam",
+    "first_name": "Sam",
+    "last_name": "Stevens",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 30,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "305.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.40",
+      "SG: Approach": "+0.30",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "-0.12",
-      "SG: Total": "+0.68"
+      "SG: Putting": "-0.13",
+      "SG: Total": "+0.61"
+    },
+    "form": {
+      "world_ranking": 52
+    },
+    "raw": {
+      "driving_dist": 6.125,
+      "driving_acc": 0.008,
+      "sg_ott": 0.398,
+      "sg_app": 0.305,
+      "sg_arg": 0.033,
+      "sg_putt": -0.127,
+      "sg_total": 0.609
+    }
+  },
+  {
+    "id": 17606,
+    "name": "Berger, Daniel",
+    "first_name": "Daniel",
+    "last_name": "Berger",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "301.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.27",
+      "SG: Approach": "+0.37",
+      "SG: Around Green": "-0.12",
+      "SG: Putting": "-0.21",
+      "SG: Total": "+0.31"
+    },
+    "form": {
+      "world_ranking": 53
+    },
+    "raw": {
+      "driving_dist": 2.261,
+      "driving_acc": 0.031,
+      "sg_ott": 0.271,
+      "sg_app": 0.372,
+      "sg_arg": -0.125,
+      "sg_putt": -0.21,
+      "sg_total": 0.308
+    }
+  },
+  {
+    "id": 22833,
+    "name": "Echavarria, Nico",
+    "first_name": "Nico",
+    "last_name": "Echavarria",
+    "country_name": "Colombia",
+    "continent": "South America",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "294.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.9%||tour avg: 61%",
+      "SG: Off the Tee": "-0.05",
+      "SG: Approach": "+0.09",
+      "SG: Around Green": "-0.03",
+      "SG: Putting": "+0.20",
+      "SG: Total": "+0.22"
+    },
+    "form": {
+      "world_ranking": 54
+    },
+    "raw": {
+      "driving_dist": -4.451,
+      "driving_acc": 0.019,
+      "sg_ott": -0.048,
+      "sg_app": 0.092,
+      "sg_arg": -0.026,
+      "sg_putt": 0.203,
+      "sg_total": 0.22
+    }
+  },
+  {
+    "id": 14636,
+    "name": "Spieth, Jordan",
+    "first_name": "Jordan",
+    "last_name": "Spieth",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 32,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "305.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.17",
+      "SG: Approach": "+0.22",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "+0.07",
+      "SG: Total": "+0.55"
+    },
+    "form": {
+      "world_ranking": 55
+    },
+    "raw": {
+      "driving_dist": 5.993,
+      "driving_acc": -0.016,
+      "sg_ott": 0.171,
+      "sg_app": 0.224,
+      "sg_arg": 0.089,
+      "sg_putt": 0.068,
+      "sg_total": 0.552
+    }
+  },
+  {
+    "id": 9771,
+    "name": "Day, Jason",
+    "first_name": "Jason",
+    "last_name": "Day",
+    "country_name": "Australia",
+    "continent": "Oceania",
+    "age": 38,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "298.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.01",
+      "SG: Approach": "-0.17",
+      "SG: Around Green": "+0.39",
+      "SG: Putting": "+0.18",
+      "SG: Total": "+0.39"
+    },
+    "form": {
+      "world_ranking": 56
+    },
+    "raw": {
+      "driving_dist": -0.91,
+      "driving_acc": 0.01,
+      "sg_ott": -0.015,
+      "sg_app": -0.169,
+      "sg_arg": 0.394,
+      "sg_putt": 0.178,
+      "sg_total": 0.388
+    }
+  },
+  {
+    "id": 17543,
+    "name": "Kim, Michael",
+    "first_name": "Michael",
+    "last_name": "Kim",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "296.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.7%||tour avg: 61%",
+      "SG: Off the Tee": "-0.18",
+      "SG: Approach": "+0.27",
+      "SG: Around Green": "+0.11",
+      "SG: Putting": "+0.24",
+      "SG: Total": "+0.43"
     },
     "form": {
       "world_ranking": 57
     },
     "raw": {
-      "driving_dist": 6.582,
-      "driving_acc": -0.018,
-      "sg_ott": 0.255,
-      "sg_app": 0.508,
-      "sg_arg": 0.034,
-      "sg_putt": -0.123,
-      "sg_total": 0.675
-    }
-  },
-  {
-    "id": 32457,
-    "name": "Keefer, Johnny",
-    "first_name": "Johnny",
-    "last_name": "Keefer",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 25,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "310.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.56",
-      "SG: Approach": "+0.46",
-      "SG: Around Green": "-0.24",
-      "SG: Putting": "-0.21",
-      "SG: Total": "+0.58"
-    },
-    "form": {
-      "world_ranking": 58
-    },
-    "raw": {
-      "driving_dist": 11.238,
-      "driving_acc": -0.005,
-      "sg_ott": 0.564,
-      "sg_app": 0.464,
-      "sg_arg": -0.24,
-      "sg_putt": -0.208,
-      "sg_total": 0.58
-    }
-  },
-  {
-    "id": 26745,
-    "name": "Chacarra, Eugenio",
-    "first_name": "Eugenio",
-    "last_name": "Chacarra",
-    "country_name": "Spain",
-    "continent": "Europe",
-    "age": 26,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "EURO",
-    "stats": {
-      "Driving Distance": "306.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.40",
-      "SG: Approach": "+0.40",
-      "SG: Around Green": "-0.03",
-      "SG: Putting": "+0.11",
-      "SG: Total": "+0.87"
-    },
-    "form": {
-      "world_ranking": 59
-    },
-    "raw": {
-      "driving_dist": 7.134,
-      "driving_acc": 0.005,
-      "sg_ott": 0.397,
-      "sg_app": 0.402,
-      "sg_arg": -0.031,
-      "sg_putt": 0.107,
-      "sg_total": 0.874
-    }
-  },
-  {
-    "id": 29197,
-    "name": "Brennan, Michael",
-    "first_name": "Michael",
-    "last_name": "Brennan",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 24,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "317.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.78",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "-0.24",
-      "SG: Putting": "-0.23",
-      "SG: Total": "+0.54"
-    },
-    "form": {
-      "world_ranking": 60
-    },
-    "raw": {
-      "driving_dist": 18.391,
-      "driving_acc": -0.016,
-      "sg_ott": 0.781,
-      "sg_app": 0.22,
-      "sg_arg": -0.239,
-      "sg_putt": -0.225,
-      "sg_total": 0.537
+      "driving_dist": -2.074,
+      "driving_acc": -0.033,
+      "sg_ott": -0.185,
+      "sg_app": 0.265,
+      "sg_arg": 0.113,
+      "sg_putt": 0.237,
+      "sg_total": 0.431
     }
   },
   {
@@ -1991,25 +1892,124 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "311.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.46",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "-0.15",
+      "Driving Distance": "310.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.37",
+      "SG: Approach": "+0.17",
+      "SG: Around Green": "-0.12",
+      "SG: Putting": "+0.21",
+      "SG: Total": "+0.63"
+    },
+    "form": {
+      "world_ranking": 58
+    },
+    "raw": {
+      "driving_dist": 11.946,
+      "driving_acc": -0.019,
+      "sg_ott": 0.366,
+      "sg_app": 0.17,
+      "sg_arg": -0.119,
+      "sg_putt": 0.212,
+      "sg_total": 0.629
+    }
+  },
+  {
+    "id": 26745,
+    "name": "Chacarra, Eugenio",
+    "first_name": "Eugenio",
+    "last_name": "Chacarra",
+    "country_name": "Spain",
+    "continent": "Europe",
+    "age": 26,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "EURO",
+    "stats": {
+      "Driving Distance": "306.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.37",
+      "SG: Approach": "+0.42",
+      "SG: Around Green": "-0.05",
       "SG: Putting": "+0.14",
-      "SG: Total": "+0.61"
+      "SG: Total": "+0.88"
+    },
+    "form": {
+      "world_ranking": 59
+    },
+    "raw": {
+      "driving_dist": 7.495,
+      "driving_acc": -0.001,
+      "sg_ott": 0.367,
+      "sg_app": 0.419,
+      "sg_arg": -0.051,
+      "sg_putt": 0.144,
+      "sg_total": 0.878
+    }
+  },
+  {
+    "id": 32457,
+    "name": "Keefer, Johnny",
+    "first_name": "Johnny",
+    "last_name": "Keefer",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 25,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "309.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.42",
+      "SG: Approach": "+0.44",
+      "SG: Around Green": "-0.18",
+      "SG: Putting": "-0.13",
+      "SG: Total": "+0.55"
+    },
+    "form": {
+      "world_ranking": 60
+    },
+    "raw": {
+      "driving_dist": 10.078,
+      "driving_acc": -0.009,
+      "sg_ott": 0.42,
+      "sg_app": 0.437,
+      "sg_arg": -0.178,
+      "sg_putt": -0.133,
+      "sg_total": 0.546
+    }
+  },
+  {
+    "id": 29197,
+    "name": "Brennan, Michael",
+    "first_name": "Michael",
+    "last_name": "Brennan",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 24,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "316.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.77",
+      "SG: Approach": "+0.19",
+      "SG: Around Green": "-0.17",
+      "SG: Putting": "-0.21",
+      "SG: Total": "+0.59"
     },
     "form": {
       "world_ranking": 61
     },
     "raw": {
-      "driving_dist": 12.178,
-      "driving_acc": -0.018,
-      "sg_ott": 0.464,
-      "sg_app": 0.158,
-      "sg_arg": -0.15,
-      "sg_putt": 0.142,
-      "sg_total": 0.615
+      "driving_dist": 17.256,
+      "driving_acc": -0.012,
+      "sg_ott": 0.774,
+      "sg_app": 0.194,
+      "sg_arg": -0.17,
+      "sg_putt": -0.211,
+      "sg_total": 0.586
     }
   },
   {
@@ -2024,25 +2024,58 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "301.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.36",
-      "SG: Approach": "+0.38",
-      "SG: Around Green": "-0.01",
-      "SG: Putting": "-0.01",
-      "SG: Total": "+0.72"
+      "Driving Distance": "301.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.44",
+      "SG: Approach": "+0.42",
+      "SG: Around Green": "-0.02",
+      "SG: Putting": "-0.06",
+      "SG: Total": "+0.78"
     },
     "form": {
       "world_ranking": 62
     },
     "raw": {
-      "driving_dist": 2.098,
-      "driving_acc": 0.026,
-      "sg_ott": 0.362,
-      "sg_app": 0.382,
-      "sg_arg": -0.012,
-      "sg_putt": -0.01,
-      "sg_total": 0.722
+      "driving_dist": 2.496,
+      "driving_acc": 0.038,
+      "sg_ott": 0.437,
+      "sg_app": 0.416,
+      "sg_arg": -0.02,
+      "sg_putt": -0.055,
+      "sg_total": 0.779
+    }
+  },
+  {
+    "id": 26947,
+    "name": "Jarvis, Casey",
+    "first_name": "Casey",
+    "last_name": "Jarvis",
+    "country_name": "South Africa",
+    "continent": "Africa",
+    "age": 22,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "EURO",
+    "stats": {
+      "Driving Distance": "296.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.29",
+      "SG: Approach": "+0.31",
+      "SG: Around Green": "-0.13",
+      "SG: Putting": "+0.08",
+      "SG: Total": "+0.55"
+    },
+    "form": {
+      "world_ranking": 63
+    },
+    "raw": {
+      "driving_dist": -2.223,
+      "driving_acc": 0.04,
+      "sg_ott": 0.286,
+      "sg_app": 0.311,
+      "sg_arg": -0.129,
+      "sg_putt": 0.079,
+      "sg_total": 0.546
     }
   },
   {
@@ -2057,58 +2090,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.24",
-      "SG: Total": "+0.41"
-    },
-    "form": {
-      "world_ranking": 63
-    },
-    "raw": {
-      "driving_dist": -4.694,
-      "driving_acc": 0.02,
-      "sg_ott": -0.055,
-      "sg_app": 0.217,
-      "sg_arg": 0.008,
-      "sg_putt": 0.237,
-      "sg_total": 0.407
-    }
-  },
-  {
-    "id": 8825,
-    "name": "Harman, Brian",
-    "first_name": "Brian",
-    "last_name": "Harman",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 39,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "291.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.7%||tour avg: 61%",
+      "Driving Distance": "293.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.9%||tour avg: 61%",
       "SG: Off the Tee": "-0.12",
-      "SG: Approach": "+0.35",
-      "SG: Around Green": "+0.14",
-      "SG: Putting": "+0.21",
-      "SG: Total": "+0.59"
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "-0.01",
+      "SG: Putting": "+0.30",
+      "SG: Total": "+0.32"
     },
     "form": {
       "world_ranking": 64
     },
     "raw": {
-      "driving_dist": -7.247,
-      "driving_acc": 0.037,
-      "sg_ott": -0.115,
-      "sg_app": 0.352,
-      "sg_arg": 0.135,
-      "sg_putt": 0.214,
-      "sg_total": 0.586
+      "driving_dist": -5.225,
+      "driving_acc": 0.019,
+      "sg_ott": -0.121,
+      "sg_app": 0.151,
+      "sg_arg": -0.014,
+      "sg_putt": 0.298,
+      "sg_total": 0.315
     }
   },
   {
@@ -2123,25 +2123,58 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "299.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.44",
-      "SG: Approach": "+0.64",
-      "SG: Around Green": "+0.09",
-      "SG: Putting": "+0.06",
-      "SG: Total": "+1.21"
+      "Driving Distance": "299.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.45",
+      "SG: Approach": "+0.69",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "-0.10",
+      "SG: Total": "+1.13"
     },
     "form": {
       "world_ranking": 65
     },
     "raw": {
-      "driving_dist": 0.206,
-      "driving_acc": 0.055,
-      "sg_ott": 0.436,
-      "sg_app": 0.635,
-      "sg_arg": 0.085,
-      "sg_putt": 0.055,
-      "sg_total": 1.212
+      "driving_dist": 0.757,
+      "driving_acc": 0.045,
+      "sg_ott": 0.445,
+      "sg_app": 0.688,
+      "sg_arg": 0.1,
+      "sg_putt": -0.102,
+      "sg_total": 1.131
+    }
+  },
+  {
+    "id": 8825,
+    "name": "Harman, Brian",
+    "first_name": "Brian",
+    "last_name": "Harman",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 39,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "291.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "65.2%||tour avg: 61%",
+      "SG: Off the Tee": "-0.11",
+      "SG: Approach": "+0.31",
+      "SG: Around Green": "+0.10",
+      "SG: Putting": "+0.12",
+      "SG: Total": "+0.42"
+    },
+    "form": {
+      "world_ranking": 66
+    },
+    "raw": {
+      "driving_dist": -7.598,
+      "driving_acc": 0.042,
+      "sg_ott": -0.109,
+      "sg_app": 0.312,
+      "sg_arg": 0.104,
+      "sg_putt": 0.116,
+      "sg_total": 0.422
     }
   },
   {
@@ -2156,124 +2189,25 @@
     "difficulty": "top100",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "314.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.45",
-      "SG: Approach": "-0.18",
-      "SG: Around Green": "+0.06",
-      "SG: Putting": "+0.39",
-      "SG: Total": "+0.71"
-    },
-    "form": {
-      "world_ranking": 66
-    },
-    "raw": {
-      "driving_dist": 15.477,
-      "driving_acc": -0.047,
-      "sg_ott": 0.448,
-      "sg_app": -0.185,
-      "sg_arg": 0.06,
-      "sg_putt": 0.39,
-      "sg_total": 0.713
-    }
-  },
-  {
-    "id": 13126,
-    "name": "Taylor, Nick",
-    "first_name": "Nick",
-    "last_name": "Taylor",
-    "country_name": "Canada",
-    "continent": "North America",
-    "age": 38,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "293.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.03",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "+0.22",
-      "SG: Putting": "+0.29",
-      "SG: Total": "+0.69"
+      "Driving Distance": "313.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "-0.25",
+      "SG: Around Green": "+0.01",
+      "SG: Putting": "+0.37",
+      "SG: Total": "+0.45"
     },
     "form": {
       "world_ranking": 67
     },
     "raw": {
-      "driving_dist": -5.511,
-      "driving_acc": 0.033,
-      "sg_ott": -0.032,
-      "sg_app": 0.22,
-      "sg_arg": 0.219,
-      "sg_putt": 0.286,
-      "sg_total": 0.693
-    }
-  },
-  {
-    "id": 17365,
-    "name": "Mitchell, Keith",
-    "first_name": "Keith",
-    "last_name": "Mitchell",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 34,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "308.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.52",
-      "SG: Approach": "+0.34",
-      "SG: Around Green": "+0.01",
-      "SG: Putting": "+0.05",
-      "SG: Total": "+0.92"
-    },
-    "form": {
-      "world_ranking": 68
-    },
-    "raw": {
-      "driving_dist": 9.731,
-      "driving_acc": -0.012,
-      "sg_ott": 0.524,
-      "sg_app": 0.335,
-      "sg_arg": 0.013,
-      "sg_putt": 0.051,
-      "sg_total": 0.923
-    }
-  },
-  {
-    "id": 23475,
-    "name": "Novak, Andrew",
-    "first_name": "Andrew",
-    "last_name": "Novak",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "300.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.31",
-      "SG: Approach": "+0.39",
-      "SG: Around Green": "+0.14",
-      "SG: Putting": "-0.24",
-      "SG: Total": "+0.60"
-    },
-    "form": {
-      "world_ranking": 69
-    },
-    "raw": {
-      "driving_dist": 1.788,
-      "driving_acc": 0.007,
-      "sg_ott": 0.312,
-      "sg_app": 0.392,
-      "sg_arg": 0.139,
-      "sg_putt": -0.242,
-      "sg_total": 0.601
+      "driving_dist": 14.889,
+      "driving_acc": -0.055,
+      "sg_ott": 0.322,
+      "sg_app": -0.251,
+      "sg_arg": 0.015,
+      "sg_putt": 0.367,
+      "sg_total": 0.453
     }
   },
   {
@@ -2288,25 +2222,91 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "308.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.44",
-      "SG: Approach": "+0.27",
+      "Driving Distance": "307.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.45",
+      "SG: Approach": "+0.37",
+      "SG: Around Green": "+0.18",
+      "SG: Putting": "+0.01",
+      "SG: Total": "+1.00"
+    },
+    "form": {
+      "world_ranking": 68
+    },
+    "raw": {
+      "driving_dist": 8.553,
+      "driving_acc": 0.016,
+      "sg_ott": 0.446,
+      "sg_app": 0.371,
+      "sg_arg": 0.176,
+      "sg_putt": 0.011,
+      "sg_total": 1.003
+    }
+  },
+  {
+    "id": 17064,
+    "name": "Herbert, Lucas",
+    "first_name": "Lucas",
+    "last_name": "Herbert",
+    "country_name": "Australia",
+    "continent": "Oceania",
+    "age": 30,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "304.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.08",
+      "SG: Approach": "+0.24",
+      "SG: Around Green": "+0.09",
+      "SG: Putting": "+0.14",
+      "SG: Total": "+0.55"
+    },
+    "form": {
+      "world_ranking": 69
+    },
+    "raw": {
+      "driving_dist": 5.207,
+      "driving_acc": -0.043,
+      "sg_ott": 0.076,
+      "sg_app": 0.245,
+      "sg_arg": 0.089,
+      "sg_putt": 0.141,
+      "sg_total": 0.551
+    }
+  },
+  {
+    "id": 13126,
+    "name": "Taylor, Nick",
+    "first_name": "Nick",
+    "last_name": "Taylor",
+    "country_name": "Canada",
+    "continent": "North America",
+    "age": 38,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "292.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.14",
+      "SG: Approach": "+0.15",
       "SG: Around Green": "+0.17",
-      "SG: Putting": "-0.00",
-      "SG: Total": "+0.87"
+      "SG: Putting": "+0.36",
+      "SG: Total": "+0.54"
     },
     "form": {
       "world_ranking": 70
     },
     "raw": {
-      "driving_dist": 9.192,
-      "driving_acc": 0.009,
-      "sg_ott": 0.437,
-      "sg_app": 0.271,
-      "sg_arg": 0.166,
-      "sg_putt": -0.002,
-      "sg_total": 0.871
+      "driving_dist": -6.978,
+      "driving_acc": 0.031,
+      "sg_ott": -0.143,
+      "sg_app": 0.146,
+      "sg_arg": 0.173,
+      "sg_putt": 0.362,
+      "sg_total": 0.538
     }
   },
   {
@@ -2321,25 +2321,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "296.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.29",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "+0.29",
-      "SG: Putting": "+0.44",
-      "SG: Total": "+0.60"
+      "Driving Distance": "297.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.3%||tour avg: 61%",
+      "SG: Off the Tee": "-0.24",
+      "SG: Approach": "+0.22",
+      "SG: Around Green": "+0.28",
+      "SG: Putting": "+0.41",
+      "SG: Total": "+0.68"
     },
     "form": {
       "world_ranking": 71
     },
     "raw": {
-      "driving_dist": -2.209,
-      "driving_acc": -0.044,
-      "sg_ott": -0.293,
-      "sg_app": 0.164,
-      "sg_arg": 0.286,
-      "sg_putt": 0.441,
-      "sg_total": 0.599
+      "driving_dist": -1.845,
+      "driving_acc": -0.037,
+      "sg_ott": -0.24,
+      "sg_app": 0.222,
+      "sg_arg": 0.284,
+      "sg_putt": 0.413,
+      "sg_total": 0.68
     }
   },
   {
@@ -2354,58 +2354,91 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.0 yds||tour avg: 299 yds",
+      "Driving Distance": "298.8 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.1%||tour avg: 61%",
-      "SG: Off the Tee": "-0.12",
-      "SG: Approach": "+0.49",
-      "SG: Around Green": "+0.16",
-      "SG: Putting": "+0.03",
-      "SG: Total": "+0.55"
+      "SG: Off the Tee": "-0.07",
+      "SG: Approach": "+0.45",
+      "SG: Around Green": "+0.20",
+      "SG: Putting": "+0.01",
+      "SG: Total": "+0.59"
     },
     "form": {
       "world_ranking": 72
     },
     "raw": {
-      "driving_dist": -1.009,
+      "driving_dist": -0.208,
       "driving_acc": -0.009,
-      "sg_ott": -0.121,
-      "sg_app": 0.487,
-      "sg_arg": 0.156,
-      "sg_putt": 0.032,
-      "sg_total": 0.554
+      "sg_ott": -0.065,
+      "sg_app": 0.448,
+      "sg_arg": 0.197,
+      "sg_putt": 0.015,
+      "sg_total": 0.594
     }
   },
   {
-    "id": 23816,
-    "name": "Valimaki, Sami",
-    "first_name": "Sami",
-    "last_name": "Valimaki",
-    "country_name": "Finland",
-    "continent": "Europe",
-    "age": 28,
+    "id": 17365,
+    "name": "Mitchell, Keith",
+    "first_name": "Keith",
+    "last_name": "Mitchell",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 34,
     "amateur": false,
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "294.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.08",
-      "SG: Approach": "+0.08",
-      "SG: Around Green": "-0.15",
-      "SG: Putting": "+0.33",
-      "SG: Total": "+0.17"
+      "Driving Distance": "309.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.55",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "-0.03",
+      "SG: Putting": "+0.01",
+      "SG: Total": "+0.88"
     },
     "form": {
       "world_ranking": 73
     },
     "raw": {
-      "driving_dist": -5.018,
-      "driving_acc": 0.027,
-      "sg_ott": -0.084,
-      "sg_app": 0.079,
-      "sg_arg": -0.154,
-      "sg_putt": 0.332,
-      "sg_total": 0.173
+      "driving_dist": 10.236,
+      "driving_acc": -0.015,
+      "sg_ott": 0.545,
+      "sg_app": 0.349,
+      "sg_arg": -0.029,
+      "sg_putt": 0.012,
+      "sg_total": 0.878
+    }
+  },
+  {
+    "id": 23475,
+    "name": "Novak, Andrew",
+    "first_name": "Andrew",
+    "last_name": "Novak",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "300.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.33",
+      "SG: Approach": "+0.40",
+      "SG: Around Green": "+0.13",
+      "SG: Putting": "-0.26",
+      "SG: Total": "+0.59"
+    },
+    "form": {
+      "world_ranking": 74
+    },
+    "raw": {
+      "driving_dist": 1.852,
+      "driving_acc": 0.006,
+      "sg_ott": 0.327,
+      "sg_app": 0.4,
+      "sg_arg": 0.127,
+      "sg_putt": -0.261,
+      "sg_total": 0.593
     }
   },
   {
@@ -2420,25 +2453,190 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.07",
-      "SG: Approach": "+0.02",
-      "SG: Around Green": "+0.07",
-      "SG: Putting": "+0.32",
-      "SG: Total": "+0.48"
+      "Driving Distance": "302.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "+0.08",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "+0.31",
+      "SG: Total": "+0.54"
     },
     "form": {
-      "world_ranking": 74
+      "world_ranking": 75
     },
     "raw": {
-      "driving_dist": 3.192,
+      "driving_dist": 2.988,
+      "driving_acc": -0.018,
+      "sg_ott": 0.098,
+      "sg_app": 0.079,
+      "sg_arg": 0.051,
+      "sg_putt": 0.309,
+      "sg_total": 0.538
+    }
+  },
+  {
+    "id": 18586,
+    "name": "Smith, Jordan",
+    "first_name": "Jordan",
+    "last_name": "Smith",
+    "country_name": "England",
+    "continent": "Europe",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "302.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.52",
+      "SG: Approach": "+0.42",
+      "SG: Around Green": "-0.10",
+      "SG: Putting": "-0.11",
+      "SG: Total": "+0.74"
+    },
+    "form": {
+      "world_ranking": 76
+    },
+    "raw": {
+      "driving_dist": 3.775,
+      "driving_acc": 0.054,
+      "sg_ott": 0.524,
+      "sg_app": 0.423,
+      "sg_arg": -0.096,
+      "sg_putt": -0.106,
+      "sg_total": 0.744
+    }
+  },
+  {
+    "id": 17488,
+    "name": "Im, Sungjae",
+    "first_name": "Sungjae",
+    "last_name": "Im",
+    "country_name": "Korea - Republic of",
+    "continent": "Asia",
+    "age": 28,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "297.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.7%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "-0.21",
+      "SG: Around Green": "+0.37",
+      "SG: Putting": "+0.24",
+      "SG: Total": "+0.60"
+    },
+    "form": {
+      "world_ranking": 77
+    },
+    "raw": {
+      "driving_dist": -1.434,
+      "driving_acc": 0.027,
+      "sg_ott": 0.202,
+      "sg_app": -0.208,
+      "sg_arg": 0.37,
+      "sg_putt": 0.241,
+      "sg_total": 0.605
+    }
+  },
+  {
+    "id": 23816,
+    "name": "Valimaki, Sami",
+    "first_name": "Sami",
+    "last_name": "Valimaki",
+    "country_name": "Finland",
+    "continent": "Europe",
+    "age": 28,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "293.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.8%||tour avg: 61%",
+      "SG: Off the Tee": "-0.10",
+      "SG: Approach": "+0.06",
+      "SG: Around Green": "-0.14",
+      "SG: Putting": "+0.35",
+      "SG: Total": "+0.16"
+    },
+    "form": {
+      "world_ranking": 78
+    },
+    "raw": {
+      "driving_dist": -5.208,
+      "driving_acc": 0.028,
+      "sg_ott": -0.103,
+      "sg_app": 0.058,
+      "sg_arg": -0.145,
+      "sg_putt": 0.347,
+      "sg_total": 0.156
+    }
+  },
+  {
+    "id": 23841,
+    "name": "Neergaard-Petersen, Rasmus",
+    "first_name": "Rasmus",
+    "last_name": "Neergaard-Petersen",
+    "country_name": "Denmark",
+    "continent": "Europe",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "303.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.48",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "-0.14",
+      "SG: Putting": "+0.02",
+      "SG: Total": "+0.52"
+    },
+    "form": {
+      "world_ranking": 79
+    },
+    "raw": {
+      "driving_dist": 4.405,
+      "driving_acc": 0.034,
+      "sg_ott": 0.478,
+      "sg_app": 0.153,
+      "sg_arg": -0.136,
+      "sg_putt": 0.024,
+      "sg_total": 0.519
+    }
+  },
+  {
+    "id": 14181,
+    "name": "Detry, Thomas",
+    "first_name": "Thomas",
+    "last_name": "Detry",
+    "country_name": "Belgium",
+    "continent": "Europe",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "304.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.0%||tour avg: 61%",
+      "SG: Off the Tee": "+0.08",
+      "SG: Approach": "+0.11",
+      "SG: Around Green": "+0.01",
+      "SG: Putting": "+0.34",
+      "SG: Total": "+0.54"
+    },
+    "form": {
+      "world_ranking": 80
+    },
+    "raw": {
+      "driving_dist": 5.332,
       "driving_acc": -0.02,
-      "sg_ott": 0.069,
-      "sg_app": 0.022,
-      "sg_arg": 0.07,
-      "sg_putt": 0.323,
-      "sg_total": 0.484
+      "sg_ott": 0.084,
+      "sg_app": 0.107,
+      "sg_arg": 0.009,
+      "sg_putt": 0.337,
+      "sg_total": 0.536
     }
   },
   {
@@ -2459,19 +2657,52 @@
       "SG: Approach": "-0.04",
       "SG: Around Green": "-0.05",
       "SG: Putting": "+0.18",
-      "SG: Total": "+0.12"
+      "SG: Total": "+0.11"
     },
     "form": {
-      "world_ranking": 75
+      "world_ranking": 81
     },
     "raw": {
-      "driving_dist": 7.379,
+      "driving_dist": 7.38,
       "driving_acc": -0.053,
-      "sg_ott": 0.02,
-      "sg_app": -0.036,
-      "sg_arg": -0.049,
-      "sg_putt": 0.185,
-      "sg_total": 0.121
+      "sg_ott": 0.016,
+      "sg_app": -0.035,
+      "sg_arg": -0.051,
+      "sg_putt": 0.182,
+      "sg_total": 0.112
+    }
+  },
+  {
+    "id": 23014,
+    "name": "Theegala, Sahith",
+    "first_name": "Sahith",
+    "last_name": "Theegala",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 28,
+    "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "303.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.01",
+      "SG: Approach": "+0.34",
+      "SG: Around Green": "+0.15",
+      "SG: Putting": "+0.07",
+      "SG: Total": "+0.58"
+    },
+    "form": {
+      "world_ranking": 82
+    },
+    "raw": {
+      "driving_dist": 4.612,
+      "driving_acc": -0.026,
+      "sg_ott": 0.012,
+      "sg_app": 0.342,
+      "sg_arg": 0.153,
+      "sg_putt": 0.073,
+      "sg_total": 0.581
     }
   },
   {
@@ -2486,91 +2717,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.34",
+      "Driving Distance": "297.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.9%||tour avg: 61%",
+      "SG: Off the Tee": "-0.44",
       "SG: Approach": "+0.01",
-      "SG: Around Green": "+0.30",
-      "SG: Putting": "+0.53",
-      "SG: Total": "+0.49"
+      "SG: Around Green": "+0.34",
+      "SG: Putting": "+0.46",
+      "SG: Total": "+0.36"
     },
     "form": {
-      "world_ranking": 76
+      "world_ranking": 83
     },
     "raw": {
-      "driving_dist": -1.52,
-      "driving_acc": -0.033,
-      "sg_ott": -0.342,
-      "sg_app": 0.005,
-      "sg_arg": 0.301,
-      "sg_putt": 0.529,
-      "sg_total": 0.493
-    }
-  },
-  {
-    "id": 23465,
-    "name": "Greyserman, Max",
-    "first_name": "Max",
-    "last_name": "Greyserman",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "307.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.20",
-      "SG: Approach": "+0.02",
-      "SG: Around Green": "+0.15",
-      "SG: Putting": "+0.18",
-      "SG: Total": "+0.55"
-    },
-    "form": {
-      "world_ranking": 77
-    },
-    "raw": {
-      "driving_dist": 8.474,
-      "driving_acc": -0.04,
-      "sg_ott": 0.204,
-      "sg_app": 0.017,
-      "sg_arg": 0.149,
-      "sg_putt": 0.177,
-      "sg_total": 0.547
-    }
-  },
-  {
-    "id": 18586,
-    "name": "Smith, Jordan",
-    "first_name": "Jordan",
-    "last_name": "Smith",
-    "country_name": "England",
-    "continent": "Europe",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "303.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.50",
-      "SG: Approach": "+0.36",
-      "SG: Around Green": "-0.07",
-      "SG: Putting": "-0.22",
-      "SG: Total": "+0.57"
-    },
-    "form": {
-      "world_ranking": 78
-    },
-    "raw": {
-      "driving_dist": 4.374,
-      "driving_acc": 0.045,
-      "sg_ott": 0.497,
-      "sg_app": 0.363,
-      "sg_arg": -0.065,
-      "sg_putt": -0.22,
-      "sg_total": 0.575
+      "driving_dist": -1.354,
+      "driving_acc": -0.041,
+      "sg_ott": -0.437,
+      "sg_app": 0.006,
+      "sg_arg": 0.336,
+      "sg_putt": 0.455,
+      "sg_total": 0.36
     }
   },
   {
@@ -2587,122 +2752,56 @@
     "stats": {
       "Driving Distance": "305.8 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.25",
+      "SG: Off the Tee": "+0.24",
       "SG: Approach": "-0.06",
       "SG: Around Green": "+0.03",
       "SG: Putting": "+0.15",
-      "SG: Total": "+0.37"
+      "SG: Total": "+0.36"
     },
     "form": {
-      "world_ranking": 79
+      "world_ranking": 84
     },
     "raw": {
-      "driving_dist": 6.754,
+      "driving_dist": 6.75,
       "driving_acc": -0.001,
-      "sg_ott": 0.247,
-      "sg_app": -0.056,
-      "sg_arg": 0.028,
-      "sg_putt": 0.15,
-      "sg_total": 0.368
+      "sg_ott": 0.244,
+      "sg_app": -0.057,
+      "sg_arg": 0.025,
+      "sg_putt": 0.148,
+      "sg_total": 0.361
     }
   },
   {
-    "id": 14181,
-    "name": "Detry, Thomas",
-    "first_name": "Thomas",
-    "last_name": "Detry",
-    "country_name": "Belgium",
-    "continent": "Europe",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "304.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.16",
-      "SG: Approach": "+0.12",
-      "SG: Around Green": "-0.01",
-      "SG: Putting": "+0.25",
-      "SG: Total": "+0.53"
-    },
-    "form": {
-      "world_ranking": 80
-    },
-    "raw": {
-      "driving_dist": 5.39,
-      "driving_acc": -0.018,
-      "sg_ott": 0.164,
-      "sg_app": 0.121,
-      "sg_arg": -0.015,
-      "sg_putt": 0.254,
-      "sg_total": 0.525
-    }
-  },
-  {
-    "id": 23014,
-    "name": "Theegala, Sahith",
-    "first_name": "Sahith",
-    "last_name": "Theegala",
+    "id": 23465,
+    "name": "Greyserman, Max",
+    "first_name": "Max",
+    "last_name": "Greyserman",
     "country_name": "United States",
     "continent": "North America",
-    "age": 28,
+    "age": 31,
     "amateur": false,
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "303.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.06",
-      "SG: Approach": "+0.28",
-      "SG: Around Green": "+0.19",
-      "SG: Putting": "+0.08",
-      "SG: Total": "+0.62"
+      "Driving Distance": "308.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "56.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "-0.10",
+      "SG: Around Green": "+0.13",
+      "SG: Putting": "+0.20",
+      "SG: Total": "+0.43"
     },
     "form": {
-      "world_ranking": 81
+      "world_ranking": 85
     },
     "raw": {
-      "driving_dist": 4.811,
-      "driving_acc": -0.032,
-      "sg_ott": 0.061,
-      "sg_app": 0.285,
-      "sg_arg": 0.191,
-      "sg_putt": 0.08,
-      "sg_total": 0.616
-    }
-  },
-  {
-    "id": 26947,
-    "name": "Jarvis, Casey",
-    "first_name": "Casey",
-    "last_name": "Jarvis",
-    "country_name": "South Africa",
-    "continent": "Africa",
-    "age": 22,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "EURO",
-    "stats": {
-      "Driving Distance": "295.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.25",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "-0.18",
-      "SG: Putting": "+0.04",
-      "SG: Total": "+0.38"
-    },
-    "form": {
-      "world_ranking": 82
-    },
-    "raw": {
-      "driving_dist": -3.364,
-      "driving_acc": 0.046,
-      "sg_ott": 0.252,
-      "sg_app": 0.258,
-      "sg_arg": -0.177,
-      "sg_putt": 0.045,
-      "sg_total": 0.379
+      "driving_dist": 9.089,
+      "driving_acc": -0.048,
+      "sg_ott": 0.199,
+      "sg_app": -0.101,
+      "sg_arg": 0.131,
+      "sg_putt": 0.197,
+      "sg_total": 0.426
     }
   },
   {
@@ -2717,58 +2816,25 @@
     "difficulty": "top100",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "292.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "67.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
-      "SG: Approach": "-0.03",
+      "Driving Distance": "291.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "67.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "-0.00",
       "SG: Around Green": "+0.05",
-      "SG: Putting": "+0.06",
-      "SG: Total": "+0.26"
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.24"
     },
     "form": {
-      "world_ranking": 85
+      "world_ranking": 88
     },
     "raw": {
-      "driving_dist": -6.448,
-      "driving_acc": 0.062,
-      "sg_ott": 0.172,
-      "sg_app": -0.027,
-      "sg_arg": 0.053,
-      "sg_putt": 0.063,
-      "sg_total": 0.261
-    }
-  },
-  {
-    "id": 17488,
-    "name": "Im, Sungjae",
-    "first_name": "Sungjae",
-    "last_name": "Im",
-    "country_name": "Korea - Republic of",
-    "continent": "Asia",
-    "age": 28,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "297.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "-0.30",
-      "SG: Around Green": "+0.36",
-      "SG: Putting": "+0.21",
-      "SG: Total": "+0.40"
-    },
-    "form": {
-      "world_ranking": 86
-    },
-    "raw": {
-      "driving_dist": -1.215,
-      "driving_acc": 0.019,
-      "sg_ott": 0.13,
-      "sg_app": -0.3,
-      "sg_arg": 0.356,
-      "sg_putt": 0.214,
-      "sg_total": 0.4
+      "driving_dist": -7.202,
+      "driving_acc": 0.065,
+      "sg_ott": 0.163,
+      "sg_app": -0.003,
+      "sg_arg": 0.05,
+      "sg_putt": 0.028,
+      "sg_total": 0.238
     }
   },
   {
@@ -2783,58 +2849,58 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "308.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.2%||tour avg: 61%",
-      "SG: Off the Tee": "+0.28",
-      "SG: Approach": "+0.12",
-      "SG: Around Green": "+0.04",
-      "SG: Putting": "-0.01",
-      "SG: Total": "+0.43"
+      "Driving Distance": "307.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.21",
+      "SG: Approach": "+0.10",
+      "SG: Around Green": "+0.03",
+      "SG: Putting": "-0.11",
+      "SG: Total": "+0.23"
     },
     "form": {
-      "world_ranking": 87
+      "world_ranking": 89
     },
     "raw": {
-      "driving_dist": 9.064,
-      "driving_acc": -0.028,
-      "sg_ott": 0.281,
-      "sg_app": 0.115,
-      "sg_arg": 0.042,
-      "sg_putt": -0.01,
-      "sg_total": 0.428
+      "driving_dist": 8.581,
+      "driving_acc": -0.034,
+      "sg_ott": 0.206,
+      "sg_app": 0.102,
+      "sg_arg": 0.03,
+      "sg_putt": -0.106,
+      "sg_total": 0.232
     }
   },
   {
-    "id": 23841,
-    "name": "Neergaard-Petersen, Rasmus",
-    "first_name": "Rasmus",
-    "last_name": "Neergaard-Petersen",
-    "country_name": "Denmark",
+    "id": 13764,
+    "name": "Parry, John",
+    "first_name": "John",
+    "last_name": "Parry",
+    "country_name": "England",
     "continent": "Europe",
-    "age": 27,
+    "age": 39,
     "amateur": false,
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "302.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.38",
-      "SG: Approach": "+0.07",
-      "SG: Around Green": "-0.17",
-      "SG: Putting": "+0.04",
-      "SG: Total": "+0.33"
+      "Driving Distance": "291.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.7%||tour avg: 61%",
+      "SG: Off the Tee": "-0.06",
+      "SG: Approach": "+0.39",
+      "SG: Around Green": "+0.07",
+      "SG: Putting": "-0.18",
+      "SG: Total": "+0.23"
     },
     "form": {
-      "world_ranking": 91
+      "world_ranking": 92
     },
     "raw": {
-      "driving_dist": 3.527,
-      "driving_acc": 0.027,
-      "sg_ott": 0.383,
-      "sg_app": 0.066,
-      "sg_arg": -0.169,
-      "sg_putt": 0.045,
-      "sg_total": 0.325
+      "driving_dist": -7.511,
+      "driving_acc": 0.037,
+      "sg_ott": -0.061,
+      "sg_app": 0.393,
+      "sg_arg": 0.071,
+      "sg_putt": -0.177,
+      "sg_total": 0.226
     }
   },
   {
@@ -2849,25 +2915,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "304.3 yds||tour avg: 299 yds",
+      "Driving Distance": "304.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "55.9%||tour avg: 61%",
-      "SG: Off the Tee": "-0.12",
-      "SG: Approach": "-0.18",
+      "SG: Off the Tee": "-0.13",
+      "SG: Approach": "-0.19",
       "SG: Around Green": "+0.06",
       "SG: Putting": "+0.20",
-      "SG: Total": "-0.04"
+      "SG: Total": "-0.07"
     },
     "form": {
-      "world_ranking": 92
+      "world_ranking": 95
     },
     "raw": {
-      "driving_dist": 5.252,
+      "driving_dist": 5.232,
       "driving_acc": -0.051,
-      "sg_ott": -0.124,
-      "sg_app": -0.183,
-      "sg_arg": 0.061,
-      "sg_putt": 0.201,
-      "sg_total": -0.044
+      "sg_ott": -0.13,
+      "sg_app": -0.189,
+      "sg_arg": 0.057,
+      "sg_putt": 0.198,
+      "sg_total": -0.065
     }
   },
   {
@@ -2885,55 +2951,22 @@
       "Driving Distance": "277.2 yds||tour avg: 299 yds",
       "Driving Accuracy": "69.5%||tour avg: 61%",
       "SG: Off the Tee": "-0.59",
-      "SG: Approach": "+0.13",
-      "SG: Around Green": "+0.29",
+      "SG: Approach": "+0.12",
+      "SG: Around Green": "+0.28",
       "SG: Putting": "+0.31",
-      "SG: Total": "+0.15"
+      "SG: Total": "+0.12"
     },
     "form": {
-      "world_ranking": 93
+      "world_ranking": 96
     },
     "raw": {
-      "driving_dist": -21.805,
+      "driving_dist": -21.832,
       "driving_acc": 0.085,
-      "sg_ott": -0.586,
-      "sg_app": 0.13,
-      "sg_arg": 0.29,
-      "sg_putt": 0.314,
-      "sg_total": 0.147
-    }
-  },
-  {
-    "id": 13764,
-    "name": "Parry, John",
-    "first_name": "John",
-    "last_name": "Parry",
-    "country_name": "England",
-    "continent": "Europe",
-    "age": 39,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "292.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.13",
-      "SG: Approach": "+0.35",
-      "SG: Around Green": "+0.06",
-      "SG: Putting": "-0.25",
-      "SG: Total": "+0.03"
-    },
-    "form": {
-      "world_ranking": 95
-    },
-    "raw": {
-      "driving_dist": -6.606,
-      "driving_acc": 0.027,
-      "sg_ott": -0.129,
-      "sg_app": 0.347,
-      "sg_arg": 0.061,
-      "sg_putt": -0.246,
-      "sg_total": 0.033
+      "sg_ott": -0.594,
+      "sg_app": 0.123,
+      "sg_arg": 0.285,
+      "sg_putt": 0.31,
+      "sg_total": 0.124
     }
   },
   {
@@ -2948,91 +2981,25 @@
     "difficulty": "top100",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "287.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.29",
-      "SG: Approach": "+0.40",
-      "SG: Around Green": "+0.23",
-      "SG: Putting": "+0.27",
-      "SG: Total": "+0.62"
-    },
-    "form": {
-      "world_ranking": 96
-    },
-    "raw": {
-      "driving_dist": -11.384,
-      "driving_acc": 0.04,
-      "sg_ott": -0.286,
-      "sg_app": 0.396,
-      "sg_arg": 0.235,
-      "sg_putt": 0.273,
-      "sg_total": 0.618
-    }
-  },
-  {
-    "id": 17064,
-    "name": "Herbert, Lucas",
-    "first_name": "Lucas",
-    "last_name": "Herbert",
-    "country_name": "Australia",
-    "continent": "Oceania",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "304.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "56.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.00",
-      "SG: Approach": "+0.15",
-      "SG: Around Green": "+0.06",
-      "SG: Putting": "+0.04",
-      "SG: Total": "+0.25"
-    },
-    "form": {
-      "world_ranking": 97
-    },
-    "raw": {
-      "driving_dist": 5.093,
-      "driving_acc": -0.045,
-      "sg_ott": 0.004,
-      "sg_app": 0.155,
-      "sg_arg": 0.055,
-      "sg_putt": 0.039,
-      "sg_total": 0.253
-    }
-  },
-  {
-    "id": 16394,
-    "name": "Jaeger, Stephan",
-    "first_name": "Stephan",
-    "last_name": "Jaeger",
-    "country_name": "Germany",
-    "continent": "Europe",
-    "age": 37,
-    "amateur": false,
-    "difficulty": "top100",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "304.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "53.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.30",
-      "SG: Approach": "+0.04",
-      "SG: Around Green": "+0.31",
-      "SG: Putting": "+0.17",
-      "SG: Total": "+0.21"
+      "Driving Distance": "288.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.5%||tour avg: 61%",
+      "SG: Off the Tee": "-0.33",
+      "SG: Approach": "+0.29",
+      "SG: Around Green": "+0.21",
+      "SG: Putting": "+0.29",
+      "SG: Total": "+0.46"
     },
     "form": {
       "world_ranking": 98
     },
     "raw": {
-      "driving_dist": 5.542,
-      "driving_acc": -0.078,
-      "sg_ott": -0.305,
-      "sg_app": 0.04,
-      "sg_arg": 0.311,
-      "sg_putt": 0.165,
-      "sg_total": 0.211
+      "driving_dist": -10.794,
+      "driving_acc": 0.035,
+      "sg_ott": -0.33,
+      "sg_app": 0.292,
+      "sg_arg": 0.213,
+      "sg_putt": 0.286,
+      "sg_total": 0.46
     }
   },
   {
@@ -3049,56 +3016,23 @@
     "stats": {
       "Driving Distance": "302.1 yds||tour avg: 299 yds",
       "Driving Accuracy": "61.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.19",
-      "SG: Approach": "+0.04",
+      "SG: Off the Tee": "+0.17",
+      "SG: Approach": "+0.03",
       "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.11",
-      "SG: Total": "+0.46"
+      "SG: Putting": "+0.10",
+      "SG: Total": "+0.43"
     },
     "form": {
       "world_ranking": 99
     },
     "raw": {
-      "driving_dist": 3.146,
+      "driving_dist": 3.113,
       "driving_acc": 0.001,
-      "sg_ott": 0.187,
-      "sg_app": 0.043,
-      "sg_arg": 0.124,
-      "sg_putt": 0.11,
-      "sg_total": 0.464
-    }
-  },
-  {
-    "id": 23504,
-    "name": "Hoey, Rico",
-    "first_name": "Rico",
-    "last_name": "Hoey",
-    "country_name": "Philippines",
-    "continent": "Asia",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "304.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.41",
-      "SG: Approach": "+0.27",
-      "SG: Around Green": "-0.08",
-      "SG: Putting": "-0.27",
-      "SG: Total": "+0.33"
-    },
-    "form": {
-      "world_ranking": 101
-    },
-    "raw": {
-      "driving_dist": 5.666,
-      "driving_acc": 0.017,
-      "sg_ott": 0.415,
-      "sg_app": 0.272,
-      "sg_arg": -0.082,
-      "sg_putt": -0.272,
-      "sg_total": 0.333
+      "sg_ott": 0.175,
+      "sg_app": 0.03,
+      "sg_arg": 0.119,
+      "sg_putt": 0.105,
+      "sg_total": 0.428
     }
   },
   {
@@ -3110,28 +3044,61 @@
     "continent": "North America",
     "age": 31,
     "amateur": false,
+    "difficulty": "top100",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "293.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.07",
+      "SG: Approach": "+0.33",
+      "SG: Around Green": "+0.08",
+      "SG: Putting": "-0.13",
+      "SG: Total": "+0.35"
+    },
+    "form": {
+      "world_ranking": 100
+    },
+    "raw": {
+      "driving_dist": -5.615,
+      "driving_acc": 0.053,
+      "sg_ott": 0.071,
+      "sg_app": 0.327,
+      "sg_arg": 0.082,
+      "sg_putt": -0.131,
+      "sg_total": 0.35
+    }
+  },
+  {
+    "id": 16394,
+    "name": "Jaeger, Stephan",
+    "first_name": "Stephan",
+    "last_name": "Jaeger",
+    "country_name": "Germany",
+    "continent": "Europe",
+    "age": 37,
+    "amateur": false,
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "292.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.06",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "-0.17",
-      "SG: Total": "+0.27"
+      "Driving Distance": "304.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "53.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.35",
+      "SG: Approach": "+0.04",
+      "SG: Around Green": "+0.27",
+      "SG: Putting": "+0.14",
+      "SG: Total": "+0.10"
     },
     "form": {
-      "world_ranking": 102
+      "world_ranking": 101
     },
     "raw": {
-      "driving_dist": -6.055,
-      "driving_acc": 0.053,
-      "sg_ott": 0.063,
-      "sg_app": 0.33,
-      "sg_arg": 0.05,
-      "sg_putt": -0.169,
-      "sg_total": 0.274
+      "driving_dist": 5.456,
+      "driving_acc": -0.079,
+      "sg_ott": -0.349,
+      "sg_app": 0.042,
+      "sg_arg": 0.271,
+      "sg_putt": 0.136,
+      "sg_total": 0.099
     }
   },
   {
@@ -3147,24 +3114,90 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "305.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.2%||tour avg: 61%",
+      "Driving Accuracy": "61.3%||tour avg: 61%",
       "SG: Off the Tee": "+0.24",
       "SG: Approach": "+0.02",
-      "SG: Around Green": "+0.01",
+      "SG: Around Green": "+0.00",
       "SG: Putting": "+0.12",
-      "SG: Total": "+0.39"
+      "SG: Total": "+0.38"
+    },
+    "form": {
+      "world_ranking": 102
+    },
+    "raw": {
+      "driving_dist": 6.39,
+      "driving_acc": 0.003,
+      "sg_ott": 0.24,
+      "sg_app": 0.023,
+      "sg_arg": 0.003,
+      "sg_putt": 0.116,
+      "sg_total": 0.382
+    }
+  },
+  {
+    "id": 19870,
+    "name": "McCarthy, Denny",
+    "first_name": "Denny",
+    "last_name": "McCarthy",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "291.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.2%||tour avg: 61%",
+      "SG: Off the Tee": "-0.34",
+      "SG: Approach": "+0.07",
+      "SG: Around Green": "+0.12",
+      "SG: Putting": "+0.48",
+      "SG: Total": "+0.33"
     },
     "form": {
       "world_ranking": 103
     },
     "raw": {
-      "driving_dist": 6.382,
-      "driving_acc": 0.002,
-      "sg_ott": 0.241,
-      "sg_app": 0.022,
-      "sg_arg": 0.006,
-      "sg_putt": 0.117,
-      "sg_total": 0.386
+      "driving_dist": -7.451,
+      "driving_acc": -0.008,
+      "sg_ott": -0.339,
+      "sg_app": 0.065,
+      "sg_arg": 0.123,
+      "sg_putt": 0.479,
+      "sg_total": 0.328
+    }
+  },
+  {
+    "id": 21362,
+    "name": "Hillier, Daniel",
+    "first_name": "Daniel",
+    "last_name": "Hillier",
+    "country_name": "New Zealand",
+    "continent": "Oceania",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "EURO",
+    "stats": {
+      "Driving Distance": "306.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.50",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "-0.35",
+      "SG: Putting": "+0.03",
+      "SG: Total": "+0.34"
+    },
+    "form": {
+      "world_ranking": 106
+    },
+    "raw": {
+      "driving_dist": 7.888,
+      "driving_acc": 0.024,
+      "sg_ott": 0.499,
+      "sg_app": 0.154,
+      "sg_arg": -0.35,
+      "sg_putt": 0.033,
+      "sg_total": 0.336
     }
   },
   {
@@ -3183,54 +3216,21 @@
       "Driving Accuracy": "67.0%||tour avg: 61%",
       "SG: Off the Tee": "+0.29",
       "SG: Approach": "+0.39",
-      "SG: Around Green": "-0.30",
+      "SG: Around Green": "-0.31",
       "SG: Putting": "-0.39",
       "SG: Total": "-0.01"
     },
     "form": {
-      "world_ranking": 104
+      "world_ranking": 107
     },
     "raw": {
-      "driving_dist": -2.958,
+      "driving_dist": -2.971,
       "driving_acc": 0.06,
-      "sg_ott": 0.291,
-      "sg_app": 0.39,
-      "sg_arg": -0.303,
+      "sg_ott": 0.29,
+      "sg_app": 0.389,
+      "sg_arg": -0.306,
       "sg_putt": -0.388,
-      "sg_total": -0.01
-    }
-  },
-  {
-    "id": 21362,
-    "name": "Hillier, Daniel",
-    "first_name": "Daniel",
-    "last_name": "Hillier",
-    "country_name": "New Zealand",
-    "continent": "Oceania",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "EURO",
-    "stats": {
-      "Driving Distance": "306.7 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.43",
-      "SG: Approach": "+0.12",
-      "SG: Around Green": "-0.34",
-      "SG: Putting": "+0.06",
-      "SG: Total": "+0.27"
-    },
-    "form": {
-      "world_ranking": 105
-    },
-    "raw": {
-      "driving_dist": 7.667,
-      "driving_acc": 0.016,
-      "sg_ott": 0.433,
-      "sg_app": 0.121,
-      "sg_arg": -0.344,
-      "sg_putt": 0.061,
-      "sg_total": 0.271
+      "sg_total": -0.014
     }
   },
   {
@@ -3245,58 +3245,91 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "305.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.33",
-      "SG: Approach": "+0.12",
-      "SG: Around Green": "-0.34",
+      "Driving Distance": "305.8 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "+0.08",
+      "SG: Around Green": "-0.39",
       "SG: Putting": "-0.09",
-      "SG: Total": "+0.01"
+      "SG: Total": "-0.08"
     },
     "form": {
-      "world_ranking": 106
+      "world_ranking": 109
     },
     "raw": {
-      "driving_dist": 6.143,
-      "driving_acc": -0.004,
-      "sg_ott": 0.327,
-      "sg_app": 0.12,
-      "sg_arg": -0.341,
-      "sg_putt": -0.09,
-      "sg_total": 0.015
+      "driving_dist": 6.831,
+      "driving_acc": -0.011,
+      "sg_ott": 0.316,
+      "sg_app": 0.078,
+      "sg_arg": -0.387,
+      "sg_putt": -0.089,
+      "sg_total": -0.082
     }
   },
   {
-    "id": 19870,
-    "name": "McCarthy, Denny",
-    "first_name": "Denny",
-    "last_name": "McCarthy",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 33,
+    "id": 23504,
+    "name": "Hoey, Rico",
+    "first_name": "Rico",
+    "last_name": "Hoey",
+    "country_name": "Philippines",
+    "continent": "Asia",
+    "age": 30,
     "amateur": false,
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "291.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.33",
-      "SG: Approach": "+0.07",
-      "SG: Around Green": "+0.13",
-      "SG: Putting": "+0.48",
-      "SG: Total": "+0.35"
+      "Driving Distance": "304.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.5%||tour avg: 61%",
+      "SG: Off the Tee": "+0.42",
+      "SG: Approach": "+0.20",
+      "SG: Around Green": "-0.11",
+      "SG: Putting": "-0.28",
+      "SG: Total": "+0.23"
     },
     "form": {
-      "world_ranking": 108
+      "world_ranking": 110
     },
     "raw": {
-      "driving_dist": -7.445,
-      "driving_acc": -0.007,
-      "sg_ott": -0.332,
-      "sg_app": 0.07,
-      "sg_arg": 0.128,
-      "sg_putt": 0.482,
-      "sg_total": 0.349
+      "driving_dist": 5.858,
+      "driving_acc": 0.015,
+      "sg_ott": 0.418,
+      "sg_app": 0.205,
+      "sg_arg": -0.11,
+      "sg_putt": -0.285,
+      "sg_total": 0.228
+    }
+  },
+  {
+    "id": 16243,
+    "name": "Koepka, Brooks",
+    "first_name": "Brooks",
+    "last_name": "Koepka",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 36,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "306.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.32",
+      "SG: Approach": "+0.35",
+      "SG: Around Green": "+0.01",
+      "SG: Putting": "-0.07",
+      "SG: Total": "+0.61"
+    },
+    "form": {
+      "world_ranking": 111
+    },
+    "raw": {
+      "driving_dist": 7.289,
+      "driving_acc": -0.028,
+      "sg_ott": 0.317,
+      "sg_app": 0.353,
+      "sg_arg": 0.009,
+      "sg_putt": -0.073,
+      "sg_total": 0.606
     }
   },
   {
@@ -3311,25 +3344,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "310.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.46",
-      "SG: Approach": "+0.15",
+      "Driving Distance": "310.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "58.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.44",
+      "SG: Approach": "+0.23",
       "SG: Around Green": "-0.01",
-      "SG: Putting": "-0.02",
-      "SG: Total": "+0.58"
+      "SG: Putting": "-0.05",
+      "SG: Total": "+0.61"
     },
     "form": {
-      "world_ranking": 111
+      "world_ranking": 115
     },
     "raw": {
-      "driving_dist": 11.489,
-      "driving_acc": -0.025,
-      "sg_ott": 0.46,
-      "sg_app": 0.147,
+      "driving_dist": 11.565,
+      "driving_acc": -0.027,
+      "sg_ott": 0.439,
+      "sg_app": 0.233,
       "sg_arg": -0.01,
-      "sg_putt": -0.016,
-      "sg_total": 0.582
+      "sg_putt": -0.05,
+      "sg_total": 0.612
     }
   },
   {
@@ -3345,24 +3378,57 @@
     "tour": "EURO",
     "stats": {
       "Driving Distance": "295.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.2%||tour avg: 61%",
-      "SG: Off the Tee": "-0.26",
-      "SG: Approach": "+0.53",
+      "Driving Accuracy": "60.1%||tour avg: 61%",
+      "SG: Off the Tee": "-0.27",
+      "SG: Approach": "+0.54",
       "SG: Around Green": "+0.07",
-      "SG: Putting": "+0.21",
+      "SG: Putting": "+0.20",
       "SG: Total": "+0.54"
     },
     "form": {
-      "world_ranking": 114
+      "world_ranking": 116
     },
     "raw": {
-      "driving_dist": -3.667,
-      "driving_acc": -0.008,
-      "sg_ott": -0.259,
-      "sg_app": 0.529,
+      "driving_dist": -3.673,
+      "driving_acc": -0.009,
+      "sg_ott": -0.267,
+      "sg_app": 0.543,
       "sg_arg": 0.065,
-      "sg_putt": 0.206,
-      "sg_total": 0.541
+      "sg_putt": 0.199,
+      "sg_total": 0.54
+    }
+  },
+  {
+    "id": 19421,
+    "name": "Du Plessis, Hennie",
+    "first_name": "Hennie",
+    "last_name": "Du Plessis",
+    "country_name": "South Africa",
+    "continent": "Africa",
+    "age": 29,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "EURO",
+    "stats": {
+      "Driving Distance": "307.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.28",
+      "SG: Approach": "+0.32",
+      "SG: Around Green": "-0.01",
+      "SG: Putting": "-0.33",
+      "SG: Total": "+0.26"
+    },
+    "form": {
+      "world_ranking": 117
+    },
+    "raw": {
+      "driving_dist": 7.957,
+      "driving_acc": -0.006,
+      "sg_ott": 0.279,
+      "sg_app": 0.324,
+      "sg_arg": -0.01,
+      "sg_putt": -0.332,
+      "sg_total": 0.26
     }
   },
   {
@@ -3382,20 +3448,20 @@
       "SG: Off the Tee": "-0.03",
       "SG: Approach": "+0.30",
       "SG: Around Green": "+0.05",
-      "SG: Putting": "-0.36",
+      "SG: Putting": "-0.37",
       "SG: Total": "-0.04"
     },
     "form": {
-      "world_ranking": 116
+      "world_ranking": 118
     },
     "raw": {
-      "driving_dist": -1.276,
+      "driving_dist": -1.272,
       "driving_acc": 0.003,
-      "sg_ott": -0.031,
+      "sg_ott": -0.032,
       "sg_app": 0.305,
-      "sg_arg": 0.054,
-      "sg_putt": -0.365,
-      "sg_total": -0.038
+      "sg_arg": 0.052,
+      "sg_putt": -0.366,
+      "sg_total": -0.04
     }
   },
   {
@@ -3411,123 +3477,24 @@
     "tour": "PGA",
     "stats": {
       "Driving Distance": "300.8 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.7%||tour avg: 61%",
-      "SG: Off the Tee": "-0.01",
-      "SG: Approach": "-0.23",
+      "Driving Accuracy": "61.4%||tour avg: 61%",
+      "SG: Off the Tee": "+0.07",
+      "SG: Approach": "-0.16",
       "SG: Around Green": "+0.12",
-      "SG: Putting": "+0.09",
-      "SG: Total": "-0.01"
-    },
-    "form": {
-      "world_ranking": 117
-    },
-    "raw": {
-      "driving_dist": 1.763,
-      "driving_acc": -0.003,
-      "sg_ott": -0.007,
-      "sg_app": -0.225,
-      "sg_arg": 0.125,
-      "sg_putt": 0.093,
-      "sg_total": -0.013
-    }
-  },
-  {
-    "id": 16243,
-    "name": "Koepka, Brooks",
-    "first_name": "Brooks",
-    "last_name": "Koepka",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 36,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "305.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "58.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.17",
-      "SG: Approach": "+0.30",
-      "SG: Around Green": "+0.02",
-      "SG: Putting": "-0.07",
-      "SG: Total": "+0.42"
-    },
-    "form": {
-      "world_ranking": 118
-    },
-    "raw": {
-      "driving_dist": 6.449,
-      "driving_acc": -0.03,
-      "sg_ott": 0.17,
-      "sg_app": 0.301,
-      "sg_arg": 0.019,
-      "sg_putt": -0.073,
-      "sg_total": 0.416
-    }
-  },
-  {
-    "id": 25157,
-    "name": "Hodges, Lee",
-    "first_name": "Lee",
-    "last_name": "Hodges",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 31,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "294.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "66.9%||tour avg: 61%",
-      "SG: Off the Tee": "+0.16",
-      "SG: Approach": "+0.04",
-      "SG: Around Green": "-0.12",
-      "SG: Putting": "+0.04",
-      "SG: Total": "+0.13"
-    },
-    "form": {
-      "world_ranking": 119
-    },
-    "raw": {
-      "driving_dist": -4.555,
-      "driving_acc": 0.059,
-      "sg_ott": 0.162,
-      "sg_app": 0.045,
-      "sg_arg": -0.119,
-      "sg_putt": 0.044,
-      "sg_total": 0.132
-    }
-  },
-  {
-    "id": 19421,
-    "name": "Du Plessis, Hennie",
-    "first_name": "Hennie",
-    "last_name": "Du Plessis",
-    "country_name": "South Africa",
-    "continent": "Africa",
-    "age": 29,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "EURO",
-    "stats": {
-      "Driving Distance": "307.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.7%||tour avg: 61%",
-      "SG: Off the Tee": "+0.38",
-      "SG: Approach": "+0.26",
-      "SG: Around Green": "-0.07",
-      "SG: Putting": "-0.38",
-      "SG: Total": "+0.18"
+      "SG: Putting": "-0.01",
+      "SG: Total": "+0.02"
     },
     "form": {
       "world_ranking": 120
     },
     "raw": {
-      "driving_dist": 8.0,
-      "driving_acc": -0.003,
-      "sg_ott": 0.375,
-      "sg_app": 0.26,
-      "sg_arg": -0.07,
-      "sg_putt": -0.382,
-      "sg_total": 0.183
+      "driving_dist": 1.751,
+      "driving_acc": 0.004,
+      "sg_ott": 0.065,
+      "sg_app": -0.157,
+      "sg_arg": 0.118,
+      "sg_putt": -0.008,
+      "sg_total": 0.018
     }
   },
   {
@@ -3543,24 +3510,24 @@
     "tour": "EURO",
     "stats": {
       "Driving Distance": "290.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.8%||tour avg: 61%",
-      "SG: Off the Tee": "-0.06",
-      "SG: Approach": "-0.22",
-      "SG: Around Green": "-0.03",
-      "SG: Putting": "+0.06",
-      "SG: Total": "-0.25"
+      "Driving Accuracy": "64.4%||tour avg: 61%",
+      "SG: Off the Tee": "-0.04",
+      "SG: Approach": "-0.10",
+      "SG: Around Green": "-0.06",
+      "SG: Putting": "-0.01",
+      "SG: Total": "-0.20"
     },
     "form": {
-      "world_ranking": 122
+      "world_ranking": 121
     },
     "raw": {
-      "driving_dist": -8.114,
-      "driving_acc": 0.028,
-      "sg_ott": -0.06,
-      "sg_app": -0.224,
-      "sg_arg": -0.027,
-      "sg_putt": 0.063,
-      "sg_total": -0.248
+      "driving_dist": -8.073,
+      "driving_acc": 0.034,
+      "sg_ott": -0.037,
+      "sg_app": -0.097,
+      "sg_arg": -0.055,
+      "sg_putt": -0.006,
+      "sg_total": -0.195
     }
   },
   {
@@ -3581,118 +3548,19 @@
       "SG: Approach": "+0.08",
       "SG: Around Green": "+0.18",
       "SG: Putting": "+0.06",
-      "SG: Total": "+0.47"
+      "SG: Total": "+0.46"
     },
     "form": {
-      "world_ranking": 123
+      "world_ranking": 122
     },
     "raw": {
-      "driving_dist": 9.177,
+      "driving_dist": 9.171,
       "driving_acc": -0.046,
-      "sg_ott": 0.142,
-      "sg_app": 0.083,
-      "sg_arg": 0.185,
-      "sg_putt": 0.059,
-      "sg_total": 0.469
-    }
-  },
-  {
-    "id": 29770,
-    "name": "Mouw, William",
-    "first_name": "William",
-    "last_name": "Mouw",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 25,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "303.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.20",
-      "SG: Approach": "+0.28",
-      "SG: Around Green": "-0.08",
-      "SG: Putting": "-0.09",
-      "SG: Total": "+0.31"
-    },
-    "form": {
-      "world_ranking": 126
-    },
-    "raw": {
-      "driving_dist": 4.447,
-      "driving_acc": 0.003,
-      "sg_ott": 0.2,
-      "sg_app": 0.28,
-      "sg_arg": -0.08,
-      "sg_putt": -0.088,
-      "sg_total": 0.311
-    }
-  },
-  {
-    "id": 14792,
-    "name": "Saddier, Adrien",
-    "first_name": "Adrien",
-    "last_name": "Saddier",
-    "country_name": "France",
-    "continent": "Europe",
-    "age": 34,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "297.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "63.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.13",
-      "SG: Approach": "-0.05",
-      "SG: Around Green": "-0.07",
-      "SG: Putting": "-0.14",
-      "SG: Total": "-0.13"
-    },
-    "form": {
-      "world_ranking": 128
-    },
-    "raw": {
-      "driving_dist": -1.657,
-      "driving_acc": 0.023,
-      "sg_ott": 0.126,
-      "sg_app": -0.052,
-      "sg_arg": -0.065,
-      "sg_putt": -0.139,
-      "sg_total": -0.129
-    }
-  },
-  {
-    "id": 17881,
-    "name": "Yu, Kevin",
-    "first_name": "Kevin",
-    "last_name": "Yu",
-    "country_name": "Chinese Taipei",
-    "continent": "Asia",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "306.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.30",
-      "SG: Approach": "+0.02",
-      "SG: Around Green": "-0.04",
-      "SG: Putting": "-0.06",
-      "SG: Total": "+0.22"
-    },
-    "form": {
-      "world_ranking": 131
-    },
-    "raw": {
-      "driving_dist": 7.216,
-      "driving_acc": -0.004,
-      "sg_ott": 0.297,
-      "sg_app": 0.023,
-      "sg_arg": -0.038,
-      "sg_putt": -0.062,
-      "sg_total": 0.219
+      "sg_ott": 0.137,
+      "sg_app": 0.08,
+      "sg_arg": 0.181,
+      "sg_putt": 0.057,
+      "sg_total": 0.455
     }
   },
   {
@@ -3707,25 +3575,157 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "314.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.52",
-      "SG: Approach": "-0.22",
-      "SG: Around Green": "-0.27",
-      "SG: Putting": "-0.08",
-      "SG: Total": "-0.04"
+      "Driving Distance": "312.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.35",
+      "SG: Approach": "-0.08",
+      "SG: Around Green": "-0.23",
+      "SG: Putting": "-0.03",
+      "SG: Total": "+0.02"
+    },
+    "form": {
+      "world_ranking": 124
+    },
+    "raw": {
+      "driving_dist": 13.173,
+      "driving_acc": -0.057,
+      "sg_ott": 0.354,
+      "sg_app": -0.077,
+      "sg_arg": -0.23,
+      "sg_putt": -0.027,
+      "sg_total": 0.02
+    }
+  },
+  {
+    "id": 25157,
+    "name": "Hodges, Lee",
+    "first_name": "Lee",
+    "last_name": "Hodges",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 31,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "294.4 yds||tour avg: 299 yds",
+      "Driving Accuracy": "66.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.16",
+      "SG: Approach": "+0.04",
+      "SG: Around Green": "-0.12",
+      "SG: Putting": "+0.04",
+      "SG: Total": "+0.12"
+    },
+    "form": {
+      "world_ranking": 125
+    },
+    "raw": {
+      "driving_dist": -4.565,
+      "driving_acc": 0.059,
+      "sg_ott": 0.159,
+      "sg_app": 0.044,
+      "sg_arg": -0.121,
+      "sg_putt": 0.041,
+      "sg_total": 0.122
+    }
+  },
+  {
+    "id": 29770,
+    "name": "Mouw, William",
+    "first_name": "William",
+    "last_name": "Mouw",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 25,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "303.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "+0.28",
+      "SG: Around Green": "-0.08",
+      "SG: Putting": "-0.09",
+      "SG: Total": "+0.31"
+    },
+    "form": {
+      "world_ranking": 129
+    },
+    "raw": {
+      "driving_dist": 4.452,
+      "driving_acc": 0.003,
+      "sg_ott": 0.197,
+      "sg_app": 0.28,
+      "sg_arg": -0.082,
+      "sg_putt": -0.089,
+      "sg_total": 0.306
+    }
+  },
+  {
+    "id": 17881,
+    "name": "Yu, Kevin",
+    "first_name": "Kevin",
+    "last_name": "Yu",
+    "country_name": "Chinese Taipei",
+    "continent": "Asia",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "305.9 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.25",
+      "SG: Approach": "+0.04",
+      "SG: Around Green": "-0.02",
+      "SG: Putting": "-0.05",
+      "SG: Total": "+0.22"
     },
     "form": {
       "world_ranking": 132
     },
     "raw": {
-      "driving_dist": 15.358,
-      "driving_acc": -0.055,
-      "sg_ott": 0.52,
-      "sg_app": -0.216,
-      "sg_arg": -0.269,
-      "sg_putt": -0.077,
-      "sg_total": -0.042
+      "driving_dist": 6.894,
+      "driving_acc": -0.009,
+      "sg_ott": 0.249,
+      "sg_app": 0.042,
+      "sg_arg": -0.022,
+      "sg_putt": -0.047,
+      "sg_total": 0.221
+    }
+  },
+  {
+    "id": 14792,
+    "name": "Saddier, Adrien",
+    "first_name": "Adrien",
+    "last_name": "Saddier",
+    "country_name": "France",
+    "continent": "Europe",
+    "age": 34,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "296.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.4%||tour avg: 61%",
+      "SG: Off the Tee": "-0.05",
+      "SG: Approach": "-0.14",
+      "SG: Around Green": "-0.02",
+      "SG: Putting": "-0.07",
+      "SG: Total": "-0.27"
+    },
+    "form": {
+      "world_ranking": 133
+    },
+    "raw": {
+      "driving_dist": -2.278,
+      "driving_acc": 0.014,
+      "sg_ott": -0.049,
+      "sg_app": -0.139,
+      "sg_arg": -0.016,
+      "sg_putt": -0.07,
+      "sg_total": -0.274
     }
   },
   {
@@ -3740,58 +3740,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "304.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "65.1%||tour avg: 61%",
-      "SG: Off the Tee": "+0.57",
-      "SG: Approach": "+0.22",
-      "SG: Around Green": "+0.07",
-      "SG: Putting": "-0.19",
-      "SG: Total": "+0.67"
+      "Driving Distance": "304.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.54",
+      "SG: Approach": "+0.15",
+      "SG: Around Green": "+0.08",
+      "SG: Putting": "-0.13",
+      "SG: Total": "+0.63"
     },
     "form": {
-      "world_ranking": 135
+      "world_ranking": 137
     },
     "raw": {
-      "driving_dist": 4.995,
-      "driving_acc": 0.041,
-      "sg_ott": 0.567,
-      "sg_app": 0.22,
-      "sg_arg": 0.073,
-      "sg_putt": -0.192,
-      "sg_total": 0.667
-    }
-  },
-  {
-    "id": 15856,
-    "name": "Smith, Cameron",
-    "first_name": "Cameron",
-    "last_name": "Smith",
-    "country_name": "Australia",
-    "continent": "Oceania",
-    "age": 32,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "294.5 yds||tour avg: 299 yds",
-      "Driving Accuracy": "53.5%||tour avg: 61%",
-      "SG: Off the Tee": "-0.67",
-      "SG: Approach": "-0.16",
-      "SG: Around Green": "+0.47",
-      "SG: Putting": "+0.53",
-      "SG: Total": "+0.17"
-    },
-    "form": {
-      "world_ranking": 140
-    },
-    "raw": {
-      "driving_dist": -4.502,
-      "driving_acc": -0.075,
-      "sg_ott": -0.673,
-      "sg_app": -0.16,
-      "sg_arg": 0.466,
-      "sg_putt": 0.532,
-      "sg_total": 0.165
+      "driving_dist": 5.118,
+      "driving_acc": 0.033,
+      "sg_ott": 0.536,
+      "sg_app": 0.148,
+      "sg_arg": 0.079,
+      "sg_putt": -0.133,
+      "sg_total": 0.629
     }
   },
   {
@@ -3806,25 +3773,157 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "300.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "55.4%||tour avg: 61%",
-      "SG: Off the Tee": "-0.29",
-      "SG: Approach": "-0.19",
+      "Driving Distance": "300.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "55.6%||tour avg: 61%",
+      "SG: Off the Tee": "-0.25",
+      "SG: Approach": "-0.26",
       "SG: Around Green": "+0.35",
-      "SG: Putting": "+0.34",
-      "SG: Total": "+0.22"
+      "SG: Putting": "+0.39",
+      "SG: Total": "+0.24"
     },
     "form": {
       "world_ranking": 141
     },
     "raw": {
-      "driving_dist": 1.316,
-      "driving_acc": -0.056,
-      "sg_ott": -0.289,
-      "sg_app": -0.19,
-      "sg_arg": 0.355,
-      "sg_putt": 0.344,
-      "sg_total": 0.22
+      "driving_dist": 1.499,
+      "driving_acc": -0.054,
+      "sg_ott": -0.251,
+      "sg_app": -0.256,
+      "sg_arg": 0.349,
+      "sg_putt": 0.394,
+      "sg_total": 0.237
+    }
+  },
+  {
+    "id": 15856,
+    "name": "Smith, Cameron",
+    "first_name": "Cameron",
+    "last_name": "Smith",
+    "country_name": "Australia",
+    "continent": "Oceania",
+    "age": 32,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "295.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "53.2%||tour avg: 61%",
+      "SG: Off the Tee": "-0.66",
+      "SG: Approach": "-0.14",
+      "SG: Around Green": "+0.42",
+      "SG: Putting": "+0.53",
+      "SG: Total": "+0.16"
+    },
+    "form": {
+      "world_ranking": 142
+    },
+    "raw": {
+      "driving_dist": -3.998,
+      "driving_acc": -0.078,
+      "sg_ott": -0.658,
+      "sg_app": -0.136,
+      "sg_arg": 0.424,
+      "sg_putt": 0.527,
+      "sg_total": 0.157
+    }
+  },
+  {
+    "id": 20730,
+    "name": "Perez, Victor",
+    "first_name": "Victor",
+    "last_name": "Perez",
+    "country_name": "France",
+    "continent": "Europe",
+    "age": 33,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "300.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "63.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.41",
+      "SG: Approach": "+0.12",
+      "SG: Around Green": "+0.02",
+      "SG: Putting": "+0.21",
+      "SG: Total": "+0.75"
+    },
+    "form": {
+      "world_ranking": 146
+    },
+    "raw": {
+      "driving_dist": 1.518,
+      "driving_acc": 0.029,
+      "sg_ott": 0.408,
+      "sg_app": 0.116,
+      "sg_arg": 0.021,
+      "sg_putt": 0.206,
+      "sg_total": 0.75
+    }
+  },
+  {
+    "id": 27364,
+    "name": "Thompson, Davis",
+    "first_name": "Davis",
+    "last_name": "Thompson",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 27,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "303.0 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.20",
+      "SG: Approach": "+0.28",
+      "SG: Around Green": "+0.06",
+      "SG: Putting": "-0.07",
+      "SG: Total": "+0.47"
+    },
+    "form": {
+      "world_ranking": 148
+    },
+    "raw": {
+      "driving_dist": 4.04,
+      "driving_acc": 0.008,
+      "sg_ott": 0.203,
+      "sg_app": 0.279,
+      "sg_arg": 0.057,
+      "sg_putt": -0.07,
+      "sg_total": 0.47
+    }
+  },
+  {
+    "id": 21944,
+    "name": "Moore, Taylor",
+    "first_name": "Taylor",
+    "last_name": "Moore",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 32,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "306.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "57.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.19",
+      "SG: Approach": "-0.15",
+      "SG: Around Green": "+0.13",
+      "SG: Putting": "+0.05",
+      "SG: Total": "+0.22"
+    },
+    "form": {
+      "world_ranking": 149
+    },
+    "raw": {
+      "driving_dist": 7.084,
+      "driving_acc": -0.037,
+      "sg_ott": 0.194,
+      "sg_app": -0.148,
+      "sg_arg": 0.126,
+      "sg_putt": 0.052,
+      "sg_total": 0.224
     }
   },
   {
@@ -3842,22 +3941,22 @@
       "Driving Distance": "300.5 yds||tour avg: 299 yds",
       "Driving Accuracy": "60.0%||tour avg: 61%",
       "SG: Off the Tee": "+0.02",
-      "SG: Approach": "+0.18",
-      "SG: Around Green": "-0.00",
+      "SG: Approach": "+0.17",
+      "SG: Around Green": "-0.01",
       "SG: Putting": "-0.14",
-      "SG: Total": "+0.05"
+      "SG: Total": "+0.04"
     },
     "form": {
-      "world_ranking": 146
+      "world_ranking": 150
     },
     "raw": {
-      "driving_dist": 1.473,
+      "driving_dist": 1.467,
       "driving_acc": -0.01,
-      "sg_ott": 0.022,
-      "sg_app": 0.176,
-      "sg_arg": -0.004,
-      "sg_putt": -0.14,
-      "sg_total": 0.054
+      "sg_ott": 0.018,
+      "sg_app": 0.175,
+      "sg_arg": -0.006,
+      "sg_putt": -0.143,
+      "sg_total": 0.044
     }
   },
   {
@@ -3878,85 +3977,52 @@
       "SG: Approach": "-0.29",
       "SG: Around Green": "+0.07",
       "SG: Putting": "+0.27",
-      "SG: Total": "+0.14"
-    },
-    "form": {
-      "world_ranking": 148
-    },
-    "raw": {
-      "driving_dist": 0.311,
-      "driving_acc": 0.008,
-      "sg_ott": 0.092,
-      "sg_app": -0.287,
-      "sg_arg": 0.068,
-      "sg_putt": 0.271,
-      "sg_total": 0.145
-    }
-  },
-  {
-    "id": 27364,
-    "name": "Thompson, Davis",
-    "first_name": "Davis",
-    "last_name": "Thompson",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 27,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "303.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "61.8%||tour avg: 61%",
-      "SG: Off the Tee": "+0.21",
-      "SG: Approach": "+0.28",
-      "SG: Around Green": "+0.06",
-      "SG: Putting": "-0.07",
-      "SG: Total": "+0.48"
-    },
-    "form": {
-      "world_ranking": 150
-    },
-    "raw": {
-      "driving_dist": 4.037,
-      "driving_acc": 0.008,
-      "sg_ott": 0.207,
-      "sg_app": 0.281,
-      "sg_arg": 0.06,
-      "sg_putt": -0.067,
-      "sg_total": 0.481
-    }
-  },
-  {
-    "id": 21944,
-    "name": "Moore, Taylor",
-    "first_name": "Taylor",
-    "last_name": "Moore",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 32,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "306.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "57.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.20",
-      "SG: Approach": "-0.14",
-      "SG: Around Green": "+0.13",
-      "SG: Putting": "+0.05",
-      "SG: Total": "+0.24"
+      "SG: Total": "+0.13"
     },
     "form": {
       "world_ranking": 151
     },
     "raw": {
-      "driving_dist": 7.082,
-      "driving_acc": -0.037,
-      "sg_ott": 0.198,
-      "sg_app": -0.145,
-      "sg_arg": 0.129,
-      "sg_putt": 0.054,
-      "sg_total": 0.237
+      "driving_dist": 0.277,
+      "driving_acc": 0.008,
+      "sg_ott": 0.088,
+      "sg_app": -0.293,
+      "sg_arg": 0.066,
+      "sg_putt": 0.269,
+      "sg_total": 0.129
+    }
+  },
+  {
+    "id": 19846,
+    "name": "Bauchou, Zach",
+    "first_name": "Zach",
+    "last_name": "Bauchou",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 30,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "296.6 yds||tour avg: 299 yds",
+      "Driving Accuracy": "61.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.02",
+      "SG: Approach": "+0.29",
+      "SG: Around Green": "+0.02",
+      "SG: Putting": "+0.01",
+      "SG: Total": "+0.30"
+    },
+    "form": {
+      "world_ranking": 158
+    },
+    "raw": {
+      "driving_dist": -2.41,
+      "driving_acc": -0.0,
+      "sg_ott": -0.024,
+      "sg_app": 0.292,
+      "sg_arg": 0.023,
+      "sg_putt": 0.012,
+      "sg_total": 0.303
     }
   },
   {
@@ -3977,19 +4043,19 @@
       "SG: Approach": "+0.34",
       "SG: Around Green": "+0.11",
       "SG: Putting": "-0.14",
-      "SG: Total": "+0.81"
+      "SG: Total": "+0.80"
     },
     "form": {
-      "world_ranking": 159
+      "world_ranking": 162
     },
     "raw": {
-      "driving_dist": 2.115,
+      "driving_dist": 2.113,
       "driving_acc": 0.047,
-      "sg_ott": 0.501,
-      "sg_app": 0.339,
-      "sg_arg": 0.109,
-      "sg_putt": -0.136,
-      "sg_total": 0.813
+      "sg_ott": 0.497,
+      "sg_app": 0.336,
+      "sg_arg": 0.107,
+      "sg_putt": -0.138,
+      "sg_total": 0.802
     }
   },
   {
@@ -4004,157 +4070,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "298.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.8%||tour avg: 61%",
-      "SG: Off the Tee": "-0.07",
-      "SG: Approach": "-0.16",
-      "SG: Around Green": "+0.21",
-      "SG: Putting": "+0.32",
-      "SG: Total": "+0.30"
+      "Driving Distance": "297.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.09",
+      "SG: Approach": "-0.19",
+      "SG: Around Green": "+0.22",
+      "SG: Putting": "+0.33",
+      "SG: Total": "+0.26"
     },
     "form": {
-      "world_ranking": 161
+      "world_ranking": 164
     },
     "raw": {
-      "driving_dist": -0.878,
-      "driving_acc": -0.012,
-      "sg_ott": -0.069,
-      "sg_app": -0.161,
-      "sg_arg": 0.209,
-      "sg_putt": 0.318,
-      "sg_total": 0.297
-    }
-  },
-  {
-    "id": 20730,
-    "name": "Perez, Victor",
-    "first_name": "Victor",
-    "last_name": "Perez",
-    "country_name": "France",
-    "continent": "Europe",
-    "age": 33,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "300.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.6%||tour avg: 61%",
-      "SG: Off the Tee": "+0.41",
-      "SG: Approach": "+0.17",
-      "SG: Around Green": "-0.05",
-      "SG: Putting": "+0.19",
-      "SG: Total": "+0.73"
-    },
-    "form": {
-      "world_ranking": 163
-    },
-    "raw": {
-      "driving_dist": 1.113,
-      "driving_acc": 0.036,
-      "sg_ott": 0.413,
-      "sg_app": 0.173,
-      "sg_arg": -0.052,
-      "sg_putt": 0.193,
-      "sg_total": 0.728
-    }
-  },
-  {
-    "id": 19846,
-    "name": "Bauchou, Zach",
-    "first_name": "Zach",
-    "last_name": "Bauchou",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 30,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "296.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.05",
-      "SG: Approach": "+0.30",
-      "SG: Around Green": "+0.02",
-      "SG: Putting": "-0.06",
-      "SG: Total": "+0.21"
-    },
-    "form": {
-      "world_ranking": 170
-    },
-    "raw": {
-      "driving_dist": -2.409,
-      "driving_acc": -0.004,
-      "sg_ott": -0.047,
-      "sg_app": 0.301,
-      "sg_arg": 0.02,
-      "sg_putt": -0.063,
-      "sg_total": 0.21
-    }
-  },
-  {
-    "id": 14735,
-    "name": "Ortiz, Carlos",
-    "first_name": "Carlos",
-    "last_name": "Ortiz",
-    "country_name": "Mexico",
-    "continent": "North America",
-    "age": 35,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "303.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.5%||tour avg: 61%",
-      "SG: Off the Tee": "+0.23",
-      "SG: Approach": "+0.08",
-      "SG: Around Green": "+0.05",
-      "SG: Putting": "-0.01",
-      "SG: Total": "+0.35"
-    },
-    "form": {
-      "world_ranking": 173
-    },
-    "raw": {
-      "driving_dist": 4.145,
-      "driving_acc": -0.015,
-      "sg_ott": 0.227,
-      "sg_app": 0.08,
-      "sg_arg": 0.05,
-      "sg_putt": -0.009,
-      "sg_total": 0.348
-    }
-  },
-  {
-    "id": 22002,
-    "name": "Dumont De Chassart, Adrien",
-    "first_name": "Adrien",
-    "last_name": "Dumont De Chassart",
-    "country_name": "Belgium",
-    "continent": "Europe",
-    "age": 26,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "304.6 yds||tour avg: 299 yds",
-      "Driving Accuracy": "53.3%||tour avg: 61%",
-      "SG: Off the Tee": "-0.38",
-      "SG: Approach": "-0.10",
-      "SG: Around Green": "+0.18",
-      "SG: Putting": "+0.26",
-      "SG: Total": "-0.04"
-    },
-    "form": {
-      "world_ranking": 174
-    },
-    "raw": {
-      "driving_dist": 5.552,
-      "driving_acc": -0.077,
-      "sg_ott": -0.376,
-      "sg_app": -0.105,
-      "sg_arg": 0.178,
-      "sg_putt": 0.261,
-      "sg_total": -0.042
+      "driving_dist": -1.454,
+      "driving_acc": -0.01,
+      "sg_ott": -0.094,
+      "sg_app": -0.194,
+      "sg_arg": 0.216,
+      "sg_putt": 0.33,
+      "sg_total": 0.259
     }
   },
   {
@@ -4169,25 +4103,91 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "296.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "64.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.11",
-      "SG: Approach": "-0.20",
+      "Driving Distance": "296.1 yds||tour avg: 299 yds",
+      "Driving Accuracy": "64.2%||tour avg: 61%",
+      "SG: Off the Tee": "+0.10",
+      "SG: Approach": "-0.21",
       "SG: Around Green": "+0.07",
       "SG: Putting": "-0.13",
-      "SG: Total": "-0.15"
+      "SG: Total": "-0.17"
     },
     "form": {
-      "world_ranking": 175
+      "world_ranking": 170
     },
     "raw": {
-      "driving_dist": -3.006,
-      "driving_acc": 0.034,
-      "sg_ott": 0.106,
-      "sg_app": -0.201,
-      "sg_arg": 0.07,
-      "sg_putt": -0.128,
-      "sg_total": -0.152
+      "driving_dist": -2.938,
+      "driving_acc": 0.032,
+      "sg_ott": 0.099,
+      "sg_app": -0.206,
+      "sg_arg": 0.072,
+      "sg_putt": -0.131,
+      "sg_total": -0.166
+    }
+  },
+  {
+    "id": 14735,
+    "name": "Ortiz, Carlos",
+    "first_name": "Carlos",
+    "last_name": "Ortiz",
+    "country_name": "Mexico",
+    "continent": "North America",
+    "age": 35,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "303.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.3%||tour avg: 61%",
+      "SG: Off the Tee": "+0.22",
+      "SG: Approach": "+0.08",
+      "SG: Around Green": "+0.05",
+      "SG: Putting": "-0.01",
+      "SG: Total": "+0.34"
+    },
+    "form": {
+      "world_ranking": 172
+    },
+    "raw": {
+      "driving_dist": 4.212,
+      "driving_acc": -0.017,
+      "sg_ott": 0.218,
+      "sg_app": 0.076,
+      "sg_arg": 0.053,
+      "sg_putt": -0.012,
+      "sg_total": 0.335
+    }
+  },
+  {
+    "id": 22002,
+    "name": "Dumont De Chassart, Adrien",
+    "first_name": "Adrien",
+    "last_name": "Dumont De Chassart",
+    "country_name": "Belgium",
+    "continent": "Europe",
+    "age": 26,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "304.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "53.4%||tour avg: 61%",
+      "SG: Off the Tee": "-0.38",
+      "SG: Approach": "-0.11",
+      "SG: Around Green": "+0.17",
+      "SG: Putting": "+0.26",
+      "SG: Total": "-0.05"
+    },
+    "form": {
+      "world_ranking": 174
+    },
+    "raw": {
+      "driving_dist": 5.548,
+      "driving_acc": -0.076,
+      "sg_ott": -0.38,
+      "sg_app": -0.108,
+      "sg_arg": 0.175,
+      "sg_putt": 0.259,
+      "sg_total": -0.054
     }
   },
   {
@@ -4202,25 +4202,25 @@
     "difficulty": "field",
     "tour": "EURO",
     "stats": {
-      "Driving Distance": "296.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.20",
-      "SG: Approach": "+0.20",
+      "Driving Distance": "295.3 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.0%||tour avg: 61%",
+      "SG: Off the Tee": "-0.28",
+      "SG: Approach": "+0.27",
       "SG: Around Green": "+0.03",
-      "SG: Putting": "-0.16",
-      "SG: Total": "-0.13"
+      "SG: Putting": "-0.13",
+      "SG: Total": "-0.10"
     },
     "form": {
-      "world_ranking": 178
+      "world_ranking": 179
     },
     "raw": {
-      "driving_dist": -2.958,
-      "driving_acc": -0.004,
-      "sg_ott": -0.202,
-      "sg_app": 0.202,
-      "sg_arg": 0.029,
-      "sg_putt": -0.159,
-      "sg_total": -0.13
+      "driving_dist": -3.726,
+      "driving_acc": -0.01,
+      "sg_ott": -0.28,
+      "sg_app": 0.273,
+      "sg_arg": 0.032,
+      "sg_putt": -0.127,
+      "sg_total": -0.102
     }
   },
   {
@@ -4235,25 +4235,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.0 yds||tour avg: 299 yds",
-      "Driving Accuracy": "60.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.12",
-      "SG: Approach": "-0.37",
-      "SG: Around Green": "+0.04",
+      "Driving Distance": "296.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "60.4%||tour avg: 61%",
+      "SG: Off the Tee": "-0.15",
+      "SG: Approach": "-0.40",
+      "SG: Around Green": "+0.05",
       "SG: Putting": "+0.20",
-      "SG: Total": "-0.25"
+      "SG: Total": "-0.31"
     },
     "form": {
       "world_ranking": 182
     },
     "raw": {
-      "driving_dist": -2.033,
-      "driving_acc": -0.004,
-      "sg_ott": -0.124,
-      "sg_app": -0.371,
-      "sg_arg": 0.044,
+      "driving_dist": -2.526,
+      "driving_acc": -0.006,
+      "sg_ott": -0.153,
+      "sg_app": -0.404,
+      "sg_arg": 0.047,
       "sg_putt": 0.204,
-      "sg_total": -0.248
+      "sg_total": -0.306
     }
   },
   {
@@ -4268,25 +4268,25 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "297.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "59.6%||tour avg: 61%",
-      "SG: Off the Tee": "-0.22",
-      "SG: Approach": "+0.21",
-      "SG: Around Green": "-0.20",
-      "SG: Putting": "+0.11",
-      "SG: Total": "-0.10"
+      "Driving Distance": "297.7 yds||tour avg: 299 yds",
+      "Driving Accuracy": "59.8%||tour avg: 61%",
+      "SG: Off the Tee": "-0.20",
+      "SG: Approach": "+0.13",
+      "SG: Around Green": "-0.21",
+      "SG: Putting": "+0.12",
+      "SG: Total": "-0.15"
     },
     "form": {
-      "world_ranking": 183
+      "world_ranking": 187
     },
     "raw": {
-      "driving_dist": -1.664,
-      "driving_acc": -0.014,
-      "sg_ott": -0.223,
-      "sg_app": 0.207,
-      "sg_arg": -0.198,
-      "sg_putt": 0.109,
-      "sg_total": -0.105
+      "driving_dist": -1.266,
+      "driving_acc": -0.012,
+      "sg_ott": -0.196,
+      "sg_app": 0.134,
+      "sg_arg": -0.214,
+      "sg_putt": 0.122,
+      "sg_total": -0.154
     }
   },
   {
@@ -4301,25 +4301,25 @@
     "difficulty": "field",
     "tour": "LIV",
     "stats": {
-      "Driving Distance": "314.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "54.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.41",
-      "SG: Approach": "+0.10",
+      "Driving Distance": "314.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "53.8%||tour avg: 61%",
+      "SG: Off the Tee": "+0.40",
+      "SG: Approach": "+0.09",
       "SG: Around Green": "+0.01",
       "SG: Putting": "+0.01",
-      "SG: Total": "+0.52"
+      "SG: Total": "+0.51"
     },
     "form": {
-      "world_ranking": 186
+      "world_ranking": 189
     },
     "raw": {
-      "driving_dist": 15.447,
-      "driving_acc": -0.07,
-      "sg_ott": 0.41,
-      "sg_app": 0.095,
-      "sg_arg": 0.011,
-      "sg_putt": 0.008,
-      "sg_total": 0.523
+      "driving_dist": 15.523,
+      "driving_acc": -0.072,
+      "sg_ott": 0.402,
+      "sg_app": 0.086,
+      "sg_arg": 0.013,
+      "sg_putt": 0.006,
+      "sg_total": 0.508
     }
   },
   {
@@ -4335,24 +4335,24 @@
     "tour": "EURO",
     "stats": {
       "Driving Distance": "294.2 yds||tour avg: 299 yds",
-      "Driving Accuracy": "67.0%||tour avg: 61%",
-      "SG: Off the Tee": "+0.09",
-      "SG: Approach": "+0.16",
+      "Driving Accuracy": "66.9%||tour avg: 61%",
+      "SG: Off the Tee": "+0.08",
+      "SG: Approach": "+0.18",
       "SG: Around Green": "-0.15",
-      "SG: Putting": "+0.00",
+      "SG: Putting": "-0.01",
       "SG: Total": "+0.10"
     },
     "form": {
-      "world_ranking": 194
+      "world_ranking": 195
     },
     "raw": {
-      "driving_dist": -4.806,
-      "driving_acc": 0.06,
-      "sg_ott": 0.091,
-      "sg_app": 0.163,
+      "driving_dist": -4.81,
+      "driving_acc": 0.059,
+      "sg_ott": 0.084,
+      "sg_app": 0.176,
       "sg_arg": -0.152,
-      "sg_putt": 0.002,
-      "sg_total": 0.104
+      "sg_putt": -0.005,
+      "sg_total": 0.103
     }
   },
   {
@@ -4368,90 +4368,24 @@
     "tour": "LIV",
     "stats": {
       "Driving Distance": "305.3 yds||tour avg: 299 yds",
-      "Driving Accuracy": "54.3%||tour avg: 61%",
-      "SG: Off the Tee": "+0.05",
-      "SG: Approach": "-0.06",
+      "Driving Accuracy": "54.1%||tour avg: 61%",
+      "SG: Off the Tee": "+0.04",
+      "SG: Approach": "-0.07",
       "SG: Around Green": "+0.16",
       "SG: Putting": "-0.27",
-      "SG: Total": "-0.12"
+      "SG: Total": "-0.14"
     },
     "form": {
-      "world_ranking": 199
+      "world_ranking": 201
     },
     "raw": {
-      "driving_dist": 6.257,
-      "driving_acc": -0.067,
-      "sg_ott": 0.051,
-      "sg_app": -0.063,
-      "sg_arg": 0.159,
-      "sg_putt": -0.269,
-      "sg_total": -0.122
-    }
-  },
-  {
-    "id": 14509,
-    "name": "Dahmen, Joel",
-    "first_name": "Joel",
-    "last_name": "Dahmen",
-    "country_name": "United States",
-    "continent": "North America",
-    "age": 38,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "PGA",
-    "stats": {
-      "Driving Distance": "290.1 yds||tour avg: 299 yds",
-      "Driving Accuracy": "68.4%||tour avg: 61%",
-      "SG: Off the Tee": "+0.04",
-      "SG: Approach": "+0.16",
-      "SG: Around Green": "-0.16",
-      "SG: Putting": "-0.40",
-      "SG: Total": "-0.36"
-    },
-    "form": {
-      "world_ranking": 210
-    },
-    "raw": {
-      "driving_dist": -8.87,
-      "driving_acc": 0.074,
-      "sg_ott": 0.041,
-      "sg_app": 0.156,
-      "sg_arg": -0.161,
-      "sg_putt": -0.396,
-      "sg_total": -0.361
-    }
-  },
-  {
-    "id": 18238,
-    "name": "Ancer, Abraham",
-    "first_name": "Abraham",
-    "last_name": "Ancer",
-    "country_name": "Mexico",
-    "continent": "North America",
-    "age": 35,
-    "amateur": false,
-    "difficulty": "field",
-    "tour": "LIV",
-    "stats": {
-      "Driving Distance": "286.4 yds||tour avg: 299 yds",
-      "Driving Accuracy": "69.0%||tour avg: 61%",
-      "SG: Off the Tee": "-0.03",
-      "SG: Approach": "+0.33",
-      "SG: Around Green": "-0.10",
-      "SG: Putting": "+0.08",
-      "SG: Total": "+0.28"
-    },
-    "form": {
-      "world_ranking": 212
-    },
-    "raw": {
-      "driving_dist": -12.608,
-      "driving_acc": 0.08,
-      "sg_ott": -0.033,
-      "sg_app": 0.33,
-      "sg_arg": -0.1,
-      "sg_putt": 0.083,
-      "sg_total": 0.28
+      "driving_dist": 6.318,
+      "driving_acc": -0.069,
+      "sg_ott": 0.043,
+      "sg_app": -0.07,
+      "sg_arg": 0.161,
+      "sg_putt": -0.271,
+      "sg_total": -0.138
     }
   },
   {
@@ -4466,25 +4400,91 @@
     "difficulty": "field",
     "tour": "PGA",
     "stats": {
-      "Driving Distance": "293.9 yds||tour avg: 299 yds",
-      "Driving Accuracy": "62.4%||tour avg: 61%",
-      "SG: Off the Tee": "-0.19",
-      "SG: Approach": "-0.23",
-      "SG: Around Green": "+0.11",
-      "SG: Putting": "+0.12",
-      "SG: Total": "-0.19"
+      "Driving Distance": "294.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "62.5%||tour avg: 61%",
+      "SG: Off the Tee": "-0.17",
+      "SG: Approach": "-0.26",
+      "SG: Around Green": "+0.14",
+      "SG: Putting": "+0.23",
+      "SG: Total": "-0.06"
     },
     "form": {
-      "world_ranking": 213
+      "world_ranking": 203
     },
     "raw": {
-      "driving_dist": -5.057,
-      "driving_acc": 0.014,
-      "sg_ott": -0.187,
-      "sg_app": -0.231,
-      "sg_arg": 0.107,
-      "sg_putt": 0.122,
-      "sg_total": -0.19
+      "driving_dist": -4.848,
+      "driving_acc": 0.015,
+      "sg_ott": -0.169,
+      "sg_app": -0.258,
+      "sg_arg": 0.143,
+      "sg_putt": 0.225,
+      "sg_total": -0.058
+    }
+  },
+  {
+    "id": 14509,
+    "name": "Dahmen, Joel",
+    "first_name": "Joel",
+    "last_name": "Dahmen",
+    "country_name": "United States",
+    "continent": "North America",
+    "age": 38,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "PGA",
+    "stats": {
+      "Driving Distance": "290.2 yds||tour avg: 299 yds",
+      "Driving Accuracy": "68.6%||tour avg: 61%",
+      "SG: Off the Tee": "+0.08",
+      "SG: Approach": "+0.31",
+      "SG: Around Green": "-0.14",
+      "SG: Putting": "-0.49",
+      "SG: Total": "-0.25"
+    },
+    "form": {
+      "world_ranking": 209
+    },
+    "raw": {
+      "driving_dist": -8.793,
+      "driving_acc": 0.076,
+      "sg_ott": 0.076,
+      "sg_app": 0.306,
+      "sg_arg": -0.142,
+      "sg_putt": -0.49,
+      "sg_total": -0.25
+    }
+  },
+  {
+    "id": 18238,
+    "name": "Ancer, Abraham",
+    "first_name": "Abraham",
+    "last_name": "Ancer",
+    "country_name": "Mexico",
+    "continent": "North America",
+    "age": 35,
+    "amateur": false,
+    "difficulty": "field",
+    "tour": "LIV",
+    "stats": {
+      "Driving Distance": "286.5 yds||tour avg: 299 yds",
+      "Driving Accuracy": "68.8%||tour avg: 61%",
+      "SG: Off the Tee": "-0.04",
+      "SG: Approach": "+0.32",
+      "SG: Around Green": "-0.10",
+      "SG: Putting": "+0.08",
+      "SG: Total": "+0.27"
+    },
+    "form": {
+      "world_ranking": 214
+    },
+    "raw": {
+      "driving_dist": -12.537,
+      "driving_acc": 0.078,
+      "sg_ott": -0.041,
+      "sg_app": 0.324,
+      "sg_arg": -0.097,
+      "sg_putt": 0.08,
+      "sg_total": 0.265
     }
   }
 ]
