@@ -539,7 +539,7 @@
     "player_name": "Antonisse, Dario"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Russian Federation",
     "country_code": "RUS",
     "dg_id": 30514,
@@ -747,6 +747,13 @@
     "country_code": "USA",
     "dg_id": 31585,
     "player_name": "Avant, Thomas"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 33358,
+    "player_name": "Avrit, Owen"
   },
   {
     "amateur": 0,
@@ -2311,16 +2318,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2422,17 +2429,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -7140,7 +7147,7 @@
     "player_name": "Garcia, Sergio"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35624,
@@ -9178,16 +9185,16 @@
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
@@ -13028,16 +13035,16 @@
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
@@ -16710,6 +16717,13 @@
   },
   {
     "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 29087,
+    "player_name": "Ohr, Brian"
+  },
+  {
+    "amateur": 0,
     "country": "Japan",
     "country_code": "JPN",
     "dg_id": 20761,
@@ -17482,7 +17496,7 @@
     "amateur": 1,
     "country": "Mexico",
     "country_code": "MEX",
-    "dg_id": 30045668,
+    "dg_id": 35633,
     "player_name": "Perez, Francisco"
   },
   {
@@ -19400,7 +19414,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30039591,
+    "dg_id": 35632,
     "player_name": "Sandhu, Sihan"
   },
   {
@@ -20494,6 +20508,13 @@
     "country_code": "AUS",
     "dg_id": 16918,
     "player_name": "Sinnott, Todd"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35541,
+    "player_name": "Siravo, Brady"
   },
   {
     "amateur": 0,
