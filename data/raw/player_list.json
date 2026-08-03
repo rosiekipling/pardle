@@ -4725,7 +4725,7 @@
     "player_name": "De Los Santos, Justin"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Belgium",
     "country_code": "BEL",
     "dg_id": 27069,
@@ -15337,6 +15337,13 @@
     "player_name": "Michetti, Flavio"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30045895,
+    "player_name": "Mickelson, Caden"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -15888,6 +15895,13 @@
     "country_code": "NZL",
     "dg_id": 15890,
     "player_name": "Muir, Kieran"
+  },
+  {
+    "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 35691,
+    "player_name": "Muldowney, Shane"
   },
   {
     "amateur": 1,
@@ -17183,6 +17197,13 @@
     "country_code": "CAN",
     "dg_id": 25567,
     "player_name": "Papineau, Etienne"
+  },
+  {
+    "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 35692,
+    "player_name": "Paradise, Jimmy"
   },
   {
     "amateur": 0,
@@ -21875,7 +21896,7 @@
     "player_name": "Teater, Josh"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Estonia",
     "country_code": "EST",
     "dg_id": 32733,
