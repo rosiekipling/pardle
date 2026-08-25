@@ -927,7 +927,7 @@
     "amateur": 1,
     "country": "England",
     "country_code": "ENG",
-    "dg_id": 30036053,
+    "dg_id": 35762,
     "player_name": "Baker, Eliot"
   },
   {
@@ -2339,16 +2339,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -2450,17 +2450,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -5229,7 +5229,7 @@
     "player_name": "Dougherty, Kevin"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35761,
@@ -13637,6 +13637,13 @@
   },
   {
     "amateur": 0,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 23076,
+    "player_name": "Loft, Jordan"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31866,
@@ -17402,7 +17409,7 @@
     "player_name": "Pavoucek, Dominik"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 32475,
@@ -23154,6 +23161,13 @@
     "country_code": "USA",
     "dg_id": 17280,
     "player_name": "Vogel, T.J."
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30045,
+    "player_name": "Vogelpohl, John"
   },
   {
     "amateur": 0,
