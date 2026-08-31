@@ -2339,16 +2339,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2450,17 +2450,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -2882,6 +2882,13 @@
     "country_code": "PUR",
     "dg_id": 12909,
     "player_name": "Campos, Rafael"
+  },
+  {
+    "amateur": 1,
+    "country": "Switzerland",
+    "country_code": "SUI",
+    "dg_id": 32938,
+    "player_name": "Candinas, Mischa"
   },
   {
     "amateur": 0,
@@ -5468,16 +5475,16 @@
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -9220,16 +9227,16 @@
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
@@ -18676,7 +18683,7 @@
     "player_name": "Reuland, Zach"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Netherlands",
     "country_code": "NED",
     "dg_id": 27146,
@@ -19159,7 +19166,7 @@
     "player_name": "Rugumayo, Ronald"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Netherlands",
     "country_code": "NED",
     "dg_id": 33707,
@@ -21222,6 +21229,13 @@
     "country_code": "AUT",
     "dg_id": 21677,
     "player_name": "Steinlechner, Maximilian"
+  },
+  {
+    "amateur": 1,
+    "country": "Switzerland",
+    "country_code": "SUI",
+    "dg_id": 30037151,
+    "player_name": "Steinmann, Ben"
   },
   {
     "amateur": 0,
