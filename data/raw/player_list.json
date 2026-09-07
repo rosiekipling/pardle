@@ -2450,17 +2450,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 27379,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 31844,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 0,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 27379,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -3066,7 +3066,7 @@
     "player_name": "Carrete, Eduardo"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 30783,
@@ -4879,7 +4879,7 @@
     "player_name": "Del Val, Samuel"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 34060,
@@ -8498,7 +8498,7 @@
     "player_name": "Hall, Ryan"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 28152,
@@ -9198,6 +9198,13 @@
     "player_name": "Higgins, Robbie"
   },
   {
+    "amateur": 1,
+    "country": "Ireland",
+    "country_code": "IRL",
+    "dg_id": 30030933,
+    "player_name": "Higgins, Thomas"
+  },
+  {
     "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
@@ -9227,16 +9234,16 @@
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
@@ -15862,6 +15869,13 @@
     "player_name": "Mostert, Dylan"
   },
   {
+    "amateur": 0,
+    "country": "Sweden",
+    "country_code": "SWE",
+    "dg_id": 22445,
+    "player_name": "Mostrom, Anton"
+  },
+  {
     "amateur": 1,
     "country": "Japan",
     "country_code": "JPN",
@@ -17703,7 +17717,7 @@
     "player_name": "Petursson, Bjarki"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 29298,
@@ -21234,7 +21248,7 @@
     "amateur": 1,
     "country": "Switzerland",
     "country_code": "SUI",
-    "dg_id": 30037151,
+    "dg_id": 35885,
     "player_name": "Steinmann, Ben"
   },
   {
