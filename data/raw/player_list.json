@@ -1876,7 +1876,7 @@
     "player_name": "Blyth, Adam"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Austria",
     "country_code": "AUT",
     "dg_id": 26456,
@@ -2339,16 +2339,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -2450,17 +2450,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -9198,10 +9198,10 @@
     "player_name": "Higgins, Robbie"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Ireland",
     "country_code": "IRL",
-    "dg_id": 30030933,
+    "dg_id": 35899,
     "player_name": "Higgins, Thomas"
   },
   {
@@ -9234,16 +9234,16 @@
   },
   {
     "amateur": 1,
-    "country": "Northern Ireland",
-    "country_code": "NIR",
-    "dg_id": 27001,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
     "amateur": 1,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
+    "country": "Northern Ireland",
+    "country_code": "NIR",
+    "dg_id": 27001,
     "player_name": "Hill, Josh"
   },
   {
@@ -10862,6 +10862,13 @@
     "country_code": "USA",
     "dg_id": 112,
     "player_name": "Jones, Steve"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30037685,
+    "player_name": "Jones, Tyler"
   },
   {
     "amateur": 0,
@@ -17430,7 +17437,7 @@
     "player_name": "Pavoucek, Dominik"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 32475,
