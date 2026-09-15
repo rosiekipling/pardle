@@ -13795,17 +13795,6 @@
       "under_150_rgh_shot_count": 13
     },
     {
-      "150_200_fw_gir_rate": 0.555,
-      "150_200_fw_good_shot_rate": 0.042,
-      "150_200_fw_low_data_indicator": 1,
-      "150_200_fw_poor_shot_avoid_rate": 0.958,
-      "150_200_fw_proximity_per_shot": 41.629,
-      "150_200_fw_sg_per_shot": -0.062,
-      "150_200_fw_shot_count": 24,
-      "dg_id": 7961,
-      "player_name": "Reavie, Chez"
-    },
-    {
       "100_150_fw_gir_rate": 0.809,
       "100_150_fw_good_shot_rate": 0.0,
       "100_150_fw_low_data_indicator": 0,
@@ -13974,6 +13963,17 @@
       "under_150_rgh_proximity_per_shot": 32.807,
       "under_150_rgh_sg_per_shot": 0.047,
       "under_150_rgh_shot_count": 12
+    },
+    {
+      "150_200_fw_gir_rate": 0.555,
+      "150_200_fw_good_shot_rate": 0.042,
+      "150_200_fw_low_data_indicator": 1,
+      "150_200_fw_poor_shot_avoid_rate": 0.958,
+      "150_200_fw_proximity_per_shot": 41.629,
+      "150_200_fw_sg_per_shot": -0.062,
+      "150_200_fw_shot_count": 24,
+      "dg_id": 7961,
+      "player_name": "Reavie, Chez"
     },
     {
       "100_150_fw_gir_rate": 0.715,
@@ -17353,6 +17353,6 @@
       "under_150_rgh_shot_count": 6
     }
   ],
-  "last_updated": "2026-09-07 14:03:51 UTC",
+  "last_updated": "2026-09-14 13:55:47 UTC",
   "time_period": "last td months"
 }
