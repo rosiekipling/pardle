@@ -2072,6 +2072,13 @@
     "player_name": "Brack, Dylan"
   },
   {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 30037448,
+    "player_name": "Bracken, Boston"
+  },
+  {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
@@ -3325,7 +3332,7 @@
     "player_name": "Chang, Yikeun"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "Thailand",
     "country_code": "THA",
     "dg_id": 27275,
@@ -13105,16 +13112,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
@@ -17136,7 +17143,7 @@
     "player_name": "Owens, Boyd"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 35940,
@@ -17524,7 +17531,7 @@
     "amateur": 1,
     "country": "France",
     "country_code": "FRA",
-    "dg_id": 30045358,
+    "dg_id": 36014,
     "player_name": "Pemerika, Tao"
   },
   {
