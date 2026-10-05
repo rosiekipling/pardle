@@ -435,6 +435,13 @@
   },
   {
     "amateur": 1,
+    "country": "Korea - Republic of",
+    "country_code": "KOR",
+    "dg_id": 29351,
+    "player_name": "An, Seonghyeon"
+  },
+  {
+    "amateur": 1,
     "country": "India",
     "country_code": "IND",
     "dg_id": 32006,
@@ -1013,6 +1020,13 @@
     "country_code": "USA",
     "dg_id": 31149,
     "player_name": "Banke, Christian"
+  },
+  {
+    "amateur": 1,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 30043275,
+    "player_name": "Banos Ramos, Gonzalo"
   },
   {
     "amateur": 0,
@@ -2075,7 +2089,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30037448,
+    "dg_id": 36025,
     "player_name": "Bracken, Boston"
   },
   {
@@ -2464,17 +2478,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -5489,16 +5503,16 @@
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -7120,8 +7134,8 @@
   },
   {
     "amateur": 0,
-    "country": "Isle of Man",
-    "country_code": "IMN",
+    "country": "unknown",
+    "country_code": "unknown",
     "dg_id": 20633,
     "player_name": "Gandy, Tom"
   },
@@ -10263,6 +10277,13 @@
   },
   {
     "amateur": 0,
+    "country": "Japan",
+    "country_code": "JPN",
+    "dg_id": 25538,
+    "player_name": "Ishizaka, Tomohiro"
+  },
+  {
+    "amateur": 0,
     "country": "England",
     "country_code": "ENG",
     "dg_id": 28733,
@@ -10605,6 +10626,13 @@
     "player_name": "Jian, Chuan-lin"
   },
   {
+    "amateur": 1,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 30034585,
+    "player_name": "Jimenez Romero, Sergio"
+  },
+  {
     "amateur": 0,
     "country": "Spain",
     "country_code": "ESP",
@@ -10763,7 +10791,7 @@
     "country": "United States",
     "country_code": "USA",
     "dg_id": 17619,
-    "player_name": "Johnson, Zach J."
+    "player_name": "Johnson, Zach"
   },
   {
     "amateur": 0,
@@ -13112,16 +13140,16 @@
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
@@ -16208,6 +16236,13 @@
     "amateur": 1,
     "country": "Japan",
     "country_code": "JPN",
+    "dg_id": 31582,
+    "player_name": "Nagasaki, Koshin"
+  },
+  {
+    "amateur": 1,
+    "country": "Japan",
+    "country_code": "JPN",
     "dg_id": 32081,
     "player_name": "Nagasaki, Taisei"
   },
@@ -18971,6 +19006,13 @@
   },
   {
     "amateur": 0,
+    "country": "Spain",
+    "country_code": "ESP",
+    "dg_id": 28602,
+    "player_name": "Rodriguez Andreu, Alejandro"
+  },
+  {
+    "amateur": 0,
     "country": "Mexico",
     "country_code": "MEX",
     "dg_id": 12855,
@@ -19421,7 +19463,7 @@
     "amateur": 0,
     "country": "Spain",
     "country_code": "ESP",
-    "dg_id": 27211,
+    "dg_id": 20699,
     "player_name": "Salama, Juan"
   },
   {
@@ -21677,6 +21719,13 @@
     "country_code": "USA",
     "dg_id": 35423,
     "player_name": "Summy, Jase"
+  },
+  {
+    "amateur": 0,
+    "country": "Japan",
+    "country_code": "JPN",
+    "dg_id": 19682,
+    "player_name": "Sunagawa, Kosuke"
   },
   {
     "amateur": 0,
