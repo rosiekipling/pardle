@@ -1025,7 +1025,7 @@
     "amateur": 1,
     "country": "Spain",
     "country_code": "ESP",
-    "dg_id": 30043275,
+    "dg_id": 36134,
     "player_name": "Banos Ramos, Gonzalo"
   },
   {
@@ -2367,16 +2367,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -9268,7 +9268,7 @@
     "player_name": "Hill, Josh"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "England",
     "country_code": "ENG",
     "dg_id": 24065,
@@ -10059,7 +10059,7 @@
     "player_name": "Hutcheon, Greig"
   },
   {
-    "amateur": 0,
+    "amateur": 1,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 25835,
@@ -10629,7 +10629,7 @@
     "amateur": 1,
     "country": "Spain",
     "country_code": "ESP",
-    "dg_id": 30034585,
+    "dg_id": 36135,
     "player_name": "Jimenez Romero, Sergio"
   },
   {
@@ -13140,16 +13140,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 5311,
+    "country": "Canada",
+    "country_code": "CAN",
+    "dg_id": 12413,
     "player_name": "Lee, Richard"
   },
   {
     "amateur": 0,
-    "country": "Canada",
-    "country_code": "CAN",
-    "dg_id": 12413,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 5311,
     "player_name": "Lee, Richard"
   },
   {
@@ -20252,6 +20252,13 @@
   },
   {
     "amateur": 0,
+    "country": "India",
+    "country_code": "IND",
+    "dg_id": 33182,
+    "player_name": "Sharma, Vishesh"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 22302,
@@ -20300,7 +20307,7 @@
     "player_name": "Sheehan, Patrick"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 31437,
@@ -21943,6 +21950,13 @@
     "country_code": "IND",
     "dg_id": 28553,
     "player_name": "Talwar, Saptak"
+  },
+  {
+    "amateur": 0,
+    "country": "Nepal",
+    "country_code": "NEP",
+    "dg_id": 31891,
+    "player_name": "Tamang, Subash"
   },
   {
     "amateur": 1,

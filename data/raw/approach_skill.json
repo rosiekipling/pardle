@@ -16231,17 +16231,6 @@
       "player_name": "Covello, Vince"
     },
     {
-      "dg_id": 14050,
-      "player_name": "Sloan, Roger",
-      "under_150_rgh_gir_rate": 0.614,
-      "under_150_rgh_good_shot_rate": 0.0,
-      "under_150_rgh_low_data_indicator": 1,
-      "under_150_rgh_poor_shot_avoid_rate": 1.0,
-      "under_150_rgh_proximity_per_shot": 32.815,
-      "under_150_rgh_sg_per_shot": 0.084,
-      "under_150_rgh_shot_count": 6
-    },
-    {
       "dg_id": 25601,
       "over_150_rgh_gir_rate": 0.416,
       "over_150_rgh_good_shot_rate": 0.1,
@@ -16396,6 +16385,17 @@
       "50_100_fw_shot_count": 7,
       "dg_id": 12333,
       "player_name": "Block, Michael"
+    },
+    {
+      "dg_id": 14050,
+      "player_name": "Sloan, Roger",
+      "under_150_rgh_gir_rate": 0.614,
+      "under_150_rgh_good_shot_rate": 0.0,
+      "under_150_rgh_low_data_indicator": 1,
+      "under_150_rgh_poor_shot_avoid_rate": 1.0,
+      "under_150_rgh_proximity_per_shot": 32.815,
+      "under_150_rgh_sg_per_shot": 0.084,
+      "under_150_rgh_shot_count": 6
     },
     {
       "dg_id": 14419,
@@ -17436,6 +17436,6 @@
       "under_150_rgh_shot_count": 6
     }
   ],
-  "last_updated": "2026-10-05 15:54:31 UTC",
+  "last_updated": "2026-10-12 14:37:26 UTC",
   "time_period": "last td months"
 }
