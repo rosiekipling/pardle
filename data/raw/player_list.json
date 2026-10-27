@@ -6370,6 +6370,13 @@
     "player_name": "Fidone, Sam"
   },
   {
+    "amateur": 1,
+    "country": "Mexico",
+    "country_code": "MEX",
+    "dg_id": 28141,
+    "player_name": "Fierro, Alejandro"
+  },
+  {
     "amateur": 0,
     "country": "Portugal",
     "country_code": "POR",
@@ -6382,6 +6389,13 @@
     "country_code": "PUR",
     "dg_id": 16044,
     "player_name": "Figueroa, Edward"
+  },
+  {
+    "amateur": 0,
+    "country": "Mexico",
+    "country_code": "MEX",
+    "dg_id": 29603,
+    "player_name": "Figueroa, Mauricio"
   },
   {
     "amateur": 0,
@@ -9268,17 +9282,17 @@
     "player_name": "Hill, Calum"
   },
   {
-    "amateur": 0,
-    "country": "England",
-    "country_code": "ENG",
-    "dg_id": 24065,
-    "player_name": "Hill, Josh"
-  },
-  {
     "amateur": 1,
     "country": "Northern Ireland",
     "country_code": "NIR",
     "dg_id": 27001,
+    "player_name": "Hill, Josh"
+  },
+  {
+    "amateur": 0,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 24065,
     "player_name": "Hill, Josh"
   },
   {
@@ -12848,7 +12862,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30042638,
+    "dg_id": 36178,
     "player_name": "Lauritzen, Nixon"
   },
   {
@@ -13338,7 +13352,7 @@
     "amateur": 1,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 30037223,
+    "dg_id": 36179,
     "player_name": "Leng, Jay"
   },
   {
@@ -17120,6 +17134,13 @@
     "country_code": "ENG",
     "dg_id": 17903,
     "player_name": "Orrin, Max"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 35334,
+    "player_name": "Ortego, Eli"
   },
   {
     "amateur": 0,
@@ -22195,6 +22216,13 @@
     "country_code": "PAN",
     "dg_id": 17174,
     "player_name": "Tejeira, Omar"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 23927,
+    "player_name": "Termeer, Tayler"
   },
   {
     "amateur": 0,
