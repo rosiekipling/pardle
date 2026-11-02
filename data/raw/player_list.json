@@ -6385,17 +6385,17 @@
   },
   {
     "amateur": 0,
+    "country": "Mexico",
+    "country_code": "MEX",
+    "dg_id": 29603,
+    "player_name": "Figueroa Ramirez, Mauricio"
+  },
+  {
+    "amateur": 0,
     "country": "Puerto Rico",
     "country_code": "PUR",
     "dg_id": 16044,
     "player_name": "Figueroa, Edward"
-  },
-  {
-    "amateur": 0,
-    "country": "Mexico",
-    "country_code": "MEX",
-    "dg_id": 29603,
-    "player_name": "Figueroa, Mauricio"
   },
   {
     "amateur": 0,
