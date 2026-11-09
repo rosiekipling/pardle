@@ -2367,16 +2367,16 @@
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
@@ -10804,14 +10804,14 @@
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 6986,
+    "dg_id": 17619,
     "player_name": "Johnson, Zach"
   },
   {
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
-    "dg_id": 17619,
+    "dg_id": 6986,
     "player_name": "Johnson, Zach"
   },
   {
@@ -12920,6 +12920,13 @@
     "country_code": "AUS",
     "dg_id": 15885,
     "player_name": "Lawson, Deyen"
+  },
+  {
+    "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 36204,
+    "player_name": "Lazare, Lyon"
   },
   {
     "amateur": 0,
@@ -22748,6 +22755,13 @@
     "country_code": "USA",
     "dg_id": 18239,
     "player_name": "Truslow, Austen"
+  },
+  {
+    "amateur": 1,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 36207,
+    "player_name": "Tseng, Nathan"
   },
   {
     "amateur": 0,
