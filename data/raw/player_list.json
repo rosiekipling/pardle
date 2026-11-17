@@ -897,6 +897,13 @@
   },
   {
     "amateur": 0,
+    "country": "Pakistan",
+    "country_code": "PAK",
+    "dg_id": 24239,
+    "player_name": "Baig, Ahmed"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 24987,
@@ -1940,6 +1947,13 @@
   },
   {
     "amateur": 0,
+    "country": "France",
+    "country_code": "FRA",
+    "dg_id": 31156,
+    "player_name": "Bonte, Louis"
+  },
+  {
+    "amateur": 0,
     "country": "South Africa",
     "country_code": "RSA",
     "dg_id": 25175,
@@ -2367,16 +2381,16 @@
   },
   {
     "amateur": 0,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 24608,
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "dg_id": 22715,
     "player_name": "Brown, Luke"
   },
   {
     "amateur": 0,
-    "country": "New Zealand",
-    "country_code": "NZL",
-    "dg_id": 22715,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 24608,
     "player_name": "Brown, Luke"
   },
   {
@@ -2478,17 +2492,17 @@
     "player_name": "Bryant, Davis"
   },
   {
-    "amateur": 1,
-    "country": "South Africa",
-    "country_code": "RSA",
-    "dg_id": 31844,
-    "player_name": "Buchanan, Jack"
-  },
-  {
     "amateur": 0,
     "country": "Australia",
     "country_code": "AUS",
     "dg_id": 27379,
+    "player_name": "Buchanan, Jack"
+  },
+  {
+    "amateur": 1,
+    "country": "South Africa",
+    "country_code": "RSA",
+    "dg_id": 31844,
     "player_name": "Buchanan, Jack"
   },
   {
@@ -3946,6 +3960,13 @@
     "country_code": "BEL",
     "dg_id": 6893,
     "player_name": "Colsaerts, Nicolas"
+  },
+  {
+    "amateur": 0,
+    "country": "Italy",
+    "country_code": "ITA",
+    "dg_id": 29293,
+    "player_name": "Comotti, Mattia"
   },
   {
     "amateur": 0,
@@ -5510,16 +5531,16 @@
   },
   {
     "amateur": 0,
-    "country": "Australia",
-    "country_code": "AUS",
-    "dg_id": 24191,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 18187,
     "player_name": "Duncan, Tyler"
   },
   {
     "amateur": 0,
-    "country": "United States",
-    "country_code": "USA",
-    "dg_id": 18187,
+    "country": "Australia",
+    "country_code": "AUS",
+    "dg_id": 24191,
     "player_name": "Duncan, Tyler"
   },
   {
@@ -6721,6 +6742,13 @@
   },
   {
     "amateur": 0,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 34924,
+    "player_name": "Forster, Charlie"
+  },
+  {
+    "amateur": 0,
     "country": "unknown",
     "country_code": "unknown",
     "dg_id": 20000238,
@@ -7652,6 +7680,13 @@
   },
   {
     "amateur": 0,
+    "country": "England",
+    "country_code": "ENG",
+    "dg_id": 25097,
+    "player_name": "Goddard, Harry"
+  },
+  {
+    "amateur": 0,
     "country": "Argentina",
     "country_code": "ARG",
     "dg_id": 12774,
@@ -8058,6 +8093,13 @@
   },
   {
     "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 20109640,
+    "player_name": "Greyserman, Dean"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 23465,
@@ -8391,6 +8433,13 @@
     "country_code": "AUT",
     "dg_id": 18584,
     "player_name": "Habeler, Markus"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
+    "dg_id": 14457,
+    "player_name": "Hack, Jhared"
   },
   {
     "amateur": 0,
@@ -12923,8 +12972,8 @@
   },
   {
     "amateur": 0,
-    "country": "unknown",
-    "country_code": "unknown",
+    "country": "United States",
+    "country_code": "USA",
     "dg_id": 36204,
     "player_name": "Lazare, Lyon"
   },
@@ -13567,6 +13616,13 @@
   },
   {
     "amateur": 0,
+    "country": "Sweden",
+    "country_code": "SWE",
+    "dg_id": 28687,
+    "player_name": "Lilliedahl, Oliver"
+  },
+  {
+    "amateur": 0,
     "country": "Thailand",
     "country_code": "THA",
     "dg_id": 24317,
@@ -14173,6 +14229,13 @@
     "country_code": "SVK",
     "dg_id": 26483,
     "player_name": "Mach, Pavol"
+  },
+  {
+    "amateur": 0,
+    "country": "Germany",
+    "country_code": "GER",
+    "dg_id": 31862,
+    "player_name": "Macionga, Philipp"
   },
   {
     "amateur": 0,
@@ -16549,6 +16612,13 @@
   },
   {
     "amateur": 0,
+    "country": "Denmark",
+    "country_code": "DEN",
+    "dg_id": 22389,
+    "player_name": "Nielsen, Jamie"
+  },
+  {
+    "amateur": 0,
     "country": "Chile",
     "country_code": "CHI",
     "dg_id": 18079,
@@ -16787,6 +16857,13 @@
   },
   {
     "amateur": 0,
+    "country": "Scotland",
+    "country_code": "SCO",
+    "dg_id": 32197,
+    "player_name": "O'Hagan, Aidan"
+  },
+  {
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 7626,
@@ -16882,6 +16959,13 @@
     "country_code": "USA",
     "dg_id": 30078,
     "player_name": "Obecny II, Thadd"
+  },
+  {
+    "amateur": 0,
+    "country": "Germany",
+    "country_code": "GER",
+    "dg_id": 29953,
+    "player_name": "Obtmeier, Martin"
   },
   {
     "amateur": 0,
@@ -18243,6 +18327,13 @@
   },
   {
     "amateur": 0,
+    "country": "France",
+    "country_code": "FRA",
+    "dg_id": 29287,
+    "player_name": "Pouguet, Antoine"
+  },
+  {
+    "amateur": 0,
     "country": "England",
     "country_code": "ENG",
     "dg_id": 1435,
@@ -19080,6 +19171,13 @@
     "country_code": "ENG",
     "dg_id": 20026,
     "player_name": "Robinson, Liam"
+  },
+  {
+    "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 20109681,
+    "player_name": "Robison, Brandon"
   },
   {
     "amateur": 1,
@@ -21290,6 +21388,13 @@
     "amateur": 0,
     "country": "United States",
     "country_code": "USA",
+    "dg_id": 33960,
+    "player_name": "Springer, Jake"
+  },
+  {
+    "amateur": 0,
+    "country": "United States",
+    "country_code": "USA",
     "dg_id": 27440,
     "player_name": "Squires, Austin"
   },
@@ -22757,7 +22862,7 @@
     "player_name": "Truslow, Austen"
   },
   {
-    "amateur": 1,
+    "amateur": 0,
     "country": "United States",
     "country_code": "USA",
     "dg_id": 36207,
@@ -23196,6 +23301,13 @@
     "country_code": "USA",
     "dg_id": 29924,
     "player_name": "Vance, Kyle"
+  },
+  {
+    "amateur": 0,
+    "country": "France",
+    "country_code": "FRA",
+    "dg_id": 34944,
+    "player_name": "Vandermoten, Alexandre"
   },
   {
     "amateur": 0,
@@ -23658,6 +23770,13 @@
     "country_code": "KOR",
     "dg_id": 15366,
     "player_name": "Wang, Jeunghun"
+  },
+  {
+    "amateur": 0,
+    "country": "unknown",
+    "country_code": "unknown",
+    "dg_id": 20109641,
+    "player_name": "Wang, Nathan"
   },
   {
     "amateur": 0,
